@@ -1,0 +1,38 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m unittest discover -s tests -v
+
+STDOUT
+
+STDERR
+test_access_only_not_selection (test_pilot.MethodTests.test_access_only_not_selection) ... ok
+test_bare_ack_fails_semantic_check (test_pilot.MethodTests.test_bare_ack_fails_semantic_check) ... ok
+test_complete_saved_response_protocol (test_pilot.MethodTests.test_complete_saved_response_protocol) ... ok
+test_correction_removes_only_target_path (test_pilot.MethodTests.test_correction_removes_only_target_path) ... ok
+test_cross_year_schedule (test_pilot.MethodTests.test_cross_year_schedule) ... ok
+test_different_holder_premises_not_compared (test_pilot.MethodTests.test_different_holder_premises_not_compared) ... ok
+test_label_metadata_cannot_enter_view (test_pilot.MethodTests.test_label_metadata_cannot_enter_view) ... ok
+test_later_turn_missing_from_view (test_pilot.MethodTests.test_later_turn_missing_from_view) ... ok
+test_malformed_reply_is_processing_failure (test_pilot.MethodTests.test_malformed_reply_is_processing_failure) ... ok
+test_other_participant_assertion_not_own (test_pilot.MethodTests.test_other_participant_assertion_not_own) ... ok
+test_private_map_link_invalid (test_pilot.MethodTests.test_private_map_link_invalid) ... ok
+test_shared_correspondence (test_pilot.MethodTests.test_shared_correspondence) ... ok
+test_shared_nonsingleton_unresolved (test_pilot.MethodTests.test_shared_nonsingleton_unresolved) ... ok
+test_slide_mismatch (test_pilot.MethodTests.test_slide_mismatch) ... ok
+test_swap_is_conditional_not_hidden_truth (test_pilot.MethodTests.test_swap_is_conditional_not_hidden_truth) ... ok
+test_uncertain_correction_blocks (test_pilot.MethodTests.test_uncertain_correction_blocks) ... ok
+test_unknown_is_not_negative (test_pilot.MethodTests.test_unknown_is_not_negative) ... ok
+test_unknown_relation_blocks (test_pilot.MethodTests.test_unknown_relation_blocks) ... ok
+test_unresolved_event_blocks (test_pilot.MethodTests.test_unresolved_event_blocks) ... ok
+test_unreviewed_maps_block_execution (test_pilot.MethodTests.test_unreviewed_maps_block_execution) ... ok
+test_vote_and_accusation_are_distinct_questions (test_pilot.MethodTests.test_vote_and_accusation_are_distinct_questions) ... ok
+test_public_narrator_is_not_accusation_target (test_public_narrator.PublicNarratorTests.test_public_narrator_is_not_accusation_target) ... ok
+test_public_narrator_is_not_focal_player (test_public_narrator.PublicNarratorTests.test_public_narrator_is_not_focal_player) ... ok
+test_exposed_teaching_runs_not_scored_as_pilot (test_reporting.ReportingTests.test_exposed_teaching_runs_not_scored_as_pilot) ... ok
+test_label_match_needs_independent_evidence_review (test_reporting.ReportingTests.test_label_match_needs_independent_evidence_review) ... ok
+test_unresolved_reference_separate_from_negative (test_reporting.ReportingTests.test_unresolved_reference_separate_from_negative) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.014s
+
+OK
+
+EXIT CODE 0

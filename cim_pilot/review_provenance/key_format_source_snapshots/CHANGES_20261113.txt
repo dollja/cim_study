@@ -1,0 +1,51 @@
+REVIEW AND MODEL HANDOFF CHANGES — 2026-11-13
+
+Active review: REVIEWS.json, identical to REVIEWS_r1_v3_plain_language.json.
+REVIEWS_r1_v2.json remains a revision of the same reader r1.
+
+Requested edit
+- MT10 blocking_uncertainty is false in both versions.
+- The saved ALIGNED judgment and null START arguments remain. The F7 consistency
+  check expects UNRESOLVED until the required task consequence is fully supported.
+- MT10 explanation and comparison wording now describe the entered judgment and
+  remaining required fact without claiming that map correspondence was verified.
+
+Review prose and history
+- Repeated preparation paragraphs moved into review_provenance/.
+- Required true exposure declarations and wording history remain intact.
+- All original exact quotes, speakers, labels, support codes, task consequences,
+  input bindings, human status/confirmation flags and inclusion choices remain.
+- The old review snapshots are retained as history, not as additional readers.
+
+Form coordination
+- One 35-path dictionary now supplies the actual form captions.
+- Evidence note exposes the existing optional support_note for editing.
+- Choosing an evidence source also updates the source speaker.
+- Browser F7 checks show consequence/label inconsistencies without overwriting
+  labels. All canonical JSON keys and three label codes are preserved.
+- The initial page still contains unmarked observer prefixes and blank reviews;
+  populated judgments are imported separately and are never model inputs.
+
+Codex execution handoff
+- CODEX_RUN_PROMPT.txt defines eight concrete subtasks, actual transport records,
+  a bounded model-run budget, human review comparisons and output-driven LaTeX.
+- CODEX_CIM_PILOT_HANDOFF.txt is now an identical compatibility copy of that prompt.
+- engineering/ provides one clean constructed input for a genuine model-transport
+  smoke test if real cases remain blocked. No model response or result was created.
+
+Current state
+- 20 candidates; 19 r1 inclusion recommendations; 0 final registered selections.
+- 13 mechanically complete r1 records; 17 UNRESOLVED and 3 ALIGNED entries.
+- 30 draft context adapters; 0 real cases pass execution preflight.
+- No completed r2 review, final adjudicated references or new model runs.
+- CURRENT_READINESS.json lists the specific per-case next steps.
+
+Verification
+- Current review files pass JSON schema; the known MT10 F7 conflict remains.
+- 170 quotation records match the retained source text and declared speakers.
+- All 20 real observer files are unchanged.
+- 12 DOM behavior groups and 31 focused Python tests passed during the form work.
+- No visual browser inspection or new semantic/context certification is claimed.
+
+The original dated slide synchronization and older replay logs remain available
+as historical records. They are not new empirical Chapter 5 findings.

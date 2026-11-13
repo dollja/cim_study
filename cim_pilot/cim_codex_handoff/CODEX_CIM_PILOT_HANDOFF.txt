@@ -1,0 +1,1 @@
+Archived handoff superseded by ../CODEX_CIM_PILOT_HANDOFF.txt. The adjacent smoke_test_evidence files are historical supplied-record/software checks, not model experiments.

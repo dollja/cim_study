@@ -1,0 +1,453 @@
+{
+  "source": {
+    "deck_filename": "PCC_Early_Warning_Integrated_2026-11-06(1).pptx",
+    "deck_sha256": "cf3bfb81c30a730afdcb6e2009d95e949fc6809e4e37db6f1f5eacd1be1b4fce",
+    "slide_count": 20,
+    "all_slide_text_read": true,
+    "all_speaker_notes_read": true,
+    "repository_archive_sha256": "800f6aba13b2550354d9471e5379b10e8d0eefcb05cde815573cfdd886ff5de7",
+    "audit_baseline": "immutable input archive; working source is being updated separately",
+    "full_proposal_pdf_reaudited": false
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "topic": "Research aim",
+      "stages": [],
+      "review_fields": [],
+      "text_and_notes_interpretation": "Observing framework; primary domains MapTask and Werewolf; Q3 is constructed. Present evidence is preparation and bounded software, not measured comparative performance."
+    },
+    {
+      "slide": 2,
+      "topic": "Research question and hypothesis",
+      "stages": [],
+      "review_fields": [],
+      "text_and_notes_interpretation": "Task-relevant supported interpretations and explicit consequences are compared under equal information and task functions. Earlier warning and comparative performance are separate empirical questions."
+    },
+    {
+      "slide": 3,
+      "topic": "Q3 before the invitation",
+      "stages": [
+        "F3",
+        "F4",
+        "F5",
+        "F7"
+      ],
+      "review_fields": [
+        "participant_meanings_with_source_quotes",
+        "provisional_label"
+      ],
+      "text_and_notes_interpretation": "Access to different calendars plus a bare acknowledgment does not establish adoption. This constructed access-only prefix remains UNRESOLVED."
+    },
+    {
+      "slide": 4,
+      "topic": "Participant record and evidence boundary",
+      "stages": [
+        "F4",
+        "F5"
+      ],
+      "review_fields": [
+        "participant_meanings_with_source_quotes",
+        "review_metadata.prior_exposure"
+      ],
+      "text_and_notes_interpretation": "Use prefix, accessible context and attributable assertions or grounded endorsements. Context access is not a participant choice; quotation validity alone is not semantic entailment."
+    },
+    {
+      "slide": 5,
+      "topic": "Kinds of expressions",
+      "stages": [
+        "F1",
+        "F2",
+        "F6"
+      ],
+      "review_fields": [
+        "local_question",
+        "focus_source_ids",
+        "focus_quotes",
+        "task_outputs"
+      ],
+      "text_and_notes_interpretation": "Unmarked local terms and ordinary words are in scope. Supplied focus or subtask is a separate diagnostic, not the primary discovery condition."
+    },
+    {
+      "slide": 6,
+      "topic": "Seven implementation stages",
+      "stages": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "review_fields": [],
+      "text_and_notes_interpretation": "F1-F4 are structured prompted construction; F5-F7 use explicit code. Logical stages are not API-call counts."
+    },
+    {
+      "slide": 7,
+      "topic": "Task-conditioned discovery",
+      "stages": [
+        "F1",
+        "F2"
+      ],
+      "review_fields": [
+        "local_question",
+        "focal_pair",
+        "focus_source_ids",
+        "focus_quotes"
+      ],
+      "text_and_notes_interpretation": "Infer a local task question and up to three consequential expressions with exact quotations and positions. Exact-string checking does not establish relevance."
+    },
+    {
+      "slide": 8,
+      "topic": "Meanings, participants, and evidence",
+      "stages": [
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "review_fields": [
+        "participant_meanings_with_source_quotes"
+      ],
+      "text_and_notes_interpretation": "Construct shared candidates Z, attribute participant evidence, retain supported interpretations X and unresolved alternatives Q. Scope, corrections and evidence access matter; graph/flat structures are equivalent when policy is equal."
+    },
+    {
+      "slide": 9,
+      "topic": "Consequences and warning",
+      "stages": [
+        "F6",
+        "F7"
+      ],
+      "review_fields": [
+        "task_outputs",
+        "blocking_uncertainty",
+        "provisional_label",
+        "prefix_only_rationale"
+      ],
+      "text_and_notes_interpretation": "Apply the same fixed task function; identical known singleton sets align; nonempty known disjoint sets mismatch; otherwise unresolved. An unresolved reading known to have the same consequence need not block."
+    },
+    {
+      "slide": 10,
+      "topic": "Constructed Q3 with explicit choices",
+      "stages": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "review_fields": [
+        "participant_meanings_with_source_quotes",
+        "task_outputs",
+        "provisional_label"
+      ],
+      "text_and_notes_interpretation": "Explicit project-quarter versus finance-quarter choices yield September 15 versus November 15 under the same earliest-eligible-date rule. This is exposed divergence, not a hidden-choice prediction."
+    },
+    {
+      "slide": 11,
+      "topic": "Constructed MapTask anchors",
+      "stages": [
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "review_fields": [
+        "focus_quotes",
+        "participant_meanings_with_source_quotes",
+        "task_outputs",
+        "provisional_label"
+      ],
+      "text_and_notes_interpretation": "Explicit upper/lower anchor commitments produce different symbolic below-anchor constraints. A bare acknowledgment variant is unresolved. The software fixture gives both maps both anchors and is an adaptation."
+    },
+    {
+      "slide": 12,
+      "topic": "Constructed reported role exchange",
+      "stages": [
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "review_fields": [
+        "participant_meanings_with_source_quotes",
+        "task_outputs",
+        "provisional_label"
+      ],
+      "text_and_notes_interpretation": "Under the stated exchange and no-later-move premise, one report implies a different holder from another expressed consequence. This is conditional report analysis, not private-role truth or deception detection."
+    },
+    {
+      "slide": 13,
+      "topic": "Primary early warning and optional later-action extension",
+      "stages": [],
+      "review_fields": [],
+      "text_and_notes_interpretation": "Primary outputs are ALIGNED/POTENTIAL_MISMATCH/UNRESOLVED. Optional later-action checks output Met/Not-Met/Cannot-Determine and require explicit event/version/time links and requirements. Neither layer entails the other."
+    },
+    {
+      "slide": 14,
+      "topic": "Method choices and related work",
+      "stages": [],
+      "review_fields": [],
+      "text_and_notes_interpretation": "Novelty concerns the combination of discovery, attributed support, task consequence and timing. Prefix restriction, graphs or call counts alone are not claimed novel."
+    },
+    {
+      "slide": 15,
+      "topic": "Evaluation design",
+      "stages": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "review_fields": [],
+      "text_and_notes_interpretation": "Three construction arms share F6/F7 code: end-to-end structured construction, validated stages with prompted aggregation, and the same extracted records with explicit F5 retention. Joint/separate calls are diagnostic. Earliest warning needs successive eligible prefixes."
+    },
+    {
+      "slide": 16,
+      "topic": "Archived preparation status",
+      "stages": [],
+      "review_fields": [],
+      "text_and_notes_interpretation": "Archived snapshot: 20 candidates, 0 confirmed selections, 0 adjudicated references, 0 measured model runs, all 20 context-blocked. Ten MapTask dialogues use four map pairs; ten game transcript records do not establish ten independent sessions."
+    },
+    {
+      "slide": 17,
+      "topic": "Archived bounded software evidence",
+      "stages": [
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "review_fields": [],
+      "text_and_notes_interpretation": "Archived 26 passing checks; constructed van mismatch; six real-prefix supplied-record replays, four aligned and two unresolved. Replays use assistant-supplied construction records and are not model predictions or accuracy findings."
+    },
+    {
+      "slide": 18,
+      "topic": "Required empirical evaluation work",
+      "stages": [],
+      "review_fields": [],
+      "text_and_notes_interpretation": "Verify contexts/rules, confirm selections, adjudicate prefixes, freeze configurations, preserve responses/failures/cost, and score eligible references. Missing/invalid predictions are not correct UNRESOLVED labels."
+    },
+    {
+      "slide": 19,
+      "topic": "Contribution and limits",
+      "stages": [],
+      "review_fields": [],
+      "text_and_notes_interpretation": "Observer-only analysis, not mind reading or repair. Later same-contrast evidence is separate corroboration. No later incident does not invalidate an earlier supportable warning. Intervention benefit is a distinct study."
+    },
+    {
+      "slide": 20,
+      "topic": "Selected methodological references",
+      "stages": [],
+      "review_fields": [],
+      "text_and_notes_interpretation": "References support the proposed combination. The deck does not itself report a completed comparative experiment."
+    }
+  ],
+  "review_field_mapping": [
+    {
+      "field": "reviewer_id",
+      "caption": "Reviewer",
+      "stage": "Review provenance",
+      "slides": [
+        4,
+        16,
+        18
+      ],
+      "instruction": "Enter the actual reader identifier; do not use an assistant-generated draft as an independent reader."
+    },
+    {
+      "field": "review_metadata.prior_exposure",
+      "caption": "Already seen",
+      "stage": "Review provenance",
+      "slides": [
+        4,
+        16,
+        18
+      ],
+      "instruction": "Record actual exposure to wording, previous labels, full transcripts, later outcomes, or another reader. Record exposure timing honestly."
+    },
+    {
+      "field": "local_question",
+      "caption": "Local task question",
+      "stage": "F1",
+      "slides": [
+        6,
+        7
+      ],
+      "instruction": "State the concrete local choice or task question supported by the visible prefix."
+    },
+    {
+      "field": "focal_pair",
+      "caption": "Participants",
+      "stage": "F2",
+      "slides": [
+        6,
+        7
+      ],
+      "instruction": "Choose the two participants whose interpretations are being compared; a narrator/audio marker is not automatically a participant."
+    },
+    {
+      "field": "focus_source_ids",
+      "caption": "Source turns",
+      "stage": "F2",
+      "slides": [
+        6,
+        7
+      ],
+      "instruction": "Choose source IDs from the observer prefix. Human-selected focus remains a research annotation, not model-visible input."
+    },
+    {
+      "field": "focus_quotes",
+      "caption": "Exact expressions",
+      "stage": "F2",
+      "slides": [
+        6,
+        7
+      ],
+      "instruction": "Copy exact source wording. A matching quote verifies its location, not that it is the right focus."
+    },
+    {
+      "field": "participant_meanings_with_source_quotes",
+      "caption": "Each participant’s reading",
+      "stage": "F3-F5",
+      "slides": [
+        3,
+        4,
+        6,
+        8,
+        11,
+        12
+      ],
+      "instruction": "Separate supported readings from merely possible or unsupported readings. Cite participant-specific prefix evidence and explain the support. Map presence or an ungrounded acknowledgment alone is insufficient."
+    },
+    {
+      "field": "task_outputs",
+      "caption": "Task consequences",
+      "stage": "F6",
+      "slides": [
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "instruction": "Apply the same declared task function to both supported interpretation sets for one question/event/phase/premise branch. Preserve unknown consequences."
+    },
+    {
+      "field": "blocking_uncertainty",
+      "caption": "Could uncertainty change the result?",
+      "stage": "F6-F7 guard",
+      "slides": [
+        8,
+        9
+      ],
+      "instruction": "Record missing support/facts and alternatives that could change the consequence. A demonstrably harmless alternative need not block."
+    },
+    {
+      "field": "provisional_label",
+      "caption": "Review judgment",
+      "stage": "F7",
+      "slides": [
+        6,
+        9
+      ],
+      "instruction": "Use only ALIGNED, POTENTIAL_MISMATCH or UNRESOLVED for a completed judgment. A null pending field is not an UNRESOLVED decision."
+    },
+    {
+      "field": "prefix_only_rationale",
+      "caption": "Why this judgment?",
+      "stage": "F7",
+      "slides": [
+        4,
+        9,
+        18
+      ],
+      "instruction": "Explain the relationship between the evidence-supported consequence sets using only the prefix and permitted context."
+    }
+  ],
+  "strict_evidence_policy": {
+    "tier": "S",
+    "principle": "Record the interpretation supported by each participant’s available evidence, not the reviewer’s reconstruction of private intention.",
+    "positive_support": [
+      "an attributable assertion specifying the reading",
+      "a grounded endorsement tied to an already established specific reading",
+      "a correction whose scope and temporal effect are established"
+    ],
+    "insufficient_alone": [
+      "landmark presence in a map inventory",
+      "access to a document or convention",
+      "a bare acknowledgment without established specific grounding",
+      "an exact quotation without a justified semantic link"
+    ],
+    "possible_alternatives": "Retain plausible but unadopted readings as possible rather than promoting them into supported consequences.",
+    "later_outcomes": "Store separately; never use later turns to justify a prefix-only reference judgment."
+  },
+  "f7_rule": {
+    "source_slide": 9,
+    "notation": {
+      "G_A": "known or unknown task outputs of the first participant’s supported readings",
+      "G_B": "known or unknown task outputs of the second participant’s supported readings",
+      "B": "conclusion-changing uncertainty",
+      "bottom": "unknown task output"
+    },
+    "ordered_rules": [
+      {
+        "when": "B OR empty(G_A) OR empty(G_B) OR bottom in (G_A union G_B)",
+        "label": "UNRESOLVED"
+      },
+      {
+        "when": "G_A = G_B = {g}, with g known",
+        "label": "ALIGNED"
+      },
+      {
+        "when": "G_A and G_B are nonempty and known AND intersection(G_A,G_B) is empty",
+        "label": "POTENTIAL_MISMATCH"
+      },
+      {
+        "when": "otherwise",
+        "label": "UNRESOLVED"
+      }
+    ],
+    "same_task_guard": "Fix the same local question, event, phase, premise branch and consequence representation before comparison.",
+    "pending_review": "null is not an adjudicated UNRESOLVED label.",
+    "processing_statuses": "NO_SUPPORTED_CANDIDATE and PROCESSING_FAILURE are runtime statuses, not extra human reference labels.",
+    "harmless_alternative": "A possible reading shown to yield the same already known consequence need not introduce B."
+  },
+  "primary_and_optional": {
+    "primary": {
+      "slides": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "inputs": "observer prefix plus permitted context",
+      "outputs": [
+        "ALIGNED",
+        "POTENTIAL_MISMATCH",
+        "UNRESOLVED"
+      ],
+      "stages": "F1-F4 construction; F5 support retention; F6 task computation; F7 comparison"
+    },
+    "optional_later_action": {
+      "slide": 13,
+      "inputs": "observed action and explicit requirement, event, version and time links",
+      "outputs": [
+        "Met",
+        "Not-Met",
+        "Cannot-Determine"
+      ],
+      "status": "separate extension, not a primary early-warning result"
+    },
+    "non_entailments": [
+      "A requirement failure does not establish an earlier interpretation mismatch.",
+      "A supported mismatch does not establish an observed requirement failure."
+    ]
+  },
+  "mapping_scope": "Verified against supplied integrated deck text and speaker notes, not a fresh full-chapter PDF review."
+}

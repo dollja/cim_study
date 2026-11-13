@@ -1,0 +1,1495 @@
+{
+  "REVIEWS.json": {
+    "json_schema_valid": true,
+    "case_count": 20,
+    "source_and_decision_checks": {
+      "valid": true,
+      "case_count": 20,
+      "completed_reviews": 0,
+      "errors": [],
+      "warnings": [
+        "MT03_q1ec4_r019: recorded complete status still needs human confirmation of current content; provisional label; evidence verification"
+      ],
+      "cases": {
+        "MT01_q1ec1_r049": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT02_q1ec3_r012": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT03_q1ec4_r019": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT04_q1ec5_r031": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT05_q1ec6_r053": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT06_q1ec7_r022": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT07_q1ec8_r011": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT08_q1nc2_r052": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT09_q1nc3_r054": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT10_q1nc4_r044": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW01_WW01_r028": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW02_WW02_r040": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW03_WW03_r078": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW04_WW04_r009": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW05_WW05_r039": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW06_WW06_r040": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW07_WW07_r099": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW08_WW08_r005": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW09_WW09_r059": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW10_WW10_r067": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        }
+      },
+      "limits": "Source/structure checks cannot certify semantics or human independence."
+    }
+  },
+  "reviews/reader_2/REVIEWS.json": {
+    "json_schema_valid": true,
+    "case_count": 20,
+    "source_and_decision_checks": {
+      "valid": true,
+      "case_count": 20,
+      "completed_reviews": 0,
+      "errors": [],
+      "warnings": [],
+      "cases": {
+        "MT01_q1ec1_r049": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT02_q1ec3_r012": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT03_q1ec4_r019": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT04_q1ec5_r031": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT05_q1ec6_r053": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT06_q1ec7_r022": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT07_q1ec8_r011": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT08_q1nc2_r052": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT09_q1nc3_r054": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT10_q1nc4_r044": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW01_WW01_r028": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW02_WW02_r040": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW03_WW03_r078": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW04_WW04_r009": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW05_WW05_r039": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW06_WW06_r040": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW07_WW07_r099": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW08_WW08_r005": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW09_WW09_r059": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW10_WW10_r067": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        }
+      },
+      "limits": "Source/structure checks cannot certify semantics or human independence."
+    }
+  },
+  "wording/REVIEWS_A.json": {
+    "json_schema_valid": true,
+    "case_count": 20,
+    "source_and_decision_checks": {
+      "valid": true,
+      "case_count": 20,
+      "completed_reviews": 0,
+      "errors": [],
+      "warnings": [
+        "MT03_q1ec4_r019: recorded complete status still needs human confirmation of current content; provisional label; evidence verification"
+      ],
+      "cases": {
+        "MT01_q1ec1_r049": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT02_q1ec3_r012": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT03_q1ec4_r019": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT04_q1ec5_r031": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT05_q1ec6_r053": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT06_q1ec7_r022": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT07_q1ec8_r011": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT08_q1nc2_r052": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT09_q1nc3_r054": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT10_q1nc4_r044": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW01_WW01_r028": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW02_WW02_r040": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW03_WW03_r078": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW04_WW04_r009": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW05_WW05_r039": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW06_WW06_r040": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW07_WW07_r099": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW08_WW08_r005": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW09_WW09_r059": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW10_WW10_r067": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        }
+      },
+      "limits": "Source/structure checks cannot certify semantics or human independence."
+    }
+  },
+  "wording/REVIEWS_B.json": {
+    "json_schema_valid": true,
+    "case_count": 20,
+    "source_and_decision_checks": {
+      "valid": true,
+      "case_count": 20,
+      "completed_reviews": 0,
+      "errors": [],
+      "warnings": [
+        "MT03_q1ec4_r019: recorded complete status still needs human confirmation of current content; provisional label; evidence verification"
+      ],
+      "cases": {
+        "MT01_q1ec1_r049": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT02_q1ec3_r012": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT03_q1ec4_r019": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT04_q1ec5_r031": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT05_q1ec6_r053": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT06_q1ec7_r022": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT07_q1ec8_r011": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT08_q1nc2_r052": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT09_q1nc3_r054": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT10_q1nc4_r044": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW01_WW01_r028": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW02_WW02_r040": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW03_WW03_r078": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW04_WW04_r009": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW05_WW05_r039": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW06_WW06_r040": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW07_WW07_r099": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW08_WW08_r005": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW09_WW09_r059": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW10_WW10_r067": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "completed individual review status",
+            "human confirmation of current content",
+            "provisional label",
+            "evidence verification"
+          ],
+          "computed_label": null
+        }
+      },
+      "limits": "Source/structure checks cannot certify semantics or human independence."
+    }
+  },
+  "validation/ui_behavior/ui_blank_export.json": {
+    "json_schema_valid": true,
+    "case_count": 20,
+    "source_and_decision_checks": {
+      "valid": true,
+      "case_count": 20,
+      "completed_reviews": 0,
+      "errors": [],
+      "warnings": [],
+      "cases": {
+        "MT01_q1ec1_r049": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT02_q1ec3_r012": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT03_q1ec4_r019": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT04_q1ec5_r031": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT05_q1ec6_r053": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT06_q1ec7_r022": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT07_q1ec8_r011": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT08_q1nc2_r052": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT09_q1nc3_r054": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "MT10_q1nc4_r044": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW01_WW01_r028": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW02_WW02_r040": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW03_WW03_r078": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW04_WW04_r009": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW05_WW05_r039": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW06_WW06_r040": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW07_WW07_r099": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW08_WW08_r005": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW09_WW09_r059": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        },
+        "WW10_WW10_r067": {
+          "structurally_valid": true,
+          "complete": false,
+          "missing_for_completion": [
+            "reviewer_id",
+            "completed individual review status",
+            "human confirmation of current content",
+            "focal pair",
+            "local question",
+            "focus sources and quotations",
+            "both readings or explained uncertainty",
+            "task outputs or explained unknowns",
+            "blocking uncertainty assessment",
+            "provisional label",
+            "prefix-only rationale",
+            "evidence verification"
+          ],
+          "computed_label": null
+        }
+      },
+      "limits": "Source/structure checks cannot certify semantics or human independence."
+    }
+  },
+  "complete_gate": {
+    "expected_rejection_of_pending_drafts": true,
+    "completed_reviews": 0,
+    "incomplete_case_count": 20,
+    "reason": "No supplied draft is a completed human reference."
+  },
+  "editor_boundary": {
+    "cases": 20,
+    "full_observer_inputs_match": true,
+    "raw_hashes_match": true,
+    "observer_bytes_unchanged_from_attachment": true,
+    "current_js_and_css_embedded": true,
+    "completed_reviews_or_wording_embedded": false,
+    "reading_evidence_is_prefix_dialogue_only": true,
+    "supported_reading_requires_own_speaker_quote": true
+  },
+  "personal_attribution_scan": {
+    "text_files_scanned": 208,
+    "explicit_name_matches": 0
+  }
+}

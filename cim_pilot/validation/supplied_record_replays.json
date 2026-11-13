@@ -1,0 +1,1120 @@
+{
+  "record_type": "assistant_supplied_record_replays",
+  "software": "pcc-current-pilot-0.3",
+  "replays": [
+    {
+      "case_id": "WW02_WW02_r040",
+      "record_type": "real_prefix_supplied_record_replay",
+      "is_model_prediction": false,
+      "primary_evaluation_eligible": false,
+      "scope": "Focal exchange only. Discovery, meanings, attribution and semantic checks were supplied by the same assistant; F5–F7 were executed by code.",
+      "map_review_condition_pending": false,
+      "context_review_status": [
+        "draft"
+      ],
+      "interpretation_coverage_tested": false,
+      "source_prefix_sha256": "41981c41399e3680acfa14748426b4ad5c4354fd1066ecd91865d440824325df",
+      "supplied_candidate": {
+        "participant_pair": [
+          "Justin",
+          "Dan"
+        ]
+      },
+      "supplied_hypothesis": {
+        "id": "h1",
+        "subtask": "target",
+        "event_id": "WW02_local_event"
+      },
+      "supplied_readings": {
+        "readings": [
+          {
+            "id": "r1",
+            "paraphrase": "The current accuse target is Caitlynn.",
+            "arguments": {
+              "act": "accuse",
+              "target": "Caitlynn",
+              "event_id": "WW02_local_event"
+            }
+          }
+        ],
+        "incomplete": false
+      },
+      "supplied_attribution": {
+        "Justin": {
+          "records": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported",
+              "paths": [
+                {
+                  "id": "Justin_path",
+                  "root_type": "SAYS",
+                  "root": {
+                    "source_id": "WW02.row.039",
+                    "quote": "Caitlynn's a Werewolf."
+                  },
+                  "scope_id": "WW02_local_event",
+                  "links": []
+                }
+              ]
+            }
+          ],
+          "updates": [],
+          "unresolved_scope": false
+        },
+        "Dan": {
+          "records": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported",
+              "paths": [
+                {
+                  "id": "Dan_path",
+                  "root_type": "SAYS",
+                  "root": {
+                    "source_id": "WW02.row.040",
+                    "quote": "I think that she is a Werewolf."
+                  },
+                  "scope_id": "WW02_local_event",
+                  "links": [
+                    {
+                      "relation": "COREF",
+                      "source_id": "WW02.row.039",
+                      "quote": "All right. Caitlynn's a Werewolf."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "updates": [],
+          "unresolved_scope": false
+        }
+      },
+      "supplied_semantic_checks": {
+        "Justin": {
+          "reading_reviews": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported"
+            }
+          ],
+          "path_checks": [
+            {
+              "path_id": "Justin_path",
+              "verdict": "supported"
+            }
+          ],
+          "update_checks": [],
+          "unresolved_scope": false
+        },
+        "Dan": {
+          "reading_reviews": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported"
+            }
+          ],
+          "path_checks": [
+            {
+              "path_id": "Dan_path",
+              "verdict": "supported"
+            }
+          ],
+          "update_checks": [],
+          "unresolved_scope": false
+        }
+      },
+      "computed_result": {
+        "hypothesis": {
+          "id": "h1",
+          "subtask": "target",
+          "event_id": "WW02_local_event"
+        },
+        "status": "ALIGNED",
+        "participants": {
+          "Justin": {
+            "X": [
+              "r1"
+            ],
+            "Q": [],
+            "excluded": [],
+            "blocking_scope": false,
+            "validation_findings": [],
+            "active_paths": [
+              "Justin_path"
+            ],
+            "G": [
+              [
+                "Target",
+                "WW02_local_event",
+                "accuse",
+                "Caitlynn"
+              ]
+            ],
+            "Q_outputs": [],
+            "blocking_alternatives": false
+          },
+          "Dan": {
+            "X": [
+              "r1"
+            ],
+            "Q": [],
+            "excluded": [],
+            "blocking_scope": false,
+            "validation_findings": [],
+            "active_paths": [
+              "Dan_path"
+            ],
+            "G": [
+              [
+                "Target",
+                "WW02_local_event",
+                "accuse",
+                "Caitlynn"
+              ]
+            ],
+            "Q_outputs": [],
+            "blocking_alternatives": false
+          }
+        },
+        "blocking_uncertainty": false
+      }
+    },
+    {
+      "case_id": "MT03_q1ec4_r019",
+      "record_type": "real_prefix_supplied_record_replay",
+      "is_model_prediction": false,
+      "primary_evaluation_eligible": false,
+      "scope": "Focal exchange only. Discovery, meanings, attribution and semantic checks were supplied by the same assistant; F5–F7 were executed by code.",
+      "map_review_condition_pending": true,
+      "context_review_status": [
+        "draft",
+        "draft"
+      ],
+      "interpretation_coverage_tested": false,
+      "source_prefix_sha256": "ff00ecc3f7caa90e97e6c369931471c452c859c786ca1d156b473bc87f44ad9e",
+      "supplied_candidate": {
+        "participant_pair": [
+          "giver",
+          "follower"
+        ]
+      },
+      "supplied_hypothesis": {
+        "id": "h1",
+        "subtask": "route",
+        "event_id": "MT03_local_event"
+      },
+      "supplied_readings": {
+        "readings": [
+          {
+            "id": "r1",
+            "paraphrase": "The current route step is above the landmark class m3_old_pine.",
+            "arguments": {
+              "anchor_ids": {
+                "giver": "m3_giver_04",
+                "follower": "m3_follower_04"
+              },
+              "anchor_class": "m3_old_pine",
+              "relation": "above",
+              "event_id": "MT03_local_event"
+            }
+          }
+        ],
+        "incomplete": false
+      },
+      "supplied_attribution": {
+        "giver": {
+          "records": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported",
+              "paths": [
+                {
+                  "id": "giver_path",
+                  "root_type": "SAYS",
+                  "root": {
+                    "source_id": "q1ec4.row.018",
+                    "quote": "up above it"
+                  },
+                  "scope_id": "MT03_local_event",
+                  "links": [
+                    {
+                      "relation": "COREF",
+                      "source_id": "q1ec4.row.015",
+                      "quote": "and then back up again and you sh-- go past um a pine on your right"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "updates": [],
+          "unresolved_scope": false
+        },
+        "follower": {
+          "records": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported",
+              "paths": [
+                {
+                  "id": "follower_path",
+                  "root_type": "SAYS",
+                  "root": {
+                    "source_id": "q1ec4.row.019",
+                    "quote": "up above it"
+                  },
+                  "scope_id": "MT03_local_event",
+                  "links": [
+                    {
+                      "relation": "COREF",
+                      "source_id": "q1ec4.row.015",
+                      "quote": "and then back up again and you sh-- go past um a pine on your right"
+                    },
+                    {
+                      "relation": "COREF",
+                      "source_id": "q1ec4.row.018",
+                      "quote": "up above it"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "updates": [],
+          "unresolved_scope": false
+        }
+      },
+      "supplied_semantic_checks": {
+        "giver": {
+          "reading_reviews": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported"
+            }
+          ],
+          "path_checks": [
+            {
+              "path_id": "giver_path",
+              "verdict": "supported"
+            }
+          ],
+          "update_checks": [],
+          "unresolved_scope": false
+        },
+        "follower": {
+          "reading_reviews": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported"
+            }
+          ],
+          "path_checks": [
+            {
+              "path_id": "follower_path",
+              "verdict": "supported"
+            }
+          ],
+          "update_checks": [],
+          "unresolved_scope": false
+        }
+      },
+      "computed_result": {
+        "hypothesis": {
+          "id": "h1",
+          "subtask": "route",
+          "event_id": "MT03_local_event"
+        },
+        "status": "ALIGNED",
+        "participants": {
+          "giver": {
+            "X": [
+              "r1"
+            ],
+            "Q": [],
+            "excluded": [],
+            "blocking_scope": false,
+            "validation_findings": [],
+            "active_paths": [
+              "giver_path"
+            ],
+            "G": [
+              [
+                "Route",
+                "MT03_local_event",
+                "above",
+                "m3_old_pine"
+              ]
+            ],
+            "Q_outputs": [],
+            "blocking_alternatives": false
+          },
+          "follower": {
+            "X": [
+              "r1"
+            ],
+            "Q": [],
+            "excluded": [],
+            "blocking_scope": false,
+            "validation_findings": [],
+            "active_paths": [
+              "follower_path"
+            ],
+            "G": [
+              [
+                "Route",
+                "MT03_local_event",
+                "above",
+                "m3_old_pine"
+              ]
+            ],
+            "Q_outputs": [],
+            "blocking_alternatives": false
+          }
+        },
+        "blocking_uncertainty": false
+      }
+    },
+    {
+      "case_id": "MT05_q1ec6_r053",
+      "record_type": "real_prefix_supplied_record_replay",
+      "is_model_prediction": false,
+      "primary_evaluation_eligible": false,
+      "scope": "Focal exchange only. Discovery, meanings, attribution and semantic checks were supplied by the same assistant; F5–F7 were executed by code.",
+      "map_review_condition_pending": true,
+      "context_review_status": [
+        "draft",
+        "draft"
+      ],
+      "interpretation_coverage_tested": false,
+      "source_prefix_sha256": "c5937e41f32f9df9b73f6236bf4023ed5e77274493c4f536dc097a2601bbaec1",
+      "supplied_candidate": {
+        "participant_pair": [
+          "follower",
+          "giver"
+        ]
+      },
+      "supplied_hypothesis": {
+        "id": "h1",
+        "subtask": "route",
+        "event_id": "MT05_local_event"
+      },
+      "supplied_readings": {
+        "readings": [
+          {
+            "id": "r1",
+            "paraphrase": "The current route step is below the landmark class m3_bakery.",
+            "arguments": {
+              "anchor_ids": {
+                "giver": "m3_giver_08",
+                "follower": "m3_follower_08"
+              },
+              "anchor_class": "m3_bakery",
+              "relation": "below",
+              "event_id": "MT05_local_event"
+            }
+          }
+        ],
+        "incomplete": false
+      },
+      "supplied_attribution": {
+        "follower": {
+          "records": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported",
+              "paths": [
+                {
+                  "id": "follower_path",
+                  "root_type": "SAYS",
+                  "root": {
+                    "source_id": "q1ec6.row.052",
+                    "quote": "i'm going east underneath the bakery"
+                  },
+                  "scope_id": "MT05_local_event",
+                  "links": []
+                }
+              ]
+            }
+          ],
+          "updates": [],
+          "unresolved_scope": false
+        },
+        "giver": {
+          "records": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported",
+              "paths": [
+                {
+                  "id": "giver_path",
+                  "root_type": "SAYS",
+                  "root": {
+                    "source_id": "q1ec6.row.053",
+                    "quote": "underneath the bakery"
+                  },
+                  "scope_id": "MT05_local_event",
+                  "links": [
+                    {
+                      "relation": "COREF",
+                      "source_id": "q1ec6.row.049",
+                      "quote": "and then go east again and you loop round about a bakery"
+                    },
+                    {
+                      "relation": "COREF",
+                      "source_id": "q1ec6.row.052",
+                      "quote": "i'm going east underneath the bakery"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "updates": [],
+          "unresolved_scope": false
+        }
+      },
+      "supplied_semantic_checks": {
+        "follower": {
+          "reading_reviews": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported"
+            }
+          ],
+          "path_checks": [
+            {
+              "path_id": "follower_path",
+              "verdict": "supported"
+            }
+          ],
+          "update_checks": [],
+          "unresolved_scope": false
+        },
+        "giver": {
+          "reading_reviews": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported"
+            }
+          ],
+          "path_checks": [
+            {
+              "path_id": "giver_path",
+              "verdict": "supported"
+            }
+          ],
+          "update_checks": [],
+          "unresolved_scope": false
+        }
+      },
+      "computed_result": {
+        "hypothesis": {
+          "id": "h1",
+          "subtask": "route",
+          "event_id": "MT05_local_event"
+        },
+        "status": "ALIGNED",
+        "participants": {
+          "follower": {
+            "X": [
+              "r1"
+            ],
+            "Q": [],
+            "excluded": [],
+            "blocking_scope": false,
+            "validation_findings": [],
+            "active_paths": [
+              "follower_path"
+            ],
+            "G": [
+              [
+                "Route",
+                "MT05_local_event",
+                "below",
+                "m3_bakery"
+              ]
+            ],
+            "Q_outputs": [],
+            "blocking_alternatives": false
+          },
+          "giver": {
+            "X": [
+              "r1"
+            ],
+            "Q": [],
+            "excluded": [],
+            "blocking_scope": false,
+            "validation_findings": [],
+            "active_paths": [
+              "giver_path"
+            ],
+            "G": [
+              [
+                "Route",
+                "MT05_local_event",
+                "below",
+                "m3_bakery"
+              ]
+            ],
+            "Q_outputs": [],
+            "blocking_alternatives": false
+          }
+        },
+        "blocking_uncertainty": false
+      }
+    },
+    {
+      "case_id": "MT10_q1nc4_r044",
+      "record_type": "real_prefix_supplied_record_replay",
+      "is_model_prediction": false,
+      "primary_evaluation_eligible": false,
+      "scope": "Focal exchange only. Discovery, meanings, attribution and semantic checks were supplied by the same assistant; F5–F7 were executed by code.",
+      "map_review_condition_pending": true,
+      "context_review_status": [
+        "draft",
+        "draft"
+      ],
+      "interpretation_coverage_tested": false,
+      "source_prefix_sha256": "23b3299a8a804a4dbd4e3b4b63bc5eade27d2fe9971428b37f6d66a3cc413d50",
+      "supplied_candidate": {
+        "participant_pair": [
+          "giver",
+          "follower"
+        ]
+      },
+      "supplied_hypothesis": {
+        "id": "h1",
+        "subtask": "route",
+        "event_id": "MT10_local_event"
+      },
+      "supplied_readings": {
+        "readings": [
+          {
+            "id": "r1",
+            "paraphrase": "The current route step is below the landmark class m3_start.",
+            "arguments": {
+              "anchor_ids": {
+                "giver": "m3_giver_01",
+                "follower": "m3_follower_01"
+              },
+              "anchor_class": "m3_start",
+              "relation": "below",
+              "event_id": "MT10_local_event"
+            }
+          }
+        ],
+        "incomplete": false
+      },
+      "supplied_attribution": {
+        "giver": {
+          "records": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported",
+              "paths": [
+                {
+                  "id": "giver_path",
+                  "root_type": "SAYS",
+                  "root": {
+                    "source_id": "q1nc4.row.041",
+                    "quote": "until you're beneath the the start"
+                  },
+                  "scope_id": "MT10_local_event",
+                  "links": []
+                }
+              ]
+            }
+          ],
+          "updates": [],
+          "unresolved_scope": false
+        },
+        "follower": {
+          "records": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported",
+              "paths": [
+                {
+                  "id": "follower_path",
+                  "root_type": "SAYS",
+                  "root": {
+                    "source_id": "q1nc4.row.043",
+                    "quote": "straight down under the start"
+                  },
+                  "scope_id": "MT10_local_event",
+                  "links": []
+                }
+              ]
+            }
+          ],
+          "updates": [],
+          "unresolved_scope": false
+        }
+      },
+      "supplied_semantic_checks": {
+        "giver": {
+          "reading_reviews": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported"
+            }
+          ],
+          "path_checks": [
+            {
+              "path_id": "giver_path",
+              "verdict": "supported"
+            }
+          ],
+          "update_checks": [],
+          "unresolved_scope": false
+        },
+        "follower": {
+          "reading_reviews": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported"
+            }
+          ],
+          "path_checks": [
+            {
+              "path_id": "follower_path",
+              "verdict": "supported"
+            }
+          ],
+          "update_checks": [],
+          "unresolved_scope": false
+        }
+      },
+      "computed_result": {
+        "hypothesis": {
+          "id": "h1",
+          "subtask": "route",
+          "event_id": "MT10_local_event"
+        },
+        "status": "ALIGNED",
+        "participants": {
+          "giver": {
+            "X": [
+              "r1"
+            ],
+            "Q": [],
+            "excluded": [],
+            "blocking_scope": false,
+            "validation_findings": [],
+            "active_paths": [
+              "giver_path"
+            ],
+            "G": [
+              [
+                "Route",
+                "MT10_local_event",
+                "below",
+                "m3_start"
+              ]
+            ],
+            "Q_outputs": [],
+            "blocking_alternatives": false
+          },
+          "follower": {
+            "X": [
+              "r1"
+            ],
+            "Q": [],
+            "excluded": [],
+            "blocking_scope": false,
+            "validation_findings": [],
+            "active_paths": [
+              "follower_path"
+            ],
+            "G": [
+              [
+                "Route",
+                "MT10_local_event",
+                "below",
+                "m3_start"
+              ]
+            ],
+            "Q_outputs": [],
+            "blocking_alternatives": false
+          }
+        },
+        "blocking_uncertainty": false
+      }
+    },
+    {
+      "case_id": "WW01_WW01_r028",
+      "record_type": "real_prefix_supplied_record_replay",
+      "is_model_prediction": false,
+      "primary_evaluation_eligible": false,
+      "scope": "Focal exchange only. Discovery, meanings, attribution and semantic checks were supplied by the same assistant; F5–F7 were executed by code.",
+      "map_review_condition_pending": false,
+      "context_review_status": [
+        "draft"
+      ],
+      "interpretation_coverage_tested": false,
+      "source_prefix_sha256": "2bc7e5ad29fcc2f28681bd59e4710a5712064a55aaf7a2f56f9647c34c5f5e3e",
+      "supplied_candidate": {
+        "participant_pair": [
+          "Justin",
+          "Alvin"
+        ]
+      },
+      "supplied_hypothesis": {
+        "id": "h1",
+        "subtask": "holder",
+        "event_id": "WW01_local_event"
+      },
+      "supplied_readings": {
+        "readings": [
+          {
+            "id": "r1",
+            "paraphrase": "Justin reports a swap between two players whose identities are not bound in this text; the resulting Werewolf holder is unknown.",
+            "arguments": {
+              "mode": "swap",
+              "role": "Werewolf",
+              "phase": "after_reported_swap",
+              "premise_branch": "Justin_report",
+              "order_resolved": false,
+              "no_later_movement": false,
+              "initial_state": {},
+              "moves": [],
+              "event_id": "WW01_local_event"
+            }
+          }
+        ],
+        "incomplete": false
+      },
+      "supplied_attribution": {
+        "Justin": {
+          "records": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported",
+              "paths": [
+                {
+                  "id": "Justin_path",
+                  "root_type": "SAYS",
+                  "root": {
+                    "source_id": "WW01.row.027",
+                    "quote": "I switched your guys' cards."
+                  },
+                  "scope_id": "WW01_local_event",
+                  "links": []
+                }
+              ]
+            }
+          ],
+          "updates": [],
+          "unresolved_scope": false
+        },
+        "Alvin": {
+          "records": [
+            {
+              "reading_id": "r1",
+              "judgment": "undetermined",
+              "paths": []
+            }
+          ],
+          "updates": [],
+          "unresolved_scope": false
+        }
+      },
+      "supplied_semantic_checks": {
+        "Justin": {
+          "reading_reviews": [
+            {
+              "reading_id": "r1",
+              "judgment": "supported"
+            }
+          ],
+          "path_checks": [
+            {
+              "path_id": "Justin_path",
+              "verdict": "supported"
+            }
+          ],
+          "update_checks": [],
+          "unresolved_scope": false
+        },
+        "Alvin": {
+          "reading_reviews": [
+            {
+              "reading_id": "r1",
+              "judgment": "undetermined"
+            }
+          ],
+          "path_checks": [],
+          "update_checks": [],
+          "unresolved_scope": false
+        }
+      },
+      "computed_result": {
+        "hypothesis": {
+          "id": "h1",
+          "subtask": "holder",
+          "event_id": "WW01_local_event"
+        },
+        "status": "UNRESOLVED",
+        "participants": {
+          "Justin": {
+            "X": [
+              "r1"
+            ],
+            "Q": [],
+            "excluded": [],
+            "blocking_scope": false,
+            "validation_findings": [],
+            "active_paths": [
+              "Justin_path"
+            ],
+            "G": [
+              null
+            ],
+            "Q_outputs": [],
+            "blocking_alternatives": false
+          },
+          "Alvin": {
+            "X": [],
+            "Q": [
+              "r1"
+            ],
+            "excluded": [],
+            "blocking_scope": false,
+            "validation_findings": [],
+            "active_paths": [],
+            "G": [],
+            "Q_outputs": [
+              null
+            ],
+            "blocking_alternatives": true
+          }
+        },
+        "blocking_uncertainty": true
+      }
+    },
+    {
+      "case_id": "WW09_WW09_r059",
+      "record_type": "real_prefix_supplied_record_replay",
+      "is_model_prediction": false,
+      "primary_evaluation_eligible": false,
+      "scope": "Focal exchange only. Discovery, meanings, attribution and semantic checks were supplied by the same assistant; F5–F7 were executed by code.",
+      "map_review_condition_pending": false,
+      "context_review_status": [
+        "draft"
+      ],
+      "interpretation_coverage_tested": false,
+      "source_prefix_sha256": "77aa366ce6fe3f78fd409dfb3be699347cea87abc180c5f1b2e09fcb4591d2c6",
+      "supplied_candidate": {
+        "participant_pair": [
+          "Katie",
+          "Brett"
+        ]
+      },
+      "supplied_hypothesis": {
+        "id": "h1",
+        "subtask": "outside",
+        "event_id": "WW09_local_event"
+      },
+      "supplied_readings": {
+        "readings": [
+          {
+            "id": "Mason",
+            "paraphrase": "Katie is claiming the initial role Mason.",
+            "arguments": {
+              "event_id": "WW09_local_event",
+              "claimed_role": "Mason",
+              "claimant": "Katie"
+            }
+          },
+          {
+            "id": "Troublemaker",
+            "paraphrase": "Katie is claiming the initial role Troublemaker.",
+            "arguments": {
+              "event_id": "WW09_local_event",
+              "claimed_role": "Troublemaker",
+              "claimant": "Katie"
+            }
+          }
+        ],
+        "incomplete": false
+      },
+      "supplied_attribution": {
+        "Katie": {
+          "records": [
+            {
+              "reading_id": "Mason",
+              "judgment": "supported",
+              "paths": [
+                {
+                  "id": "Katie_path",
+                  "root_type": "SAYS",
+                  "root": {
+                    "source_id": "WW09.row.058",
+                    "quote": "I was all by myself."
+                  },
+                  "scope_id": "WW09_local_event",
+                  "links": [
+                    {
+                      "relation": "COREF",
+                      "source_id": "WW09.row.056",
+                      "quote": "Although I will say... thanks for asking. Sorry, that was really loud. Watch the second video. There was only one Mason. So there's another Mason card in the middle. I was all by myself."
+                    },
+                    {
+                      "relation": "COREF",
+                      "source_id": "WW09.row.057",
+                      "quote": "Wait, so are you a Mason?"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "reading_id": "Troublemaker",
+              "judgment": "undetermined",
+              "paths": []
+            }
+          ],
+          "updates": [],
+          "unresolved_scope": false
+        },
+        "Brett": {
+          "records": [
+            {
+              "reading_id": "Mason",
+              "judgment": "undetermined",
+              "paths": []
+            },
+            {
+              "reading_id": "Troublemaker",
+              "judgment": "supported",
+              "paths": [
+                {
+                  "id": "Brett_path",
+                  "root_type": "SAYS",
+                  "root": {
+                    "source_id": "WW09.row.059",
+                    "quote": "you're claiming the Troublemaker"
+                  },
+                  "scope_id": "WW09_local_event",
+                  "links": [
+                    {
+                      "relation": "COREF",
+                      "source_id": "WW09.row.057",
+                      "quote": "Wait, so are you a Mason?"
+                    },
+                    {
+                      "relation": "COREF",
+                      "source_id": "WW09.row.058",
+                      "quote": "I was all by myself."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "updates": [],
+          "unresolved_scope": false
+        }
+      },
+      "supplied_semantic_checks": {
+        "Katie": {
+          "reading_reviews": [
+            {
+              "reading_id": "Mason",
+              "judgment": "supported"
+            },
+            {
+              "reading_id": "Troublemaker",
+              "judgment": "undetermined"
+            }
+          ],
+          "path_checks": [
+            {
+              "path_id": "Katie_path",
+              "verdict": "supported"
+            }
+          ],
+          "update_checks": [],
+          "unresolved_scope": false
+        },
+        "Brett": {
+          "reading_reviews": [
+            {
+              "reading_id": "Mason",
+              "judgment": "undetermined"
+            },
+            {
+              "reading_id": "Troublemaker",
+              "judgment": "supported"
+            }
+          ],
+          "path_checks": [
+            {
+              "path_id": "Brett_path",
+              "verdict": "supported"
+            }
+          ],
+          "update_checks": [],
+          "unresolved_scope": false
+        }
+      },
+      "computed_result": {
+        "hypothesis": {
+          "id": "h1",
+          "subtask": "outside",
+          "event_id": "WW09_local_event"
+        },
+        "status": "UNRESOLVED",
+        "participants": {
+          "Katie": {
+            "X": [
+              "Mason"
+            ],
+            "Q": [
+              "Troublemaker"
+            ],
+            "excluded": [],
+            "blocking_scope": false,
+            "validation_findings": [],
+            "active_paths": [
+              "Katie_path"
+            ],
+            "G": [
+              null
+            ],
+            "Q_outputs": [
+              null
+            ],
+            "blocking_alternatives": true
+          },
+          "Brett": {
+            "X": [
+              "Troublemaker"
+            ],
+            "Q": [
+              "Mason"
+            ],
+            "excluded": [],
+            "blocking_scope": false,
+            "validation_findings": [],
+            "active_paths": [
+              "Brett_path"
+            ],
+            "G": [
+              null
+            ],
+            "Q_outputs": [
+              null
+            ],
+            "blocking_alternatives": true
+          }
+        },
+        "blocking_uncertainty": true
+      }
+    }
+  ],
+  "counts_are_not_accuracy": "Six code replays, zero independent model runs. The four computed local alignments include three conditional on unverified map inventories. Two unresolved outputs illustrate missing evidence or adapter coverage; none is a calibrated prediction.",
+  "source_condition": "This replay does not assess or change human selection, reference adjudication or context verification. No model service is called."
+}

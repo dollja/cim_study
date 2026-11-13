@@ -1,0 +1,21 @@
+{
+  "prospective_episode_records": 20,
+  "MapTask_records": 10,
+  "Werewolf_records": 10,
+  "MapTask_dialogues": 10,
+  "MapTask_pairs": 4,
+  "Werewolf_games": 10,
+  "Werewolf_title_groups": 10,
+  "independent_session_clusters": null,
+  "confirmed_original_selection_records": 0,
+  "human_adjudicated_records": 0,
+  "measured_model_runs": 0,
+  "all_sources_byte_hash_checked": true,
+  "all_prefixes_complete_to_cutoff": true,
+  "blocked_by": [
+    "independent source/context/reference review",
+    "case inclusion decisions",
+    "configured and recorded inference run"
+  ],
+  "source_acquisition_change": "Ten actual Werewolf transcripts acquired; the earlier source-access blocker is resolved for these ten games."
+}

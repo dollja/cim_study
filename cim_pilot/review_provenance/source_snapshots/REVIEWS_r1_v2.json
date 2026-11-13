@@ -1,0 +1,3719 @@
+{
+  "MT01_q1ec1_r049": {
+    "review_status": "in_progress",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "1f505822d2ecf50ac0763abed90f9d9e98236242e593f72cb5d3fce54fd4a133",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "306228ca5f209d72e3326ad9e76ac3854251e9079bc850f642fee292c7700cd6",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 49,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "m12_giver_inventory",
+            "review_status": "draft"
+          },
+          {
+            "source_id": "m12_follower_inventory",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "local_question": "On which side of the west lake should the current route segment pass?",
+    "focus_source_ids": [
+      "q1ec1.row.048",
+      "q1ec1.row.049"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "q1ec1.row.048",
+        "speaker": "giver",
+        "quote": "which we're going to pass on the south erm southeast side"
+      },
+      {
+        "source_id": "q1ec1.row.049",
+        "speaker": "follower",
+        "quote": "mmhmm"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "giver",
+        "meaning": "The giver instructs passing on the south, then southeast, side of the west lake. This expresses a local route relation; a fully bound lake referent and the within-turn revision remain to be checked.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1ec1.row.046",
+            "quote": "at the top there there's a west lake",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec1.row.048",
+            "quote": "which we're going to pass on the south erm southeast side",
+            "speaker": "giver"
+          }
+        ],
+        "support_note": "Supported as an expressed instruction mentioning the south/southeast side of the named west lake; a fully bound map-level consequence is not verified."
+      },
+      {
+        "participant_id": "follower",
+        "meaning": "The follower may be taking up the lake-side instruction, but only okay and mmhmm are expressed for this step. The prefix does not establish a west-lake referent or side; the earlier northeast repetition concerns a different step.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "q1ec1.row.013",
+            "quote": "s-- slightly northeast",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec1.row.047",
+            "quote": "okay",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec1.row.049",
+            "quote": "mmhmm",
+            "speaker": "follower"
+          }
+        ],
+        "support_note": "Possible lake-side uptake only. The transcript-supported fact that the follower acknowledges does not support a particular adopted lake-side reading."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "On which side of the west lake should the current route segment pass?",
+      "participant_outputs": {
+        "giver": "Proposed giver consequence: pass on the southeast side of the west lake if the repair and binding are verified. Southeast is outside the current route-relation registry.",
+        "follower": "Follower consequence: unknown under Tier S; the prefix does not establish the adopted west-lake side or route constraint."
+      },
+      "comparison": "The giver states a lake-side instruction, but the follower only acknowledges this step. Tier S therefore supplies no follower consequence to compare with the giver's. Draft map binding and the southeast projection remain additional uncertainties.",
+      "blocking_reasons": [
+        "No participant-owned expression establishes the follower's interpretation of the west-lake side.",
+        "The lake identity and cross-map correspondence have draft status.",
+        "The active south/southeast relation and its exact task projection need review."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "giver": [
+          [
+            "Route",
+            "MT01.current_west_lake_segment",
+            null,
+            null
+          ]
+        ],
+        "follower": []
+      },
+      "consequence_encoding_note": "The explicit route description is preserved; null marks a required argument not yet verified. An empty set means no fully specified supported answer to this local question is available. It does not deny that the participant spoke, had map knowledge, or had a private interpretation.",
+      "implementation_limits": [
+        "The bounded route adapter does not encode southeast; define and validate the intended projection before execution."
+      ],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "The giver states a lake-side instruction, but the follower only acknowledges this step. Tier S therefore supplies no follower consequence to compare with the giver's. Draft map binding and the southeast projection remain additional uncertainties.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Possible missing-support diagnostic; no supported follower lake-side consequence."
+  },
+  "MT02_q1ec3_r012": {
+    "review_status": "in_progress",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "310038582e03540731b852567c129c638c10086952b4873a10ee945492dc8746",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "6889912c651c892eeeee921e5a474bdfebe9cfa2a103934f8e62fbfe6253079f",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 12,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "m6_giver_inventory",
+            "review_status": "draft"
+          },
+          {
+            "source_id": "m6_follower_inventory",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "local_question": "Which landmarks constrain the current route below the graveyard and above the carved wooden pole?",
+    "focus_source_ids": [
+      "q1ec3.row.011",
+      "q1ec3.row.012"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "q1ec3.row.011",
+        "speaker": "giver",
+        "quote": "and below the graveyard below the graveyard but above the carved wooden pole"
+      },
+      {
+        "source_id": "q1ec3.row.012",
+        "speaker": "follower",
+        "quote": "oh hang on i don't have a graveyard"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "giver",
+        "meaning": "The giver instructs a route below the graveyard and above the carved wooden pole. The intended pole and the necessary map bindings remain unverified.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1ec3.row.006",
+            "quote": "go south from the diamond mine until you are just above the desert",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec3.row.009",
+            "quote": "and go below the diamond mine",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec3.row.011",
+            "quote": "and below the graveyard below the graveyard but above the carved wooden pole",
+            "speaker": "giver"
+          }
+        ],
+        "support_note": "Supported as the stated below-graveyard/above-pole constraint, not as a verified binding to particular map entities."
+      },
+      {
+        "participant_id": "follower",
+        "meaning": "The follower explicitly reports not having a graveyard. The follower does not express a substitute landmark or a competing route for this instruction.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1ec3.row.007",
+            "quote": "so that's with the diamond mine on on your right",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec3.row.010",
+            "quote": "mmhmm",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec3.row.012",
+            "quote": "oh hang on i don't have a graveyard",
+            "speaker": "follower"
+          }
+        ],
+        "support_note": "Supported only as a report of not having a graveyard. This is not a supported alternative route interpretation."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Which landmarks constrain the current route below the graveyard and above the carved wooden pole?",
+      "participant_outputs": {
+        "giver": "Proposed giver consequence: a segment below the graveyard and above the intended carved wooden pole, conditional on verified anchor bindings and an appropriate route-step representation.",
+        "follower": "Follower consequence: no supported graveyard-and-pole route is available at the cutoff; no substitute anchor is expressed."
+      },
+      "comparison": "A route instruction and an explicit missing-landmark report do not establish two adopted route consequences. The follower has expressed the obstacle, but has not supplied an alternative route, so neither alignment nor consequential mismatch is warranted.",
+      "blocking_reasons": [
+        "The follower's missing-landmark report supplies no adopted graveyard-and-pole route consequence.",
+        "The intended carved wooden pole is not uniquely verified.",
+        "Required m6 map inventories and correspondences remain draft."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "giver": [
+          [
+            "Route",
+            "MT02.current_graveyard_pole_segment",
+            null,
+            null
+          ]
+        ],
+        "follower": []
+      },
+      "consequence_encoding_note": "The explicit route description is preserved; null marks a required argument not yet verified. An empty set means no fully specified supported answer to this local question is available. It does not deny that the participant spoke, had map knowledge, or had a private interpretation.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "A route instruction and an explicit missing-landmark report do not establish two adopted route consequences. The follower has expressed the obstacle, but has not supplied an alternative route, so neither alignment nor consequential mismatch is warranted.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Possible missing-context diagnostic; the missing graveyard is already stated at the cutoff."
+  },
+  "MT03_q1ec4_r019": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "355686b4c795d03984f6c634c8dbd01ad0567ef1ccc28e01322ddf4e6c652709",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": true,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "2ea411ea05c47bf4e801f47ecc4a3d7a33d2666458a65081ec2cc3fe6cc6215d",
+        "source_review_status": "reviewed",
+        "source_prefix_first_review_completed": true
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "review_status",
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 19,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "m3_giver_inventory",
+            "review_status": "draft"
+          },
+          {
+            "source_id": "m3_follower_inventory",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "local_question": "On which side of the pine should the current route segment pass after the correction?",
+    "focus_source_ids": [
+      "q1ec4.row.018",
+      "q1ec4.row.019"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "q1ec4.row.018",
+        "speaker": "giver",
+        "quote": "up above it"
+      },
+      {
+        "source_id": "q1ec4.row.019",
+        "speaker": "follower",
+        "quote": "up above it"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "giver",
+        "meaning": "After introducing a pine, the giver responds up above it to the follower's down below that. This expresses an above correction; the mapped pine identity is still unverified.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1ec4.row.015",
+            "quote": "and then back up again and you sh-- go past um a pine on your right",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec4.row.018",
+            "quote": "up above it",
+            "speaker": "giver"
+          }
+        ],
+        "support_note": "Supported as the giver's above instruction responding to the immediately preceding below phrase. The most recent pine is the natural linguistic antecedent, but map correspondence is unverified."
+      },
+      {
+        "participant_id": "follower",
+        "meaning": "The follower first says down below that, then repeats up above it. The final phrase is consistent with taking up the correction, but endorsement rather than a check question and the mapped pine identity remain to be verified.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "q1ec4.row.016",
+            "quote": "dow--",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec4.row.017",
+            "quote": "down below that",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec4.row.019",
+            "quote": "up above it",
+            "speaker": "follower"
+          }
+        ],
+        "support_note": "The follower certainly repeats above, but the transcript without verified uptake/prosody does not settle whether the repetition adopts the correction or checks it. Keep the adopted above reading possible."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "On which side of the pine should the current route segment pass after the correction?",
+      "participant_outputs": {
+        "giver": "Proposed giver consequence: pass above the pine in the current segment, if the .015-to-.018 reference chain and map binding are verified.",
+        "follower": "Proposed follower consequence: pass above the same pine, conditional on the final repetition expressing the corrected reading and on the verified reference chain."
+      },
+      "comparison": "The final words match on above, but the follower's uptake and the common map-level pine binding remain conditional. The earlier below phrase cannot be carried forward as an active conflicting reading without reviewing the correction. This cutoff follows an overt correction and does not establish early warning.",
+      "blocking_reasons": [
+        "The follower's final repetition has not been verified as adoption rather than a check question.",
+        "The pine identity and cross-map correspondence remain draft."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "giver": [
+          [
+            "Route",
+            "MT03.current_pine_segment",
+            "above",
+            null
+          ]
+        ],
+        "follower": []
+      },
+      "consequence_encoding_note": "The explicit route description is preserved; null marks a required argument not yet verified. An empty set means no fully specified supported answer to this local question is available. It does not deny that the participant spoke, had map knowledge, or had a private interpretation.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "The final words match on above, but the follower's uptake and the common map-level pine binding remain conditional. The earlier below phrase cannot be carried forward as an active conflicting reading without reviewing the correction. This cutoff follows an overt correction and does not establish early warning.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": " Possible local agreement control after pine binding and uptake checks; this cutoff follows a correction."
+  },
+  "MT04_q1ec5_r031": {
+    "review_status": "in_progress",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "55b7c0130c3057487a52ff5c0e92a6a8ea6b0d161f3adb5cb3423a27799bc0b1",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "ad148f35ca713829b7c8699c517b02dc63b71039d8357fcf926236caf472135b",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 31,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "m6_giver_inventory",
+            "review_status": "draft"
+          },
+          {
+            "source_id": "m6_follower_inventory",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "local_question": "What relation to the diamond mine is being expressed for the graveyard in the current exchange?",
+    "focus_source_ids": [
+      "q1ec5.row.030",
+      "q1ec5.row.031"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "q1ec5.row.030",
+        "speaker": "giver",
+        "quote": "there's actually a graveyard to the right of the diamond mine on my map"
+      },
+      {
+        "source_id": "q1ec5.row.031",
+        "speaker": "follower",
+        "quote": "below it"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "giver",
+        "meaning": "The giver reports a graveyard to the right of the diamond mine on the giver's map. This is a reported landmark-to-landmark relation, not a complete route instruction.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1ec5.row.019",
+            "quote": "and do you have a graveyard",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec5.row.021",
+            "quote": "do you have a carved wooden pole in this area",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec5.row.025",
+            "quote": "go go right from the diamond mine",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec5.row.030",
+            "quote": "there's actually a graveyard to the right of the diamond mine on my map",
+            "speaker": "giver"
+          }
+        ],
+        "support_note": "Supported as the giver's report of a graveyard right of the diamond mine on the giver's map, not as an independently verified map fact or route output."
+      },
+      {
+        "participant_id": "follower",
+        "meaning": "After earlier denying having a graveyard, the follower says below it. The fragment might locate an entity or ask about a route; its subject, antecedent and question-versus-assertion force remain unresolved.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "q1ec5.row.020",
+            "quote": "no",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec5.row.022",
+            "quote": "right away down the very bottom",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec5.row.031",
+            "quote": "below it",
+            "speaker": "follower"
+          }
+        ],
+        "support_note": "Possible landmark-relation or route question. The fragment's subject, antecedent and assertive force are not fixed."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "What relation to the diamond mine is being expressed for the graveyard in the current exchange?",
+      "participant_outputs": {
+        "giver": "Proposed giver content: graveyard right_of diamond mine. A landmark-to-landmark relation must not be silently encoded as a route-position output.",
+        "follower": "Follower consequence: unknown until the subject, antecedent and force of below it are established for the same task question."
+      },
+      "comparison": "The giver reports a right-of relation, while the follower's below-it fragment has an unresolved subject and force. Even if both describe the same two landmarks, right of and below are compatible. There is no justified pair of disjoint consequences.",
+      "blocking_reasons": [
+        "The subject, it antecedent and force of the follower's fragment remain unresolved.",
+        "Right of and below can both hold, so the surface contrast does not establish disjoint task consequences.",
+        "Required map identities and correspondences remain draft."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "giver": [],
+        "follower": []
+      },
+      "consequence_encoding_note": "The explicit route description is preserved; null marks a required argument not yet verified. An empty set means no fully specified supported answer to this local question is available. It does not deny that the participant spoke, had map knowledge, or had a private interpretation.",
+      "implementation_limits": [
+        "The scoped landmark-to-landmark relation needs a defined consequence representation."
+      ],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "The giver reports a right-of relation, while the follower's below-it fragment has an unresolved subject and force. Even if both describe the same two landmarks, right of and below are compatible. There is no justified pair of disjoint consequences.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible ambiguity diagnostic; right-of and below may be compatible, and the task projection needs definition."
+  },
+  "MT05_q1ec6_r053": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "abb1d4bc902cd86fd1419bec8357fc11f4325359ca5cd59c01599cd95e8b0e12",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "9acc0f9cfcb6211775a2dd0b7112ae80a61c88109881808058c2f035a1b47dea",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 53,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "m3_giver_inventory",
+            "review_status": "draft"
+          },
+          {
+            "source_id": "m3_follower_inventory",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "follower",
+      "giver"
+    ],
+    "local_question": "What relation to the bakery is expressed for the current route segment?",
+    "focus_source_ids": [
+      "q1ec6.row.052",
+      "q1ec6.row.053"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "q1ec6.row.052",
+        "speaker": "follower",
+        "quote": "i'm going east underneath the bakery"
+      },
+      {
+        "source_id": "q1ec6.row.053",
+        "speaker": "giver",
+        "quote": "underneath the bakery"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "follower",
+        "meaning": "The follower explicitly says they are going east underneath the bakery. This supports a stated below-bakery reading, subject to verification of the bakery binding.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1ec6.row.050",
+            "quote": "yeah",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec6.row.052",
+            "quote": "i'm going east underneath the bakery",
+            "speaker": "follower"
+          }
+        ],
+        "support_note": "Supported as the follower's explicit report of going east below the named bakery; shared map identity is unverified."
+      },
+      {
+        "participant_id": "giver",
+        "meaning": "The giver instructs looping around a bakery and then repeats underneath the bakery. The final phrase is consistent with endorsing the follower's below relation, but may instead question it; the retained text does not settle that distinction.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "q1ec6.row.049",
+            "quote": "and then go east again and you loop round about a bakery",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec6.row.053",
+            "quote": "underneath the bakery",
+            "speaker": "giver"
+          }
+        ],
+        "support_note": "The giver explicitly instructs a loop around a bakery, but the final below-bakery echo alone leaves endorsement versus questioning unresolved."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "What relation to the bakery is expressed for the current route segment?",
+      "participant_outputs": {
+        "follower": "Proposed follower consequence: Route(bakery_step, below, verified_bakery), once the bakery binding is verified. Eastward direction and exact loop geometry are outside this bounded projection.",
+        "giver": "Proposed giver consequence: the same below-bakery constraint if .053 endorses .052; otherwise the giver’s local side remains unresolved."
+      },
+      "comparison": "The follower explicitly supplies a below-bakery route reading. The giver's echo could endorse that reading or check it, and the common bakery binding remains unverified. A shared singleton consequence cannot yet be asserted.",
+      "blocking_reasons": [
+        "The giver's below-bakery echo has not been verified as endorsement rather than questioning.",
+        "The bakery identity and cross-map correspondence remain draft.",
+        "A future comparison must stay restricted to the local below-bakery relation; eastward direction and loop geometry are not verified by the bounded projection."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "follower": [
+          [
+            "Route",
+            "MT05.current_bakery_segment",
+            "below",
+            null
+          ]
+        ],
+        "giver": []
+      },
+      "consequence_encoding_note": "The explicit route description is preserved; null marks a required argument not yet verified. An empty set means no fully specified supported answer to this local question is available. It does not deny that the participant spoke, had map knowledge, or had a private interpretation.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "The follower explicitly supplies a below-bakery route reading. The giver's echo could endorse that reading or check it, and the common bakery binding remains unverified. A shared singleton consequence cannot yet be asserted.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible local agreement control after bakery binding and echo-force checks; do not infer the entire route."
+  },
+  "MT06_q1ec7_r022": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "8c22bef2e4c4b8606fc27f154c7b56cf658b8bf9863f191c2a6d4aa0c06074cd",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "8ab02781b761926dbe05a8cad43419842560b587b7738831f12a7fe3d0c76c32",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 22,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "m12_giver_inventory",
+            "review_status": "draft"
+          },
+          {
+            "source_id": "m12_follower_inventory",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "local_question": "Which landmark and side are expressed for the current mill-and-fence route instruction?",
+    "focus_source_ids": [
+      "q1ec7.row.021",
+      "q1ec7.row.022"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "q1ec7.row.021",
+        "speaker": "giver",
+        "quote": "you want to have the old mill on your right-hand side so if that fence is below the old mill you want to keep that on your right-hand side"
+      },
+      {
+        "source_id": "q1ec7.row.022",
+        "speaker": "follower",
+        "quote": "okay"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "giver",
+        "meaning": "The giver explicitly instructs keeping the old mill on the right. The fence clause remains conditional, and its final that has an unresolved antecedent.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1ec7.row.012",
+            "quote": "and we're going to come up and we're going to have the old",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec7.row.014",
+            "quote": "below what",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec7.row.016",
+            "quote": "picket fence",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec7.row.017",
+            "quote": "i don't have one so i would say",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec7.row.018",
+            "quote": "whereabouts is the picket fence",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec7.row.020",
+            "quote": "right okay well",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec7.row.021",
+            "quote": "you want to have the old mill on your right-hand side so if that fence is below the old mill you want to keep that on your right-hand side",
+            "speaker": "giver"
+          }
+        ],
+        "support_note": "supported for the old-mill instruction; incomplete for the full mill/fence output"
+      },
+      {
+        "participant_id": "follower",
+        "meaning": "The follower reports the fence below the mill wheel and asks about going below the fence. No adopted mill/fence route is expressed by the final okay.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1ec7.row.013",
+            "quote": "eh-- ehm are we just going are we going to go below the picket fence",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec7.row.015",
+            "quote": "the picket picket fence",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec7.row.019",
+            "quote": "picket fence is below the mill wheel which is below the caravan park",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec7.row.022",
+            "quote": "okay",
+            "speaker": "follower"
+          }
+        ],
+        "support_note": "possible only for adoption of the giver's mill/fence route; the supported map-description report is a different content"
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Which landmark and side are expressed for the current mill-and-fence route instruction?",
+      "participant_outputs": {
+        "giver": "Proposed giver consequence: a path with the old mill on its right, plus a conditional fence relation if that clause’s antecedent and premise are established.",
+        "follower": "Follower consequence: no supported adopted route relative to the old mill or fence is established at the cutoff."
+      },
+      "comparison": "The giver supports an old-mill route instruction, whereas the follower supports a map-description report and an earlier route question. The final okay alone does not establish adoption. Two comparable supported route consequences are unavailable.",
+      "blocking_reasons": [
+        "No participant-owned follower statement adopts the final mill/fence route instruction.",
+        "The final that and conditional fence premise leave part of the giver's instruction undetermined.",
+        "The old mill/mill wheel correspondence and m12 map inventories remain draft."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "giver": [
+          [
+            "Route",
+            "current_mill_fence_segment",
+            null,
+            null
+          ]
+        ],
+        "follower": []
+      },
+      "consequence_encoding_note": "The giver tuple is deliberately incomplete: do not normalize an egocentric landmark-on-right instruction into a fixed map relation or assign an unverified common anchor class. Empty follower set means no supported adopted focal route, not no map knowledge.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "The giver supports an old-mill route instruction, whereas the follower supports a map-description report and an earlier route question. The final okay alone does not establish adoption. Two comparable supported route consequences are unavailable.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible missing-uptake diagnostic; a map-description report does not adopt the final route."
+  },
+  "MT07_q1ec8_r011": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "a0943bb4a1d7005bc05255610c8256f025539bb2dc8b7b6a0209160924df19c2",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "a521c89e3099b0953daa08723a8895bfce80c5b4322143290b7beb3bfd6170fd",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 11,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "m9_giver_inventory",
+            "review_status": "draft"
+          },
+          {
+            "source_id": "m9_follower_inventory",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "local_question": "What stopping level is intended for the current southward segment?",
+    "focus_source_ids": [
+      "q1ec8.row.010",
+      "q1ec8.row.011"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "q1ec8.row.010",
+        "speaker": "giver",
+        "quote": "until you're like at the bottom of the kind of level with the bottom of the desert"
+      },
+      {
+        "source_id": "q1ec8.row.011",
+        "speaker": "follower",
+        "quote": "the map"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "giver",
+        "meaning": "The giver specifies the bottom level of the desert as the stopping level. The earlier stony-desert introduction supplies the textual antecedent; map binding remains unverified.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1ec8.row.001",
+            "quote": "right starts above the stony desert",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec8.row.005",
+            "quote": "turn to the west",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec8.row.007",
+            "quote": "er go forward and then kind of down south",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1ec8.row.010",
+            "quote": "until you're like at the bottom of the kind of level with the bottom of the desert",
+            "speaker": "giver"
+          }
+        ],
+        "support_note": "supported descriptive endpoint; canonical landmark binding unknown"
+      },
+      {
+        "participant_id": "follower",
+        "meaning": "The follower explicitly repeats west and then down south. The fragment the map leaves the stopping-level interpretation unresolved.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1ec8.row.002",
+            "quote": "alright okay",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec8.row.006",
+            "quote": "mmhmm",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec8.row.008",
+            "quote": "west and then down south",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1ec8.row.011",
+            "quote": "the map",
+            "speaker": "follower"
+          }
+        ],
+        "support_note": "possible only for the candidate map-bottom endpoint; direction adoption does not support that endpoint"
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "What stopping level is intended for the current southward segment?",
+      "participant_outputs": {
+        "giver": "Proposed giver consequence: stop at the bottom level of the intended desert, conditional on verified reference and an appropriate checkpoint function.",
+        "follower": "Follower stopping consequence: unknown; page-bottom is a candidate reading, not an established choice."
+      },
+      "comparison": "The giver specifies a desert-bottom stopping level. The follower states movement directions but does not unambiguously adopt a stopping boundary. The page-bottom alternative cannot be admitted as an adopted competing outcome from this fragment alone.",
+      "blocking_reasons": [
+        "The final the map may be a question, repair, completion or asserted endpoint; the text does not resolve its force.",
+        "Direction agreement does not establish a shared stopping level.",
+        "The m9 inventory and landmark binding remain unverified."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "giver": [
+          [
+            "Checkpoint",
+            "current_southward_stop",
+            null
+          ]
+        ],
+        "follower": []
+      },
+      "consequence_encoding_note": "The giver has a supported endpoint description but an unverified canonical checkpoint. The follower's supported direction statement is outside the specific stopping-level comparison.",
+      "implementation_limits": [
+        "The current bounded adapter does not establish a page-edge stopping consequence."
+      ],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "The giver specifies a desert-bottom stopping level. The follower states movement directions but does not unambiguously adopt a stopping boundary. The page-bottom alternative cannot be admitted as an adopted competing outcome from this fragment alone.",
+    "evidence_verified": false,
+    "include_in_pilot": null,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible stopping-boundary ambiguity case; do not assume that the map fragment selects the page bottom."
+  },
+  "MT08_q1nc2_r052": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "5632de3debb8e9645cd3f4fe9bd878a50ee5b1216016360ff44d62c26f9f8f66",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "17bf5dd2e49ce235b03d87dd45eced47a814e94391ce9b908210003675feb497",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 52,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "m9_giver_inventory",
+            "review_status": "draft"
+          },
+          {
+            "source_id": "m9_follower_inventory",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "local_question": "Which plane-crash site, if any, is identified for the current route location?",
+    "focus_source_ids": [
+      "q1nc2.row.051",
+      "q1nc2.row.052"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "q1nc2.row.051",
+        "speaker": "giver",
+        "quote": "erm and there's a the site of a plane crash"
+      },
+      {
+        "source_id": "q1nc2.row.052",
+        "speaker": "follower",
+        "quote": "i don't have that my plane crash is away up in the top right"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "giver",
+        "meaning": "The giver introduces a plane-crash site in the current route context. Which canonical site this binds remains unverified.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1nc2.row.043",
+            "quote": "about an inch an i-- 'bout an inch from the the s-- the left-hand side of the paper",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc2.row.044",
+            "quote": "just keep going along straight",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc2.row.046",
+            "quote": "and then we start going up",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc2.row.049",
+            "quote": "about three inches maybe",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc2.row.051",
+            "quote": "erm and there's a the site of a plane crash",
+            "speaker": "giver"
+          }
+        ],
+        "support_note": "supported site introduction; unique route-anchor binding unknown"
+      },
+      {
+        "participant_id": "follower",
+        "meaning": "The follower distinguishes the locally mentioned site from a crash reported at the upper right. This does not adopt the upper-right crash as a substitute route anchor.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1nc2.row.013",
+            "quote": "th-- that's marked on my map as well",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc2.row.020",
+            "quote": "the stony desert is below the start",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc2.row.025",
+            "quote": "so i-- i'm going left",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc2.row.029",
+            "quote": "but just round the outline of the desert",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc2.row.038",
+            "quote": "i'm going along the bottom of the paper",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc2.row.050",
+            "quote": "three inches",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc2.row.052",
+            "quote": "i don't have that my plane crash is away up in the top right",
+            "speaker": "follower"
+          }
+        ],
+        "support_note": "supported map-availability distinction; no supported competing route adoption"
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Which plane-crash site, if any, is identified for the current route location?",
+      "participant_outputs": {
+        "giver": "Proposed giver consequence: a route checkpoint associated with the locally introduced crash, if the current route location uniquely binds that site.",
+        "follower": "Follower route consequence: unknown for the locally introduced crash; the upper-right site is not adopted as a substitute anchor."
+      },
+      "comparison": "A map-context discrepancy is publicly exposed, but the follower does not select the upper-right crash as the route target. Different site descriptions do not supply two adopted, disjoint route consequences.",
+      "blocking_reasons": [
+        "The giver's crash-site binding is not uniquely verified against the duplicate site labels and current route position.",
+        "The follower explicitly rejects having the locally discussed site and does not choose a substitute route anchor.",
+        "m9 inventories and cross-map site correspondences remain draft."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "giver": [
+          [
+            "Anchor",
+            "current_crash_route_location",
+            null
+          ]
+        ],
+        "follower": []
+      },
+      "consequence_encoding_note": "Unknown giver class preserves the unresolved binding. Empty follower set concerns adopted current route anchors, not the explicit upper-right-site report.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "A map-context discrepancy is publicly exposed, but the follower does not select the upper-right crash as the route target. Different site descriptions do not supply two adopted, disjoint route consequences.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible map-context discrepancy case; the follower has not adopted an alternative crash site as the route anchor."
+  },
+  "MT09_q1nc3_r054": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "51fb37f4c1845fdc9585f36bd6d9a0bdc1e92eb03f250eb5c3cbfb21de0dadd5",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "03b2a28eb4d2eb48f2ce9e2af778d5f1d56d78f668b63a21bfdcacfab2e18f80",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 54,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "m6_giver_inventory",
+            "review_status": "draft"
+          },
+          {
+            "source_id": "m6_follower_inventory",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "local_question": "Which watercourse, if any, is being identified for the current stopping-point discussion?",
+    "focus_source_ids": [
+      "q1nc3.row.053",
+      "q1nc3.row.054"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "q1nc3.row.053",
+        "speaker": "giver",
+        "quote": "a fast flowing river eh"
+      },
+      {
+        "source_id": "q1nc3.row.054",
+        "speaker": "follower",
+        "quote": "no"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "giver",
+        "meaning": "The giver may be proposing or checking a fast-flowing-river description; the text does not establish an adopted watercourse stopping anchor.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "q1nc3.row.038",
+            "quote": "you're going vertically downwards past the diamond mine",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc3.row.040",
+            "quote": "you know just c-- you're curving just curving round the diamond",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc3.row.042",
+            "quote": "mine uh-huh",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc3.row.049",
+            "quote": "well do",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc3.row.050",
+            "quote": "have you got a graveyard sort of in the middle of the page on a level to the c-- er diamond mine",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc3.row.053",
+            "quote": "a fast flowing river eh",
+            "speaker": "giver"
+          }
+        ],
+        "support_note": "possible; the utterance's stance and target are unresolved"
+      },
+      {
+        "participant_id": "follower",
+        "meaning": "The follower reports a fast-running creek and says no to the river phrase. Neither statement fixes a watercourse-based stopping point.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1nc3.row.039",
+            "quote": "straight down",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc3.row.044",
+            "quote": "curve round",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc3.row.045",
+            "quote": "to your right",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc3.row.047",
+            "quote": "right right underneath the diamond mine",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc3.row.048",
+            "quote": "where do i stop",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc3.row.051",
+            "quote": "no",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc3.row.052",
+            "quote": "i've got a fast running creek",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc3.row.054",
+            "quote": "no",
+            "speaker": "follower"
+          }
+        ],
+        "support_note": "supported availability report/rejection, not an adopted stopping consequence"
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Which watercourse, if any, is being identified for the current stopping-point discussion?",
+      "participant_outputs": {
+        "giver": "Giver stopping consequence: unknown for the watercourse exchange; neither a settled watercourse binding nor a stopping relation is expressed securely.",
+        "follower": "Follower stopping consequence: unknown; the creek report and no do not determine a route constraint or agreed stopping point."
+      },
+      "comparison": "The creek/river difference occurs during a stopping-point discussion, but the prefix does not establish two adopted stopping consequences. The giver's proposal and follower's rejection remain underspecified for F6.",
+      "blocking_reasons": [
+        "The giver's phrase may check a name or propose a referent; settled adoption is not established.",
+        "The follower's no does not specify an alternative stopping relation or settle its exact rejection target.",
+        "Neither participant supplies a supported watercourse-based stopping consequence; draft m6 correspondence cannot override the expressed rejection."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "giver": [],
+        "follower": []
+      },
+      "consequence_encoding_note": "The arrays concern this watercourse stopping subtask. Earlier diamond-mine route statements and the follower's creek-availability report remain supported evidence for their own contents.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "The creek/river difference occurs during a stopping-point discussion, but the prefix does not establish two adopted stopping consequences. The giver's proposal and follower's rejection remain underspecified for F6.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible unresolved naming/stopping case; the exchange does not establish two adopted stopping consequences."
+  },
+  "MT10_q1nc4_r044": {
+    "review_status": "in_progress",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "dffa045e2257f1c33a29ad8abc72640452a5faa95cd9598dacf2b1bca0130788",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "d8d24135f7c62bc340662f3164473009bf27fac17d89590156a7671075deabf7",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 44,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "m3_giver_inventory",
+            "review_status": "draft"
+          },
+          {
+            "source_id": "m3_follower_inventory",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "local_question": "What route relation to the start is expressed for the current downward segment?",
+    "focus_source_ids": [
+      "q1nc4.row.043",
+      "q1nc4.row.044"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "q1nc4.row.043",
+        "speaker": "follower",
+        "quote": "straight down under the start"
+      },
+      {
+        "source_id": "q1nc4.row.044",
+        "speaker": "giver",
+        "quote": "yeah"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "giver",
+        "meaning": "The giver explicitly states the below-start relation at .041. The final yeah follows the follower's restatement but is not needed as the sole basis for the giver's reading.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1nc4.row.002",
+            "quote": "so the start is at the top left-hand side of the page",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc4.row.026",
+            "quote": "you should really end up about four inches down from the the cross er you know in the same line like just beneath it in fact fo-- four inches down",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc4.row.031",
+            "quote": "no no",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc4.row.034",
+            "quote": "the initial line from th-- the cross",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc4.row.036",
+            "quote": "goes right but it doesn't go as far right as the cliffs",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc4.row.038",
+            "quote": "it goes down to where it says cliffs",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc4.row.041",
+            "quote": "about a centimetre from where it says cliffs to the left-hand side of it okay then you go back left slightly until you're beneath the the start and down you know two or three inches until you're ab--",
+            "speaker": "giver"
+          },
+          {
+            "source_id": "q1nc4.row.044",
+            "quote": "yeah",
+            "speaker": "giver"
+          }
+        ],
+        "support_note": "supported for the bounded below-start relation"
+      },
+      {
+        "participant_id": "follower",
+        "meaning": "The follower explicitly restates straight down under the start, supporting the below-start relation for the current segment.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "q1nc4.row.030",
+            "quote": "am i right under the sandstone cliffs",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc4.row.032",
+            "quote": "no",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc4.row.042",
+            "quote": "right",
+            "speaker": "follower"
+          },
+          {
+            "source_id": "q1nc4.row.043",
+            "quote": "straight down under the start",
+            "speaker": "follower"
+          }
+        ],
+        "support_note": "supported for the bounded below-start relation"
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "What route relation to the start is expressed for the current downward segment?",
+      "participant_outputs": {
+        "giver": "Explicit below-start relation; shared map-level START binding remains unknown.",
+        "follower": "Explicit below-start relation; shared map-level START binding remains unknown."
+      },
+      "comparison": "Both participants explicitly express a below-start relation for the current downward segment, so Tier S supports both linguistic readings. A shared canonical START binding remains unverified. With that required argument unknown, the current label is UNRESOLVED; verified START correspondence would support ALIGNED for this bounded relation only.",
+      "blocking_reasons": [
+        "The m3 START identity and cross-map correspondence remain unverified in the draft inventories."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "giver": [
+          [
+            "Route",
+            "current_below_start_segment",
+            "below",
+            null
+          ]
+        ],
+        "follower": [
+          [
+            "Route",
+            "current_below_start_segment",
+            "below",
+            null
+          ]
+        ]
+      },
+      "consequence_encoding_note": "The null arguments preserve the unverified shared map identity. Equal incomplete tuples do not justify ALIGNED. The shared local event is textually grounded in the immediately adjacent .041/.043 exchange; no need to invent a new event ambiguity. This is after clarification, so it cannot demonstrate an earlier warning.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "ALIGNED",
+    "prefix_only_rationale": "Both participants explicitly express a below-start relation for the current downward segment, so Tier S supports both linguistic readings. A shared canonical START binding remains unverified. With that required argument unknown, the current label is UNRESOLVED; verified START correspondence would support ALIGNED for this bounded relation only.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible bounded agreement control after START correspondence review; already after clarification."
+  },
+  "WW01_WW01_r028": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "407a9a27ba60d631217b021efeae68476557bff062c1b89d8bcbe285cab7b300",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "d3de65ff38f2bac33003107ea50b53a41436019ec025e08db7a0008ebeff4778",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 28,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "WW01_public_instructions",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "Justin",
+      "Alvin"
+    ],
+    "local_question": "Which two players does Justin’s reported swap concern, and what consequence does each speaker explicitly support for that swap?",
+    "focus_source_ids": [
+      "WW01.row.027",
+      "WW01.row.028"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "WW01.row.027",
+        "speaker": "Justin",
+        "quote": "It's funny you say that because as the Troublemaker, I switched your guys' cards."
+      },
+      {
+        "source_id": "WW01.row.028",
+        "speaker": "Alvin",
+        "quote": "Okay. What?"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "Justin",
+        "meaning": "Justin reports a Troublemaker swap of your guys’ cards. The report is explicit, but its two target players are not uniquely identified in the retained text.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "WW01.row.027",
+            "quote": "It's funny you say that because as the Troublemaker, I switched your guys' cards.",
+            "speaker": "Justin"
+          }
+        ],
+        "support_note": "Justin explicitly reports a Troublemaker swap; that partial speech-act content is supported. The task-relevant reading needs a unique target pair, and your guys does not bind the two participants in the text. Thus the fully bound reading remains possible."
+      },
+      {
+        "participant_id": "Alvin",
+        "meaning": "Alvin’s Okay. What? acknowledges the turn and asks for clarification. It does not establish an adopted reading of the swap targets or resulting role holders.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "WW01.row.023",
+            "quote": "Really?",
+            "speaker": "Alvin"
+          },
+          {
+            "source_id": "WW01.row.025",
+            "quote": "Really?",
+            "speaker": "Alvin"
+          },
+          {
+            "source_id": "WW01.row.028",
+            "quote": "Okay. What?",
+            "speaker": "Alvin"
+          }
+        ],
+        "support_note": "Alvin asks for clarification. A reading adopting particular targets or their resulting roles remains possible, not established; this is not evidence of private non-understanding."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Which two players does Justin’s reported swap concern, and what consequence does each speaker explicitly support for that swap?",
+      "participant_outputs": {
+        "Justin": "Reported two-player swap; a unique target pair and resulting holder cannot be computed from “your guys’ cards” alone.",
+        "Alvin": "No expressed swap-target or role-holder output: “Okay. What?” asks for clarification without selecting a consequence."
+      },
+      "comparison": "An explicit but unbound swap report and a clarification request do not provide two known same-question consequences. Keep UNRESOLVED without supplying hidden roles, a deictic target pair or an assumed endorsement.",
+      "blocking_reasons": [
+        "The reported swap targets are not uniquely bound.",
+        "Alvin has no supported target or resulting-holder reading.",
+        "The relevant pre-swap roles cannot be bound for an executable holder comparison."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "Justin": [],
+        "Alvin": []
+      },
+      "consequence_encoding_note": "These encodings concern expressed reports, claims or conditional contents only. They do not verify hidden roles or actual actions. An empty set means no fully specified supported answer for this question is entered; it is not a finding about private understanding.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "An explicit but unbound swap report and a clarification request do not provide two known same-question consequences. Keep UNRESOLVED without supplying hidden roles, a deictic target pair or an assumed endorsement.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible missing-target and clarification diagnostic; do not invent the deictic swap targets."
+  },
+  "WW02_WW02_r040": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "a8a0fbd0c7ea78ebc933ef107f4855ee72fc9be0ea03a393fe0fb7e5138e3b79",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "ea9b7105532f9e7dc986c97e372e1bd269300975fd831d8594fe912f21cd1d38",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 40,
+        "scope": "Exact text, IDs, speakers, frozen input and local expressed-content support checked against the retained prefix. No external map fact or rule execution is needed for this narrow decision. The draft context adapter and underlying audio/video are not certified.",
+        "context_statuses": [
+          {
+            "source_id": "WW02_public_instructions",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "Justin",
+      "Dan"
+    ],
+    "local_question": "Whom does each speaker accuse in the current exchange?",
+    "focus_source_ids": [
+      "WW02.row.039",
+      "WW02.row.040"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "WW02.row.039",
+        "speaker": "Justin",
+        "quote": "All right. Caitlynn's a Werewolf."
+      },
+      {
+        "source_id": "WW02.row.040",
+        "speaker": "Dan",
+        "quote": "I think that she is a Werewolf."
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "Justin",
+        "meaning": "Justin explicitly accuses Caitlynn of being a Werewolf at WW02.row.039. This records his public accusation, not her hidden-role truth.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "WW02.row.039",
+            "quote": "All right. Caitlynn's a Werewolf.",
+            "speaker": "Justin"
+          }
+        ],
+        "support_note": "Justin names Caitlynn and predicates Werewolf of her in row039: an explicit public accusation."
+      },
+      {
+        "participant_id": "Dan",
+        "meaning": "Dan says that he thinks she is a Werewolf at WW02.row.040. In this exchange she refers to Caitlynn, the immediately preceding named accusation target. This supports the same public target without asserting certainty or a hidden card fact.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "WW02.row.040",
+            "quote": "I think that she is a Werewolf.",
+            "speaker": "Dan"
+          }
+        ],
+        "support_note": "Dan immediately predicates Werewolf of she in row040. Caitlynn is the single locally named antecedent in row039, with Dan himself naming Caitlynn in row036; the local reference chain supports the same accusation target."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Whom does each speaker accuse in the current exchange?",
+      "participant_outputs": {
+        "Justin": "Public accusation target: Caitlynn.",
+        "Dan": "Public accusation target: Caitlynn, through the adjacent she reference."
+      },
+      "comparison": "For the existing local question Whom does each speaker accuse?, both supported readings identify the same single target, Caitlynn. The named statement and adjacent pronoun-linked accusation support ALIGNED. No rule execution, card truth or vote execution is required for this bounded target judgment.",
+      "blocking_reasons": [],
+      "verification_note": "Exact text, IDs, speakers, frozen input and local expressed-content support checked against the retained prefix. No external map fact or rule execution is needed for this narrow decision. The draft context adapter and underlying audio/video are not certified.",
+      "supported_consequences": {
+        "Justin": [
+          [
+            "Target",
+            "WW02.current_accusation",
+            "accuse",
+            "Caitlynn"
+          ]
+        ],
+        "Dan": [
+          [
+            "Target",
+            "WW02.current_accusation",
+            "accuse",
+            "Caitlynn"
+          ]
+        ]
+      },
+      "consequence_encoding_note": "These encodings concern expressed reports, claims or conditional contents only. They do not verify hidden roles or actual actions. An empty set means no fully specified supported answer for this question is entered; it is not a finding about private understanding.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": false,
+    "provisional_label": "ALIGNED",
+    "prefix_only_rationale": "For the existing local question Whom does each speaker accuse?, both supported readings identify the same single target, Caitlynn. The named statement and adjacent pronoun-linked accusation support ALIGNED. No rule execution, card truth or vote execution is required for this bounded target judgment.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Suitable as a bounded public-accusation-target agreement candidate; no hidden-role or vote claim."
+  },
+  "WW03_WW03_r078": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "37b9a3ad5ead5976eb5c11fc7dfbf6da357e402bdb6ae09d137e542d58a8956a",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": false,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "ad231583ff53b47cb7febc036470bc76fc617dcc1ec795f1239964772bcfc2eb",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 78,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "WW03_public_instructions",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "Justin",
+      "Mitchell"
+    ],
+    "local_question": "Which role does Mitchell report receiving in the discussed steal, and what reading of that same event is expressed by Justin?",
+    "focus_source_ids": [
+      "WW03.row.077",
+      "WW03.row.078"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "WW03.row.077",
+        "speaker": "Justin",
+        "quote": "Did you steal a villager?"
+      },
+      {
+        "source_id": "WW03.row.078",
+        "speaker": "Mitchell",
+        "quote": "I stole a villager."
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "Justin",
+        "meaning": "Justin’s earlier Villager self-report and Yes to a steal-from-you question make a Villager-acquisition reading plausible. The intervening thief and event references remain uncertain, and his final Did you steal a villager? does not itself assert that acquisition.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "WW03.row.032",
+            "quote": "I was a villager.",
+            "speaker": "Justin"
+          },
+          {
+            "source_id": "WW03.row.061",
+            "quote": "He stole something very boring and I think I know what that means.",
+            "speaker": "Justin"
+          },
+          {
+            "source_id": "WW03.row.064",
+            "quote": "Yeah, I think I know exactly...",
+            "speaker": "Justin"
+          },
+          {
+            "source_id": "WW03.row.066",
+            "quote": "Yes.",
+            "speaker": "Justin"
+          },
+          {
+            "source_id": "WW03.row.077",
+            "quote": "Did you steal a villager?",
+            "speaker": "Justin"
+          }
+        ],
+        "support_note": "Justin explicitly self-reports Villager in row032 and answers Yes to Did he steal from you? in rows065–066. These are relevant prior grounding. However the earlier James answer Someone boring (row041), changing speakers and Mike/Mitchell turns leave the thief/event link insufficiently stable for Justin’s same-event acquired-Villager output; row077 is a question."
+      },
+      {
+        "participant_id": "Mitchell",
+        "meaning": "Mitchell explicitly reports acquiring Villager in the discussed steal. His report is supported as expressed content, without verifying the action or his current role.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "WW03.row.063",
+            "quote": "I'm just going to go with \"boring\" for now.",
+            "speaker": "Mitchell"
+          },
+          {
+            "source_id": "WW03.row.075",
+            "quote": "Well, I didn't steal the Seer.",
+            "speaker": "Mitchell"
+          },
+          {
+            "source_id": "WW03.row.078",
+            "quote": "I stole a villager.",
+            "speaker": "Mitchell"
+          }
+        ],
+        "support_note": "Mitchell explicitly reports I stole a villager at row078, after denying stealing Seer in row075. This supports his report of Villager acquisition at the discussed steal, not his actual or current card."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Which role does Mitchell report receiving in the discussed steal, and what reading of that same event is expressed by Justin?",
+      "participant_outputs": {
+        "Justin": "No settled acquired-role output follows from the question alone. A conditional Villager proposal requires his earlier self-report and endorsement to be linked to this same thief, role phase and exchange.",
+        "Mitchell": "Reported acquisition: Villager at the exchange described in WW03.row.078. This does not verify a current holder after other actions."
+      },
+      "comparison": "Mitchell has a supported Villager-acquisition report. Justin has relevant earlier grounding, but the thief/event chain needed to project the same acquired-role consequence remains ambiguous. UNRESOLVED preserves that uncertainty rather than treating his final question as agreement or ignoring his earlier statements.",
+      "blocking_reasons": [
+        "Justin’s earlier statements are not securely linked to the same thief and steal event.",
+        "His final question alone does not adopt the Villager-acquisition report.",
+        "An acquisition report must remain distinct from current-holder truth after other possible actions."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "Justin": [],
+        "Mitchell": [
+          [
+            "Holder",
+            "WW03.discussed_steal",
+            "Villager",
+            "Mitchell",
+            "immediately_after_reported_steal",
+            "Mitchell_acquisition_report"
+          ]
+        ]
+      },
+      "consequence_encoding_note": "These encodings concern expressed reports, claims or conditional contents only. They do not verify hidden roles or actual actions. An empty set means no fully specified supported answer for this question is entered; it is not a finding about private understanding.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "Mitchell has a supported Villager-acquisition report. Justin has relevant earlier grounding, but the thief/event chain needed to project the same acquired-role consequence remains ambiguous. UNRESOLVED preserves that uncertainty rather than treating his final question as agreement or ignoring his earlier statements.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible event-link ambiguity diagnostic; retain Justin's earlier grounding and the unresolved thief link."
+  },
+  "WW04_WW04_r009": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "6196411ccbb2cac6ffdfd29d5d39466d4a199624e3e0f3b01db7b4088b948702",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "095e6363eaaf94054482d3a8612ec7cc46e0245dafac0afcaf4c37556c141ce3",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 9,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "WW04_public_instructions",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "James",
+      "Mitchell"
+    ],
+    "local_question": "Which participant and night phase does each reported Insomniac/Seer identity concern, and do the reports address the same holder question?",
+    "focus_source_ids": [
+      "WW04.row.008",
+      "WW04.row.009"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "WW04.row.008",
+        "speaker": "James",
+        "quote": "Okay. We're going to open with Justin and say I was the insomniac, but I woke up as a seer."
+      },
+      {
+        "source_id": "WW04.row.009",
+        "speaker": "Mitchell",
+        "quote": "That makes no sense. I looked at two in the middle because I was the seer and I saw those two."
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "James",
+        "meaning": "The recorded James turn reports Insomniac earlier and Seer on waking, but the introduced name Justin leaves the subject of the first-person report unresolved.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "WW04.row.008",
+            "quote": "Okay. We're going to open with Justin and say I was the insomniac, but I woke up as a seer.",
+            "speaker": "James"
+          }
+        ],
+        "support_note": "The recorded James turn contains an Insomniac-to-Seer report, but open with Justin and say makes its subject unclear. The fully person-bound reading remains possible."
+      },
+      {
+        "participant_id": "Mitchell",
+        "meaning": "Mitchell rejects the preceding report and says he was Seer when inspecting two center cards. This is an expressed historical action report, with no supported inference about his current card.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "WW04.row.009",
+            "quote": "That makes no sense. I looked at two in the middle because I was the seer and I saw those two.",
+            "speaker": "Mitchell"
+          }
+        ],
+        "support_note": "Mitchell explicitly says that he was Seer and looked at two center cards. This supports his historical action report, not the other report’s subject or a current role."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Which participant and night phase does each reported Insomniac/Seer identity concern, and do the reports address the same holder question?",
+      "participant_outputs": {
+        "James": "Reported sequence: Insomniac earlier, Seer on waking; the subject remains unbound because the turn introduces Justin before the first-person report.",
+        "Mitchell": "Reported Seer role for Mitchell at his claimed center-card inspection. That action-phase report is not a verified waking-phase or current-holder fact."
+      },
+      "comparison": "The reports have uncertain or different subjects and phases. A same-question consequential comparison cannot be made. The occurrence of Seer in both turns and an explicit objection do not resolve that scope problem.",
+      "blocking_reasons": [
+        "The first report’s subject is not securely identified.",
+        "The reported waking and Seer-inspection phases are different comparison points.",
+        "A credibility or consistency challenge is not by itself a consequential interpretation difference."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "James": [],
+        "Mitchell": [
+          [
+            "Holder",
+            "WW04.Mitchell_reported_inspection",
+            "Seer",
+            "Mitchell",
+            "during_reported_inspection",
+            "Mitchell_inspection_report"
+          ]
+        ]
+      },
+      "consequence_encoding_note": "These encodings concern expressed reports, claims or conditional contents only. They do not verify hidden roles or actual actions. An empty set means no fully specified supported answer for this question is entered; it is not a finding about private understanding.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "The reports have uncertain or different subjects and phases. A same-question consequential comparison cannot be made. The occurrence of Seer in both turns and an explicit objection do not resolve that scope problem.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible subject/phase ambiguity diagnostic; reports are not yet a same-holder comparison."
+  },
+  "WW05_WW05_r039": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "1ff2a02921953666189bb71604e8fb3d9feb12d8daab103e77bf0c1656eed0e8",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "f4f4d1671b4f9b16a25c2400dfac8fc308ff5a8ee59fb9e34c381bd6dc1628f5",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 39,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "WW05_public_instructions",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "Justin",
+      "Paul"
+    ],
+    "local_question": "Who would hold Werewolf under the premise Justin invokes and the Mitchell–Paul swap he reports, and does Paul express that same conditional reading?",
+    "focus_source_ids": [
+      "WW05.row.038",
+      "WW05.row.039"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "WW05.row.038",
+        "speaker": "Justin",
+        "quote": "I think Mitchell is. But then again, that would mean that you would be the werewolf because I switched you two."
+      },
+      {
+        "source_id": "WW05.row.039",
+        "speaker": "Paul",
+        "quote": "You switched us?"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "Justin",
+        "meaning": "Justin reports switching Paul and Mitchell and states a conditional Paul-as-Werewolf consequence. This supports the content of his conditional reasoning, not a verified swap or card history.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "WW05.row.019",
+            "quote": "So if you were a werewolf, what would you say if I was a troublemaker and I switched you and Paul?",
+            "speaker": "Justin"
+          },
+          {
+            "source_id": "WW05.row.021",
+            "quote": "I might have...",
+            "speaker": "Justin"
+          },
+          {
+            "source_id": "WW05.row.024",
+            "quote": "I might be. And are you the villager? Because I think that was the implication of what your statement was.",
+            "speaker": "Justin"
+          },
+          {
+            "source_id": "WW05.row.038",
+            "quote": "I think Mitchell is. But then again, that would mean that you would be the werewolf because I switched you two.",
+            "speaker": "Justin"
+          }
+        ],
+        "support_note": "Justin explicitly presents Paul-as-Werewolf as a conditional result of switching Paul and Mitchell in row038, with named-pair grounding in row019. The phase of the Mitchell premise remains unresolved for formal holder execution."
+      },
+      {
+        "participant_id": "Paul",
+        "meaning": "Paul asks whether Justin switched them. His earlier not-Werewolf self-report and suspicion of Mitchell do not establish his interpretation of this newly asserted swap’s consequence.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "WW05.row.018",
+            "quote": "I'll tell you this, Mitchell. I have a pretty good idea of what my card in front of me is right now. Yeah. So, that's all you get so far.",
+            "speaker": "Paul"
+          },
+          {
+            "source_id": "WW05.row.023",
+            "quote": "Are you the troublemaker? Is that what you're saying?",
+            "speaker": "Paul"
+          },
+          {
+            "source_id": "WW05.row.025",
+            "quote": "I wasn't a werewolf, I'll tell you that much.",
+            "speaker": "Paul"
+          },
+          {
+            "source_id": "WW05.row.027",
+            "quote": "I'm not going to answer that question, but I'll say that so far, I couldn't say for sure that anyone is lying.",
+            "speaker": "Paul"
+          },
+          {
+            "source_id": "WW05.row.034",
+            "quote": "But if he's the seer...",
+            "speaker": "Paul"
+          },
+          {
+            "source_id": "WW05.row.037",
+            "quote": "Oh, I think Mitchell is one of the werewolves.",
+            "speaker": "Paul"
+          },
+          {
+            "source_id": "WW05.row.039",
+            "quote": "You switched us?",
+            "speaker": "Paul"
+          }
+        ],
+        "support_note": "Paul previously suspects Mitchell and reports not having been Werewolf, but You switched us? queries the new exchange rather than adopting its post-swap consequence. Those earlier claims cannot be silently moved to the same premise branch and phase."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Who would hold Werewolf under the premise Justin invokes and the Mitchell–Paul swap he reports, and does Paul express that same conditional reading?",
+      "participant_outputs": {
+        "Justin": "Proposed conditional output: Paul holds Werewolf immediately after the Mitchell–Paul swap, if Mitchell held it immediately before that exchange and the reported swap is the event being compared.",
+        "Paul": "No supported same-branch post-swap holder output is established: Paul asks whether the exchange happened and does not accept its consequence at the cutoff."
+      },
+      "comparison": "Justin states a conditional consequence, while Paul queries whether the event occurred. No second supported consequence exists for the same branch. UNRESOLVED follows without assuming that Paul accepted the swap or that either reported role was true.",
+      "blocking_reasons": [
+        "Paul has no supported consequence for the same reported swap branch.",
+        "The phase of the Mitchell-as-Werewolf premise is not fixed for formal execution.",
+        "Earlier self-role and accusation statements cannot be treated as a disjoint post-swap output without evidence."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "Justin": [
+          [
+            "Holder",
+            "WW05.Justin_reported_swap",
+            "Werewolf",
+            "Paul",
+            "after_reported_swap",
+            null
+          ]
+        ],
+        "Paul": []
+      },
+      "consequence_encoding_note": "These encodings concern expressed reports, claims or conditional contents only. They do not verify hidden roles or actual actions. An empty set means no fully specified supported answer for this question is entered; it is not a finding about private understanding. The null branch argument preserves the unverified phase of the Mitchell-as-Werewolf premise.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "Justin states a conditional consequence, while Paul queries whether the event occurred. No second supported consequence exists for the same branch. UNRESOLVED follows without assuming that Paul accepted the swap or that either reported role was true.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible missing-uptake diagnostic for a conditional swap consequence; no second supported same-branch output."
+  },
+  "WW06_WW06_r040": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "80d8746e32f51717dd236ac0ae24222df931e8cbc3308a2c52f0672c0c642154",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "6868b887c3406c6bf5beed07a45cb5bf042b341f564619f9d70845720129022c",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 40,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "WW06_public_instructions",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "Paul",
+      "Mitchell"
+    ],
+    "local_question": "Which phase-specific Villager claim about Paul is being stated and endorsed in this exchange?",
+    "focus_source_ids": [
+      "WW06.row.039",
+      "WW06.row.040"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "WW06.row.039",
+        "speaker": "Paul",
+        "quote": "I'm the only one who was definitely villager."
+      },
+      {
+        "source_id": "WW06.row.040",
+        "speaker": "Mitchell",
+        "quote": "Oh yeah, he is."
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "Paul",
+        "meaning": "Paul explicitly claims Villager status, but the phase needed for a unique phase-specific holder comparison remains unspecified.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "WW06.row.011",
+            "quote": "I was the villager. I have no information.",
+            "speaker": "Paul"
+          },
+          {
+            "source_id": "WW06.row.039",
+            "quote": "I'm the only one who was definitely villager.",
+            "speaker": "Paul"
+          }
+        ],
+        "support_note": "Paul’s Villager self-report is explicit, but the existing local question requires a phase-specific role. Initial, reported past and current role interpretations remain distinct in this prefix."
+      },
+      {
+        "participant_id": "Mitchell",
+        "meaning": "Mitchell’s he is can endorse the immediately preceding Paul/Villager or alibi claim. The predicate’s exact scope and phase remain unresolved; this is stronger evidence than a bare okay but insufficient for a unique phase-specific consequence.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "WW06.row.038",
+            "quote": "Is there anyone who has an alibi?",
+            "speaker": "Mitchell"
+          },
+          {
+            "source_id": "WW06.row.040",
+            "quote": "Oh yeah, he is.",
+            "speaker": "Mitchell"
+          }
+        ],
+        "support_note": "Oh yeah, he is is a content-specific candidate endorsement of Paul’s immediately preceding claim, not merely a bare acknowledgment. It still lacks an unambiguous phase and may endorse an alibi without all of the only-one qualification."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Which phase-specific Villager claim about Paul is being stated and endorsed in this exchange?",
+      "participant_outputs": {
+        "Paul": "A reported Villager-holder statement names Paul, with the game phase unresolved. No unique phase-indexed current-holder consequence is licensed.",
+        "Mitchell": "Potentially the same reported Paul/Villager output, conditional on a supported pronoun-and-predicate link. Its phase remains unknown."
+      },
+      "comparison": "The two utterances plausibly share a Paul/Villager claim, but the question requires the same phase-specific consequence. That phase remains unresolved. Preserve UNRESOLVED without treating a matching person name as complete consequence equality.",
+      "blocking_reasons": [
+        "The existing phase-specific question has no uniquely established phase.",
+        "The scope of he is need not include Paul’s only-one qualification.",
+        "The earlier Robber target him is not uniquely grounded and cannot repair the current-role uncertainty."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "Paul": [],
+        "Mitchell": []
+      },
+      "consequence_encoding_note": "These encodings concern expressed reports, claims or conditional contents only. They do not verify hidden roles or actual actions. An empty set means no fully specified supported answer for this question is entered; it is not a finding about private understanding.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "The two utterances plausibly share a Paul/Villager claim, but the question requires the same phase-specific consequence. That phase remains unresolved. Preserve UNRESOLVED without treating a matching person name as complete consequence equality.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible phase ambiguity diagnostic; a content-specific endorsement does not identify the required phase."
+  },
+  "WW07_WW07_r099": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "2dc31497bdb243ea408422900507c758c5305dae7abcd5a1cc60901ff37a901a",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "7c2e988ff6a950389c3617e6a5608d2c0b1a32a6093a01ebb92b9448680ba685",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 99,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "WW07_public_instructions",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "Dylan",
+      "Dan"
+    ],
+    "local_question": "Who is reported to hold the Seer card after Dylan’s claimed move, conditional on Dan having been the Seer?",
+    "focus_source_ids": [
+      "WW07.row.098",
+      "WW07.row.099"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "WW07.row.098",
+        "speaker": "Dylan",
+        "quote": "If you were actually a Seer, that means Ed's now a Seer because I was making some trouble last night."
+      },
+      {
+        "source_id": "WW07.row.099",
+        "speaker": "Dan",
+        "quote": "All right."
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "Dylan",
+        "meaning": "Dylan states that Ed is now Seer if Dan was Seer, connecting the conclusion to his reported troublemaking. This expresses a conditional consequence without verifying the premise or a complete swap history.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "WW07.row.098",
+            "quote": "If you were actually a Seer, that means Ed's now a Seer because I was making some trouble last night.",
+            "speaker": "Dylan"
+          }
+        ],
+        "support_note": "Dylan explicitly states the conditional Ed-as-Seer conclusion in row098. It is supported as a reported conditional, without proving its premise or hidden cards."
+      },
+      {
+        "participant_id": "Dan",
+        "meaning": "Dan earlier claims to have been Seer and responds All right to Dylan. That response does not establish his adopted interpretation of the new post-move Ed conclusion.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "WW07.row.080",
+            "quote": "I want to speak. I'm the Seer and I looked at your card and you're a Werewolf and you're 100% lying.",
+            "speaker": "Dan"
+          },
+          {
+            "source_id": "WW07.row.097",
+            "quote": "Wait, what? I'm not helping the Werewolves out.",
+            "speaker": "Dan"
+          },
+          {
+            "source_id": "WW07.row.099",
+            "quote": "All right.",
+            "speaker": "Dan"
+          }
+        ],
+        "support_note": "Dan’s prior Seer self-report in row080 supports an earlier premise, not adoption of Dylan’s newly introduced post-move Ed conclusion. All right at row099 alone does not establish that adoption."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Who is reported to hold the Seer card after Dylan’s claimed move, conditional on Dan having been the Seer?",
+      "participant_outputs": {
+        "Dylan": "Conditional reported consequence: Ed holds the Seer card after the claimed move, under the premise that Dan previously held it. The specific exchange must not be invented beyond the report.",
+        "Dan": "Unknown for the focal post-move holder question. Dan’s earlier self-role claim concerns a different possible phase/premise and cannot be substituted for this missing consequence."
+      },
+      "comparison": "Dylan supplies a conditional holder consequence, but Dan’s prior claim and acknowledgment do not support a second consequence for the same branch. Keep UNRESOLVED rather than inferring adoption or a complete hidden action sequence.",
+      "blocking_reasons": [
+        "Dan has no supported output for the same post-move conditional branch.",
+        "The initial-role premise cannot substitute for a post-move consequence.",
+        "The full swap pair is not explicitly stated for independent move execution."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "Dylan": [
+          [
+            "Holder",
+            "WW07.Dylan_reported_move",
+            "Seer",
+            "Ed",
+            "after_reported_move",
+            "if_Dan_was_Seer"
+          ]
+        ],
+        "Dan": []
+      },
+      "consequence_encoding_note": "These encodings concern expressed reports, claims or conditional contents only. They do not verify hidden roles or actual actions. An empty set means no fully specified supported answer for this question is entered; it is not a finding about private understanding.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "Dylan supplies a conditional holder consequence, but Dan’s prior claim and acknowledgment do not support a second consequence for the same branch. Keep UNRESOLVED rather than inferring adoption or a complete hidden action sequence.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible missing-uptake diagnostic; an earlier Seer claim does not adopt a newly stated post-move consequence."
+  },
+  "WW08_WW08_r005": {
+    "review_status": "in_progress",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "2834d22f105aea3881fd602aec3be91f1d901789b406e9424a268d3b96e5259a",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "74bf664ac958f9ea4788b8aba42e709edde5d6b4dff414e13d79428526c20d23",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 5,
+        "scope": "Exact text, IDs, speakers, frozen input and local expressed-content support checked against the retained prefix. No external map fact or rule execution is needed for this narrow decision. The draft context adapter and underlying audio/video are not certified.",
+        "context_statuses": [
+          {
+            "source_id": "WW08_public_instructions",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "Ed",
+      "Dan"
+    ],
+    "local_question": "Whom does the endorsed report identify as Mason at Ed’s reported observation?",
+    "focus_source_ids": [
+      "WW08.row.004",
+      "WW08.row.005"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "WW08.row.004",
+        "speaker": "Ed",
+        "quote": "I saw that Dan was a mason."
+      },
+      {
+        "source_id": "WW08.row.005",
+        "speaker": "Dan",
+        "quote": "That is accurate."
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "Ed",
+        "meaning": "Ed reports seeing Dan as Mason at the reported observation. This supports the content of Ed’s report without establishing Dan’s actual current card.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "WW08.row.004",
+            "quote": "I saw that Dan was a mason.",
+            "speaker": "Ed"
+          }
+        ],
+        "support_note": "Ed explicitly names Dan and Mason in the observation report at row004, in response to the Seer question in rows002–003."
+      },
+      {
+        "participant_id": "Dan",
+        "meaning": "Dan explicitly endorses the immediately preceding reported Dan/Mason proposition by saying That is accurate. His endorsement supports the same reported-observation content, with no current-card or hidden-truth inference.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "WW08.row.005",
+            "quote": "That is accurate.",
+            "speaker": "Dan"
+          }
+        ],
+        "support_note": "Dan’s That is accurate explicitly evaluates the immediately preceding single Dan/Mason observation proposition. The local that-to-report link is uniquely grounded; this is content-specific endorsement rather than bare uptake."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Whom does the endorsed report identify as Mason at Ed’s reported observation?",
+      "participant_outputs": {
+        "Ed": "Dan as Mason at Ed's reported observation.",
+        "Dan": "The same reported Dan/Mason proposition, explicitly endorsed as accurate."
+      },
+      "comparison": "For the existing bounded question about whom the endorsed report identifies as Mason, both supported readings yield Dan at Ed’s reported observation. The explicit naming and content-specific endorsement justify ALIGNED. No inference about later role movement, actual cards or truthful reports is required.",
+      "blocking_reasons": [],
+      "verification_note": "Exact text, IDs, speakers, frozen input and local expressed-content support checked against the retained prefix. No external map fact or rule execution is needed for this narrow decision. The draft context adapter and underlying audio/video are not certified.",
+      "supported_consequences": {
+        "Ed": [
+          [
+            "Holder",
+            "WW08.Ed_reported_observation",
+            "Mason",
+            "Dan",
+            "at_reported_observation",
+            "Ed_observation_report"
+          ]
+        ],
+        "Dan": [
+          [
+            "Holder",
+            "WW08.Ed_reported_observation",
+            "Mason",
+            "Dan",
+            "at_reported_observation",
+            "Ed_observation_report"
+          ]
+        ]
+      },
+      "consequence_encoding_note": "These encodings concern expressed reports, claims or conditional contents only. They do not verify hidden roles or actual actions. An empty set means no fully specified supported answer for this question is entered; it is not a finding about private understanding.",
+      "implementation_limits": [],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": false,
+    "provisional_label": "ALIGNED",
+    "prefix_only_rationale": "For the existing bounded question about whom the endorsed report identifies as Mason, both supported readings yield Dan at Ed’s reported observation. The explicit naming and content-specific endorsement justify ALIGNED. No inference about later role movement, actual cards or truthful reports is required.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Suitable as a bounded reported-observation agreement candidate; no current-card truth claim."
+  },
+  "WW09_WW09_r059": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "9f5acb25ec1e096facb52bb25326b35e2b7c1617660032d12556dd1cd72d0dda",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "7245e1af75682f98b27adfc6d06123d673bfaa96e3fea89f49037cdc7c662fb9",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 59,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "WW09_public_instructions",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "Katie",
+      "Brett"
+    ],
+    "local_question": "Which night role is Katie claiming in this exchange, and which role does Brett attribute to her claim?",
+    "focus_source_ids": [
+      "WW09.row.058",
+      "WW09.row.059"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "WW09.row.058",
+        "speaker": "Katie",
+        "quote": "I was all by myself."
+      },
+      {
+        "source_id": "WW09.row.059",
+        "speaker": "Brett",
+        "quote": "So, oh you're claiming the Troublemaker. What did you do, Ed?"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "Katie",
+        "meaning": "Katie’s Mason discussion followed by I was all by myself is a plausible Mason self-report for the discussed night. Elliptical stance and report scope remain unresolved.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "WW09.row.056",
+            "quote": "Although I will say... thanks for asking. Sorry, that was really loud. Watch the second video. There was only one Mason. So there's another Mason card in the middle. I was all by myself.",
+            "speaker": "Katie"
+          },
+          {
+            "source_id": "WW09.row.058",
+            "quote": "I was all by myself.",
+            "speaker": "Katie"
+          }
+        ],
+        "support_note": "Katie’s Mason discussion and repetition of I was all by myself after the Mason question support a plausible elliptical Mason self-report. Earlier Villager/Drunk joking or differently scoped claims make stance and current report scope material; no hidden role can be asserted."
+      },
+      {
+        "participant_id": "Brett",
+        "meaning": "Brett attributes a Troublemaker claim to you. Katie may be the addressee, but his immediate address to Ed leaves that binding uncertain. The statement attributes a claim; it does not endorse an actual role.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "WW09.row.057",
+            "quote": "Wait, so are you a Mason?",
+            "speaker": "Brett"
+          },
+          {
+            "source_id": "WW09.row.059",
+            "quote": "So, oh you're claiming the Troublemaker. What did you do, Ed?",
+            "speaker": "Brett"
+          }
+        ],
+        "support_note": "Brett attributes a Troublemaker claim using you, but immediately addresses Ed in the same turn. Katie is a plausible antecedent, yet the text alone does not uniquely fix the addressee or stance. Attribution is not endorsement of an actual role."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Which night role is Katie claiming in this exchange, and which role does Brett attribute to her claim?",
+      "participant_outputs": {
+        "Katie": "Candidate report content: Katie claims the Mason role in the discussed night event. A consequence for a fixed person’s claimed role is not implemented by the present starter adapter.",
+        "Brett": "Conditional attributed content: Katie’s claim is Troublemaker, if Katie is still the addressee. This is a claim-attribution output, not an actual-role assertion, and the needed consequence type is outside the starter adapter."
+      },
+      "comparison": "A Mason versus Troublemaker claim-content difference is plausible, but the same addressee and report scope are not established. UNRESOLVED follows from those evidence limits independently of the current adapter’s additional coverage limit.",
+      "blocking_reasons": [
+        "Brett’s you is not uniquely bound to Katie in the available text.",
+        "The elliptical self-report and stance need a same-report scope check."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "Katie": [],
+        "Brett": []
+      },
+      "consequence_encoding_note": "These encodings concern expressed reports, claims or conditional contents only. They do not verify hidden roles or actual actions. An empty set means no fully specified supported answer for this question is entered; it is not a finding about private understanding.",
+      "implementation_limits": [
+        "The starter adapter lacks a validated claimed-role consequence for a fixed person; treat this as a separate software-coverage limit, not evidence of participant ambiguity."
+      ],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "A Mason versus Troublemaker claim-content difference is plausible, but the same addressee and report scope are not established. UNRESOLVED follows from those evidence limits independently of the current adapter’s additional coverage limit.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible attribution/addressee ambiguity diagnostic; claimed-role computation needs a defined adapter."
+  },
+  "WW10_WW10_r067": {
+    "review_status": "reviewed",
+    "reviewer_id": "r1",
+    "review_metadata": {
+      "schema_version": "1.0",
+      "evidence_tier": "S",
+      "observer_input_sha256": "9d88a9cb479d1ae683d980f58fc2b72a59915d389b27446889855aba61e3556e",
+      "prior_exposure": {
+        "assistant_draft": true,
+        "system_outputs": null,
+        "released_labels": null,
+        "later_evidence": null,
+        "notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred."
+      },
+      "prefix_first_review_completed": false,
+      "later_evidence_review_completed": false,
+      "assistant_wording_fields": [
+        "blocking_uncertainty",
+        "evidence_verified",
+        "focal_pair",
+        "focus_quotes",
+        "focus_source_ids",
+        "inclusion_or_exclusion_reason",
+        "local_question",
+        "participant_meanings_with_source_quotes",
+        "prefix_only_rationale",
+        "provisional_label",
+        "task_outputs"
+      ],
+      "human_content_confirmed": true,
+      "reference_condition": "assisted_development",
+      "source_human_confirmation": {
+        "confirmed": true,
+        "reviewer_id": "r1",
+        "confirmed_on": "2026-11-10",
+        "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+        "source_file": "wording/REVIEWS_A.json",
+        "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+        "source_case_sha256": "f9ae8d158540ecee8c262d8424b4f64314b3303b3075b6efabdf3299c889305c",
+        "source_review_status": "in_progress",
+        "source_prefix_first_review_completed": false
+      },
+      "assistant_revision": {
+        "prepared_on": "2026-11-10",
+        "changed_fields": [
+          "participant_meanings_with_source_quotes",
+          "task_outputs",
+          "provisional_label",
+          "prefix_only_rationale",
+          "evidence_verified",
+          "inclusion_or_exclusion_reason"
+        ],
+        "labels_are_provisional": true,
+        "human_reviews_created_by_assistant": 0,
+        "later_evidence_used_for_judgment": false,
+        "model_outputs_used_for_judgment": false,
+        "status_when_prepared": "awaiting_r1_check_of_added_content"
+      },
+      "evidence_audit": {
+        "checked_on": "2026-11-10",
+        "checked_by": "assistant",
+        "exact_quotes_and_speakers_verified": true,
+        "observer_hash_matches_confirmed_source": true,
+        "retained_prefix_turn_count": 67,
+        "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+        "context_statuses": [
+          {
+            "source_id": "WW10_public_instructions",
+            "review_status": "draft"
+          }
+        ],
+        "context_adapter_certified": false,
+        "underlying_audio_video_verified": false,
+        "model_execution_preflight": "blocked_unverified_context"
+      }
+    },
+    "focal_pair": [
+      "Katie",
+      "Brett"
+    ],
+    "local_question": "Does Brett’s reported Robber action entitle him to know the received card, and is that the same issue Katie is challenging?",
+    "focus_source_ids": [
+      "WW10.row.066",
+      "WW10.row.067"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "WW10.row.066",
+        "speaker": "Katie",
+        "quote": "You don't get to know that."
+      },
+      {
+        "source_id": "WW10.row.067",
+        "speaker": "Brett",
+        "quote": "A robber? Yeah, I do."
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "Katie",
+        "meaning": "Katie denies that Brett gets to know that, after challenging his earlier Drunk claim. The exact knowledge object, operation and premise branch of the denial remain unresolved.",
+        "support": "possible",
+        "source_quotes": [
+          {
+            "source_id": "WW10.row.063",
+            "quote": "But you also claimed to be drunk, so.",
+            "speaker": "Katie"
+          },
+          {
+            "source_id": "WW10.row.066",
+            "quote": "You don't get to know that.",
+            "speaker": "Katie"
+          }
+        ],
+        "support_note": "Katie challenges Brett’s claimed knowledge after referring to his earlier Drunk claim. Her that may target knowledge of the received card, an operation-specific rule or story consistency; a unique common rule question is not fixed."
+      },
+      {
+        "participant_id": "Brett",
+        "meaning": "Brett explicitly defends knowing his received card on the basis that he was Robber. This supports his expressed conditional knowledge claim without verifying the event or hidden card.",
+        "support": "supported",
+        "source_quotes": [
+          {
+            "source_id": "WW10.row.059",
+            "quote": "I was the robber, and I took his drunk. That's why I said I was drunk.",
+            "speaker": "Brett"
+          },
+          {
+            "source_id": "WW10.row.064",
+            "quote": "Because I became the drunk.",
+            "speaker": "Brett"
+          },
+          {
+            "source_id": "WW10.row.067",
+            "quote": "A robber? Yeah, I do.",
+            "speaker": "Brett"
+          }
+        ],
+        "support_note": "Brett explicitly claims a Robber history and defends knowing the received card in row067. Public row004 includes permission to view a Robber’s new card, but his story is not thereby verified."
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision.",
+      "scope": "Does Brett’s reported Robber action entitle him to know the received card, and is that the same issue Katie is challenging?",
+      "participant_outputs": {
+        "Katie": "Unknown: a denial of knowledge is expressed, but its precise card, operation and premise branch are not fixed well enough to compute the same rule consequence as Brett’s.",
+        "Brett": "Conditional on his Robber-exchange report, Brett claims he can know the received card. The prefix’s public Robber instruction permits viewing a new card, but the present adapter does not compute an information-access output."
+      },
+      "comparison": "Brett expresses a Robber-based knowledge claim, but Katie’s challenge has several live scopes. Without a common operation and premise branch there are not two comparable known consequences. UNRESOLVED is warranted independently of the current information-access adapter gap.",
+      "blocking_reasons": [
+        "Katie’s challenge is not uniquely scoped to the same operation and premise branch as Brett’s reply.",
+        "The public rule does not reveal whether she disputes that rule, the received role, or the credibility of his changing story."
+      ],
+      "verification_note": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+      "supported_consequences": {
+        "Katie": [],
+        "Brett": []
+      },
+      "consequence_encoding_note": "These encodings concern expressed reports, claims or conditional contents only. They do not verify hidden roles or actual actions. An empty set means no fully specified supported answer for this question is entered; it is not a finding about private understanding. Brett's information-access claim remains in prose because that output type is not implemented.",
+      "implementation_limits": [
+        "The current adapter also lacks an information-access consequence; keep that software coverage issue separate from evidence uncertainty."
+      ],
+      "computation_status": "reference-side encoding only; no model or task-adapter experiment performed"
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": "UNRESOLVED",
+    "prefix_only_rationale": "Brett expresses a Robber-based knowledge claim, but Katie’s challenge has several live scopes. Without a common operation and premise branch there are not two comparable known consequences. UNRESOLVED is warranted independently of the current information-access adapter gap.",
+    "evidence_verified": true,
+    "include_in_pilot": true,
+    "inclusion_or_exclusion_reason": "Final selection pending. Possible challenge-scope ambiguity diagnostic; information-access computation needs a defined adapter."
+  }
+}

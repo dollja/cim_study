@@ -1,0 +1,74 @@
+{
+  "sample_id": "EXAMPLE_q1ec2_below_springs",
+  "reference_status": "unreviewed",
+  "original_annotation": {
+    "subtask_hypotheses": [
+      {
+        "description": "Navigate at the height of the hot wells/hot springs, turn left after the giver self-correction, and move below the springs.",
+        "evidence_ids": [
+          "q1ec2.row.065",
+          "q1ec2.row.067",
+          "q1ec2.row.069",
+          "q1ec2.row.071",
+          "q1ec2.map9g",
+          "q1ec2.map9f"
+        ]
+      }
+    ],
+    "focus": {
+      "quote": "and down below the springs",
+      "utterance_id": "q1ec2.row.071",
+      "why_selected": "The response provides positive evidence about both the landmark and the below relation."
+    },
+    "participant_interpretations": [
+      {
+        "participant_id": "giver",
+        "supported_readings": [
+          {
+            "reading": "Move into the area below the giver hot-wells landmark, expressed using the follower term springs.",
+            "evidence_ids": [
+              "q1ec2.row.065",
+              "q1ec2.row.067",
+              "q1ec2.row.071",
+              "q1ec2.map9g"
+            ]
+          }
+        ],
+        "uncertainty": "Exact drawn path and distance below the landmark are not established by the words alone."
+      },
+      {
+        "participant_id": "follower",
+        "supported_readings": [
+          {
+            "reading": "Move below the hot-springs landmark on the follower map.",
+            "evidence_ids": [
+              "q1ec2.row.072",
+              "q1ec2.map9f"
+            ]
+          }
+        ],
+        "uncertainty": "The response does not specify exact distance or prove physical execution."
+      }
+    ],
+    "consequence_analysis": [
+      {
+        "subtask_hypothesis": "Move below the corresponding hot-wells/hot-springs landmark.",
+        "reading": "Both participants use corresponding map labels for the same location and agree on the below relation.",
+        "affected_judgment_or_action": "Direction relative to the landmark.",
+        "expected_consequence": "Both supported readings prescribe movement below the corresponding landmark; no different immediate action is supported.",
+        "evidence_ids": [
+          "q1ec2.row.065",
+          "q1ec2.row.071",
+          "q1ec2.row.072",
+          "q1ec2.map9g",
+          "q1ec2.map9f"
+        ]
+      }
+    ],
+    "case_type": "aligned_or_harmless",
+    "explicit_misunderstanding_at_cutoff": false,
+    "rationale": "The preceding exchange establishes hot wells/hot springs as corresponding labels, and the follower repeats the below relation in the first response. Remaining distance uncertainty does not create a supported alternative immediate direction.",
+    "selection_reason": "Shows alignment across a documented lexical variant and a spatial relation, without treating different landmark names as misunderstanding."
+  },
+  "warning": "This inherited annotation is not an independent human reference and never enters model requests."
+}

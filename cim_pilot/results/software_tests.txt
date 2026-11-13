@@ -1,0 +1,6 @@
+Current test result summary
+Command: python -m unittest discover -s tests -v
+26 tests passed in 0.014s.
+Two newly added tests exclude the recorded game narrator from accusation targets and focal-player pairs.
+The original 24-test output is retained in initial_software_tests_24.txt.
+Candidate source-integrity checks are reported separately in prospective/validation.json.

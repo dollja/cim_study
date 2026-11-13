@@ -1,0 +1,2297 @@
+{
+  "MT01_q1ec1_r049": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "1f505822d2ecf50ac0763abed90f9d9e98236242e593f72cb5d3fce54fd4a133",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "giver",
+      "follower"
+    ],
+    "Local task question": "On which side of the west lake should the current route segment pass?",
+    "Selected dialogue turns": [
+      "q1ec1.row.048",
+      "q1ec1.row.049"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "q1ec1.row.048",
+        "Speaker": "giver",
+        "Exact expression": "which we're going to pass on the south erm southeast side"
+      },
+      {
+        "Source turn": "q1ec1.row.049",
+        "Speaker": "follower",
+        "Exact expression": "mmhmm"
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "giver",
+        "Interpretation": "The giver introduces a west lake at q1ec1.row.046 and instructs passing on its south, then southeast, side at q1ec1.row.048. This is expressed route content; the within-turn revision and the map binding still need checking.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec1.row.046",
+            "Exact evidence": "at the top there there's a west lake"
+          },
+          {
+            "Evidence source": "q1ec1.row.048",
+            "Exact evidence": "which we're going to pass on the south erm southeast side"
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "follower",
+        "Interpretation": "The follower says okay at q1ec1.row.047 and mmhmm at q1ec1.row.049, without stating a west-lake referent or side. The earlier explicit northeast repetition at .013 concerns a previous step and does not ground this lake instruction.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec1.row.013",
+            "Exact evidence": "s-- slightly northeast"
+          },
+          {
+            "Evidence source": "q1ec1.row.047",
+            "Exact evidence": "okay"
+          },
+          {
+            "Evidence source": "q1ec1.row.049",
+            "Exact evidence": "mmhmm"
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "On which side of the west lake should the current route segment pass?",
+      "Consequences by participant": {
+        "giver": "Proposed giver consequence: pass on the southeast side of the west lake if the repair and binding are verified. Southeast is outside the current route-relation registry.",
+        "follower": "Follower consequence: unknown under Tier S; the prefix does not establish the adopted west-lake side or route constraint."
+      },
+      "Comparison in words": "The giver expresses a southeast-qualified lake-side instruction; the follower’s corresponding consequence remains unestablished. A two-participant comparison is unavailable, and the current adapter does not encode southeast.",
+      "What is still unknown? One reason per line": [
+        "No expressed follower reading for the west-lake side appears in the complete prefix.",
+        "The south-to-southeast wording requires repair-scope review, and southeast is outside the current route-relation registry.",
+        "The relevant m12 map inventory and correspondence remain draft."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "The giver expresses a southeast-qualified lake-side instruction; the follower’s corresponding consequence remains unestablished. A two-participant comparison is unavailable, and the current adapter does not encode southeast.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: retain as an acknowledgment-only diagnostic if the sampling plan includes missing participant support; q1ec1.row.049 does not establish a lake-side route."
+  },
+  "MT02_q1ec3_r012": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "310038582e03540731b852567c129c638c10086952b4873a10ee945492dc8746",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "giver",
+      "follower"
+    ],
+    "Local task question": "Which landmarks constrain the current route below the graveyard and above the carved wooden pole?",
+    "Selected dialogue turns": [
+      "q1ec3.row.011",
+      "q1ec3.row.012"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "q1ec3.row.011",
+        "Speaker": "giver",
+        "Exact expression": "and below the graveyard below the graveyard but above the carved wooden pole"
+      },
+      {
+        "Source turn": "q1ec3.row.012",
+        "Speaker": "follower",
+        "Exact expression": "oh hang on i don't have a graveyard"
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "giver",
+        "Interpretation": "The giver explicitly instructs a route below the graveyard and above the carved wooden pole at q1ec3.row.011. The named pole is not yet a verified unique referent in the draft inventory.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec3.row.006",
+            "Exact evidence": "go south from the diamond mine until you are just above the desert"
+          },
+          {
+            "Evidence source": "q1ec3.row.009",
+            "Exact evidence": "and go below the diamond mine"
+          },
+          {
+            "Evidence source": "q1ec3.row.011",
+            "Exact evidence": "and below the graveyard below the graveyard but above the carved wooden pole"
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "follower",
+        "Interpretation": "At q1ec3.row.012 the follower explicitly reports not having a graveyard. This supports a report of missing local context, not selection of a substitute landmark or a competing route.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec3.row.007",
+            "Exact evidence": "so that's with the diamond mine on on your right"
+          },
+          {
+            "Evidence source": "q1ec3.row.010",
+            "Exact evidence": "mmhmm"
+          },
+          {
+            "Evidence source": "q1ec3.row.012",
+            "Exact evidence": "oh hang on i don't have a graveyard"
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Which landmarks constrain the current route below the graveyard and above the carved wooden pole?",
+      "Consequences by participant": {
+        "giver": "Proposed giver consequence: a segment below the graveyard and above the intended carved wooden pole, conditional on verified anchor bindings and an appropriate route-step representation.",
+        "follower": "Follower consequence: no supported graveyard-and-pole route is available at the cutoff; no substitute anchor is expressed."
+      },
+      "Comparison in words": "The giver states a graveyard-and-pole route constraint, while the follower reports a missing graveyard without adopting another route. This is not evidence of two incompatible adopted consequences.",
+      "What is still unknown? One reason per line": [
+        "No expressed follower adoption of the graveyard instruction or an alternative anchor is established.",
+        "The giver’s carved-wooden-pole reference must be disambiguated using admitted evidence.",
+        "The relevant m6 inventory facts and correspondences are unverified."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "The giver states a graveyard-and-pole route constraint, while the follower reports a missing graveyard without adopting another route. This is not evidence of two incompatible adopted consequences.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: q1ec3.row.012 explicitly reports no graveyard. Consider this as a missing-context case after map verification and a sampling-scope decision."
+  },
+  "MT03_q1ec4_r019": {
+    "Review status": "reviewed",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "355686b4c795d03984f6c634c8dbd01ad0567ef1ccc28e01322ddf4e6c652709",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": true,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "giver",
+      "follower"
+    ],
+    "Local task question": "On which side of the pine should the current route segment pass after the correction?",
+    "Selected dialogue turns": [
+      "q1ec4.row.018",
+      "q1ec4.row.019"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "q1ec4.row.018",
+        "Speaker": "giver",
+        "Exact expression": "up above it"
+      },
+      {
+        "Source turn": "q1ec4.row.019",
+        "Speaker": "follower",
+        "Exact expression": "up above it"
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "giver",
+        "Interpretation": "The giver introduces a pine at q1ec4.row.015 and responds up above it at .018 after the follower’s below phrase. The giver expresses an above relation; its pine antecedent and correction scope require confirmation.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec4.row.015",
+            "Exact evidence": "and then back up again and you sh-- go past um a pine on your right"
+          },
+          {
+            "Evidence source": "q1ec4.row.018",
+            "Exact evidence": "up above it"
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "follower",
+        "Interpretation": "The follower first says down below that at q1ec4.row.017 and then repeats up above it at .019 after the giver’s response. The final wording is evidence for an above restatement if the same referent and correction chain are established.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec4.row.016",
+            "Exact evidence": "dow--"
+          },
+          {
+            "Evidence source": "q1ec4.row.017",
+            "Exact evidence": "down below that"
+          },
+          {
+            "Evidence source": "q1ec4.row.019",
+            "Exact evidence": "up above it"
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "On which side of the pine should the current route segment pass after the correction?",
+      "Consequences by participant": {
+        "giver": "Proposed giver consequence: pass above the pine in the current segment, if the .015-to-.018 reference chain and map binding are verified.",
+        "follower": "Proposed follower consequence: pass above the same pine, conditional on the final repetition expressing the corrected reading and on the verified reference chain."
+      },
+      "Comparison in words": "Both final phrases express above, so the proposed local outputs coincide if the pine binding, endorsement and correction scope are verified. No full-route or early-warning conclusion follows.",
+      "What is still unknown? One reason per line": [
+        "The pronoun chain from q1ec4.row.015 to .018–.019 and the target of the correction require review.",
+        "The final repetition must be assessed as the active expressed reading, not inferred from map presence.",
+        "The m3 pine identity/correspondence remains draft."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "Both final phrases express above, so the proposed local outputs coincide if the pine binding, endorsement and correction scope are verified. No full-route or early-warning conclusion follows.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: q1ec4.row.018–.019 provide an explicit repetition after correction. Consider a local post-correction comparison once the pine chain and maps are verified."
+  },
+  "MT04_q1ec5_r031": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "55b7c0130c3057487a52ff5c0e92a6a8ea6b0d161f3adb5cb3423a27799bc0b1",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "giver",
+      "follower"
+    ],
+    "Local task question": "What relation to the diamond mine is being expressed for the graveyard in the current exchange?",
+    "Selected dialogue turns": [
+      "q1ec5.row.030",
+      "q1ec5.row.031"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "q1ec5.row.030",
+        "Speaker": "giver",
+        "Exact expression": "there's actually a graveyard to the right of the diamond mine on my map"
+      },
+      {
+        "Source turn": "q1ec5.row.031",
+        "Speaker": "follower",
+        "Exact expression": "below it"
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "giver",
+        "Interpretation": "At q1ec5.row.030 the giver states that a graveyard is to the right of the diamond mine on the giver’s map. This reports a landmark relation, not a complete route instruction for both participants.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec5.row.019",
+            "Exact evidence": "and do you have a graveyard"
+          },
+          {
+            "Evidence source": "q1ec5.row.021",
+            "Exact evidence": "do you have a carved wooden pole in this area"
+          },
+          {
+            "Evidence source": "q1ec5.row.025",
+            "Exact evidence": "go go right from the diamond mine"
+          },
+          {
+            "Evidence source": "q1ec5.row.030",
+            "Exact evidence": "there's actually a graveyard to the right of the diamond mine on my map"
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "follower",
+        "Interpretation": "The follower earlier answers no to having a graveyard (.020), then says below it at .031. The fragment does not unambiguously establish which entity it denotes or whether the utterance is a question, correction or assertion.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec5.row.020",
+            "Exact evidence": "no"
+          },
+          {
+            "Evidence source": "q1ec5.row.022",
+            "Exact evidence": "right away down the very bottom"
+          },
+          {
+            "Evidence source": "q1ec5.row.031",
+            "Exact evidence": "below it"
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "What relation to the diamond mine is being expressed for the graveyard in the current exchange?",
+      "Consequences by participant": {
+        "giver": "Proposed giver content: graveyard right_of diamond mine. A landmark-to-landmark relation must not be silently encoded as a route-position output.",
+        "follower": "Follower consequence: unknown until the subject, antecedent and force of below it are established for the same task question."
+      },
+      "Comparison in words": "Right_of and below are not inherently incompatible; one object can be both right of and below another. The follower’s fragment and the consequence type remain unresolved.",
+      "What is still unknown? One reason per line": [
+        "The follower fragment’s subject, it antecedent and question-versus-assertion force are unclear.",
+        "Right_of and below can be jointly true and do not establish incompatible alternatives.",
+        "The current adapter does not directly encode this landmark-to-landmark question as a route output; required m6 facts are draft."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "Right_of and below are not inherently incompatible; one object can be both right of and below another. The follower’s fragment and the consequence type remain unresolved.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: use this case to examine whether distinct spatial words are wrongly treated as incompatible readings. Review q1ec5.row.030–.031 and the earlier graveyard denial."
+  },
+  "MT05_q1ec6_r053": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "abb1d4bc902cd86fd1419bec8357fc11f4325359ca5cd59c01599cd95e8b0e12",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "follower",
+      "giver"
+    ],
+    "Local task question": "What relation to the bakery is expressed for the current route segment?",
+    "Selected dialogue turns": [
+      "q1ec6.row.052",
+      "q1ec6.row.053"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "q1ec6.row.052",
+        "Speaker": "follower",
+        "Exact expression": "i'm going east underneath the bakery"
+      },
+      {
+        "Source turn": "q1ec6.row.053",
+        "Speaker": "giver",
+        "Exact expression": "underneath the bakery"
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "follower",
+        "Interpretation": "At q1ec6.row.052 the follower explicitly says they are going east underneath the bakery. This states a local below-bakery route reading, subject to verified bakery identity.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec6.row.050",
+            "Exact evidence": "yeah"
+          },
+          {
+            "Evidence source": "q1ec6.row.052",
+            "Exact evidence": "i'm going east underneath the bakery"
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "giver",
+        "Interpretation": "The giver introduces a loop around a bakery at q1ec6.row.049 and repeats underneath the bakery at .053. The final phrase can support the same below relation if it endorses the follower’s statement rather than questioning it.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec6.row.049",
+            "Exact evidence": "and then go east again and you loop round about a bakery"
+          },
+          {
+            "Evidence source": "q1ec6.row.053",
+            "Exact evidence": "underneath the bakery"
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "What relation to the bakery is expressed for the current route segment?",
+      "Consequences by participant": {
+        "follower": "Proposed follower consequence: Route(bakery_step, below, verified_bakery), once the bakery binding is verified. Eastward direction and exact loop geometry are outside this bounded projection.",
+        "giver": "Proposed giver consequence: the same below-bakery constraint if .053 endorses .052; otherwise the giver’s local side remains unresolved."
+      },
+      "Comparison in words": "The two phrases can yield the same local below-bakery output if the giver’s echo endorses the follower’s reading and the anchor correspondence is verified.",
+      "What is still unknown? One reason per line": [
+        "The giver’s echo must be checked for endorsement versus questioning force.",
+        "The relevant m3 bakery binding and cross-map correspondence are still draft.",
+        "The compared output must stay restricted to the local below-bakery relation."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "The two phrases can yield the same local below-bakery output if the giver’s echo endorses the follower’s reading and the anchor correspondence is verified.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: q1ec6.row.052–.053 provide a potential local relation match with explicit wording from both speakers. Verify the echo and bakery correspondence before final inclusion."
+  },
+  "MT06_q1ec7_r022": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "8c22bef2e4c4b8606fc27f154c7b56cf658b8bf9863f191c2a6d4aa0c06074cd",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "giver",
+      "follower"
+    ],
+    "Local task question": "Which landmark and side are expressed for the current mill-and-fence route instruction?",
+    "Selected dialogue turns": [
+      "q1ec7.row.021",
+      "q1ec7.row.022"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "q1ec7.row.021",
+        "Speaker": "giver",
+        "Exact expression": "you want to have the old mill on your right-hand side so if that fence is below the old mill you want to keep that on your right-hand side"
+      },
+      {
+        "Source turn": "q1ec7.row.022",
+        "Speaker": "follower",
+        "Exact expression": "okay"
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "giver",
+        "Interpretation": "At q1ec7.row.021 the giver instructs keeping the old mill on the right and conditionally discusses a fence below it. The second that and the old-mill/mill-wheel link require review.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec7.row.012",
+            "Exact evidence": "and we're going to come up and we're going to have the old"
+          },
+          {
+            "Evidence source": "q1ec7.row.014",
+            "Exact evidence": "below what"
+          },
+          {
+            "Evidence source": "q1ec7.row.016",
+            "Exact evidence": "picket fence"
+          },
+          {
+            "Evidence source": "q1ec7.row.017",
+            "Exact evidence": "i don't have one so i would say"
+          },
+          {
+            "Evidence source": "q1ec7.row.018",
+            "Exact evidence": "whereabouts is the picket fence"
+          },
+          {
+            "Evidence source": "q1ec7.row.020",
+            "Exact evidence": "right okay well"
+          },
+          {
+            "Evidence source": "q1ec7.row.021",
+            "Exact evidence": "you want to have the old mill on your right-hand side so if that fence is below the old mill you want to keep that on your right-hand side"
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "follower",
+        "Interpretation": "The follower asks about going below the picket fence at q1ec7.row.013 and describes the fence below the mill wheel below the caravan park at .019. These supply a question and a map-description report; the final okay at .022 does not state adoption of the giver’s route relation.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec7.row.013",
+            "Exact evidence": "eh-- ehm are we just going are we going to go below the picket fence"
+          },
+          {
+            "Evidence source": "q1ec7.row.015",
+            "Exact evidence": "the picket picket fence"
+          },
+          {
+            "Evidence source": "q1ec7.row.019",
+            "Exact evidence": "picket fence is below the mill wheel which is below the caravan park"
+          },
+          {
+            "Evidence source": "q1ec7.row.022",
+            "Exact evidence": "okay"
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Which landmark and side are expressed for the current mill-and-fence route instruction?",
+      "Consequences by participant": {
+        "giver": "Proposed giver consequence: a path with the old mill on its right, plus a conditional fence relation if that clause’s antecedent and premise are established.",
+        "follower": "Follower consequence: no supported adopted route relative to the old mill or fence is established at the cutoff."
+      },
+      "Comparison in words": "The giver states a conditional route instruction; the follower’s prior map description and final acknowledgment do not establish a matching or competing adopted route.",
+      "What is still unknown? One reason per line": [
+        "The follower has not expressly adopted the relevant mill/fence route relation.",
+        "Old mill/mill wheel correspondence, the second that and the conditional fence clause need review.",
+        "The m12 inventories remain unverified, including the distinct status of the follower-only fence."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "The giver states a conditional route instruction; the follower’s prior map description and final acknowledgment do not establish a matching or competing adopted route.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: q1ec7.row.019 provides explicit map-description evidence, but .022 does not select a route. Consider this as a test of separating contextual knowledge from route adoption."
+  },
+  "MT07_q1ec8_r011": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "a0943bb4a1d7005bc05255610c8256f025539bb2dc8b7b6a0209160924df19c2",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "giver",
+      "follower"
+    ],
+    "Local task question": "What stopping level is intended for the current southward segment?",
+    "Selected dialogue turns": [
+      "q1ec8.row.010",
+      "q1ec8.row.011"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "q1ec8.row.010",
+        "Speaker": "giver",
+        "Exact expression": "until you're like at the bottom of the kind of level with the bottom of the desert"
+      },
+      {
+        "Source turn": "q1ec8.row.011",
+        "Speaker": "follower",
+        "Exact expression": "the map"
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "giver",
+        "Interpretation": "At q1ec8.row.010 the giver states a stopping level with the bottom of the desert. The earlier stony-desert introduction at .001 supplies the candidate antecedent, subject to verified binding.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec8.row.001",
+            "Exact evidence": "right starts above the stony desert"
+          },
+          {
+            "Evidence source": "q1ec8.row.005",
+            "Exact evidence": "turn to the west"
+          },
+          {
+            "Evidence source": "q1ec8.row.007",
+            "Exact evidence": "er go forward and then kind of down south"
+          },
+          {
+            "Evidence source": "q1ec8.row.010",
+            "Exact evidence": "until you're like at the bottom of the kind of level with the bottom of the desert"
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "follower",
+        "Interpretation": "The follower previously repeats west and then down south at q1ec8.row.008, which supports the movement directions. The final the map at .011 is elliptical and does not establish whether the follower adopts a map-bottom endpoint, asks a question or attempts a repair.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1ec8.row.002",
+            "Exact evidence": "alright okay"
+          },
+          {
+            "Evidence source": "q1ec8.row.006",
+            "Exact evidence": "mmhmm"
+          },
+          {
+            "Evidence source": "q1ec8.row.008",
+            "Exact evidence": "west and then down south"
+          },
+          {
+            "Evidence source": "q1ec8.row.011",
+            "Exact evidence": "the map"
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "What stopping level is intended for the current southward segment?",
+      "Consequences by participant": {
+        "giver": "Proposed giver consequence: stop at the bottom level of the intended desert, conditional on verified reference and an appropriate checkpoint function.",
+        "follower": "Follower stopping consequence: unknown; page-bottom is a candidate reading, not an established choice."
+      },
+      "Comparison in words": "Desert-bottom and page-bottom would be different endpoint descriptions if both were adopted, but the follower’s fragment does not establish adoption of the latter.",
+      "What is still unknown? One reason per line": [
+        "The follower’s fragment may be a question, repair or asserted alternative; its force is unresolved.",
+        "Earlier direction agreement does not establish the stopping boundary.",
+        "The relevant m9 map context is draft and a page-edge endpoint requires an explicitly supported task representation."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "Desert-bottom and page-bottom would be different endpoint descriptions if both were adopted, but the follower’s fragment does not establish adoption of the latter.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: q1ec8.row.011 can test whether an elliptical response is improperly promoted into an adopted endpoint. Check its stance and the frozen checkpoint scope."
+  },
+  "MT08_q1nc2_r052": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "5632de3debb8e9645cd3f4fe9bd878a50ee5b1216016360ff44d62c26f9f8f66",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "giver",
+      "follower"
+    ],
+    "Local task question": "Which plane-crash site, if any, is identified for the current route location?",
+    "Selected dialogue turns": [
+      "q1nc2.row.051",
+      "q1nc2.row.052"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "q1nc2.row.051",
+        "Speaker": "giver",
+        "Exact expression": "erm and there's a the site of a plane crash"
+      },
+      {
+        "Source turn": "q1nc2.row.052",
+        "Speaker": "follower",
+        "Exact expression": "i don't have that my plane crash is away up in the top right"
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "giver",
+        "Interpretation": "The giver introduces a site of a plane crash at q1nc2.row.051 after describing leftward movement and an upward segment. The local route context constrains the candidate site, but the duplicate crash labels require verified binding.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1nc2.row.043",
+            "Exact evidence": "about an inch an i-- 'bout an inch from the the s-- the left-hand side of the paper"
+          },
+          {
+            "Evidence source": "q1nc2.row.044",
+            "Exact evidence": "just keep going along straight"
+          },
+          {
+            "Evidence source": "q1nc2.row.046",
+            "Exact evidence": "and then we start going up"
+          },
+          {
+            "Evidence source": "q1nc2.row.049",
+            "Exact evidence": "about three inches maybe"
+          },
+          {
+            "Evidence source": "q1nc2.row.051",
+            "Exact evidence": "erm and there's a the site of a plane crash"
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "follower",
+        "Interpretation": "At q1nc2.row.052 the follower explicitly rejects having the locally discussed site and reports a crash away in the top right. This expresses a distinction between sites, not adoption of the upper-right crash as the current route anchor.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1nc2.row.013",
+            "Exact evidence": "th-- that's marked on my map as well"
+          },
+          {
+            "Evidence source": "q1nc2.row.020",
+            "Exact evidence": "the stony desert is below the start"
+          },
+          {
+            "Evidence source": "q1nc2.row.025",
+            "Exact evidence": "so i-- i'm going left"
+          },
+          {
+            "Evidence source": "q1nc2.row.029",
+            "Exact evidence": "but just round the outline of the desert"
+          },
+          {
+            "Evidence source": "q1nc2.row.038",
+            "Exact evidence": "i'm going along the bottom of the paper"
+          },
+          {
+            "Evidence source": "q1nc2.row.050",
+            "Exact evidence": "three inches"
+          },
+          {
+            "Evidence source": "q1nc2.row.052",
+            "Exact evidence": "i don't have that my plane crash is away up in the top right"
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Which plane-crash site, if any, is identified for the current route location?",
+      "Consequences by participant": {
+        "giver": "Proposed giver consequence: a route checkpoint associated with the locally introduced crash, if the current route location uniquely binds that site.",
+        "follower": "Follower route consequence: unknown for the locally introduced crash; the upper-right site is not adopted as a substitute anchor."
+      },
+      "Comparison in words": "The participants expose a local-context discrepancy, but the follower does not adopt a competing crash-based route. Disjoint route consequences are therefore not established.",
+      "What is still unknown? One reason per line": [
+        "The giver’s crash binding must be checked against the expressed route location and duplicate labels.",
+        "The follower rejects the local crash without stating a substitute route choice.",
+        "The m9 inventories and crash correspondences remain draft."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "The participants expose a local-context discrepancy, but the follower does not adopt a competing crash-based route. Disjoint route consequences are therefore not established.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: q1nc2.row.052 explicitly distinguishes a reported upper-right crash from the local site. Consider a diagnostic that keeps map discrepancy separate from adopted-route divergence."
+  },
+  "MT09_q1nc3_r054": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "51fb37f4c1845fdc9585f36bd6d9a0bdc1e92eb03f250eb5c3cbfb21de0dadd5",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "giver",
+      "follower"
+    ],
+    "Local task question": "Which watercourse, if any, is being identified for the current stopping-point discussion?",
+    "Selected dialogue turns": [
+      "q1nc3.row.053",
+      "q1nc3.row.054"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "q1nc3.row.053",
+        "Speaker": "giver",
+        "Exact expression": "a fast flowing river eh"
+      },
+      {
+        "Source turn": "q1nc3.row.054",
+        "Speaker": "follower",
+        "Exact expression": "no"
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "giver",
+        "Interpretation": "At q1nc3.row.053 the giver responds a fast flowing river eh to the follower’s creek report. This may be a name-checking question or proposal; it does not securely establish that the giver adopted a particular watercourse as the route’s stopping anchor.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1nc3.row.038",
+            "Exact evidence": "you're going vertically downwards past the diamond mine"
+          },
+          {
+            "Evidence source": "q1nc3.row.040",
+            "Exact evidence": "you know just c-- you're curving just curving round the diamond"
+          },
+          {
+            "Evidence source": "q1nc3.row.042",
+            "Exact evidence": "mine uh-huh"
+          },
+          {
+            "Evidence source": "q1nc3.row.049",
+            "Exact evidence": "well do"
+          },
+          {
+            "Evidence source": "q1nc3.row.050",
+            "Exact evidence": "have you got a graveyard sort of in the middle of the page on a level to the c-- er diamond mine"
+          },
+          {
+            "Evidence source": "q1nc3.row.053",
+            "Exact evidence": "a fast flowing river eh"
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "follower",
+        "Interpretation": "The follower says i’ve got a fast running creek at q1nc3.row.052 and answers no to the giver’s river phrase at .054. This supports a creek-availability report and rejection of the proposal, not a specified alternative route consequence.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1nc3.row.039",
+            "Exact evidence": "straight down"
+          },
+          {
+            "Evidence source": "q1nc3.row.044",
+            "Exact evidence": "curve round"
+          },
+          {
+            "Evidence source": "q1nc3.row.045",
+            "Exact evidence": "to your right"
+          },
+          {
+            "Evidence source": "q1nc3.row.047",
+            "Exact evidence": "right right underneath the diamond mine"
+          },
+          {
+            "Evidence source": "q1nc3.row.048",
+            "Exact evidence": "where do i stop"
+          },
+          {
+            "Evidence source": "q1nc3.row.051",
+            "Exact evidence": "no"
+          },
+          {
+            "Evidence source": "q1nc3.row.052",
+            "Exact evidence": "i've got a fast running creek"
+          },
+          {
+            "Evidence source": "q1nc3.row.054",
+            "Exact evidence": "no"
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Which watercourse, if any, is being identified for the current stopping-point discussion?",
+      "Consequences by participant": {
+        "giver": "Giver stopping consequence: unknown for the watercourse exchange; neither a settled watercourse binding nor a stopping relation is expressed securely.",
+        "follower": "Follower stopping consequence: unknown; the creek report and no do not determine a route constraint or agreed stopping point."
+      },
+      "Comparison in words": "The creek/river wording difference and rejection do not establish incompatible task outputs. A shared correspondence, adopted reading and stopping consequence must be reviewed separately.",
+      "What is still unknown? One reason per line": [
+        "The giver’s stance and the target of the follower’s no are unresolved.",
+        "The local exchange does not establish two adopted stopping-point consequences.",
+        "The m6 watercourse correspondence is draft and cannot override the expressed rejection."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "The creek/river wording difference and rejection do not establish incompatible task outputs. A shared correspondence, adopted reading and stopping consequence must be reviewed separately.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: q1nc3.row.052–.054 can test whether a lexical difference and rejection are wrongly treated as consequential divergence. Review the shared question and the available route consequence."
+  },
+  "MT10_q1nc4_r044": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "dffa045e2257f1c33a29ad8abc72640452a5faa95cd9598dacf2b1bca0130788",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "giver",
+      "follower"
+    ],
+    "Local task question": "What route relation to the start is expressed for the current downward segment?",
+    "Selected dialogue turns": [
+      "q1nc4.row.043",
+      "q1nc4.row.044"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "q1nc4.row.043",
+        "Speaker": "follower",
+        "Exact expression": "straight down under the start"
+      },
+      {
+        "Source turn": "q1nc4.row.044",
+        "Speaker": "giver",
+        "Exact expression": "yeah"
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "giver",
+        "Interpretation": "The giver already instructs moving until beneath the start and then downward at q1nc4.row.041. The final yeah at .044 follows the follower’s restatement, but the giver’s relevant reading has its own earlier explicit support.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1nc4.row.002",
+            "Exact evidence": "so the start is at the top left-hand side of the page"
+          },
+          {
+            "Evidence source": "q1nc4.row.026",
+            "Exact evidence": "you should really end up about four inches down from the the cross er you know in the same line like just beneath it in fact fo-- four inches down"
+          },
+          {
+            "Evidence source": "q1nc4.row.031",
+            "Exact evidence": "no no"
+          },
+          {
+            "Evidence source": "q1nc4.row.034",
+            "Exact evidence": "the initial line from th-- the cross"
+          },
+          {
+            "Evidence source": "q1nc4.row.036",
+            "Exact evidence": "goes right but it doesn't go as far right as the cliffs"
+          },
+          {
+            "Evidence source": "q1nc4.row.038",
+            "Exact evidence": "it goes down to where it says cliffs"
+          },
+          {
+            "Evidence source": "q1nc4.row.041",
+            "Exact evidence": "about a centimetre from where it says cliffs to the left-hand side of it okay then you go back left slightly until you're beneath the the start and down you know two or three inches until you're ab--"
+          },
+          {
+            "Evidence source": "q1nc4.row.044",
+            "Exact evidence": "yeah"
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "follower",
+        "Interpretation": "At q1nc4.row.043 the follower explicitly restates straight down under the start. This provides participant-owned evidence for the current below-start relation, rather than relying on an acknowledgment.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "q1nc4.row.030",
+            "Exact evidence": "am i right under the sandstone cliffs"
+          },
+          {
+            "Evidence source": "q1nc4.row.032",
+            "Exact evidence": "no"
+          },
+          {
+            "Evidence source": "q1nc4.row.042",
+            "Exact evidence": "right"
+          },
+          {
+            "Evidence source": "q1nc4.row.043",
+            "Exact evidence": "straight down under the start"
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "What route relation to the start is expressed for the current downward segment?",
+      "Consequences by participant": {
+        "giver": "Proposed giver consequence: the same below-start local constraint expressed at .041, conditional on verified START correspondence and event scope.",
+        "follower": "Proposed follower consequence: Route(current_downward_step, below, verified_start), with straight-down wording recorded separately from the bounded below relation."
+      },
+      "Comparison in words": "Both participants explicitly supply a below-start relation before or at the cutoff. Conditional on verified START correspondence and shared event scope, the bounded local outputs match.",
+      "What is still unknown? One reason per line": [
+        "The START identity/correspondence and current event scope still require context review.",
+        "The local below-start comparison must not be expanded into a claim about matching all distances or the complete route.",
+        "The required m3 inventories are draft."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "Both participants explicitly supply a below-start relation before or at the cutoff. Conditional on verified START correspondence and shared event scope, the bounded local outputs match.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: q1nc4.row.041 and .043 provide explicit below-start content from the giver and follower. Consider a prior-grounding diagnostic after checking the map correspondence."
+  },
+  "WW01_WW01_r028": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "407a9a27ba60d631217b021efeae68476557bff062c1b89d8bcbe285cab7b300",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "Justin",
+      "Alvin"
+    ],
+    "Local task question": "Which two players does Justin’s reported swap concern, and what consequence does each speaker explicitly support for that swap?",
+    "Selected dialogue turns": [
+      "WW01.row.027",
+      "WW01.row.028"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "WW01.row.027",
+        "Speaker": "Justin",
+        "Exact expression": "It's funny you say that because as the Troublemaker, I switched your guys' cards."
+      },
+      {
+        "Source turn": "WW01.row.028",
+        "Speaker": "Alvin",
+        "Exact expression": "Okay. What?"
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "Justin",
+        "Interpretation": "Justin reports acting as Troublemaker and switching “your guys’ cards” at WW01.row.027. This expresses a swap report, but the text does not uniquely name its two targets.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW01.row.027",
+            "Exact evidence": "It's funny you say that because as the Troublemaker, I switched your guys' cards."
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "Alvin",
+        "Interpretation": "Alvin responds “Okay. What?” at WW01.row.028. This supports acknowledgment and a request for clarification; it does not specify which two cards were switched or adopt a resulting role-holder interpretation.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW01.row.023",
+            "Exact evidence": "Really?"
+          },
+          {
+            "Evidence source": "WW01.row.025",
+            "Exact evidence": "Really?"
+          },
+          {
+            "Evidence source": "WW01.row.028",
+            "Exact evidence": "Okay. What?"
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Which two players does Justin’s reported swap concern, and what consequence does each speaker explicitly support for that swap?",
+      "Consequences by participant": {
+        "Justin": "Reported two-player swap; a unique target pair and resulting holder cannot be computed from “your guys’ cards” alone.",
+        "Alvin": "No expressed swap-target or role-holder output: “Okay. What?” asks for clarification without selecting a consequence."
+      },
+      "Comparison in words": "A conditional swap consequence requires the two target players and their relevant pre-swap roles. Justin’s target pair is not uniquely identified in the text, and Alvin does not state a target or holder consequence. No two supported outputs can be compared at this cutoff.",
+      "What is still unknown? One reason per line": [
+        "The phrase “your guys’ cards” does not uniquely identify the swap targets in the text-only prefix.",
+        "Alvin has no expressed reading of the swap targets or resulting holder.",
+        "Pre-swap role assignments and event/phase bindings required for a holder computation are not established for a uniquely identified pair."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "A conditional swap consequence requires the two target players and their relevant pre-swap roles. Justin’s target pair is not uniquely identified in the text, and Alvin does not state a target or holder consequence. No two supported outputs can be compared at this cutoff.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. WW01.row.027–028 is useful for testing whether a deictic swap report and clarification are kept unresolved instead of being converted into a supported target choice."
+  },
+  "WW02_WW02_r040": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "a8a0fbd0c7ea78ebc933ef107f4855ee72fc9be0ea03a393fe0fb7e5138e3b79",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "Justin",
+      "Dan"
+    ],
+    "Local task question": "Whom does each speaker accuse in the current exchange?",
+    "Selected dialogue turns": [
+      "WW02.row.039",
+      "WW02.row.040"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "WW02.row.039",
+        "Speaker": "Justin",
+        "Exact expression": "All right. Caitlynn's a Werewolf."
+      },
+      {
+        "Source turn": "WW02.row.040",
+        "Speaker": "Dan",
+        "Exact expression": "I think that she is a Werewolf."
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "Justin",
+        "Interpretation": "Justin explicitly names Caitlynn as the target of a Werewolf accusation at WW02.row.039. The utterance supports his public accusation, not the truth of Caitlynn’s hidden role.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW02.row.039",
+            "Exact evidence": "All right. Caitlynn's a Werewolf."
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "Dan",
+        "Interpretation": "Dan states at WW02.row.040 that he thinks “she” is a Werewolf. The immediately preceding named target is Caitlynn, supporting a proposed pronoun link to the same accusation target; that link still needs human checking.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW02.row.040",
+            "Exact evidence": "I think that she is a Werewolf."
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Whom does each speaker accuse in the current exchange?",
+      "Consequences by participant": {
+        "Justin": "Target(current_accusation, accuse, Caitlynn), supported by the explicit name at WW02.row.039; this is not a hidden-role finding.",
+        "Dan": "Target(current_accusation, accuse, Caitlynn) if “she” in WW02.row.040 is confirmed as the local reference to Caitlynn."
+      },
+      "Comparison in words": "For the narrowly defined accusation-target question, Justin’s statement yields Target(current_accusation, accuse, Caitlynn); Dan’s yields the same target if the local “she” link is confirmed. Neither output establishes Caitlynn’s actual card or an executed vote.",
+      "What is still unknown? One reason per line": [],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": false,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "For the narrowly defined accusation-target question, Justin’s statement yields Target(current_accusation, accuse, Caitlynn); Dan’s yields the same target if the local “she” link is confirmed. Neither output establishes Caitlynn’s actual card or an executed vote.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. WW02.row.039 names Caitlynn and WW02.row.040 explicitly predicates Werewolf of “she”. This can serve as a local target-agreement case after independent pronoun and source review."
+  },
+  "WW03_WW03_r078": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "37b9a3ad5ead5976eb5c11fc7dfbf6da357e402bdb6ae09d137e542d58a8956a",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "Justin",
+      "Mitchell"
+    ],
+    "Local task question": "Which role does Mitchell report receiving in the discussed steal, and what reading of that same event is expressed by Justin?",
+    "Selected dialogue turns": [
+      "WW03.row.077",
+      "WW03.row.078"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "WW03.row.077",
+        "Speaker": "Justin",
+        "Exact expression": "Did you steal a villager?"
+      },
+      {
+        "Source turn": "WW03.row.078",
+        "Speaker": "Mitchell",
+        "Exact expression": "I stole a villager."
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "Justin",
+        "Interpretation": "Justin asks “Did you steal a villager?” at WW03.row.077; the question alone does not assert that Villager was acquired. Earlier he reports being a Villager (.032) and answers “Yes” to a steal-from-you question (.066), so those earlier statements must be checked for a supported link to this same thief, role phase and event rather than ignored.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW03.row.032",
+            "Exact evidence": "I was a villager."
+          },
+          {
+            "Evidence source": "WW03.row.061",
+            "Exact evidence": "He stole something very boring and I think I know what that means."
+          },
+          {
+            "Evidence source": "WW03.row.064",
+            "Exact evidence": "Yeah, I think I know exactly..."
+          },
+          {
+            "Evidence source": "WW03.row.066",
+            "Exact evidence": "Yes."
+          },
+          {
+            "Evidence source": "WW03.row.077",
+            "Exact evidence": "Did you steal a villager?"
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "Mitchell",
+        "Interpretation": "Mitchell explicitly reports “I stole a villager” at WW03.row.078, following his denial of stealing the Seer at .075. This supports the content of a Villager-acquisition report, not proof that the action occurred or that his current card is Villager.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW03.row.063",
+            "Exact evidence": "I'm just going to go with \"boring\" for now."
+          },
+          {
+            "Evidence source": "WW03.row.075",
+            "Exact evidence": "Well, I didn't steal the Seer."
+          },
+          {
+            "Evidence source": "WW03.row.078",
+            "Exact evidence": "I stole a villager."
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Which role does Mitchell report receiving in the discussed steal, and what reading of that same event is expressed by Justin?",
+      "Consequences by participant": {
+        "Justin": "No settled acquired-role output follows from the question alone. A conditional Villager proposal requires his earlier self-report and endorsement to be linked to this same thief, role phase and exchange.",
+        "Mitchell": "Reported acquisition: Villager at the exchange described in WW03.row.078. This does not verify a current holder after other actions."
+      },
+      "Comparison in words": "Conditioned on Mitchell’s report, the received role at the reported steal is Villager. Justin’s final question supplies no adopted consequence by itself; any same-output proposal must trace his earlier self-report and “Yes” through a verified thief/event/phase link. A current-holder computation additionally needs the relevant rule and later-movement assumptions.",
+      "What is still unknown? One reason per line": [
+        "The final Justin turn is a question, not an explicit acceptance of Mitchell’s reported acquired role.",
+        "Earlier Justin evidence cannot be discarded, but the thief/addressee/pronoun linkage through the intervening James/Mitchell/Mike turns is uncertain in the text.",
+        "Role acquisition at an exchange must not be conflated with a current holder after other possible actions.",
+        "Critical speaker/event wording needs source/media review under the declared evidence condition."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "Conditioned on Mitchell’s report, the received role at the reported steal is Villager. Justin’s final question supplies no adopted consequence by itself; any same-output proposal must trace his earlier self-report and “Yes” through a verified thief/event/phase link. A current-holder computation additionally needs the relevant rule and later-movement assumptions.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. WW03.row.077–078 tests the distinction between querying a Villager acquisition and reporting one. Review Justin’s earlier expressed grounding before concluding that his relevant reading is unsupported."
+  },
+  "WW04_WW04_r009": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "6196411ccbb2cac6ffdfd29d5d39466d4a199624e3e0f3b01db7b4088b948702",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "James",
+      "Mitchell"
+    ],
+    "Local task question": "Which participant and night phase does each reported Insomniac/Seer identity concern, and do the reports address the same holder question?",
+    "Selected dialogue turns": [
+      "WW04.row.008",
+      "WW04.row.009"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "WW04.row.008",
+        "Speaker": "James",
+        "Exact expression": "Okay. We're going to open with Justin and say I was the insomniac, but I woke up as a seer."
+      },
+      {
+        "Source turn": "WW04.row.009",
+        "Speaker": "Mitchell",
+        "Exact expression": "That makes no sense. I looked at two in the middle because I was the seer and I saw those two."
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "James",
+        "Interpretation": "James’s turn at WW04.row.008 presents the report “I was the insomniac, but I woke up as a seer”. The preceding “open with Justin and say” makes the reported subject unclear in the text; do not automatically assign the two roles to James or Justin as verified identities.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW04.row.008",
+            "Exact evidence": "Okay. We're going to open with Justin and say I was the insomniac, but I woke up as a seer."
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "Mitchell",
+        "Interpretation": "Mitchell rejects the preceding report as making no sense and states that he was the Seer and looked at two center cards at WW04.row.009. This is his own historical Seer-action report, not proof that he retained Seer afterward or misinterpreted the other speaker.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW04.row.009",
+            "Exact evidence": "That makes no sense. I looked at two in the middle because I was the seer and I saw those two."
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Which participant and night phase does each reported Insomniac/Seer identity concern, and do the reports address the same holder question?",
+      "Consequences by participant": {
+        "James": "Reported sequence: Insomniac earlier, Seer on waking; the subject remains unbound because the turn introduces Justin before the first-person report.",
+        "Mitchell": "Reported Seer role for Mitchell at his claimed center-card inspection. That action-phase report is not a verified waking-phase or current-holder fact."
+      },
+      "Comparison in words": "No determinate same-question holder comparison follows yet. The first report concerns an unclear player’s change from Insomniac to Seer on waking; Mitchell reports being Seer at his own inspection action. Different subjects or phases can coexist without consequential interpretation divergence.",
+      "What is still unknown? One reason per line": [
+        "The reported subject in James’s “open with Justin and say” wording is not securely identified.",
+        "The first report’s waking phase and Mitchell’s Seer-action phase are not demonstrably the same comparison point.",
+        "A challenge to a claim may concern credibility or game consistency rather than a different interpretation.",
+        "Rule variant and source/media checks remain pending where needed for a holder computation."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "No determinate same-question holder comparison follows yet. The first report concerns an unclear player’s change from Insomniac to Seer on waking; Mitchell reports being Seer at his own inspection action. Different subjects or phases can coexist without consequential interpretation divergence.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. WW04.row.008–009 is useful for testing whether subject and phase are resolved before treating disputed Seer claims as an interpretation mismatch."
+  },
+  "WW05_WW05_r039": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "1ff2a02921953666189bb71604e8fb3d9feb12d8daab103e77bf0c1656eed0e8",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "Justin",
+      "Paul"
+    ],
+    "Local task question": "Who would hold Werewolf under the premise Justin invokes and the Mitchell–Paul swap he reports, and does Paul express that same conditional reading?",
+    "Selected dialogue turns": [
+      "WW05.row.038",
+      "WW05.row.039"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "WW05.row.038",
+        "Speaker": "Justin",
+        "Exact expression": "I think Mitchell is. But then again, that would mean that you would be the werewolf because I switched you two."
+      },
+      {
+        "Source turn": "WW05.row.039",
+        "Speaker": "Paul",
+        "Exact expression": "You switched us?"
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "Justin",
+        "Interpretation": "At WW05.row.038 Justin says that Paul would be the Werewolf because he switched Paul and Mitchell, conditional on the Mitchell-as-Werewolf premise under discussion. His earlier swap wording was tentative; the focal sentence presents a swap report and a conditional consequence, not verified card history.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW05.row.019",
+            "Exact evidence": "So if you were a werewolf, what would you say if I was a troublemaker and I switched you and Paul?"
+          },
+          {
+            "Evidence source": "WW05.row.021",
+            "Exact evidence": "I might have..."
+          },
+          {
+            "Evidence source": "WW05.row.024",
+            "Exact evidence": "I might be. And are you the villager? Because I think that was the implication of what your statement was."
+          },
+          {
+            "Evidence source": "WW05.row.038",
+            "Exact evidence": "I think Mitchell is. But then again, that would mean that you would be the werewolf because I switched you two."
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "Paul",
+        "Interpretation": "Paul asks “You switched us?” at WW05.row.039. He previously says he was not a Werewolf (.025) and suspects Mitchell (.037), but the question does not endorse Justin’s swap report or adopt its post-swap consequence.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW05.row.018",
+            "Exact evidence": "I'll tell you this, Mitchell. I have a pretty good idea of what my card in front of me is right now. Yeah. So, that's all you get so far."
+          },
+          {
+            "Evidence source": "WW05.row.023",
+            "Exact evidence": "Are you the troublemaker? Is that what you're saying?"
+          },
+          {
+            "Evidence source": "WW05.row.025",
+            "Exact evidence": "I wasn't a werewolf, I'll tell you that much."
+          },
+          {
+            "Evidence source": "WW05.row.027",
+            "Exact evidence": "I'm not going to answer that question, but I'll say that so far, I couldn't say for sure that anyone is lying."
+          },
+          {
+            "Evidence source": "WW05.row.034",
+            "Exact evidence": "But if he's the seer..."
+          },
+          {
+            "Evidence source": "WW05.row.037",
+            "Exact evidence": "Oh, I think Mitchell is one of the werewolves."
+          },
+          {
+            "Evidence source": "WW05.row.039",
+            "Exact evidence": "You switched us?"
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Who would hold Werewolf under the premise Justin invokes and the Mitchell–Paul swap he reports, and does Paul express that same conditional reading?",
+      "Consequences by participant": {
+        "Justin": "Proposed conditional output: Paul holds Werewolf immediately after the Mitchell–Paul swap, if Mitchell held it immediately before that exchange and the reported swap is the event being compared.",
+        "Paul": "No supported same-branch post-swap holder output is established: Paul asks whether the exchange happened and does not accept its consequence at the cutoff."
+      },
+      "Comparison in words": "If Mitchell held Werewolf immediately before a verified-in-scope reported exchange with Paul, that exchange would place Werewolf with Paul immediately afterward. Justin proposes this conditional result; Paul’s clarification does not establish a second adopted output for the same branch. Current-holder truth is not inferred.",
+      "What is still unknown? One reason per line": [
+        "Paul has not explicitly accepted the reported swap or its consequence by WW05.row.039.",
+        "The phase of the Mitchell-as-Werewolf premise must be fixed before projecting the swap.",
+        "Paul’s earlier “I wasn’t a werewolf” and suspicion of Mitchell cannot silently be assigned to the same post-swap phase.",
+        "Public rules and event ordering needed for a formal holder computation remain subject to review."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "If Mitchell held Werewolf immediately before a verified-in-scope reported exchange with Paul, that exchange would place Werewolf with Paul immediately afterward. Justin proposes this conditional result; Paul’s clarification does not establish a second adopted output for the same branch. Current-holder truth is not inferred.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. WW05.row.038–039 tests whether a conditional consequence is kept separate from Paul’s clarification question and from verified current-role information."
+  },
+  "WW06_WW06_r040": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "80d8746e32f51717dd236ac0ae24222df931e8cbc3308a2c52f0672c0c642154",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "Paul",
+      "Mitchell"
+    ],
+    "Local task question": "Which phase-specific Villager claim about Paul is being stated and endorsed in this exchange?",
+    "Selected dialogue turns": [
+      "WW06.row.039",
+      "WW06.row.040"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "WW06.row.039",
+        "Speaker": "Paul",
+        "Exact expression": "I'm the only one who was definitely villager."
+      },
+      {
+        "Source turn": "WW06.row.040",
+        "Speaker": "Mitchell",
+        "Exact expression": "Oh yeah, he is."
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "Paul",
+        "Interpretation": "Paul reports that he was a Villager at WW06.row.011 and calls himself the only definite Villager at .039. The wording expresses a role claim, but does not fix whether the focal claim concerns the initial card, an earlier observation, or the current holder state.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW06.row.011",
+            "Exact evidence": "I was the villager. I have no information."
+          },
+          {
+            "Evidence source": "WW06.row.039",
+            "Exact evidence": "I'm the only one who was definitely villager."
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "Mitchell",
+        "Interpretation": "After asking who has an alibi, Mitchell answers Paul with Oh yeah, he is. This can endorse the immediately preceding Paul/Villager proposition if the pronoun link is admitted. It does not explicitly identify the phase or endorse every part of Paul’s only-one claim.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW06.row.038",
+            "Exact evidence": "Is there anyone who has an alibi?"
+          },
+          {
+            "Evidence source": "WW06.row.040",
+            "Exact evidence": "Oh yeah, he is."
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Which phase-specific Villager claim about Paul is being stated and endorsed in this exchange?",
+      "Consequences by participant": {
+        "Paul": "A reported Villager-holder statement names Paul, with the game phase unresolved. No unique phase-indexed current-holder consequence is licensed.",
+        "Mitchell": "Potentially the same reported Paul/Villager output, conditional on a supported pronoun-and-predicate link. Its phase remains unknown."
+      },
+      "Comparison in words": "Both turns may concern Paul as a reported Villager, but the earlier initial-role statements and the discussion of possible changed roles leave the comparison’s phase unresolved. Matching the person name alone does not establish identical phase-specific consequences.",
+      "What is still unknown? One reason per line": [
+        "The focal role claim is not tied to one established game phase; past wording and present endorsement occur after discussion of possible changed roles.",
+        "The he-is endorsement must be linked to the same predicate; it need not endorse Paul’s only-one qualification.",
+        "The earlier him in the reported Robber exchange is not uniquely grounded in the text and cannot resolve Paul’s current role."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "Both turns may concern Paul as a reported Villager, but the earlier initial-role statements and the discussion of possible changed roles leave the comparison’s phase unresolved. Matching the person name alone does not establish identical phase-specific consequences.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: WW06.row.039–040 tests whether apparent agreement preserves the same event and phase. Retain as an uncertainty case only if the source and temporal-scope review support that purpose."
+  },
+  "WW07_WW07_r099": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "2dc31497bdb243ea408422900507c758c5305dae7abcd5a1cc60901ff37a901a",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "Dylan",
+      "Dan"
+    ],
+    "Local task question": "Who is reported to hold the Seer card after Dylan’s claimed move, conditional on Dan having been the Seer?",
+    "Selected dialogue turns": [
+      "WW07.row.098",
+      "WW07.row.099"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "WW07.row.098",
+        "Speaker": "Dylan",
+        "Exact expression": "If you were actually a Seer, that means Ed's now a Seer because I was making some trouble last night."
+      },
+      {
+        "Source turn": "WW07.row.099",
+        "Speaker": "Dan",
+        "Exact expression": "All right."
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "Dylan",
+        "Interpretation": "Dylan conditionally states that Ed is now Seer if Dan was actually Seer, connecting the conclusion to his own report of making trouble. This is an expressed conditional report, not evidence that either premise or the hidden role is true.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW07.row.098",
+            "Exact evidence": "If you were actually a Seer, that means Ed's now a Seer because I was making some trouble last night."
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "Dan",
+        "Interpretation": "Dan earlier reports being Seer and looking at a card (.080), then responds All right at .099. The earlier claim does not establish his interpretation of Dylan’s new post-move Ed conclusion, and the acknowledgment alone does not endorse that consequence.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW07.row.080",
+            "Exact evidence": "I want to speak. I'm the Seer and I looked at your card and you're a Werewolf and you're 100% lying."
+          },
+          {
+            "Evidence source": "WW07.row.097",
+            "Exact evidence": "Wait, what? I'm not helping the Werewolves out."
+          },
+          {
+            "Evidence source": "WW07.row.099",
+            "Exact evidence": "All right."
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Who is reported to hold the Seer card after Dylan’s claimed move, conditional on Dan having been the Seer?",
+      "Consequences by participant": {
+        "Dylan": "Conditional reported consequence: Ed holds the Seer card after the claimed move, under the premise that Dan previously held it. The specific exchange must not be invented beyond the report.",
+        "Dan": "Unknown for the focal post-move holder question. Dan’s earlier self-role claim concerns a different possible phase/premise and cannot be substituted for this missing consequence."
+      },
+      "Comparison in words": "Dylan supplies a conditional Ed-as-Seer post-move claim; Dan supplies no supported consequence for that same branch. The available prefix therefore does not establish either a matched or a disjoint two-participant comparison.",
+      "What is still unknown? One reason per line": [
+        "Dan’s adoption of the focal conditional post-move consequence is not established by his All right response or earlier Seer report.",
+        "The conditional premise and phase must remain fixed; initial and post-move role claims are not interchangeable.",
+        "A complete pair of swapped participants is not explicitly enumerated for independent move execution in this utterance."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "Dylan supplies a conditional Ed-as-Seer post-move claim; Dan supplies no supported consequence for that same branch. The available prefix therefore does not establish either a matched or a disjoint two-participant comparison.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: WW07.row.098–099 tests conditional scope and acknowledgment under Tier S. Dylan states a conditional holder conclusion; Dan’s prior claim and All right do not establish adoption of the same post-move reading."
+  },
+  "WW08_WW08_r005": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "2834d22f105aea3881fd602aec3be91f1d901789b406e9424a268d3b96e5259a",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "Ed",
+      "Dan"
+    ],
+    "Local task question": "Whom does the endorsed report identify as Mason at Ed’s reported observation?",
+    "Selected dialogue turns": [
+      "WW08.row.004",
+      "WW08.row.005"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "WW08.row.004",
+        "Speaker": "Ed",
+        "Exact expression": "I saw that Dan was a mason."
+      },
+      {
+        "Source turn": "WW08.row.005",
+        "Speaker": "Dan",
+        "Exact expression": "That is accurate."
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "Ed",
+        "Interpretation": "Ed reports that he saw Dan as Mason. The preceding Seer questions provide the local report context. This supports the content of Ed’s reported observation, not Dan’s verified current card.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW08.row.004",
+            "Exact evidence": "I saw that Dan was a mason."
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "Dan",
+        "Interpretation": "Dan’s That is accurate explicitly evaluates the truth of the immediately preceding identified report. Under the supported that-to-report link, he endorses Ed’s reported Dan/Mason proposition rather than merely acknowledging that speech occurred.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW08.row.005",
+            "Exact evidence": "That is accurate."
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Whom does the endorsed report identify as Mason at Ed’s reported observation?",
+      "Consequences by participant": {
+        "Ed": "Reported historical consequence: the Mason holder named in Ed’s observation report is Dan, at that reported observation event.",
+        "Dan": "Under the explicit endorsement link, Dan supports the same reported historical consequence: Dan as Mason at Ed’s reported observation."
+      },
+      "Comparison in words": "At the deliberately bounded reported-observation scope, both expressed readings name Dan as Mason. This is a candidate local agreement; it makes no claim about his current card after later moves.",
+      "What is still unknown? One reason per line": [],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": false,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "At the deliberately bounded reported-observation scope, both expressed readings name Dan as Mason. This is a candidate local agreement; it makes no claim about his current card after later moves.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: WW08.row.004–005 provides an explicit named report and a content-specific accuracy endorsement. Consider it as a local agreement control after independently checking the source, endorsement link and report scope."
+  },
+  "WW09_WW09_r059": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "9f5acb25ec1e096facb52bb25326b35e2b7c1617660032d12556dd1cd72d0dda",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "Katie",
+      "Brett"
+    ],
+    "Local task question": "Which night role is Katie claiming in this exchange, and which role does Brett attribute to her claim?",
+    "Selected dialogue turns": [
+      "WW09.row.058",
+      "WW09.row.059"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "WW09.row.058",
+        "Speaker": "Katie",
+        "Exact expression": "I was all by myself."
+      },
+      {
+        "Source turn": "WW09.row.059",
+        "Speaker": "Brett",
+        "Exact expression": "So, oh you're claiming the Troublemaker. What did you do, Ed?"
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "Katie",
+        "Interpretation": "Katie describes there being one Mason and another Mason card in the middle, then says she was all by herself; she repeats the latter phrase after Brett asks whether she is Mason. This supports a context-linked candidate Mason self-report, subject to the elliptical scope and stance check.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW09.row.056",
+            "Exact evidence": "Although I will say... thanks for asking. Sorry, that was really loud. Watch the second video. There was only one Mason. So there's another Mason card in the middle. I was all by myself."
+          },
+          {
+            "Evidence source": "WW09.row.058",
+            "Exact evidence": "I was all by myself."
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "Brett",
+        "Interpretation": "Brett first asks whether Katie is Mason, then says you’re claiming the Troublemaker before asking Ed what he did. If you still addresses Katie, the later statement attributes a Troublemaker claim to her. It does not endorse that she actually has that role.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW09.row.057",
+            "Exact evidence": "Wait, so are you a Mason?"
+          },
+          {
+            "Evidence source": "WW09.row.059",
+            "Exact evidence": "So, oh you're claiming the Troublemaker. What did you do, Ed?"
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Which night role is Katie claiming in this exchange, and which role does Brett attribute to her claim?",
+      "Consequences by participant": {
+        "Katie": "Candidate report content: Katie claims the Mason role in the discussed night event. A consequence for a fixed person’s claimed role is not implemented by the present starter adapter.",
+        "Brett": "Conditional attributed content: Katie’s claim is Troublemaker, if Katie is still the addressee. This is a claim-attribution output, not an actual-role assertion, and the needed consequence type is outside the starter adapter."
+      },
+      "Comparison in words": "Mason versus Troublemaker is a promising difference in the content of a role claim if both turns concern Katie’s same report. Critical addressee/stance questions and an unsupported consequence type prevent a determinate current-harness comparison.",
+      "What is still unknown? One reason per line": [
+        "Brett’s you at .059 must be linked to Katie despite his immediate address to Ed later in that turn; text-only evidence cannot settle gesture or joking stance.",
+        "Katie’s elliptical response and earlier differently scoped role claims require a current-report scope check.",
+        "The starter adapter does not compute alternative claimed roles for one fixed person; lexical difference alone is not a validated F6 consequence."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "Mason versus Troublemaker is a promising difference in the content of a role claim if both turns concern Katie’s same report. Critical addressee/stance questions and an unsupported consequence type prevent a determinate current-harness comparison.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: WW09.row.056–059 is useful for examining a possible claim-attribution difference, but addressee, stance, report scope and consequence coverage must be checked before inclusion as a scored mismatch."
+  },
+  "WW10_WW10_r067": {
+    "Review status": "in_progress",
+    "Reviewer": "r1",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "9d88a9cb479d1ae683d980f58fc2b72a59915d389b27446889855aba61e3556e",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": true,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [
+        "Could uncertainty change the conclusion?",
+        "Participants being compared",
+        "Selected expressions",
+        "Selected dialogue turns",
+        "Selection / exclusion reason",
+        "Local task question",
+        "Each participant’s reading",
+        "Why this judgment? Prefix evidence only",
+        "Task consequences"
+      ],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": [
+      "Katie",
+      "Brett"
+    ],
+    "Local task question": "Does Brett’s reported Robber action entitle him to know the received card, and is that the same issue Katie is challenging?",
+    "Selected dialogue turns": [
+      "WW10.row.066",
+      "WW10.row.067"
+    ],
+    "Selected expressions": [
+      {
+        "Source turn": "WW10.row.066",
+        "Speaker": "Katie",
+        "Exact expression": "You don't get to know that."
+      },
+      {
+        "Source turn": "WW10.row.067",
+        "Speaker": "Brett",
+        "Exact expression": "A robber? Yeah, I do."
+      }
+    ],
+    "Each participant’s reading": [
+      {
+        "Participant": "Katie",
+        "Interpretation": "Katie points to Brett’s earlier Drunk claim, then says You don’t get to know that. She challenges his asserted knowledge, but the text does not fix whether she denies a Robber’s inspection right, invokes a Drunk-related limitation, or challenges his changing story.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW10.row.063",
+            "Exact evidence": "But you also claimed to be drunk, so."
+          },
+          {
+            "Evidence source": "WW10.row.066",
+            "Exact evidence": "You don't get to know that."
+          }
+        ],
+        "Evidence support": null
+      },
+      {
+        "Participant": "Brett",
+        "Interpretation": "Brett reports having been Robber and receiving a Drunk card, then defends his knowledge by asking A robber? and asserting Yeah, I do. This expresses an inspection/knowledge claim grounded in his reported Robber action, without verifying the story or his hidden card.",
+        "Evidence quotes": [
+          {
+            "Evidence source": "WW10.row.059",
+            "Exact evidence": "I was the robber, and I took his drunk. That's why I said I was drunk."
+          },
+          {
+            "Evidence source": "WW10.row.064",
+            "Exact evidence": "Because I became the drunk."
+          },
+          {
+            "Evidence source": "WW10.row.067",
+            "Exact evidence": "A robber? Yeah, I do."
+          }
+        ],
+        "Evidence support": null
+      }
+    ],
+    "Task consequences": {
+      "Evidence tier": "S",
+      "Preparation notes": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "Same task / event scope": "Does Brett’s reported Robber action entitle him to know the received card, and is that the same issue Katie is challenging?",
+      "Consequences by participant": {
+        "Katie": "Unknown: a denial of knowledge is expressed, but its precise card, operation and premise branch are not fixed well enough to compute the same rule consequence as Brett’s.",
+        "Brett": "Conditional on his Robber-exchange report, Brett claims he can know the received card. The prefix’s public Robber instruction permits viewing a new card, but the present adapter does not compute an information-access output."
+      },
+      "Comparison in words": "The exchange may concern different operation or story-consistency questions. Brett expresses a Robber-based knowledge claim, while Katie’s challenge is not uniquely scoped. The current information-access consequence is also outside the starter adapter.",
+      "What is still unknown? One reason per line": [
+        "Katie’s that and the intended scope of her challenge are not uniquely established: rule interpretation, received role, or credibility of the story are live alternatives.",
+        "The same reported operation and premise branch must be established before comparing knowledge claims.",
+        "The starter does not implement information-access or rule-validity consequences for this question."
+      ],
+      "Evidence check notes": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "Could uncertainty change the conclusion?": true,
+    "Review judgment": null,
+    "Why this judgment? Prefix evidence only": "The exchange may concern different operation or story-consistency questions. Brett expresses a Robber-based knowledge claim, while Katie’s challenge is not uniquely scoped. The current information-access consequence is also outside the starter adapter.",
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "Selection / exclusion reason": "Assistant wording suggestion, Tier S; inclusion remains pending. Decision pending: WW10.row.063–067 examines an explicit knowledge challenge and Robber-based reply. Verify their common question and critical wording, and preserve the current information-access adapter limit."
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "format_id": "CIM_FORM_LABEL_KEYS_V1",
+  "purpose": "Reference for the original unchanged form: exported JSON uses human-readable keys. Null captions identify existing data without a separately labeled form control. Internal technical paths remain available for code compatibility.",
+  "fields": [
+    {
+      "path": "[\"Reviewer\"]",
+      "technical_path": "reviewer_id",
+      "caption": "Reviewer",
+      "stage": "Review provenance",
+      "behavior": "editable"
+    },
+    {
+      "path": "[\"Review status\"]",
+      "technical_path": "review_status",
+      "caption": "Review status",
+      "stage": "Review provenance",
+      "behavior": "editable"
+    },
+    {
+      "path": "[\"Local task question\"]",
+      "technical_path": "local_question",
+      "caption": "Local task question",
+      "stage": "F1",
+      "behavior": "editable"
+    },
+    {
+      "path": "[\"Participants being compared\"][0]",
+      "technical_path": "focal_pair[0]",
+      "caption": "First participant",
+      "stage": "F2",
+      "behavior": "editable"
+    },
+    {
+      "path": "[\"Participants being compared\"][1]",
+      "technical_path": "focal_pair[1]",
+      "caption": "Second participant",
+      "stage": "F2",
+      "behavior": "editable"
+    },
+    {
+      "path": "[\"Selected dialogue turns\"]",
+      "technical_path": "focus_source_ids",
+      "caption": "Use as focus",
+      "stage": "F2",
+      "behavior": "button action; IDs also displayed in focus quote cards"
+    },
+    {
+      "path": "[\"Selected expressions\"][][\"Exact expression\"]",
+      "technical_path": "focus_quotes[].quote",
+      "caption": "Exact expression",
+      "stage": "F2",
+      "behavior": "editable"
+    },
+    {
+      "path": "[\"Selected expressions\"][][\"Source turn\"]",
+      "technical_path": "focus_quotes[].source_id",
+      "caption": null,
+      "stage": "F2",
+      "behavior": "displayed; synchronized by focus selection"
+    },
+    {
+      "path": "[\"Selected expressions\"][][\"Speaker\"]",
+      "technical_path": "focus_quotes[].speaker",
+      "caption": null,
+      "stage": "F2",
+      "behavior": "displayed"
+    },
+    {
+      "path": "[\"Each participant’s reading\"][][\"Participant\"]",
+      "technical_path": "participant_meanings_with_source_quotes[].participant_id",
+      "caption": "Participant",
+      "stage": "F3–F5",
+      "behavior": "editable"
+    },
+    {
+      "path": "[\"Each participant’s reading\"][][\"Evidence support\"]",
+      "technical_path": "participant_meanings_with_source_quotes[].support",
+      "caption": "Evidence support",
+      "stage": "F3–F5",
+      "behavior": "editable controlled code"
+    },
+    {
+      "path": "[\"Each participant’s reading\"][][\"Interpretation\"]",
+      "technical_path": "participant_meanings_with_source_quotes[].meaning",
+      "caption": "Interpretation",
+      "stage": "F3–F5",
+      "behavior": "editable"
+    },
+    {
+      "path": "[\"Each participant’s reading\"][][\"Support note\"]",
+      "technical_path": "participant_meanings_with_source_quotes[].support_note",
+      "caption": null,
+      "stage": "F3–F5",
+      "behavior": "JSON-only optional Support note; preserved but not edited by the original form."
+    },
+    {
+      "path": "[\"Each participant’s reading\"][][\"Evidence quotes\"][][\"Evidence source\"]",
+      "technical_path": "participant_meanings_with_source_quotes[].source_quotes[].source_id",
+      "caption": "Evidence source",
+      "stage": "F3–F5",
+      "behavior": "editable source selection"
+    },
+    {
+      "path": "[\"Each participant’s reading\"][][\"Evidence quotes\"][][\"Exact evidence\"]",
+      "technical_path": "participant_meanings_with_source_quotes[].source_quotes[].quote",
+      "caption": "Exact evidence",
+      "stage": "F3–F5",
+      "behavior": "editable exact quotation"
+    },
+    {
+      "path": "[\"Each participant’s reading\"][][\"Evidence quotes\"][][\"Speaker\"]",
+      "technical_path": "participant_meanings_with_source_quotes[].source_quotes[].speaker",
+      "caption": null,
+      "stage": "F3–F5",
+      "behavior": "JSON speaker metadata; copied from the chosen Evidence source; no added form field."
+    },
+    {
+      "path": "[\"Task consequences\"][\"Same task / event scope\"]",
+      "technical_path": "task_outputs.scope",
+      "caption": "Same task / event scope",
+      "stage": "F6",
+      "behavior": "editable"
+    },
+    {
+      "path": "[\"Task consequences\"][\"Consequences by participant\"][participant_id]",
+      "technical_path": "task_outputs.participant_outputs[participant_id]",
+      "caption": "<participant_id> · consequence",
+      "stage": "F6",
+      "behavior": "editable per participant"
+    },
+    {
+      "path": "[\"Task consequences\"][\"Comparison in words\"]",
+      "technical_path": "task_outputs.comparison",
+      "caption": "Comparison in words",
+      "stage": "F6",
+      "behavior": "editable"
+    },
+    {
+      "path": "[\"Task consequences\"][\"What is still unknown? One reason per line\"]",
+      "technical_path": "task_outputs.blocking_reasons",
+      "caption": "What is still unknown? One reason per line",
+      "stage": "F6",
+      "behavior": "editable; one string per line"
+    },
+    {
+      "path": "[\"Task consequences\"][\"Supported consequences JSON\"]",
+      "technical_path": "task_outputs.supported_consequences",
+      "caption": "Supported consequences JSON",
+      "stage": "F6",
+      "behavior": "editable textarea aria-label; under Optional typed consequences"
+    },
+    {
+      "path": "[\"Could uncertainty change the conclusion?\"]",
+      "technical_path": "blocking_uncertainty",
+      "caption": "Could uncertainty change the conclusion?",
+      "stage": "F7",
+      "behavior": "editable true/false/null"
+    },
+    {
+      "path": "[\"Review judgment\"]",
+      "technical_path": "provisional_label",
+      "caption": "Review judgment",
+      "stage": "F7",
+      "behavior": "editable controlled label"
+    },
+    {
+      "path": "[\"Why this judgment? Prefix evidence only\"]",
+      "technical_path": "prefix_only_rationale",
+      "caption": "Why this judgment? Prefix evidence only",
+      "stage": "F7",
+      "behavior": "editable"
+    },
+    {
+      "path": "[\"Evidence checked?\"]",
+      "technical_path": "evidence_verified",
+      "caption": "Evidence checked?",
+      "stage": "Verification",
+      "behavior": "editable true/false/null"
+    },
+    {
+      "path": "[\"Include in pilot?\"]",
+      "technical_path": "include_in_pilot",
+      "caption": "Include in pilot?",
+      "stage": "Selection",
+      "behavior": "editable true/false/null"
+    },
+    {
+      "path": "[\"Selection / exclusion reason\"]",
+      "technical_path": "inclusion_or_exclusion_reason",
+      "caption": "Selection / exclusion reason",
+      "stage": "Selection",
+      "behavior": "editable"
+    },
+    {
+      "path": "[\"Reviewer and exposure\"][\"I checked the content now entered against the available evidence.\"]",
+      "technical_path": "review_metadata.human_content_confirmed",
+      "caption": "I checked the content now entered against the available evidence.",
+      "stage": "Review provenance",
+      "behavior": "editable checkbox"
+    },
+    {
+      "path": "[\"Reviewer and exposure\"][\"What had you seen before your first judgment?\"][\"Assistant drafts\"]",
+      "technical_path": "review_metadata.prior_exposure.assistant_draft",
+      "caption": "Assistant drafts",
+      "stage": "Review provenance",
+      "behavior": "editable in collapsed provenance section"
+    },
+    {
+      "path": "[\"Reviewer and exposure\"][\"What had you seen before your first judgment?\"][\"System predictions\"]",
+      "technical_path": "review_metadata.prior_exposure.system_outputs",
+      "caption": "System predictions",
+      "stage": "Review provenance",
+      "behavior": "editable in collapsed provenance section"
+    },
+    {
+      "path": "[\"Reviewer and exposure\"][\"What had you seen before your first judgment?\"][\"Released / other labels\"]",
+      "technical_path": "review_metadata.prior_exposure.released_labels",
+      "caption": "Released / other labels",
+      "stage": "Review provenance",
+      "behavior": "editable in collapsed provenance section"
+    },
+    {
+      "path": "[\"Reviewer and exposure\"][\"What had you seen before your first judgment?\"][\"Later dialogue or outcomes\"]",
+      "technical_path": "review_metadata.prior_exposure.later_evidence",
+      "caption": "Later dialogue or outcomes",
+      "stage": "Review provenance",
+      "behavior": "editable in collapsed provenance section"
+    },
+    {
+      "path": "[\"Reviewer and exposure\"][\"What had you seen before your first judgment?\"][\"Exposure notes\"]",
+      "technical_path": "review_metadata.prior_exposure.notes",
+      "caption": "Exposure notes",
+      "stage": "Review provenance",
+      "behavior": "editable in collapsed provenance section"
+    },
+    {
+      "path": "[\"Reviewer and exposure\"][\"First prefix review completed\"]",
+      "technical_path": "review_metadata.prefix_first_review_completed",
+      "caption": "First prefix review completed",
+      "stage": "Review provenance",
+      "behavior": "editable checkbox with snapshot behavior"
+    },
+    {
+      "path": "[\"Reviewer and exposure\"][\"Separate later-evidence review completed\"]",
+      "technical_path": "review_metadata.later_evidence_review_completed",
+      "caption": "Separate later-evidence review completed",
+      "stage": "Review provenance",
+      "behavior": "editable checkbox"
+    }
+  ],
+  "label_rule": {
+    "ALIGNED": "Both participants have the same single supported task consequence, with no blocking uncertainty.",
+    "POTENTIAL_MISMATCH": "Both supported consequence sets are nonempty and disjoint, with no blocking uncertainty.",
+    "UNRESOLVED": "Missing support, unknown facts, unresolved readings or overlapping non-singleton consequence sets prevent a determination."
+  },
+  "null_label": "Not rated yet; distinct from UNRESOLVED."
+}

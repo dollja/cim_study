@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "runs": 0,
+    "eligible_reviewed_pilot_cases": 0,
+    "independent_clusters": 0,
+    "correct_labels": 0,
+    "correct_with_reviewed_evidence": 0,
+    "positive_reference_cases": 0,
+    "aligned_reference_cases": 0,
+    "unresolved_reference_cases": 0,
+    "correct_warnings": 0,
+    "false_warnings_on_aligned": 0,
+    "warnings_on_unresolved_report_separately": 0
+  },
+  "limitations": [
+    "descriptive pilot counts only",
+    "no superiority claim",
+    "focal chain matching and evidence need human review",
+    "no lead time without independently established event timing",
+    "unresolved references are not negative cases"
+  ],
+  "rows": [],
+  "preparation": {
+    "prospective_episode_records": 20,
+    "MapTask": 10,
+    "Werewolf": 10,
+    "adjudicated_cases": 0,
+    "software_checks_passed": 26,
+    "real_prefix_supplied_record_replays": 6,
+    "all_accuracy_metrics": "not_measured"
+  }
+}

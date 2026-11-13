@@ -1,0 +1,233 @@
+READABLE JSON KEYS MATCHED TO THE ORIGINAL FORM
+
+The original form captions, controls and order are retained.
+The saved JSON now uses human-readable keys. Old files remain importable.
+Arrays, source quotations, IDs, evidence flags and controlled codes keep their values.
+The stable technical names below are only for compatibility and code traceability.
+
+MAIN REVIEW FIELDS
+
+Review status
+  Former key: review_status
+
+Reviewer
+  Former key: reviewer_id
+
+Reviewer and exposure
+  Former key: review_metadata
+
+Participants being compared
+  Former key: focal_pair
+
+Local task question
+  Former key: local_question
+
+Selected dialogue turns
+  Former key: focus_source_ids
+
+Selected expressions
+  Former key: focus_quotes
+
+Each participant’s reading
+  Former key: participant_meanings_with_source_quotes
+
+Task consequences
+  Former key: task_outputs
+
+Could uncertainty change the conclusion?
+  Former key: blocking_uncertainty
+
+Review judgment
+  Former key: provisional_label
+
+Why this judgment? Prefix evidence only
+  Former key: prefix_only_rationale
+
+Evidence checked?
+  Former key: evidence_verified
+
+Include in pilot?
+  Former key: include_in_pilot
+
+Selection / exclusion reason
+  Former key: inclusion_or_exclusion_reason
+
+EACH PARTICIPANT’S READING
+
+Participant
+  Former key: participant_id
+
+Interpretation
+  Former key: meaning
+
+Evidence support
+  Former key: support
+
+Evidence quotes
+  Former key: source_quotes
+
+Support note
+  Former key: support_note
+
+SELECTED EXPRESSIONS
+
+Source turn
+  Former key: source_id
+
+Speaker
+  Former key: speaker
+
+Exact expression
+  Former key: quote
+
+EVIDENCE QUOTES
+
+Evidence source
+  Former key: source_id
+
+Speaker
+  Former key: speaker
+
+Exact evidence
+  Former key: quote
+
+TASK CONSEQUENCES
+
+Evidence tier
+  Former key: evidence_tier
+
+Same task / event scope
+  Former key: scope
+
+Consequences by participant
+  Former key: participant_outputs
+
+Comparison in words
+  Former key: comparison
+
+What is still unknown? One reason per line
+  Former key: blocking_reasons
+
+Supported consequences JSON
+  Former key: supported_consequences
+
+Evidence check notes
+  Former key: verification_note
+
+Consequence format notes
+  Former key: consequence_encoding_note
+
+Implementation limits
+  Former key: implementation_limits
+
+Computation status
+  Former key: computation_status
+
+Preparation notes
+  Former key: authorship
+
+REVIEWER AND EXPOSURE
+
+Schema version
+  Former key: schema_version
+
+Evidence tier
+  Former key: evidence_tier
+
+Observer input SHA-256
+  Former key: observer_input_sha256
+
+What had you seen before your first judgment?
+  Former key: prior_exposure
+
+First prefix review completed
+  Former key: prefix_first_review_completed
+
+Separate later-evidence review completed
+  Former key: later_evidence_review_completed
+
+Draft wording fields
+  Former key: assistant_wording_fields
+
+I checked the content now entered against the available evidence.
+  Former key: human_content_confirmed
+
+Reference condition
+  Former key: reference_condition
+
+Preparation history record
+  Former key: provenance_record
+
+Saved first judgment
+  Former key: first_pass_judgment_snapshot
+
+Saved first judgment SHA-256
+  Former key: first_pass_judgment_sha256
+
+First judgment saved at UTC
+  Former key: first_pass_recorded_at_utc
+
+Wording consultation history
+  Former key: wording_exposure_events
+
+PRIOR EXPOSURE
+
+Assistant drafts
+  Former key: assistant_draft
+
+System predictions
+  Former key: system_outputs
+
+Released / other labels
+  Former key: released_labels
+
+Later dialogue or outcomes
+  Former key: later_evidence
+
+Exposure notes
+  Former key: notes
+
+WORDING CONSULTATION HISTORY
+
+Time UTC
+  Former key: at_utc
+
+Source file
+  Former key: source_filename
+
+Action
+  Former key: action
+
+Before first prefix judgment
+  Former key: before_prefix_first_review
+
+Fields
+  Former key: fields
+
+CONTAINERS AND EXISTING JSON-ONLY INFORMATION
+
+Participants being compared
+  The existing two-item array: first item is First participant and second item is Second participant.
+
+Selected dialogue turns
+  IDs of turns chosen using the original Use as focus button.
+
+Selected expressions
+  Array of source-linked Exact expression entries.
+
+Evidence quotes
+  Array of Evidence source / Exact evidence entries.
+
+Consequences by participant
+  The keys remain actual participant IDs; the original form displays each as <participant> · consequence.
+
+Support note
+  Existing optional JSON-only note; no new field is added to the original form.
+
+The three judgment values remain ALIGNED, POTENTIAL_MISMATCH and UNRESOLVED.
+The support values remain supported, possible, unsupported or null.
+true, false and null retain their JSON meanings.
+Keep the automatic input fingerprint and saved history. A key rename is not a new review.
+
+MT10: Could uncertainty change the conclusion? is false. Review judgment remains ALIGNED.
+The two Route records still have a null START argument, so the same known F7 conflict remains.

@@ -1,0 +1,91 @@
+{
+  "checked_at_utc": "2026-11-09T21:06:59.959669+00:00",
+  "software": "pcc-current-pilot-0.3",
+  "review_schema": "1.0",
+  "evidence_tier": "S",
+  "python_tests": {
+    "run": 78,
+    "passed": 78,
+    "failed": 0,
+    "command": "python -m unittest discover -s tests -v",
+    "log": "01_python_tests.txt"
+  },
+  "ui_behavior": {
+    "checks": 9,
+    "passed": 9,
+    "method": "Node minimal DOM-stub integration, not a browser",
+    "record": "ui_behavior/ui_behavior_result.json",
+    "visual_rendering_verified": false,
+    "visual_check_limitation": "Local browser process launch was unavailable; managed browser policy rejected file URLs. No workaround, browser visual inspection or browser interaction test was performed."
+  },
+  "source_validation": {
+    "candidate_records": 20,
+    "transcript_sha256_and_git_blob_checks": 20,
+    "map_file_sha256_checks": 8,
+    "full_prefix_suffix_reconstructions": 20,
+    "adjacent_response_boundaries": 20,
+    "observer_bytes_unchanged_from_attachment": 20,
+    "allowed_initial_observer_fields": [
+      "overall_task",
+      "participants",
+      "context_sources",
+      "dialogue_prefix"
+    ],
+    "record": "candidate_audit.json"
+  },
+  "human_reviews": {
+    "canonical_files_checked": [
+      "REVIEWS.json",
+      "reviews/reader_2/REVIEWS.json",
+      "wording/REVIEWS_A.json",
+      "wording/REVIEWS_B.json"
+    ],
+    "cases_per_file": 20,
+    "unique_candidate_cases": 20,
+    "completed_reviews": 0,
+    "labels_assigned_in_main_file": 0,
+    "inclusion_decisions_assigned_in_main_file": 0,
+    "all_semantic_support_codes_pending": true,
+    "complete_gate": "Expected rejection of supplied pending drafts",
+    "record": "review_and_boundary_checks.json"
+  },
+  "supplied_record_smoke_tests": {
+    "constructed_replays": 1,
+    "constructed_status": "POTENTIAL_MISMATCH",
+    "real_prefix_supplied_replays": 6,
+    "computed_status_counts": {
+      "ALIGNED": 4,
+      "UNRESOLVED": 2
+    },
+    "interpretation_and_support_records_supplied": true,
+    "independent_model_predictions": false,
+    "primary_evaluation_eligible": false,
+    "map_conditional_alignments": 3,
+    "post_correction_example": "MT03_q1ec4_r019",
+    "records": [
+      "constructed_replay.json",
+      "supplied_record_replays.json"
+    ]
+  },
+  "current_research_status": {
+    "proposed_candidates": 20,
+    "selected_in_register": 0,
+    "adjudicated_references": 0,
+    "context_preflight_passed": 0,
+    "cases_blocked_by_draft_context": 20,
+    "context_adapter_objects": 30,
+    "external_model_calls_performed_during_update": 0,
+    "empirical_accuracy": "not measured",
+    "warning_lead_time": "not measured",
+    "comparison_arms": "not empirically compared"
+  },
+  "input_binding": "New adjudicated references carry raw input-file SHA256 and the pilot canonical observer_hash. Scoring requires a valid matching canonical hash; mismatches and unbound legacy references are ineligible.",
+  "personal_attribution_removal": "Requested explicit personal-name references removed; final archive text/name scan recorded in PACKAGE_CHECKSUMS.json.",
+  "limits": [
+    "Schema and string matches do not certify semantic support or actual reviewer independence.",
+    "Source file identity checks use stored pinned provenance; no new remote corpus audit was performed.",
+    "The 20 candidates do not establish recovery of the earlier final selection.",
+    "Shared map/session dependence remains to be reviewed.",
+    "New software checks and supplied-record replay statuses are not empirical Chapter 5 model results."
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "record_type": "independent_review_edit_audit_not_model_or_research_results",
+  "checked_at_utc": "2026-11-13T09:53:06.346640+00:00",
+  "scope": "Read-only audit of review edits, archived provenance, frozen prefix citations, schema checks and form import/export behavior. No model execution, later outcomes, image-based context verification or human adjudication performed.",
+  "package_directory": "/workspace/scratch/50fc1af69ed3/tmp/cim_handoff_20261113/cim_pilot",
+  "edit_integrity_valid": true,
+  "unexpected_defects": [],
+  "versions": {
+    "r1_v2": {
+      "source_snapshot_sha256": "02c84de080e87180666d345312f98a664c5ff2ed8117b6db056bdb3680439aa3",
+      "source_snapshot_matches_original": true,
+      "active_sha256": "3e0017c4b6f88fc18667b7559be21ca35357a54e6f1675f0e393306343405569",
+      "active_hash_matches_sidecar": true,
+      "changed_path_count": 123,
+      "unexpected_changed_paths": [],
+      "moved_provenance_verified_exactly": true,
+      "moved_provenance_errors": [],
+      "all_current_labels_quotes_support_codes_speakers_and_evidence_flags_preserved": true,
+      "all20_prior_exposure_assistant_draft_true": true,
+      "all20_assistant_wording_fields_unchanged": true,
+      "all20_reference_conditions_preserved": true
+    },
+    "r1_v3": {
+      "source_snapshot_sha256": "a9ca86317de8876ace284dd9cb16962a14e8d7948d4d8780d2689dde7ba29aa0",
+      "source_snapshot_matches_original": true,
+      "active_sha256": "714b6b24aea89396027c5ca5282288a3b002c5466728f74e4b577200208f50d6",
+      "active_hash_matches_sidecar": true,
+      "changed_path_count": 123,
+      "unexpected_changed_paths": [],
+      "moved_provenance_verified_exactly": true,
+      "moved_provenance_errors": [],
+      "all_current_labels_quotes_support_codes_speakers_and_evidence_flags_preserved": true,
+      "all20_prior_exposure_assistant_draft_true": true,
+      "all20_assistant_wording_fields_unchanged": true,
+      "all20_reference_conditions_preserved": true
+    }
+  },
+  "canonical_root_matches_v3_bytes": true,
+  "evidence_checks": {
+    "quote_records_checked": 170,
+    "exact_prefix_quote_speaker_and_observer_hash_errors": [],
+    "all20_observer_files_byte_identical_to_original_package": true,
+    "does_not_certify_semantic_adoption_or_context_adapter_facts": true
+  },
+  "validation_by_file": {
+    "REVIEWS.json": {
+      "schema_valid": true,
+      "review_consistency_valid": false,
+      "review_consistency_errors": [
+        "MT10_q1nc4_r044: label contradicts declared consequence sets/blocker; expected UNRESOLVED"
+      ],
+      "completed_reviews_by_recorded_fields": 13,
+      "complete_review_errors": [
+        "MT01_q1ec1_r049: incomplete review: completed individual review status",
+        "MT02_q1ec3_r012: incomplete review: completed individual review status",
+        "MT04_q1ec5_r031: incomplete review: completed individual review status",
+        "MT07_q1ec8_r011: incomplete review: evidence verification",
+        "MT10_q1nc4_r044: label contradicts declared consequence sets/blocker; expected UNRESOLVED",
+        "MT10_q1nc4_r044: incomplete review: completed individual review status",
+        "WW03_WW03_r078: incomplete review: human confirmation of current content",
+        "WW08_WW08_r005: incomplete review: completed individual review status"
+      ],
+      "warnings": [
+        "MT07_q1ec8_r011: recorded complete status still needs evidence verification",
+        "WW03_WW03_r078: recorded complete status still needs human confirmation of current content"
+      ]
+    },
+    "REVIEWS_r1_v2.json": {
+      "schema_valid": true,
+      "review_consistency_valid": false,
+      "review_consistency_errors": [
+        "MT10_q1nc4_r044: label contradicts declared consequence sets/blocker; expected UNRESOLVED"
+      ],
+      "completed_reviews_by_recorded_fields": 13,
+      "complete_review_errors": [
+        "MT01_q1ec1_r049: incomplete review: completed individual review status",
+        "MT02_q1ec3_r012: incomplete review: completed individual review status",
+        "MT04_q1ec5_r031: incomplete review: completed individual review status",
+        "MT07_q1ec8_r011: incomplete review: evidence verification",
+        "MT10_q1nc4_r044: label contradicts declared consequence sets/blocker; expected UNRESOLVED",
+        "MT10_q1nc4_r044: incomplete review: completed individual review status",
+        "WW03_WW03_r078: incomplete review: human confirmation of current content",
+        "WW08_WW08_r005: incomplete review: completed individual review status"
+      ],
+      "warnings": [
+        "MT07_q1ec8_r011: recorded complete status still needs evidence verification",
+        "WW03_WW03_r078: recorded complete status still needs human confirmation of current content"
+      ]
+    },
+    "REVIEWS_r1_v3_plain_language.json": {
+      "schema_valid": true,
+      "review_consistency_valid": false,
+      "review_consistency_errors": [
+        "MT10_q1nc4_r044: label contradicts declared consequence sets/blocker; expected UNRESOLVED"
+      ],
+      "completed_reviews_by_recorded_fields": 13,
+      "complete_review_errors": [
+        "MT01_q1ec1_r049: incomplete review: completed individual review status",
+        "MT02_q1ec3_r012: incomplete review: completed individual review status",
+        "MT04_q1ec5_r031: incomplete review: completed individual review status",
+        "MT07_q1ec8_r011: incomplete review: evidence verification",
+        "MT10_q1nc4_r044: label contradicts declared consequence sets/blocker; expected UNRESOLVED",
+        "MT10_q1nc4_r044: incomplete review: completed individual review status",
+        "WW03_WW03_r078: incomplete review: human confirmation of current content",
+        "WW08_WW08_r005: incomplete review: completed individual review status"
+      ],
+      "warnings": [
+        "MT07_q1ec8_r011: recorded complete status still needs evidence verification",
+        "WW03_WW03_r078: recorded complete status still needs human confirmation of current content"
+      ]
+    }
+  },
+  "form_checks": {
+    "method": "Node DOM-stub integration tests plus source and generated HTML inspection; no browser visual claim",
+    "behavior_checks_run": 12,
+    "behavior_checks_passed": 12,
+    "r1_full_import_export_deep_equality_passed": true,
+    "required_provenance_and_unknown_metadata_preserved_on_export": true,
+    "mt10_style_unknown_required_anchor_detected_as_unresolved": true,
+    "saved_judgments_not_changed_by_validation": true,
+    "caption_to_path_mapping_entries": 35,
+    "generated_html_embeds_current_field_mapping": true,
+    "generated_html_embeds_current_javascript": true,
+    "visual_rendering_verified": false,
+    "embedded_mapping_scope": "The generator embeds schema_version and all 35 fields; descriptive file-level purpose and label-rule notes are not part of the embedded mapping payload."
+  },
+  "mt10_remaining_issue": {
+    "blocking_uncertainty": false,
+    "saved_user_label": "ALIGNED",
+    "supported_consequences": {
+      "giver": [
+        [
+          "Route",
+          "current_below_start_segment",
+          "below",
+          null
+        ]
+      ],
+      "follower": [
+        [
+          "Route",
+          "current_below_start_segment",
+          "below",
+          null
+        ]
+      ]
+    },
+    "computed_rule_label": "UNRESOLVED",
+    "expected_validation_failure_preserved": true,
+    "pending_verification": "Establish m3_giver_01 START and m3_follower_01 START cross-map correspondence to m3_start using independently checked context; the current draft inventories and null canonical anchor values do not establish it. Both .041 giver and .043 follower support below-start wording, but the complete Route consequence includes the anchor.",
+    "eligible_as_verified_definite_scored_reference": false
+  },
+  "readiness_summary": {
+    "schema_and_authorized_edit_checks_pass": true,
+    "all_reviews_ready_for_complete_export": false,
+    "records_mechanically_complete": 13,
+    "current_labels_are_review_entries_not_empirical_model_results": {
+      "UNRESOLVED": 17,
+      "ALIGNED": 3
+    },
+    "new_model_runs_performed": 0,
+    "new_human_reviews_or_adjudications_created": 0
+  }
+}

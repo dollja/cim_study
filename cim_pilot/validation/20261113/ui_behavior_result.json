@@ -1,0 +1,57 @@
+{
+  "record_type": "dom_stub_behavior_validation_not_browser_or_research_results",
+  "checked_at_utc": "2026-11-13T09:49:23.528Z",
+  "checks": 12,
+  "passed": 12,
+  "visual_rendering_verified": false,
+  "checks_detail": [
+    {
+      "name": "Initial export has 20 neutral canonical review records and exact observer hashes",
+      "status": "passed"
+    },
+    {
+      "name": "All 35 exact caption-to-path mappings are visible in the optional accessible reference",
+      "status": "passed"
+    },
+    {
+      "name": "Reader 2 imports and exports without losing null pairs or unknown metadata",
+      "status": "passed"
+    },
+    {
+      "name": "Reader 1 current judgments and all provenance survive import/export without a repetitive completion banner",
+      "status": "passed"
+    },
+    {
+      "name": "Pair stays null until complete; choosing a source copies the exact prefix quotation",
+      "status": "passed"
+    },
+    {
+      "name": "Evidence notes are editable; source changes update quote and speaker; supported readings require exact own-speaker prefix quotations",
+      "status": "passed"
+    },
+    {
+      "name": "Ten F7 fixtures check singleton/disjoint/overlap/empty/unknown/blocker rules without changing saved judgments",
+      "status": "passed"
+    },
+    {
+      "name": "Known typed outputs do not substitute for participant-supported readings",
+      "status": "passed"
+    },
+    {
+      "name": "Wording is hidden until opened; copying changes prose and exposure without judgment/verification/selection/completion",
+      "status": "passed"
+    },
+    {
+      "name": "First-pass snapshot and SHA256 freeze once; later consultation preserves prior exposure and copied text cannot overwrite snapshot",
+      "status": "passed"
+    },
+    {
+      "name": "Mismatched frozen hashes and unknown case IDs reject imports without overwriting current work",
+      "status": "passed"
+    },
+    {
+      "name": "Public Audio source is not offered as a focal game participant",
+      "status": "passed"
+    }
+  ]
+}

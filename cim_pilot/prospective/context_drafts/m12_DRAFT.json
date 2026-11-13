@@ -1,0 +1,185 @@
+{
+  "map_pair": "m12",
+  "review_status": "assistant_draft_not_independently_reviewed",
+  "provenance": "../source_maps/map12g.gif and map12f.gif; see source_maps/provenance.json",
+  "scope": "Printed names, start/finish markers where labelled, qualitative location and proposed static correspondences. No traced giver path or completed follower drawing.",
+  "review_note": "The assistant transcribed these after source-dialogue screening. This does not satisfy two independent readers working without selected dialogue or labels. Check the original maps afresh and preserve uncertainty.",
+  "context_sources": [
+    {
+      "source_id": "m12_giver_inventory",
+      "text": "m12_giver_01: farmed land; top middle; correspondence m12_farmed_land\nm12_giver_02: west lake; upper left; correspondence m12_west_lake\nm12_giver_03: east lake; upper right; correspondence m12_east_lake\nm12_giver_04: FINISH; left of east lake; correspondence m12_finish\nm12_giver_05: trig point; right of west lake; correspondence m12_trig_point\nm12_giver_06: nuclear test site; right below east lake; correspondence m12_nuclear_test_site\nm12_giver_07: monument; right middle; correspondence m12_monument\nm12_giver_08: abandoned cottage; middle; correspondence m12_abandoned_cottage\nm12_giver_09: fenced meadow; left below west lake; correspondence m12_meadow_left\nm12_giver_10: START; lower left above caravan park; correspondence m12_start\nm12_giver_11: caravan park; lower left; correspondence m12_caravan_park\nm12_giver_12: old mill; below/right of caravan park; correspondence m12_mill\nm12_giver_13: fenced meadow; lower right; correspondence m12_meadow_lower_right",
+      "accessible_to_participants": [
+        "giver"
+      ],
+      "adapter": {
+        "kind": "map_inventory",
+        "review_status": "draft",
+        "entities": [
+          {
+            "id": "m12_giver_01",
+            "label": "farmed land",
+            "class_id": "m12_farmed_land",
+            "description": "top middle"
+          },
+          {
+            "id": "m12_giver_02",
+            "label": "west lake",
+            "class_id": "m12_west_lake",
+            "description": "upper left"
+          },
+          {
+            "id": "m12_giver_03",
+            "label": "east lake",
+            "class_id": "m12_east_lake",
+            "description": "upper right"
+          },
+          {
+            "id": "m12_giver_04",
+            "label": "FINISH",
+            "class_id": "m12_finish",
+            "description": "left of east lake"
+          },
+          {
+            "id": "m12_giver_05",
+            "label": "trig point",
+            "class_id": "m12_trig_point",
+            "description": "right of west lake"
+          },
+          {
+            "id": "m12_giver_06",
+            "label": "nuclear test site",
+            "class_id": "m12_nuclear_test_site",
+            "description": "right below east lake"
+          },
+          {
+            "id": "m12_giver_07",
+            "label": "monument",
+            "class_id": "m12_monument",
+            "description": "right middle"
+          },
+          {
+            "id": "m12_giver_08",
+            "label": "abandoned cottage",
+            "class_id": "m12_abandoned_cottage",
+            "description": "middle"
+          },
+          {
+            "id": "m12_giver_09",
+            "label": "fenced meadow",
+            "class_id": "m12_meadow_left",
+            "description": "left below west lake"
+          },
+          {
+            "id": "m12_giver_10",
+            "label": "START",
+            "class_id": "m12_start",
+            "description": "lower left above caravan park"
+          },
+          {
+            "id": "m12_giver_11",
+            "label": "caravan park",
+            "class_id": "m12_caravan_park",
+            "description": "lower left"
+          },
+          {
+            "id": "m12_giver_12",
+            "label": "old mill",
+            "class_id": "m12_mill",
+            "description": "below/right of caravan park"
+          },
+          {
+            "id": "m12_giver_13",
+            "label": "fenced meadow",
+            "class_id": "m12_meadow_lower_right",
+            "description": "lower right"
+          }
+        ]
+      }
+    },
+    {
+      "source_id": "m12_follower_inventory",
+      "text": "m12_follower_01: farmed land; top middle; correspondence m12_farmed_land\nm12_follower_02: west lake; upper left; correspondence m12_west_lake\nm12_follower_03: east lake; upper right; correspondence m12_east_lake\nm12_follower_04: golf course; right below east lake; correspondence m12_golf_course\nm12_follower_05: monument; right middle; correspondence m12_monument\nm12_follower_06: abandoned cottage; middle; correspondence m12_abandoned_cottage\nm12_follower_07: forest; lower middle above caravan park level; correspondence m12_forest\nm12_follower_08: START; lower left above caravan park; correspondence m12_start\nm12_follower_09: caravan park; lower left; correspondence m12_caravan_park\nm12_follower_10: mill wheel; below/right of caravan park; correspondence m12_mill\nm12_follower_11: picket fence; bottom left; correspondence m12_picket_fence\nm12_follower_12: fenced meadow; lower right; correspondence m12_meadow_lower_right",
+      "accessible_to_participants": [
+        "follower"
+      ],
+      "adapter": {
+        "kind": "map_inventory",
+        "review_status": "draft",
+        "entities": [
+          {
+            "id": "m12_follower_01",
+            "label": "farmed land",
+            "class_id": "m12_farmed_land",
+            "description": "top middle"
+          },
+          {
+            "id": "m12_follower_02",
+            "label": "west lake",
+            "class_id": "m12_west_lake",
+            "description": "upper left"
+          },
+          {
+            "id": "m12_follower_03",
+            "label": "east lake",
+            "class_id": "m12_east_lake",
+            "description": "upper right"
+          },
+          {
+            "id": "m12_follower_04",
+            "label": "golf course",
+            "class_id": "m12_golf_course",
+            "description": "right below east lake"
+          },
+          {
+            "id": "m12_follower_05",
+            "label": "monument",
+            "class_id": "m12_monument",
+            "description": "right middle"
+          },
+          {
+            "id": "m12_follower_06",
+            "label": "abandoned cottage",
+            "class_id": "m12_abandoned_cottage",
+            "description": "middle"
+          },
+          {
+            "id": "m12_follower_07",
+            "label": "forest",
+            "class_id": "m12_forest",
+            "description": "lower middle above caravan park level"
+          },
+          {
+            "id": "m12_follower_08",
+            "label": "START",
+            "class_id": "m12_start",
+            "description": "lower left above caravan park"
+          },
+          {
+            "id": "m12_follower_09",
+            "label": "caravan park",
+            "class_id": "m12_caravan_park",
+            "description": "lower left"
+          },
+          {
+            "id": "m12_follower_10",
+            "label": "mill wheel",
+            "class_id": "m12_mill",
+            "description": "below/right of caravan park"
+          },
+          {
+            "id": "m12_follower_11",
+            "label": "picket fence",
+            "class_id": "m12_picket_fence",
+            "description": "bottom left"
+          },
+          {
+            "id": "m12_follower_12",
+            "label": "fenced meadow",
+            "class_id": "m12_meadow_lower_right",
+            "description": "lower right"
+          }
+        ]
+      }
+    }
+  ]
+}

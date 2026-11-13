@@ -1,0 +1,151 @@
+{
+  "record_type": "independent_human_key_conversion_audit_not_research_results",
+  "checked_at_utc": "2026-11-13T10:32:17.363815+00:00",
+  "status": "passed_key_conversion_and_original_form_preservation",
+  "package_directory": "/workspace/scratch/50fc1af69ed3/tmp/cim_human_keys_20261113/cim_pilot",
+  "unexpected_defects": [],
+  "files_checked": [
+    {
+      "file": "REVIEWS.json",
+      "records": 20,
+      "human_keys_are_actual_file_keys": true,
+      "human_schema_valid": true,
+      "technical_schema_valid_after_normalization": true,
+      "exact_backconversion_matches_prior_file": true,
+      "human_conversion_idempotent": true,
+      "record_hashes_unchanged": true,
+      "validation_results_unchanged": true,
+      "raw_sha256": "c46a60be583153bcd03a733095bbe798e50defee24da1a2e600ddd1c22b876e5"
+    },
+    {
+      "file": "REVIEWS_r1_v2.json",
+      "records": 20,
+      "human_keys_are_actual_file_keys": true,
+      "human_schema_valid": true,
+      "technical_schema_valid_after_normalization": true,
+      "exact_backconversion_matches_prior_file": true,
+      "human_conversion_idempotent": true,
+      "record_hashes_unchanged": true,
+      "validation_results_unchanged": true,
+      "raw_sha256": "9b6dea69906473e90863e61b85a20831b1e45e42555269b4dbcefc2e64b23616"
+    },
+    {
+      "file": "REVIEWS_r1_v3_plain_language.json",
+      "records": 20,
+      "human_keys_are_actual_file_keys": true,
+      "human_schema_valid": true,
+      "technical_schema_valid_after_normalization": true,
+      "exact_backconversion_matches_prior_file": true,
+      "human_conversion_idempotent": true,
+      "record_hashes_unchanged": true,
+      "validation_results_unchanged": true,
+      "raw_sha256": "c46a60be583153bcd03a733095bbe798e50defee24da1a2e600ddd1c22b876e5"
+    },
+    {
+      "file": "reviews/reader_2/REVIEWS.json",
+      "records": 20,
+      "human_keys_are_actual_file_keys": true,
+      "human_schema_valid": true,
+      "technical_schema_valid_after_normalization": true,
+      "exact_backconversion_matches_prior_file": true,
+      "human_conversion_idempotent": true,
+      "record_hashes_unchanged": true,
+      "validation_results_unchanged": true,
+      "raw_sha256": "fdf0e45ad20b5a43fb981c37ca22014961627d837569bee2f5412e68db0bad95"
+    },
+    {
+      "file": "wording/REVIEWS_A.json",
+      "records": 20,
+      "human_keys_are_actual_file_keys": true,
+      "human_schema_valid": true,
+      "technical_schema_valid_after_normalization": true,
+      "exact_backconversion_matches_prior_file": true,
+      "human_conversion_idempotent": true,
+      "record_hashes_unchanged": true,
+      "validation_results_unchanged": true,
+      "raw_sha256": "59a59c06a8f07ec9c516cb9eac085c931814d679e027f75a5820d9d44e6299cf"
+    },
+    {
+      "file": "wording/REVIEWS_B.json",
+      "records": 20,
+      "human_keys_are_actual_file_keys": true,
+      "human_schema_valid": true,
+      "technical_schema_valid_after_normalization": true,
+      "exact_backconversion_matches_prior_file": true,
+      "human_conversion_idempotent": true,
+      "record_hashes_unchanged": true,
+      "validation_results_unchanged": true,
+      "raw_sha256": "177f976602111f608d452ed74e6f92caa88c50f13e43f3199c799e6b44195115"
+    }
+  ],
+  "records_checked_across_six_versions_and_templates": 120,
+  "unique_candidate_episodes": 20,
+  "root_equals_v3_bytes": true,
+  "key_mapping": {
+    "format_id": "CIM_FORM_LABEL_KEYS_V1",
+    "actual_human_keys_not_schema_titles_only": true,
+    "technical_algorithm_keys_preserved_after_normalization": true,
+    "controlled_label_codes_support_codes_and_literal_values_preserved": true,
+    "source_ids_participant_dictionary_keys_and_opaque_values_preserved": true,
+    "nested_first_pass_snapshot_and_field_reference_roundtrips_verified": true,
+    "focus_source_and_evidence_source_contexts_verified": true,
+    "ambiguous_aliases_rejected_by_javascript_codec": true,
+    "python_javascript_parity_on_all_six_delivered_files": true,
+    "structural_container_aliases_are_not_new_form_controls": [
+      "Participants being compared",
+      "Selected dialogue turns",
+      "Selected expressions"
+    ]
+  },
+  "form_checks": {
+    "original_literal_field_caption_count": 25,
+    "field_caption_sequence_unchanged": true,
+    "original_stage_count": 6,
+    "stage_sequence_unchanged": true,
+    "disclosure_section_sequence_unchanged": true,
+    "css_byte_identical_to_original": true,
+    "no_extra_support_note_or_evidence_note_editor": true,
+    "no_new_mapping_panel": true,
+    "generated_html_has_current_map": true,
+    "generated_html_has_current_app_and_codec": true,
+    "visible_nonfield_differences": "Export-format hint and validation messages updated; repetitive preparation banner removed as previously requested. No form fields added or renamed.",
+    "dom_stub_check_groups": 15,
+    "dom_stub_passed": 15,
+    "visual_rendering_verified": false,
+    "embedded_map_scope": "Exact runtime sections format_id, maps, children and field_reference_lists; descriptive purpose/container notes are intentionally not embedded."
+  },
+  "evidence_and_execution_isolation": {
+    "all20_observer_files_byte_unchanged": true,
+    "pilot_py_byte_unchanged": true,
+    "report_results_py_byte_unchanged": true,
+    "active_r1_exact_prefix_quote_records_checked": 170,
+    "exact_quote_speaker_and_observer_hash_errors": [],
+    "genuine_model_runs_performed": 0,
+    "new_human_reviews_or_adjudications_created": 0
+  },
+  "machine_compatibility": {
+    "comparison_result_unchanged": true,
+    "pending_adjudication_machine_template_and_record_hashes_unchanged": true,
+    "existing_ledger_contract_remains_technical": true,
+    "raw_review_file_hashes_change_with_serialization": "Raw file hashes are recorded separately in JSON_KEY_RENAME_RECORD.json; normalized record and snapshot bindings are preserved.",
+    "human_gate_checks_not_bypassed": true
+  },
+  "research_readiness_is_separate": {
+    "schema_valid": true,
+    "review_consistency_valid": false,
+    "review_errors": [
+      "MT10_q1nc4_r044: label contradicts declared consequence sets/blocker; expected UNRESOLVED"
+    ],
+    "completed_records": 13,
+    "mt10_requested_flag": false,
+    "mt10_saved_judgment": "ALIGNED",
+    "mt10_rule_judgment": "UNRESOLVED",
+    "mt10_null_required_anchor_retained": true,
+    "interpretation": "Key conversion does not resolve MT10, verify context inventories, complete pending reviews or establish empirical findings."
+  },
+  "assigned_document_updates": [
+    "CODEX_RUN_PROMPT.txt",
+    "docs/RUN_AND_RESULTS_GUIDE.txt"
+  ],
+  "documentation_scope": "Reader fields now use original form captions; codec APIs/schema/conversion CLI and normalized record binding explained. Existing run budgets, model isolation, human gates and execution instructions retained."
+}

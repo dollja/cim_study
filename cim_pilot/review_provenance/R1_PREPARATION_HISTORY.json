@@ -1,0 +1,2296 @@
+{
+  "record_type": "r1_preparation_history",
+  "updated_on": "2026-11-13",
+  "purpose": "Preserve preparation and exposure history outside the active review prose.",
+  "not_model_visible": true,
+  "versions_are_same_reader": true,
+  "reader_id": "r1",
+  "prior_package_root_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+  "versions": {
+    "r1_v2": {
+      "source_filename": "REVIEWS_r1_v2.json",
+      "source_sha256": "02c84de080e87180666d345312f98a664c5ff2ed8117b6db056bdb3680439aa3",
+      "archived_source": "source_snapshots/REVIEWS_r1_v2.json",
+      "cases": {
+        "MT01_q1ec1_r049": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "306228ca5f209d72e3326ad9e76ac3854251e9079bc850f642fee292c7700cd6",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 49,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m12_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m12_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT02_q1ec3_r012": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "6889912c651c892eeeee921e5a474bdfebe9cfa2a103934f8e62fbfe6253079f",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 12,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m6_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m6_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT03_q1ec4_r019": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "2ea411ea05c47bf4e801f47ecc4a3d7a33d2666458a65081ec2cc3fe6cc6215d",
+            "source_review_status": "reviewed",
+            "source_prefix_first_review_completed": true
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "review_status",
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 19,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m3_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m3_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT04_q1ec5_r031": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "ad148f35ca713829b7c8699c517b02dc63b71039d8357fcf926236caf472135b",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 31,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m6_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m6_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT05_q1ec6_r053": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "9acc0f9cfcb6211775a2dd0b7112ae80a61c88109881808058c2f035a1b47dea",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 53,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m3_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m3_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT06_q1ec7_r022": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "8ab02781b761926dbe05a8cad43419842560b587b7738831f12a7fe3d0c76c32",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 22,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m12_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m12_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT07_q1ec8_r011": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "a521c89e3099b0953daa08723a8895bfce80c5b4322143290b7beb3bfd6170fd",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 11,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m9_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m9_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT08_q1nc2_r052": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "17bf5dd2e49ce235b03d87dd45eced47a814e94391ce9b908210003675feb497",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 52,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m9_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m9_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT09_q1nc3_r054": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "03b2a28eb4d2eb48f2ce9e2af778d5f1d56d78f668b63a21bfdcacfab2e18f80",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 54,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m6_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m6_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT10_q1nc4_r044": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "d8d24135f7c62bc340662f3164473009bf27fac17d89590156a7671075deabf7",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 44,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m3_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m3_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW01_WW01_r028": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "d3de65ff38f2bac33003107ea50b53a41436019ec025e08db7a0008ebeff4778",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 28,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW01_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW02_WW02_r040": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "ea9b7105532f9e7dc986c97e372e1bd269300975fd831d8594fe912f21cd1d38",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 40,
+            "scope": "Exact text, IDs, speakers, frozen input and local expressed-content support checked against the retained prefix. No external map fact or rule execution is needed for this narrow decision. The draft context adapter and underlying audio/video are not certified.",
+            "context_statuses": [
+              {
+                "source_id": "WW02_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW03_WW03_r078": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "ad231583ff53b47cb7febc036470bc76fc617dcc1ec795f1239964772bcfc2eb",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 78,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW03_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW04_WW04_r009": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "095e6363eaaf94054482d3a8612ec7cc46e0245dafac0afcaf4c37556c141ce3",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 9,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW04_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW05_WW05_r039": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "f4f4d1671b4f9b16a25c2400dfac8fc308ff5a8ee59fb9e34c381bd6dc1628f5",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 39,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW05_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW06_WW06_r040": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "6868b887c3406c6bf5beed07a45cb5bf042b341f564619f9d70845720129022c",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 40,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW06_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW07_WW07_r099": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "7c2e988ff6a950389c3617e6a5608d2c0b1a32a6093a01ebb92b9448680ba685",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 99,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW07_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW08_WW08_r005": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "74bf664ac958f9ea4788b8aba42e709edde5d6b4dff414e13d79428526c20d23",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 5,
+            "scope": "Exact text, IDs, speakers, frozen input and local expressed-content support checked against the retained prefix. No external map fact or rule execution is needed for this narrow decision. The draft context adapter and underlying audio/video are not certified.",
+            "context_statuses": [
+              {
+                "source_id": "WW08_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW09_WW09_r059": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "7245e1af75682f98b27adfc6d06123d673bfaa96e3fea89f49037cdc7c662fb9",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 59,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW09_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW10_WW10_r067": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "f9ae8d158540ecee8c262d8424b4f64314b3303b3075b6efabdf3299c889305c",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 67,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW10_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        }
+      },
+      "changed_json_paths": [
+        "MT01_q1ec1_r049.review_metadata.assistant_revision",
+        "MT01_q1ec1_r049.review_metadata.evidence_audit",
+        "MT01_q1ec1_r049.review_metadata.prior_exposure.notes",
+        "MT01_q1ec1_r049.review_metadata.provenance_record",
+        "MT01_q1ec1_r049.review_metadata.source_human_confirmation",
+        "MT01_q1ec1_r049.task_outputs.authorship",
+        "MT02_q1ec3_r012.review_metadata.assistant_revision",
+        "MT02_q1ec3_r012.review_metadata.evidence_audit",
+        "MT02_q1ec3_r012.review_metadata.prior_exposure.notes",
+        "MT02_q1ec3_r012.review_metadata.provenance_record",
+        "MT02_q1ec3_r012.review_metadata.source_human_confirmation",
+        "MT02_q1ec3_r012.task_outputs.authorship",
+        "MT03_q1ec4_r019.review_metadata.assistant_revision",
+        "MT03_q1ec4_r019.review_metadata.evidence_audit",
+        "MT03_q1ec4_r019.review_metadata.prior_exposure.notes",
+        "MT03_q1ec4_r019.review_metadata.provenance_record",
+        "MT03_q1ec4_r019.review_metadata.source_human_confirmation",
+        "MT03_q1ec4_r019.task_outputs.authorship",
+        "MT04_q1ec5_r031.review_metadata.assistant_revision",
+        "MT04_q1ec5_r031.review_metadata.evidence_audit",
+        "MT04_q1ec5_r031.review_metadata.prior_exposure.notes",
+        "MT04_q1ec5_r031.review_metadata.provenance_record",
+        "MT04_q1ec5_r031.review_metadata.source_human_confirmation",
+        "MT04_q1ec5_r031.task_outputs.authorship",
+        "MT05_q1ec6_r053.review_metadata.assistant_revision",
+        "MT05_q1ec6_r053.review_metadata.evidence_audit",
+        "MT05_q1ec6_r053.review_metadata.prior_exposure.notes",
+        "MT05_q1ec6_r053.review_metadata.provenance_record",
+        "MT05_q1ec6_r053.review_metadata.source_human_confirmation",
+        "MT05_q1ec6_r053.task_outputs.authorship",
+        "MT06_q1ec7_r022.review_metadata.assistant_revision",
+        "MT06_q1ec7_r022.review_metadata.evidence_audit",
+        "MT06_q1ec7_r022.review_metadata.prior_exposure.notes",
+        "MT06_q1ec7_r022.review_metadata.provenance_record",
+        "MT06_q1ec7_r022.review_metadata.source_human_confirmation",
+        "MT06_q1ec7_r022.task_outputs.authorship",
+        "MT07_q1ec8_r011.review_metadata.assistant_revision",
+        "MT07_q1ec8_r011.review_metadata.evidence_audit",
+        "MT07_q1ec8_r011.review_metadata.prior_exposure.notes",
+        "MT07_q1ec8_r011.review_metadata.provenance_record",
+        "MT07_q1ec8_r011.review_metadata.source_human_confirmation",
+        "MT07_q1ec8_r011.task_outputs.authorship",
+        "MT08_q1nc2_r052.review_metadata.assistant_revision",
+        "MT08_q1nc2_r052.review_metadata.evidence_audit",
+        "MT08_q1nc2_r052.review_metadata.prior_exposure.notes",
+        "MT08_q1nc2_r052.review_metadata.provenance_record",
+        "MT08_q1nc2_r052.review_metadata.source_human_confirmation",
+        "MT08_q1nc2_r052.task_outputs.authorship",
+        "MT09_q1nc3_r054.review_metadata.assistant_revision",
+        "MT09_q1nc3_r054.review_metadata.evidence_audit",
+        "MT09_q1nc3_r054.review_metadata.prior_exposure.notes",
+        "MT09_q1nc3_r054.review_metadata.provenance_record",
+        "MT09_q1nc3_r054.review_metadata.source_human_confirmation",
+        "MT09_q1nc3_r054.task_outputs.authorship",
+        "MT10_q1nc4_r044.blocking_uncertainty",
+        "MT10_q1nc4_r044.prefix_only_rationale",
+        "MT10_q1nc4_r044.review_metadata.assistant_revision",
+        "MT10_q1nc4_r044.review_metadata.evidence_audit",
+        "MT10_q1nc4_r044.review_metadata.prior_exposure.notes",
+        "MT10_q1nc4_r044.review_metadata.provenance_record",
+        "MT10_q1nc4_r044.review_metadata.source_human_confirmation",
+        "MT10_q1nc4_r044.task_outputs.authorship",
+        "MT10_q1nc4_r044.task_outputs.comparison",
+        "WW01_WW01_r028.review_metadata.assistant_revision",
+        "WW01_WW01_r028.review_metadata.evidence_audit",
+        "WW01_WW01_r028.review_metadata.prior_exposure.notes",
+        "WW01_WW01_r028.review_metadata.provenance_record",
+        "WW01_WW01_r028.review_metadata.source_human_confirmation",
+        "WW01_WW01_r028.task_outputs.authorship",
+        "WW02_WW02_r040.review_metadata.assistant_revision",
+        "WW02_WW02_r040.review_metadata.evidence_audit",
+        "WW02_WW02_r040.review_metadata.prior_exposure.notes",
+        "WW02_WW02_r040.review_metadata.provenance_record",
+        "WW02_WW02_r040.review_metadata.source_human_confirmation",
+        "WW02_WW02_r040.task_outputs.authorship",
+        "WW03_WW03_r078.review_metadata.assistant_revision",
+        "WW03_WW03_r078.review_metadata.evidence_audit",
+        "WW03_WW03_r078.review_metadata.prior_exposure.notes",
+        "WW03_WW03_r078.review_metadata.provenance_record",
+        "WW03_WW03_r078.review_metadata.source_human_confirmation",
+        "WW03_WW03_r078.task_outputs.authorship",
+        "WW04_WW04_r009.review_metadata.assistant_revision",
+        "WW04_WW04_r009.review_metadata.evidence_audit",
+        "WW04_WW04_r009.review_metadata.prior_exposure.notes",
+        "WW04_WW04_r009.review_metadata.provenance_record",
+        "WW04_WW04_r009.review_metadata.source_human_confirmation",
+        "WW04_WW04_r009.task_outputs.authorship",
+        "WW05_WW05_r039.review_metadata.assistant_revision",
+        "WW05_WW05_r039.review_metadata.evidence_audit",
+        "WW05_WW05_r039.review_metadata.prior_exposure.notes",
+        "WW05_WW05_r039.review_metadata.provenance_record",
+        "WW05_WW05_r039.review_metadata.source_human_confirmation",
+        "WW05_WW05_r039.task_outputs.authorship",
+        "WW06_WW06_r040.review_metadata.assistant_revision",
+        "WW06_WW06_r040.review_metadata.evidence_audit",
+        "WW06_WW06_r040.review_metadata.prior_exposure.notes",
+        "WW06_WW06_r040.review_metadata.provenance_record",
+        "WW06_WW06_r040.review_metadata.source_human_confirmation",
+        "WW06_WW06_r040.task_outputs.authorship",
+        "WW07_WW07_r099.review_metadata.assistant_revision",
+        "WW07_WW07_r099.review_metadata.evidence_audit",
+        "WW07_WW07_r099.review_metadata.prior_exposure.notes",
+        "WW07_WW07_r099.review_metadata.provenance_record",
+        "WW07_WW07_r099.review_metadata.source_human_confirmation",
+        "WW07_WW07_r099.task_outputs.authorship",
+        "WW08_WW08_r005.review_metadata.assistant_revision",
+        "WW08_WW08_r005.review_metadata.evidence_audit",
+        "WW08_WW08_r005.review_metadata.prior_exposure.notes",
+        "WW08_WW08_r005.review_metadata.provenance_record",
+        "WW08_WW08_r005.review_metadata.source_human_confirmation",
+        "WW08_WW08_r005.task_outputs.authorship",
+        "WW09_WW09_r059.review_metadata.assistant_revision",
+        "WW09_WW09_r059.review_metadata.evidence_audit",
+        "WW09_WW09_r059.review_metadata.prior_exposure.notes",
+        "WW09_WW09_r059.review_metadata.provenance_record",
+        "WW09_WW09_r059.review_metadata.source_human_confirmation",
+        "WW09_WW09_r059.task_outputs.authorship",
+        "WW10_WW10_r067.review_metadata.assistant_revision",
+        "WW10_WW10_r067.review_metadata.evidence_audit",
+        "WW10_WW10_r067.review_metadata.prior_exposure.notes",
+        "WW10_WW10_r067.review_metadata.provenance_record",
+        "WW10_WW10_r067.review_metadata.source_human_confirmation",
+        "WW10_WW10_r067.task_outputs.authorship"
+      ],
+      "updated_sha256": "3e0017c4b6f88fc18667b7559be21ca35357a54e6f1675f0e393306343405569"
+    },
+    "r1_v3": {
+      "source_filename": "REVIEWS_r1_v3_plain_language.json",
+      "source_sha256": "a9ca86317de8876ace284dd9cb16962a14e8d7948d4d8780d2689dde7ba29aa0",
+      "archived_source": "source_snapshots/REVIEWS_r1_v3_plain_language.json",
+      "cases": {
+        "MT01_q1ec1_r049": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "306228ca5f209d72e3326ad9e76ac3854251e9079bc850f642fee292c7700cd6",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 49,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m12_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m12_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT02_q1ec3_r012": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "6889912c651c892eeeee921e5a474bdfebe9cfa2a103934f8e62fbfe6253079f",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 12,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m6_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m6_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT03_q1ec4_r019": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "2ea411ea05c47bf4e801f47ecc4a3d7a33d2666458a65081ec2cc3fe6cc6215d",
+            "source_review_status": "reviewed",
+            "source_prefix_first_review_completed": true
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "review_status",
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 19,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m3_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m3_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT04_q1ec5_r031": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "ad148f35ca713829b7c8699c517b02dc63b71039d8357fcf926236caf472135b",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 31,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m6_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m6_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT05_q1ec6_r053": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "9acc0f9cfcb6211775a2dd0b7112ae80a61c88109881808058c2f035a1b47dea",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 53,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m3_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m3_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT06_q1ec7_r022": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "8ab02781b761926dbe05a8cad43419842560b587b7738831f12a7fe3d0c76c32",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 22,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m12_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m12_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT07_q1ec8_r011": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "a521c89e3099b0953daa08723a8895bfce80c5b4322143290b7beb3bfd6170fd",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 11,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m9_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m9_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT08_q1nc2_r052": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "17bf5dd2e49ce235b03d87dd45eced47a814e94391ce9b908210003675feb497",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 52,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m9_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m9_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT09_q1nc3_r054": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "03b2a28eb4d2eb48f2ce9e2af778d5f1d56d78f668b63a21bfdcacfab2e18f80",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 54,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m6_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m6_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "MT10_q1nc4_r044": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "d8d24135f7c62bc340662f3164473009bf27fac17d89590156a7671075deabf7",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 44,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "m3_giver_inventory",
+                "review_status": "draft"
+              },
+              {
+                "source_id": "m3_follower_inventory",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW01_WW01_r028": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "d3de65ff38f2bac33003107ea50b53a41436019ec025e08db7a0008ebeff4778",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 28,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW01_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW02_WW02_r040": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "ea9b7105532f9e7dc986c97e372e1bd269300975fd831d8594fe912f21cd1d38",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 40,
+            "scope": "Exact text, IDs, speakers, frozen input and local expressed-content support checked against the retained prefix. No external map fact or rule execution is needed for this narrow decision. The draft context adapter and underlying audio/video are not certified.",
+            "context_statuses": [
+              {
+                "source_id": "WW02_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW03_WW03_r078": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "ad231583ff53b47cb7febc036470bc76fc617dcc1ec795f1239964772bcfc2eb",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 78,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW03_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW04_WW04_r009": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "095e6363eaaf94054482d3a8612ec7cc46e0245dafac0afcaf4c37556c141ce3",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 9,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW04_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW05_WW05_r039": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "f4f4d1671b4f9b16a25c2400dfac8fc308ff5a8ee59fb9e34c381bd6dc1628f5",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 39,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW05_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW06_WW06_r040": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "6868b887c3406c6bf5beed07a45cb5bf042b341f564619f9d70845720129022c",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 40,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW06_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW07_WW07_r099": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "7c2e988ff6a950389c3617e6a5608d2c0b1a32a6093a01ebb92b9448680ba685",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 99,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW07_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW08_WW08_r005": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "74bf664ac958f9ea4788b8aba42e709edde5d6b4dff414e13d79428526c20d23",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 5,
+            "scope": "Exact text, IDs, speakers, frozen input and local expressed-content support checked against the retained prefix. No external map fact or rule execution is needed for this narrow decision. The draft context adapter and underlying audio/video are not certified.",
+            "context_statuses": [
+              {
+                "source_id": "WW08_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW09_WW09_r059": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "7245e1af75682f98b27adfc6d06123d673bfaa96e3fea89f49037cdc7c662fb9",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 59,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW09_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        },
+        "WW10_WW10_r067": {
+          "prior_exposure_notes": "r1 confirmed the source REVIEWS_A.json content on 2026-11-10 and declared assistant-draft exposure. This revision adds assistant-prepared evidence assessments and provisional labels. Other exposure flags remain undeclared (null); no unexposed or blind first pass is inferred.",
+          "source_human_confirmation": {
+            "confirmed": true,
+            "reviewer_id": "r1",
+            "confirmed_on": "2026-11-10",
+            "scope": "Content of the source REVIEWS_A.json, as explicitly confirmed by the user in this conversation.",
+            "source_file": "wording/REVIEWS_A.json",
+            "source_file_sha256": "0566ed83137a64bcb513fc907a32a4933f5db40372efd636ab3ed219b4eddd78",
+            "source_case_sha256": "f9ae8d158540ecee8c262d8424b4f64314b3303b3075b6efabdf3299c889305c",
+            "source_review_status": "in_progress",
+            "source_prefix_first_review_completed": false
+          },
+          "assistant_revision": {
+            "prepared_on": "2026-11-10",
+            "changed_fields": [
+              "participant_meanings_with_source_quotes",
+              "task_outputs",
+              "provisional_label",
+              "prefix_only_rationale",
+              "evidence_verified",
+              "inclusion_or_exclusion_reason"
+            ],
+            "labels_are_provisional": true,
+            "human_reviews_created_by_assistant": 0,
+            "later_evidence_used_for_judgment": false,
+            "model_outputs_used_for_judgment": false,
+            "status_when_prepared": "awaiting_r1_check_of_added_content"
+          },
+          "evidence_audit": {
+            "checked_on": "2026-11-10",
+            "checked_by": "assistant",
+            "exact_quotes_and_speakers_verified": true,
+            "observer_hash_matches_confirmed_source": true,
+            "retained_prefix_turn_count": 67,
+            "scope": "Exact text, IDs, speakers and frozen input checked. Prefix support and uncertainties assessed. Full evidence verification is not asserted: required context checks and/or the listed referent, event, phase or uptake questions remain open. No later evidence was used to strengthen support.",
+            "context_statuses": [
+              {
+                "source_id": "WW10_public_instructions",
+                "review_status": "draft"
+              }
+            ],
+            "context_adapter_certified": false,
+            "underlying_audio_video_verified": false,
+            "model_execution_preflight": "blocked_unverified_context"
+          },
+          "task_outputs_authorship": "Source wording confirmed by r1 on 2026-11-10; support codes, typed consequences and provisional labels prepared with assistant help and pending r1's check of this revision."
+        }
+      },
+      "changed_json_paths": [
+        "MT01_q1ec1_r049.review_metadata.assistant_revision",
+        "MT01_q1ec1_r049.review_metadata.evidence_audit",
+        "MT01_q1ec1_r049.review_metadata.prior_exposure.notes",
+        "MT01_q1ec1_r049.review_metadata.provenance_record",
+        "MT01_q1ec1_r049.review_metadata.source_human_confirmation",
+        "MT01_q1ec1_r049.task_outputs.authorship",
+        "MT02_q1ec3_r012.review_metadata.assistant_revision",
+        "MT02_q1ec3_r012.review_metadata.evidence_audit",
+        "MT02_q1ec3_r012.review_metadata.prior_exposure.notes",
+        "MT02_q1ec3_r012.review_metadata.provenance_record",
+        "MT02_q1ec3_r012.review_metadata.source_human_confirmation",
+        "MT02_q1ec3_r012.task_outputs.authorship",
+        "MT03_q1ec4_r019.review_metadata.assistant_revision",
+        "MT03_q1ec4_r019.review_metadata.evidence_audit",
+        "MT03_q1ec4_r019.review_metadata.prior_exposure.notes",
+        "MT03_q1ec4_r019.review_metadata.provenance_record",
+        "MT03_q1ec4_r019.review_metadata.source_human_confirmation",
+        "MT03_q1ec4_r019.task_outputs.authorship",
+        "MT04_q1ec5_r031.review_metadata.assistant_revision",
+        "MT04_q1ec5_r031.review_metadata.evidence_audit",
+        "MT04_q1ec5_r031.review_metadata.prior_exposure.notes",
+        "MT04_q1ec5_r031.review_metadata.provenance_record",
+        "MT04_q1ec5_r031.review_metadata.source_human_confirmation",
+        "MT04_q1ec5_r031.task_outputs.authorship",
+        "MT05_q1ec6_r053.review_metadata.assistant_revision",
+        "MT05_q1ec6_r053.review_metadata.evidence_audit",
+        "MT05_q1ec6_r053.review_metadata.prior_exposure.notes",
+        "MT05_q1ec6_r053.review_metadata.provenance_record",
+        "MT05_q1ec6_r053.review_metadata.source_human_confirmation",
+        "MT05_q1ec6_r053.task_outputs.authorship",
+        "MT06_q1ec7_r022.review_metadata.assistant_revision",
+        "MT06_q1ec7_r022.review_metadata.evidence_audit",
+        "MT06_q1ec7_r022.review_metadata.prior_exposure.notes",
+        "MT06_q1ec7_r022.review_metadata.provenance_record",
+        "MT06_q1ec7_r022.review_metadata.source_human_confirmation",
+        "MT06_q1ec7_r022.task_outputs.authorship",
+        "MT07_q1ec8_r011.review_metadata.assistant_revision",
+        "MT07_q1ec8_r011.review_metadata.evidence_audit",
+        "MT07_q1ec8_r011.review_metadata.prior_exposure.notes",
+        "MT07_q1ec8_r011.review_metadata.provenance_record",
+        "MT07_q1ec8_r011.review_metadata.source_human_confirmation",
+        "MT07_q1ec8_r011.task_outputs.authorship",
+        "MT08_q1nc2_r052.review_metadata.assistant_revision",
+        "MT08_q1nc2_r052.review_metadata.evidence_audit",
+        "MT08_q1nc2_r052.review_metadata.prior_exposure.notes",
+        "MT08_q1nc2_r052.review_metadata.provenance_record",
+        "MT08_q1nc2_r052.review_metadata.source_human_confirmation",
+        "MT08_q1nc2_r052.task_outputs.authorship",
+        "MT09_q1nc3_r054.review_metadata.assistant_revision",
+        "MT09_q1nc3_r054.review_metadata.evidence_audit",
+        "MT09_q1nc3_r054.review_metadata.prior_exposure.notes",
+        "MT09_q1nc3_r054.review_metadata.provenance_record",
+        "MT09_q1nc3_r054.review_metadata.source_human_confirmation",
+        "MT09_q1nc3_r054.task_outputs.authorship",
+        "MT10_q1nc4_r044.blocking_uncertainty",
+        "MT10_q1nc4_r044.prefix_only_rationale",
+        "MT10_q1nc4_r044.review_metadata.assistant_revision",
+        "MT10_q1nc4_r044.review_metadata.evidence_audit",
+        "MT10_q1nc4_r044.review_metadata.prior_exposure.notes",
+        "MT10_q1nc4_r044.review_metadata.provenance_record",
+        "MT10_q1nc4_r044.review_metadata.source_human_confirmation",
+        "MT10_q1nc4_r044.task_outputs.authorship",
+        "MT10_q1nc4_r044.task_outputs.comparison",
+        "WW01_WW01_r028.review_metadata.assistant_revision",
+        "WW01_WW01_r028.review_metadata.evidence_audit",
+        "WW01_WW01_r028.review_metadata.prior_exposure.notes",
+        "WW01_WW01_r028.review_metadata.provenance_record",
+        "WW01_WW01_r028.review_metadata.source_human_confirmation",
+        "WW01_WW01_r028.task_outputs.authorship",
+        "WW02_WW02_r040.review_metadata.assistant_revision",
+        "WW02_WW02_r040.review_metadata.evidence_audit",
+        "WW02_WW02_r040.review_metadata.prior_exposure.notes",
+        "WW02_WW02_r040.review_metadata.provenance_record",
+        "WW02_WW02_r040.review_metadata.source_human_confirmation",
+        "WW02_WW02_r040.task_outputs.authorship",
+        "WW03_WW03_r078.review_metadata.assistant_revision",
+        "WW03_WW03_r078.review_metadata.evidence_audit",
+        "WW03_WW03_r078.review_metadata.prior_exposure.notes",
+        "WW03_WW03_r078.review_metadata.provenance_record",
+        "WW03_WW03_r078.review_metadata.source_human_confirmation",
+        "WW03_WW03_r078.task_outputs.authorship",
+        "WW04_WW04_r009.review_metadata.assistant_revision",
+        "WW04_WW04_r009.review_metadata.evidence_audit",
+        "WW04_WW04_r009.review_metadata.prior_exposure.notes",
+        "WW04_WW04_r009.review_metadata.provenance_record",
+        "WW04_WW04_r009.review_metadata.source_human_confirmation",
+        "WW04_WW04_r009.task_outputs.authorship",
+        "WW05_WW05_r039.review_metadata.assistant_revision",
+        "WW05_WW05_r039.review_metadata.evidence_audit",
+        "WW05_WW05_r039.review_metadata.prior_exposure.notes",
+        "WW05_WW05_r039.review_metadata.provenance_record",
+        "WW05_WW05_r039.review_metadata.source_human_confirmation",
+        "WW05_WW05_r039.task_outputs.authorship",
+        "WW06_WW06_r040.review_metadata.assistant_revision",
+        "WW06_WW06_r040.review_metadata.evidence_audit",
+        "WW06_WW06_r040.review_metadata.prior_exposure.notes",
+        "WW06_WW06_r040.review_metadata.provenance_record",
+        "WW06_WW06_r040.review_metadata.source_human_confirmation",
+        "WW06_WW06_r040.task_outputs.authorship",
+        "WW07_WW07_r099.review_metadata.assistant_revision",
+        "WW07_WW07_r099.review_metadata.evidence_audit",
+        "WW07_WW07_r099.review_metadata.prior_exposure.notes",
+        "WW07_WW07_r099.review_metadata.provenance_record",
+        "WW07_WW07_r099.review_metadata.source_human_confirmation",
+        "WW07_WW07_r099.task_outputs.authorship",
+        "WW08_WW08_r005.review_metadata.assistant_revision",
+        "WW08_WW08_r005.review_metadata.evidence_audit",
+        "WW08_WW08_r005.review_metadata.prior_exposure.notes",
+        "WW08_WW08_r005.review_metadata.provenance_record",
+        "WW08_WW08_r005.review_metadata.source_human_confirmation",
+        "WW08_WW08_r005.task_outputs.authorship",
+        "WW09_WW09_r059.review_metadata.assistant_revision",
+        "WW09_WW09_r059.review_metadata.evidence_audit",
+        "WW09_WW09_r059.review_metadata.prior_exposure.notes",
+        "WW09_WW09_r059.review_metadata.provenance_record",
+        "WW09_WW09_r059.review_metadata.source_human_confirmation",
+        "WW09_WW09_r059.task_outputs.authorship",
+        "WW10_WW10_r067.review_metadata.assistant_revision",
+        "WW10_WW10_r067.review_metadata.evidence_audit",
+        "WW10_WW10_r067.review_metadata.prior_exposure.notes",
+        "WW10_WW10_r067.review_metadata.provenance_record",
+        "WW10_WW10_r067.review_metadata.source_human_confirmation",
+        "WW10_WW10_r067.task_outputs.authorship"
+      ],
+      "updated_sha256": "714b6b24aea89396027c5ca5282288a3b002c5466728f74e4b577200208f50d6"
+    }
+  },
+  "authorized_changes": [
+    "Set MT10 blocking_uncertainty to false in both review versions.",
+    "Remove repeated preparation prose from the active review records, retaining truthful required exposure fields.",
+    "Keep the saved ALIGNED label and null required START values; report the remaining F7 conflict.",
+    "Synchronize form display captions with canonical JSON paths, without renaming the schema keys or label codes."
+  ],
+  "mt10_edit": {
+    "case_id": "MT10_q1nc4_r044",
+    "field": "blocking_uncertainty",
+    "before": true,
+    "after": false,
+    "authority": "Explicit user instruction in the 2026-11-13 request.",
+    "retained_label": "ALIGNED",
+    "required_anchor_still_unknown": true,
+    "computed_label_from_saved_consequences": "UNRESOLVED",
+    "context_verification_performed_in_this_edit": false
+  }
+}

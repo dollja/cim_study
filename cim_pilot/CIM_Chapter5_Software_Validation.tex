@@ -1,0 +1,82 @@
+% Fragment for a dissertation chapter. No empirical model result is asserted here.
+\subsection{Preparation and software validation}
+The current pilot materials contain 20 proposed episode records: ten MapTask
+records from ten dialogues on four map pairs and ten Werewolf transcript
+records. These records constitute a candidate review set. Recovery or approval
+of an earlier final selection has not been established. At the time of this
+package update, no inclusion decisions or adjudicated reference labels had
+been completed, and no external model inference was performed.
+
+The implementation was synchronized with the 20-slide integrated early-warning
+deck dated 6 November 2026, including its speaker notes. Human review uses
+Tier S expressed evidence and preserves the distinction between a pending
+label and a substantive \texttt{UNRESOLVED} judgment. Availability of a landmark
+and a bare acknowledgment do not independently establish adoption of a referent.
+Earlier explicitly grounded speech may nevertheless support the active reading.
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lr}
+\hline
+Preparation or software check & Recorded count \\
+\hline
+Proposed episode records & 20 \\
+Transcript SHA-256 and Git blob checks & 20 \\
+Source map image hash checks & 8 \\
+Complete prefix/suffix reconstruction checks & 20 \\
+Python software tests passed & 78 \\
+Node DOM behavior checks passed & 9 \\
+Cases blocked by draft context & 20 \\
+Completed human reference adjudications & 0 \\
+External model inference calls in this update & 0 \\
+\hline
+\end{tabular}
+\caption{Preparation and software verification, not empirical detection performance.
+The DOM checks do not establish browser rendering correctness.}
+\label{tab:cim-software-preparation}
+\end{table}
+
+The new tests and records are separate from the archived 26-test record.
+A constructed supplied-record replay produced \texttt{POTENTIAL\_MISMATCH}.
+Six additional code replays on retained dialogue prefixes produced four
+\texttt{ALIGNED} and two \texttt{UNRESOLVED} outputs. Their meanings, attribution
+records and semantic support checks were supplied rather than inferred by a
+model. Three alignments remain conditional on draft map context, and the MT03
+cutoff follows a correction. These outputs demonstrate execution of stipulated
+records; they do not estimate model accuracy, establish reference labels or
+measure warning lead time.
+
+The review exporter binds adjudicated references to the frozen observer input.
+The reporter excludes a run from scoring when that canonical input hash differs
+or the reference is unbound. Independent, assisted-development and unspecified
+legacy reference conditions remain distinguishable. Schema validity and hash
+agreement alone do not establish semantic correctness or actual reviewer
+independence.
+
+\subsection{Empirical results to be completed}
+% Replace the pending entries only after actual execution and adjudication.
+\begin{table}[htbp]
+\centering
+\begin{tabular}{ll}
+\hline
+Result item & Current status \\
+\hline
+Final included cases and exclusions & Pending documented selection \\
+Independent or assisted reference condition & Pending completed reviews \\
+Model/version, prompt and decoding settings & Pending recorded execution \\
+Focal comparison accuracy and evidence correctness & Not measured \\
+Mismatch precision, recall and F1 & Not measured \\
+Warnings on unresolved references & Not measured \\
+Processing failures and discovery misses & Not measured \\
+Matched comparison arms and component diagnostics & Not executed \\
+Successive-prefix warning timing & Not measured \\
+\hline
+\end{tabular}
+\caption{Empirical reporting fields reserved for actual pilot execution.}
+\label{tab:cim-empirical-pending}
+\end{table}
+
+% Add case-level scope/adjudication details, eligible denominators, source-group
+% dependence, exact model settings, failed runs and condition-specific results.
+% Do not use software fixture labels as corpus reference labels.
+% Record later action/requirement checks separately if that optional protocol is run.

@@ -1,0 +1,125 @@
+{
+  "validation": "passed",
+  "mode": "baseline",
+  "prospective_records": 20,
+  "source_blob_hashes_matching": 20,
+  "source_map_hashes_matching": 8,
+  "complete_prefix_suffix_reconstructions": 20,
+  "first_response_boundaries_checked": 20,
+  "model_input_objects_without_curator_fields": 20,
+  "context_structural_checks_passed": 20,
+  "context_preflight_passed": 0,
+  "unverified_contexts_block_model_run": 20,
+  "selected_declared_in_register": 0,
+  "study_roles_declared": {
+    "prospective_candidate_unselected": 20
+  },
+  "annotation_review_statuses_declared": {
+    "unreviewed": 20
+  },
+  "reference_labels_adjudicated_declared": 0,
+  "model_run_audit": "not performed; no inference execution or performance claim follows from this validation",
+  "case_context_preflight": [
+    {
+      "sample_id": "MT01_q1ec1_r049",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "MT02_q1ec3_r012",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "MT03_q1ec4_r019",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "MT04_q1ec5_r031",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "MT05_q1ec6_r053",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "MT06_q1ec7_r022",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "MT07_q1ec8_r011",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "MT08_q1nc2_r052",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "MT09_q1nc3_r054",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "MT10_q1nc4_r044",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "WW01_WW01_r028",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "WW02_WW02_r040",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "WW03_WW03_r078",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "WW04_WW04_r009",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "WW05_WW05_r039",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "WW06_WW06_r040",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "WW07_WW07_r099",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "WW08_WW08_r005",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "WW09_WW09_r059",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    },
+    {
+      "sample_id": "WW10_WW10_r067",
+      "status": "blocked_unverified_context",
+      "reason": "Adapter facts need reviewed/verified context before a pilot run."
+    }
+  ],
+  "limitations": "Byte and structure checks do not validate interpretation support, transcription against media, independence, map correspondences or human reference labels. Declared review and selection states are not independently authenticated."
+}

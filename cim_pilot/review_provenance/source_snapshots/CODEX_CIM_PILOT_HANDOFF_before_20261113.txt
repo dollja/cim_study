@@ -1,0 +1,56 @@
+CONSEQUENTIAL INTERPRETATION MISMATCH (CIM) — SOURCE HANDOFF (2026-11-09)
+
+Start: README.md, REVIEW_GUIDE.html and REVIEW.html.
+Method source: Integrated Early Warning deck, 2026-11-06, 20 slides plus notes.
+Code: cim-current-pilot-0.3. Human review schema: 1.0. Evidence tier: S.
+
+Authoritative working human file: root REVIEWS.json.
+Second-reader blank file: reviews/reader_2/REVIEWS.json.
+Optional suggestions: wording/Tier_S_Wording_Alternatives.json and wording/REVIEWS_A.json / REVIEWS_B.json.
+Original attached review snapshot: reviews/legacy/human_review_template.json.
+Source provenance: prospective/provenance/, crosswalks/, source_transcripts/, source_maps/.
+
+Keep the three controlled codes ALIGNED, POTENTIAL_MISMATCH, UNRESOLVED.
+Do not substitute UNRESOLVED for an unfilled null label.
+The JSON keys stay stable; schemas/review_fields.json gives short captions.
+
+Read the declared task question and event before comparing consequences.
+ALIGNED = equal known singleton supported sets, no blocker.
+POTENTIAL_MISMATCH = nonempty known disjoint supported sets, no blocker.
+UNRESOLVED = otherwise or any consequence-changing uncertainty.
+
+Never send reviews, wording, curator drafts, later evidence, selection focus markers,
+released labels or hidden roles to the model. Only the four observer fields belong
+in its initial evidence. Exact quotes do not prove semantic support.
+
+Preserve current user edits. Migrations, comparisons and adjudicated exports use
+new output filenames. The builder requires a new reconstruction directory and
+must not reset a working review folder. When input evidence changes, retain a
+new input version, rereview and freeze its hash before resuming model execution.
+
+Run:
+python -m unittest discover -s tests -v
+python prospective/validate_candidates.py
+python review_tools.py validate REVIEWS.json --observer-dir prospective/observer_inputs
+
+The supplied drafts are incomplete; --complete is expected to reject them.
+All selected flags remain false and all context adapters remain draft.
+No human reference adjudication or actual model experiment was added here.
+Fresh software checks are in validation/. Older records are explicitly archived.
+
+The offline model harness emits request files and waits for untouched external
+response files. It has no built-in model API transport. Preserve model/provider
+metadata, raw replies, failures and condition IDs. Do not edit a model reply to
+repair malformed JSON. A changed code/prompt/configuration needs a new run.
+
+The report separates independent_strict, assisted_development and unspecified_legacy
+reference conditions. Source cluster IDs do not establish independent sessions.
+Candidate-specific evidence_review is completed only for actual model candidates.
+
+Do not report all proposed slide-15 comparison arms, successive-prefix timing,
+complete route geometry, arbitrary game rules or the optional slide-13 action
+extension as implemented. The complete chapter PDF was not freshly checked.
+
+Removal of personal attributions is intentional and does not alter source data.
+Source ZIPs and the attached slide deck are identified by hashes in
+docs/SYNCHRONIZATION.md. No external repository was modified.

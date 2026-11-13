@@ -1,0 +1,88 @@
+{
+  "counts": {
+    "runs": 0,
+    "eligible_reviewed_pilot_cases": 0,
+    "source_clusters": 0,
+    "correct_labels": 0,
+    "correct_with_reviewed_evidence": 0,
+    "positive_reference_cases": 0,
+    "aligned_reference_cases": 0,
+    "unresolved_reference_cases": 0,
+    "correct_warnings": 0,
+    "false_warnings_on_aligned": 0,
+    "warnings_on_unresolved_report_separately": 0
+  },
+  "input_binding_status_counts": {},
+  "counts_by_reference_condition": {
+    "assisted_development": {
+      "runs": 0,
+      "eligible_reviewed_pilot_cases": 0,
+      "source_clusters": 0,
+      "correct_labels": 0,
+      "correct_with_reviewed_evidence": 0,
+      "positive_reference_cases": 0,
+      "aligned_reference_cases": 0,
+      "unresolved_reference_cases": 0,
+      "correct_warnings": 0,
+      "false_warnings_on_aligned": 0,
+      "warnings_on_unresolved_report_separately": 0
+    },
+    "independent_strict": {
+      "runs": 0,
+      "eligible_reviewed_pilot_cases": 0,
+      "source_clusters": 0,
+      "correct_labels": 0,
+      "correct_with_reviewed_evidence": 0,
+      "positive_reference_cases": 0,
+      "aligned_reference_cases": 0,
+      "unresolved_reference_cases": 0,
+      "correct_warnings": 0,
+      "false_warnings_on_aligned": 0,
+      "warnings_on_unresolved_report_separately": 0
+    },
+    "unspecified_legacy": {
+      "runs": 0,
+      "eligible_reviewed_pilot_cases": 0,
+      "source_clusters": 0,
+      "correct_labels": 0,
+      "correct_with_reviewed_evidence": 0,
+      "positive_reference_cases": 0,
+      "aligned_reference_cases": 0,
+      "unresolved_reference_cases": 0,
+      "correct_warnings": 0,
+      "false_warnings_on_aligned": 0,
+      "warnings_on_unresolved_report_separately": 0
+    }
+  },
+  "limitations": [
+    "descriptive pilot counts only",
+    "no superiority claim",
+    "use condition-specific counts; aggregate totals are not independent blind-review results",
+    "source-cluster IDs do not establish independent participants or sessions",
+    "missing, invalid or mismatched canonical observer hashes are ineligible for scoring",
+    "matching input hashes establish evidence identity, not semantic correctness",
+    "focal chain matching and evidence need human review",
+    "no lead time without independently established event timing",
+    "unresolved references are not negative cases"
+  ],
+  "rows": [],
+  "record_scope": "Preparation status of the newly returned package, not an empirical model-results table.",
+  "preparation": {
+    "proposed_candidates": 20,
+    "selected_in_register": 0,
+    "adjudicated_references": 0,
+    "context_preflight_passed": 0,
+    "cases_blocked_by_draft_context": 20,
+    "context_adapter_objects": 30,
+    "external_model_calls_performed_during_update": 0,
+    "empirical_accuracy": "not measured",
+    "warning_lead_time": "not measured",
+    "comparison_arms": "not empirically compared"
+  },
+  "software_validation": {
+    "python_tests_passed": 78,
+    "ui_dom_behavior_checks_passed": 9,
+    "browser_visual_check_performed": false,
+    "record": "../validation/verification_summary.json"
+  }
+}

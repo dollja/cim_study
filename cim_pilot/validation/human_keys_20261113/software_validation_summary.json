@@ -1,0 +1,23 @@
+{
+  "record_type": "software_validation_not_model_results",
+  "date": "2026-11-13",
+  "core_tests": {
+    "command": "python -m unittest tests.test_review_key_codec tests.test_review_tools -v",
+    "tests_passed": 39,
+    "scope": "11 contextual codec/integration checks and 28 existing review-tool regressions"
+  },
+  "form_builder_tests": {
+    "command": "python -m unittest tests.test_review_ui",
+    "tests_passed": 6,
+    "scope": "Builder isolation and Python/JavaScript conversion parity"
+  },
+  "dom_behavior_checks": {
+    "command": "node tests/test_review_ui.js --output-directory validation/human_keys_20261113/ui_behavior",
+    "groups_passed": 15,
+    "f7_scenarios_passed": 10
+  },
+  "visual_browser_rendering_verified": false,
+  "empirical_model_calls": 0,
+  "known_review_consistency_error": "MT10 ALIGNED with unknown required START anchor; expected UNRESOLVED",
+  "primary_human_schema_valid": true
+}

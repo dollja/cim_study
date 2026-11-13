@@ -1,0 +1,8 @@
+$ /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 prospective/replay_prospective.py
+
+STDOUT
+[('WW02_WW02_r040', 'ALIGNED'), ('MT03_q1ec4_r019', 'ALIGNED'), ('MT05_q1ec6_r053', 'ALIGNED'), ('MT10_q1nc4_r044', 'ALIGNED'), ('WW01_WW01_r028', 'UNRESOLVED'), ('WW09_WW09_r059', 'UNRESOLVED')]
+
+STDERR
+
+EXIT CODE 0

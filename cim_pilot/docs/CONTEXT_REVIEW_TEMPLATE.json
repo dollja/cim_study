@@ -1,0 +1,21 @@
+{
+  "purpose": "Optional independent context review record. Keep outside observer inputs.",
+  "reviewer_id": null,
+  "reviewed_at": null,
+  "context_kind": null,
+  "source_files_and_sha256": [],
+  "prior_exposure": {
+    "dialogue_screening": null,
+    "assistant_inventory": null,
+    "case_labels": null,
+    "notes": ""
+  },
+  "inventory_complete": null,
+  "correspondences_checked": null,
+  "rules_and_phase_checked": null,
+  "corrections": [],
+  "unresolved_facts": [],
+  "review_status": "pending",
+  "new_frozen_input_version": null,
+  "note": "A reader who has screened the dialogue cannot be described as an unexposed inventory reader. This form does not automatically mark any adapter verified."
+}

@@ -1,0 +1,1247 @@
+{
+  "sample_id": "WW09_WW09_r059",
+  "dataset": "Werewolf Among Us",
+  "study_role": "prospective_candidate_unselected",
+  "source": {
+    "source_id": "WW09",
+    "original_path": "Youtube/transcripts/One#Night#Ultimate#Werewolf#3#Insomniac_Game1.txt",
+    "revision": "4bca742d186b788aba9f252e967e97665b23f8d7",
+    "url": "https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/resolve/4bca742d186b788aba9f252e967e97665b23f8d7/Youtube/transcripts/One%23Night%23Ultimate%23Werewolf%233%23Insomniac_Game1.txt",
+    "local_path": "source_transcripts/WW09.txt",
+    "sha256": "fda7b555f44adbddd67095fa1c616427420fcb9cd0080a21557fc1ff7a3fd030",
+    "git_blob_sha1": "3c7dcfd3e9e8a2f7abfc9af4eada4f85bf9bb32a",
+    "bytes": 10860,
+    "dialogue_id": "WW09",
+    "ids_are_generated": true,
+    "crosswalk_file": "crosswalks/WW09.json"
+  },
+  "selection_metadata": {
+    "focal_episode_start_id": "WW09.row.058",
+    "focus_utterance_id": "WW09.row.058",
+    "first_relevant_response_id": "WW09.row.059",
+    "observation_cutoff_id": "WW09.row.059",
+    "cutoff_reason": "The next source utterance by Brett responds to the focal contribution; no intervening response is skipped.",
+    "prefix_utterance_count": 59,
+    "prefix_word_count": 477,
+    "prefix_token_count": null,
+    "focus_position_normalized": 0.9830508474576272,
+    "focus_to_cutoff_utterances": 1,
+    "paired_delayed_prefix_id": null,
+    "selection_status": "assistant_proposed_awaiting_human_selection",
+    "confirmed_as_original_selection": false
+  },
+  "observer_input": {
+    "overall_task": "Participants discuss a One Night Ultimate Werewolf game after its night actions and decide whom to accuse or vote for. Statements about roles and actions are reports that may be disputed or strategic. Preserve the distinction between a reported initial role, a role after a reported exchange, and a current role. Use the publicly spoken instructions in this prefix for the variant; do not infer hidden cards or final votes.",
+    "participants": [
+      {
+        "participant_id": "Audio",
+        "known_role": "recorded_audio_not_player"
+      },
+      {
+        "participant_id": "Audrey",
+        "known_role": null
+      },
+      {
+        "participant_id": "Dylan",
+        "known_role": null
+      },
+      {
+        "participant_id": "Brett",
+        "known_role": null
+      },
+      {
+        "participant_id": "Ed",
+        "known_role": null
+      },
+      {
+        "participant_id": "Dan",
+        "known_role": null
+      },
+      {
+        "participant_id": "Katie",
+        "known_role": null
+      }
+    ],
+    "context_sources": [
+      {
+        "source_id": "WW09_public_instructions",
+        "text": "Everyone close your eyes. Werewolves, wake up and look for other Werewolves. If there is only one Werewolf, you may look at a card from the center. Werewolves, close your eyes. Masons, wake up and look for the other Mason. Masons, close your eyes. Seer, wake up. You may look at another player's card or two of the center cards. Seer close your eyes. Robber, wake up. You may exchange your card with another player's card, and then view your new card. Robber close your eyes. Troublemaker, wake up. You may exchange cards between two other players. Troublemaker, close your eyes. Drunk, wake up and exchange your card with a card from the center. Drunk, close your eyes. Insomniac, wake up and look at your card.\nInsomniac, close your eyes. Everyone, keep your eyes closed and reach out and move your card around slightly.\nEveryone, wake up.",
+        "accessible_to_participants": [
+          "Audrey",
+          "Dylan",
+          "Brett",
+          "Ed",
+          "Dan",
+          "Katie"
+        ],
+        "adapter": {
+          "kind": "game_rules",
+          "review_status": "draft",
+          "roles": [
+            "Werewolf",
+            "Villager",
+            "Seer",
+            "Robber",
+            "Troublemaker",
+            "Mason",
+            "Drunk",
+            "Insomniac",
+            "Minion",
+            "Tanner"
+          ]
+        }
+      }
+    ],
+    "dialogue_prefix": [
+      {
+        "utterance_id": "WW09.row.001",
+        "speaker": "Audio",
+        "text": "Everyone close your eyes. Werewolves, wake up and look for other Werewolves. If there is only one Werewolf, you may look at a card from the center. Werewolves, close your eyes. Masons, wake up and look for the other Mason. Masons, close your eyes. Seer, wake up. You may look at another player's card or two of the center cards. Seer close your eyes. Robber, wake up. You may exchange your card with another player's card, and then view your new card. Robber close your eyes. Troublemaker, wake up. You may exchange cards between two other players. Troublemaker, close your eyes. Drunk, wake up and exchange your card with a card from the center. Drunk, close your eyes. Insomniac, wake up and look at your card."
+      },
+      {
+        "utterance_id": "WW09.row.002",
+        "speaker": "Audrey",
+        "text": "[inaudible 00:01:54]."
+      },
+      {
+        "utterance_id": "WW09.row.003",
+        "speaker": "Audio",
+        "text": "Insomniac, close your eyes. Everyone, keep your eyes closed and reach out and move your card around slightly."
+      },
+      {
+        "utterance_id": "WW09.row.004",
+        "speaker": "Dylan",
+        "text": "[inaudible 00:02:07]."
+      },
+      {
+        "utterance_id": "WW09.row.005",
+        "speaker": "Audio",
+        "text": "Everyone, wake up."
+      },
+      {
+        "utterance_id": "WW09.row.006",
+        "speaker": "Brett",
+        "text": "Ah!"
+      },
+      {
+        "utterance_id": "WW09.row.007",
+        "speaker": "Audrey",
+        "text": "Dah, just woke up."
+      },
+      {
+        "utterance_id": "WW09.row.008",
+        "speaker": "Brett",
+        "text": "You guys woke up early."
+      },
+      {
+        "utterance_id": "WW09.row.009",
+        "speaker": "Audrey",
+        "text": "Sorry."
+      },
+      {
+        "utterance_id": "WW09.row.010",
+        "speaker": "Dylan",
+        "text": "The early worm gets the bird."
+      },
+      {
+        "utterance_id": "WW09.row.011",
+        "speaker": "Brett",
+        "text": "We've got six minutes figure to this shit out."
+      },
+      {
+        "utterance_id": "WW09.row.012",
+        "speaker": "Ed",
+        "text": "All right."
+      },
+      {
+        "utterance_id": "WW09.row.013",
+        "speaker": "Dan",
+        "text": "Do we have to curse though?"
+      },
+      {
+        "utterance_id": "WW09.row.014",
+        "speaker": "Audrey",
+        "text": "Would you like me to start?"
+      },
+      {
+        "utterance_id": "WW09.row.015",
+        "speaker": "Ed",
+        "text": "Yeah."
+      },
+      {
+        "utterance_id": "WW09.row.016",
+        "speaker": "Dylan",
+        "text": "Seer, what'd you do?"
+      },
+      {
+        "utterance_id": "WW09.row.017",
+        "speaker": "Brett",
+        "text": "If you claim villager, I'm running out."
+      },
+      {
+        "utterance_id": "WW09.row.018",
+        "speaker": "Ed",
+        "text": "She's not that villager, because I am!"
+      },
+      {
+        "utterance_id": "WW09.row.019",
+        "speaker": "Audrey",
+        "text": "We're all villagers."
+      },
+      {
+        "utterance_id": "WW09.row.020",
+        "speaker": "Katie",
+        "text": "So was I!"
+      },
+      {
+        "utterance_id": "WW09.row.021",
+        "speaker": "Audrey",
+        "text": "So I was the Robber, and I took Dylan's card. And Dylan was the Seer, so don't let him pull any malarkey. I switched our cards, so he's now a Robber."
+      },
+      {
+        "utterance_id": "WW09.row.022",
+        "speaker": "Dylan",
+        "text": "Sounds like something two Werewolves would say."
+      },
+      {
+        "utterance_id": "WW09.row.023",
+        "speaker": "Katie",
+        "text": "Wait, two were... are you saying you're both Werewolves?"
+      },
+      {
+        "utterance_id": "WW09.row.024",
+        "speaker": "Audrey",
+        "text": "That we switched with each other."
+      },
+      {
+        "utterance_id": "WW09.row.025",
+        "speaker": "Brett",
+        "text": "Dylan, what did you see?"
+      },
+      {
+        "utterance_id": "WW09.row.026",
+        "speaker": "Audrey",
+        "text": "Who's card did you see?"
+      },
+      {
+        "utterance_id": "WW09.row.027",
+        "speaker": "Dylan",
+        "text": "I saw you're a Robber."
+      },
+      {
+        "utterance_id": "WW09.row.028",
+        "speaker": "Audrey",
+        "text": "Woah! Come on!"
+      },
+      {
+        "utterance_id": "WW09.row.029",
+        "speaker": "Dylan",
+        "text": "I mean-"
+      },
+      {
+        "utterance_id": "WW09.row.030",
+        "speaker": "Audrey",
+        "text": "It's so hard, cause I don't want anybody to feel me move, so I have to do what's next to me."
+      },
+      {
+        "utterance_id": "WW09.row.031",
+        "speaker": "Ed",
+        "text": "Was there a Troublemaker?"
+      },
+      {
+        "utterance_id": "WW09.row.032",
+        "speaker": "Dan",
+        "text": "Mh-hmm."
+      },
+      {
+        "utterance_id": "WW09.row.033",
+        "speaker": "Dylan",
+        "text": "So we're really in a bubble right now."
+      },
+      {
+        "utterance_id": "WW09.row.034",
+        "speaker": "Katie",
+        "text": "What did you do?"
+      },
+      {
+        "utterance_id": "WW09.row.035",
+        "speaker": "Audrey",
+        "text": "Yeah."
+      },
+      {
+        "utterance_id": "WW09.row.036",
+        "speaker": "Dan",
+        "text": "Switched two cards."
+      },
+      {
+        "utterance_id": "WW09.row.037",
+        "speaker": "Audrey",
+        "text": "Us in our white bubble."
+      },
+      {
+        "utterance_id": "WW09.row.038",
+        "speaker": "Katie",
+        "text": "Please say their cards, because that would be hilarious."
+      },
+      {
+        "utterance_id": "WW09.row.039",
+        "speaker": "Dan",
+        "text": "Not their cards."
+      },
+      {
+        "utterance_id": "WW09.row.040",
+        "speaker": "Brett",
+        "text": "Well, I'll say I hate my role."
+      },
+      {
+        "utterance_id": "WW09.row.041",
+        "speaker": "Katie",
+        "text": "Oh."
+      },
+      {
+        "utterance_id": "WW09.row.042",
+        "speaker": "Brett",
+        "text": "So I'm just going to-"
+      },
+      {
+        "utterance_id": "WW09.row.043",
+        "speaker": "Dylan",
+        "text": "The Werewolf, I hate it too!"
+      },
+      {
+        "utterance_id": "WW09.row.044",
+        "speaker": "Katie",
+        "text": "We were the drunks."
+      },
+      {
+        "utterance_id": "WW09.row.045",
+        "speaker": "Dan",
+        "text": "I don't like Werewolves at all."
+      },
+      {
+        "utterance_id": "WW09.row.046",
+        "speaker": "Audrey",
+        "text": "I hate Brett too. What?"
+      },
+      {
+        "utterance_id": "WW09.row.047",
+        "speaker": "Brett",
+        "text": "I was the drunk. I was the drunk. I switched one from the middle."
+      },
+      {
+        "utterance_id": "WW09.row.048",
+        "speaker": "Katie",
+        "text": "Which one?"
+      },
+      {
+        "utterance_id": "WW09.row.049",
+        "speaker": "Brett",
+        "text": "The middle one."
+      },
+      {
+        "utterance_id": "WW09.row.050",
+        "speaker": "Katie",
+        "text": "Mh-hmm."
+      },
+      {
+        "utterance_id": "WW09.row.051",
+        "speaker": "Brett",
+        "text": "Oh no!"
+      },
+      {
+        "utterance_id": "WW09.row.052",
+        "speaker": "Katie",
+        "text": "No, he was the Seer."
+      },
+      {
+        "utterance_id": "WW09.row.053",
+        "speaker": "Brett",
+        "text": "Oh."
+      },
+      {
+        "utterance_id": "WW09.row.054",
+        "speaker": "Katie",
+        "text": "So I can say that, right?"
+      },
+      {
+        "utterance_id": "WW09.row.055",
+        "speaker": "Dan",
+        "text": "Hey Katie, what were you?"
+      },
+      {
+        "utterance_id": "WW09.row.056",
+        "speaker": "Katie",
+        "text": "Although I will say... thanks for asking. Sorry, that was really loud. Watch the second video. There was only one Mason. So there's another Mason card in the middle. I was all by myself."
+      },
+      {
+        "utterance_id": "WW09.row.057",
+        "speaker": "Brett",
+        "text": "Wait, so are you a Mason?"
+      },
+      {
+        "utterance_id": "WW09.row.058",
+        "speaker": "Katie",
+        "text": "I was all by myself."
+      },
+      {
+        "utterance_id": "WW09.row.059",
+        "speaker": "Brett",
+        "text": "So, oh you're claiming the Troublemaker. What did you do, Ed?"
+      }
+    ]
+  },
+  "manual_annotation": null,
+  "assistant_annotation_draft": {
+    "author": "assistant",
+    "is_human_reference": false,
+    "is_model_prediction": false,
+    "evidence_tier": "S",
+    "scope": "Proposed focal comparison only; no assigned research label.",
+    "focal_pair": [
+      "Katie",
+      "Brett"
+    ],
+    "local_question": "Which night role is Katie claiming in this exchange, and which role does Brett attribute to her claim?",
+    "focus_source_ids": [
+      "WW09.row.058",
+      "WW09.row.059"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "WW09.row.058",
+        "speaker": "Katie",
+        "quote": "I was all by myself."
+      },
+      {
+        "source_id": "WW09.row.059",
+        "speaker": "Brett",
+        "quote": "So, oh you're claiming the Troublemaker. What did you do, Ed?"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "Katie",
+        "meaning": "Katie describes there being one Mason and another Mason card in the middle, then says she was all by herself; she repeats the latter phrase after Brett asks whether she is Mason. This supports a context-linked candidate Mason self-report, subject to the elliptical scope and stance check.",
+        "source_quotes": [
+          {
+            "source_id": "WW09.row.056",
+            "quote": "Although I will say... thanks for asking. Sorry, that was really loud. Watch the second video. There was only one Mason. So there's another Mason card in the middle. I was all by myself."
+          },
+          {
+            "source_id": "WW09.row.058",
+            "quote": "I was all by myself."
+          }
+        ],
+        "support": null
+      },
+      {
+        "participant_id": "Brett",
+        "meaning": "Brett first asks whether Katie is Mason, then says you’re claiming the Troublemaker before asking Ed what he did. If you still addresses Katie, the later statement attributes a Troublemaker claim to her. It does not endorse that she actually has that role.",
+        "source_quotes": [
+          {
+            "source_id": "WW09.row.057",
+            "quote": "Wait, so are you a Mason?"
+          },
+          {
+            "source_id": "WW09.row.059",
+            "quote": "So, oh you're claiming the Troublemaker. What did you do, Ed?"
+          }
+        ],
+        "support": null
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "scope": "Which night role is Katie claiming in this exchange, and which role does Brett attribute to her claim?",
+      "participant_outputs": {
+        "Katie": "Candidate report content: Katie claims the Mason role in the discussed night event. A consequence for a fixed person’s claimed role is not implemented by the present starter adapter.",
+        "Brett": "Conditional attributed content: Katie’s claim is Troublemaker, if Katie is still the addressee. This is a claim-attribution output, not an actual-role assertion, and the needed consequence type is outside the starter adapter."
+      },
+      "comparison": "Mason versus Troublemaker is a promising difference in the content of a role claim if both turns concern Katie’s same report. Critical addressee/stance questions and an unsupported consequence type prevent a determinate current-harness comparison.",
+      "blocking_reasons": [
+        "Brett’s you at .059 must be linked to Katie despite his immediate address to Ed later in that turn; text-only evidence cannot settle gesture or joking stance.",
+        "Katie’s elliptical response and earlier differently scoped role claims require a current-report scope check.",
+        "The starter adapter does not compute alternative claimed roles for one fixed person; lexical difference alone is not a validated F6 consequence."
+      ],
+      "verification_note": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": null,
+    "human_content_confirmed": false,
+    "current_review_path": "../../REVIEWS.json",
+    "evidence_scope": "Current Tier S wording aid. Human support review and selection remain pending; all research annotations stay outside observer input."
+  },
+  "later_evidence": {
+    "dialogue": [
+      {
+        "utterance_id": "WW09.row.060",
+        "speaker": "Ed",
+        "text": "You a Troublemaker."
+      },
+      {
+        "utterance_id": "WW09.row.061",
+        "speaker": "Dan",
+        "text": "Mh-hmm."
+      },
+      {
+        "utterance_id": "WW09.row.062",
+        "speaker": "Audrey",
+        "text": "He's like, \"What is left?\""
+      },
+      {
+        "utterance_id": "WW09.row.063",
+        "speaker": "Katie",
+        "text": "He's trying real fast to figure out what's left."
+      },
+      {
+        "utterance_id": "WW09.row.064",
+        "speaker": "Brett",
+        "text": "He's like, \"What's left on the board?\""
+      },
+      {
+        "utterance_id": "WW09.row.065",
+        "speaker": "Katie",
+        "text": "Robber, Seer."
+      },
+      {
+        "utterance_id": "WW09.row.066",
+        "speaker": "Ed",
+        "text": "How many times did you switch?"
+      },
+      {
+        "utterance_id": "WW09.row.067",
+        "speaker": "Dan",
+        "text": "I didn't switch."
+      },
+      {
+        "utterance_id": "WW09.row.068",
+        "speaker": "Katie",
+        "text": "They're over there."
+      },
+      {
+        "utterance_id": "WW09.row.069",
+        "speaker": "Dan",
+        "text": "You're being very suspicious, so you explain what you did first."
+      },
+      {
+        "utterance_id": "WW09.row.070",
+        "speaker": "Dylan",
+        "text": "I think they're two, are the werewolves."
+      },
+      {
+        "utterance_id": "WW09.row.071",
+        "speaker": "Brett",
+        "text": "Wait, do we have an Insomniac?"
+      },
+      {
+        "utterance_id": "WW09.row.072",
+        "speaker": "Ed",
+        "text": "Well, I was the Insomniac."
+      },
+      {
+        "utterance_id": "WW09.row.073",
+        "speaker": "Katie",
+        "text": "Well there you go."
+      },
+      {
+        "utterance_id": "WW09.row.074",
+        "speaker": "Audrey",
+        "text": "No, you were... you just said that-"
+      },
+      {
+        "utterance_id": "WW09.row.075",
+        "speaker": "Dan",
+        "text": "You just fed him the one that he was trying to figure out."
+      },
+      {
+        "utterance_id": "WW09.row.076",
+        "speaker": "Ed",
+        "text": "No."
+      },
+      {
+        "utterance_id": "WW09.row.077",
+        "speaker": "Audrey",
+        "text": "You just said that."
+      },
+      {
+        "utterance_id": "WW09.row.078",
+        "speaker": "Ed",
+        "text": "I was the Insomniac. And when I woke up, I was the Mason, which means that Dan switched-"
+      },
+      {
+        "utterance_id": "WW09.row.079",
+        "speaker": "Dan",
+        "text": "That makes a lot of sense, because I did switch those two cards. So we're out of the running."
+      },
+      {
+        "utterance_id": "WW09.row.080",
+        "speaker": "Katie",
+        "text": "So wait, were you actually the Insomniac though?"
+      },
+      {
+        "utterance_id": "WW09.row.081",
+        "speaker": "Ed",
+        "text": "I was the Insomniac."
+      },
+      {
+        "utterance_id": "WW09.row.082",
+        "speaker": "Audrey",
+        "text": "But wait, we don't know that she was actually... oh, wait."
+      },
+      {
+        "utterance_id": "WW09.row.083",
+        "speaker": "Dan",
+        "text": "I mean, if he were the Mason-"
+      },
+      {
+        "utterance_id": "WW09.row.084",
+        "speaker": "Audrey",
+        "text": "He woke up-"
+      },
+      {
+        "utterance_id": "WW09.row.085",
+        "speaker": "Brett",
+        "text": "They could have been the two werewolves that happened to have got switched-"
+      },
+      {
+        "utterance_id": "WW09.row.086",
+        "speaker": "Katie",
+        "text": "No, I was definitely a Mason."
+      },
+      {
+        "utterance_id": "WW09.row.087",
+        "speaker": "Dan",
+        "text": "That would be pretty [inaudible 00:04:26]."
+      },
+      {
+        "utterance_id": "WW09.row.088",
+        "speaker": "Audrey",
+        "text": "So I think that you're the werewolf then."
+      },
+      {
+        "utterance_id": "WW09.row.089",
+        "speaker": "Katie",
+        "text": "Yeah."
+      },
+      {
+        "utterance_id": "WW09.row.090",
+        "speaker": "Brett",
+        "text": "Why?"
+      },
+      {
+        "utterance_id": "WW09.row.091",
+        "speaker": "Katie",
+        "text": "Because if there's werewolves, then what are the chances of you having one."
+      },
+      {
+        "utterance_id": "WW09.row.092",
+        "speaker": "Audrey",
+        "text": "Because there's no where else to go."
+      },
+      {
+        "utterance_id": "WW09.row.093",
+        "speaker": "Brett",
+        "text": "But I could be Mason."
+      },
+      {
+        "utterance_id": "WW09.row.094",
+        "speaker": "Katie",
+        "text": "You could, but out of all of us-"
+      },
+      {
+        "utterance_id": "WW09.row.095",
+        "speaker": "Dan",
+        "text": "There could be no werewolves."
+      },
+      {
+        "utterance_id": "WW09.row.096",
+        "speaker": "Brett",
+        "text": "You know if you kill me-"
+      },
+      {
+        "utterance_id": "WW09.row.097",
+        "speaker": "Dylan",
+        "text": "Dan what did you say? You said you're the Troublemaker. I switched these two, and their stories line up with that."
+      },
+      {
+        "utterance_id": "WW09.row.098",
+        "speaker": "Brett",
+        "text": "So what it sounds like, it sounds like, if everyone's telling truth, that we have no werewolves. And they're saying the ch..."
+      },
+      {
+        "utterance_id": "WW09.row.099",
+        "speaker": "Katie",
+        "text": "Or else these guys are werewolves."
+      },
+      {
+        "utterance_id": "WW09.row.100",
+        "speaker": "Brett",
+        "text": "There's two thirds of a chance of me stealing that."
+      },
+      {
+        "utterance_id": "WW09.row.101",
+        "speaker": "Katie",
+        "text": "I think you guys are werewolves."
+      },
+      {
+        "utterance_id": "WW09.row.102",
+        "speaker": "Brett",
+        "text": "But if you guys kill me-"
+      },
+      {
+        "utterance_id": "WW09.row.103",
+        "speaker": "Dan",
+        "text": "Two thirds?"
+      },
+      {
+        "utterance_id": "WW09.row.104",
+        "speaker": "Brett",
+        "text": "And I am the Mason, then we all lose."
+      },
+      {
+        "utterance_id": "WW09.row.105",
+        "speaker": "Dan",
+        "text": "One thirds. No, two thirds; there were two in there, yeah."
+      },
+      {
+        "utterance_id": "WW09.row.106",
+        "speaker": "Brett",
+        "text": "Yeah."
+      },
+      {
+        "utterance_id": "WW09.row.107",
+        "speaker": "Dylan",
+        "text": "What did you say you were?"
+      },
+      {
+        "utterance_id": "WW09.row.108",
+        "speaker": "Katie",
+        "text": "Insomniac."
+      },
+      {
+        "utterance_id": "WW09.row.109",
+        "speaker": "Ed",
+        "text": "I was the Insomniac. Now I'm the Mason, because I woke up-"
+      },
+      {
+        "utterance_id": "WW09.row.110",
+        "speaker": "Dylan",
+        "text": "So Dan... Okay."
+      },
+      {
+        "utterance_id": "WW09.row.111",
+        "speaker": "Katie",
+        "text": "Now supposedly I'm the Insomniac."
+      },
+      {
+        "utterance_id": "WW09.row.112",
+        "speaker": "Dan",
+        "text": "But she's now the Insomniac, I'm the Troublemaker."
+      },
+      {
+        "utterance_id": "WW09.row.113",
+        "speaker": "Katie",
+        "text": "Unless he was the werewolf."
+      },
+      {
+        "utterance_id": "WW09.row.114",
+        "speaker": "Brett",
+        "text": "But he could have really switched someone else and was trying to get Ed to say who."
+      },
+      {
+        "utterance_id": "WW09.row.115",
+        "speaker": "Dylan",
+        "text": "But if he is-"
+      },
+      {
+        "utterance_id": "WW09.row.116",
+        "speaker": "Ed",
+        "text": "But if he was then that would've been the time."
+      },
+      {
+        "utterance_id": "WW09.row.117",
+        "speaker": "Brett",
+        "text": "You guys really dunked your roles by just looking at each other."
+      },
+      {
+        "utterance_id": "WW09.row.118",
+        "speaker": "Audrey",
+        "text": "I know, we're done. We can't-"
+      },
+      {
+        "utterance_id": "WW09.row.119",
+        "speaker": "Brett",
+        "text": "Unless you didn't really do that, and you're both just-"
+      },
+      {
+        "utterance_id": "WW09.row.120",
+        "speaker": "Dylan",
+        "text": "Hmm?"
+      },
+      {
+        "utterance_id": "WW09.row.121",
+        "speaker": "Audrey",
+        "text": "What?"
+      },
+      {
+        "utterance_id": "WW09.row.122",
+        "speaker": "Katie",
+        "text": "Plot twist."
+      },
+      {
+        "utterance_id": "WW09.row.123",
+        "speaker": "Dan",
+        "text": "So, are we just playing the odds on Brett?"
+      },
+      {
+        "utterance_id": "WW09.row.124",
+        "speaker": "Dylan",
+        "text": "What did you say you were?"
+      },
+      {
+        "utterance_id": "WW09.row.125",
+        "speaker": "Katie",
+        "text": "Yeah, I think I'm going to vote for you. Sorry."
+      },
+      {
+        "utterance_id": "WW09.row.126",
+        "speaker": "Brett",
+        "text": "Why? But-"
+      },
+      {
+        "utterance_id": "WW09.row.127",
+        "speaker": "Katie",
+        "text": "I was Mason, but now I'm the Insomniac because-"
+      },
+      {
+        "utterance_id": "WW09.row.128",
+        "speaker": "Brett",
+        "text": "But we could have an actual Werewolf in here lying, Werewolf in here lying."
+      },
+      {
+        "utterance_id": "WW09.row.129",
+        "speaker": "Audrey",
+        "text": "Yeah, but all the stories are aligned."
+      },
+      {
+        "utterance_id": "WW09.row.130",
+        "speaker": "Dan",
+        "text": "So it's still one of you three. So..."
+      },
+      {
+        "utterance_id": "WW09.row.131",
+        "speaker": "Brett",
+        "text": "Yeah, but like-"
+      },
+      {
+        "utterance_id": "WW09.row.132",
+        "speaker": "Audrey",
+        "text": "But our stories-"
+      },
+      {
+        "utterance_id": "WW09.row.133",
+        "speaker": "Brett",
+        "text": "You guys are backing each other when you both could be werewolves."
+      },
+      {
+        "utterance_id": "WW09.row.134",
+        "speaker": "Dan",
+        "text": "That's true. That is true."
+      },
+      {
+        "utterance_id": "WW09.row.135",
+        "speaker": "Katie",
+        "text": "That's true."
+      },
+      {
+        "utterance_id": "WW09.row.136",
+        "speaker": "Audrey",
+        "text": "We're not backing each other. We're literally relaying evidence of factual things that we saw on cards."
+      },
+      {
+        "utterance_id": "WW09.row.137",
+        "speaker": "Ed",
+        "text": "That sounds an awful lot like \"I'm a werewolf\"."
+      },
+      {
+        "utterance_id": "WW09.row.138",
+        "speaker": "Dylan",
+        "text": "Did you just say you're a werewolf."
+      },
+      {
+        "utterance_id": "WW09.row.139",
+        "speaker": "Ed",
+        "text": "Oh!"
+      },
+      {
+        "utterance_id": "WW09.row.140",
+        "speaker": "Katie",
+        "text": "Are you?"
+      },
+      {
+        "utterance_id": "WW09.row.141",
+        "speaker": "Ed",
+        "text": "No."
+      },
+      {
+        "utterance_id": "WW09.row.142",
+        "speaker": "Katie",
+        "text": "Yeah."
+      },
+      {
+        "utterance_id": "WW09.row.143",
+        "speaker": "Audrey",
+        "text": "I'm going to vote for Brett."
+      },
+      {
+        "utterance_id": "WW09.row.144",
+        "speaker": "Katie",
+        "text": "Me too. Sorry Brett."
+      },
+      {
+        "utterance_id": "WW09.row.145",
+        "speaker": "Audrey",
+        "text": "Just because of his face."
+      },
+      {
+        "utterance_id": "WW09.row.146",
+        "speaker": "Brett",
+        "text": "But if you vote for me, we're going to lose, like we're all going-"
+      },
+      {
+        "utterance_id": "WW09.row.147",
+        "speaker": "Katie",
+        "text": "Only if you're the Mason. If you're either of the Werewolves, that are in the middle, then we'll lose."
+      },
+      {
+        "utterance_id": "WW09.row.148",
+        "speaker": "Audrey",
+        "text": "We can't say 100% that you're not a Werewolf though, so we have no reason not to vote for you."
+      },
+      {
+        "utterance_id": "WW09.row.149",
+        "speaker": "Brett",
+        "text": "But if you vote for me, y'all lose if we-"
+      },
+      {
+        "utterance_id": "WW09.row.150",
+        "speaker": "Audrey",
+        "text": "Well, it doesn't matter, we lose it."
+      },
+      {
+        "utterance_id": "WW09.row.151",
+        "speaker": "Brett",
+        "text": "No, because if we all vote to the right, we could win."
+      },
+      {
+        "utterance_id": "WW09.row.152",
+        "speaker": "Katie",
+        "text": "No, if you're a Werewolf, then we wouldn't."
+      },
+      {
+        "utterance_id": "WW09.row.153",
+        "speaker": "Audrey",
+        "text": "Yeah, that's such a cop out."
+      },
+      {
+        "utterance_id": "WW09.row.154",
+        "speaker": "Ed",
+        "text": "There's no Werewolves over here."
+      },
+      {
+        "utterance_id": "WW09.row.155",
+        "speaker": "Katie",
+        "text": "If there's a Werewolf in play, we don't kill it, then the Werewolf wins. So we have to kill you. I'm sorry."
+      },
+      {
+        "utterance_id": "WW09.row.156",
+        "speaker": "Brett",
+        "text": "You guys are just banking on me being the Werewolf."
+      },
+      {
+        "utterance_id": "WW09.row.157",
+        "speaker": "Audrey",
+        "text": "Yeah."
+      },
+      {
+        "utterance_id": "WW09.row.158",
+        "speaker": "Dan",
+        "text": "Yeah."
+      },
+      {
+        "utterance_id": "WW09.row.159",
+        "speaker": "Katie",
+        "text": "Two thirds babe, two thirds."
+      },
+      {
+        "utterance_id": "WW09.row.160",
+        "speaker": "Dylan",
+        "text": "Two thirds is-"
+      },
+      {
+        "utterance_id": "WW09.row.161",
+        "speaker": "Katie",
+        "text": "Sorry."
+      },
+      {
+        "utterance_id": "WW09.row.162",
+        "speaker": "Ed",
+        "text": "The 66.6 repeating percent chance."
+      },
+      {
+        "utterance_id": "WW09.row.163",
+        "speaker": "Katie",
+        "text": "Statistics."
+      },
+      {
+        "utterance_id": "WW09.row.164",
+        "speaker": "Dan",
+        "text": "That repeats forever."
+      },
+      {
+        "utterance_id": "WW09.row.165",
+        "speaker": "Brett",
+        "text": "But here's what I'm saying is, I feel like we're being played."
+      },
+      {
+        "utterance_id": "WW09.row.166",
+        "speaker": "Katie",
+        "text": "By who?"
+      },
+      {
+        "utterance_id": "WW09.row.167",
+        "speaker": "Brett",
+        "text": "By someone."
+      },
+      {
+        "utterance_id": "WW09.row.168",
+        "speaker": "Katie",
+        "text": "By who?"
+      },
+      {
+        "utterance_id": "WW09.row.169",
+        "speaker": "Brett",
+        "text": "He could really... well, I guess someone [inaudible 00:06:42]."
+      },
+      {
+        "utterance_id": "WW09.row.170",
+        "speaker": "Dan",
+        "text": "Our story's line up real nice."
+      },
+      {
+        "utterance_id": "WW09.row.171",
+        "speaker": "Katie",
+        "text": "Unless he's not an Insomniac."
+      },
+      {
+        "utterance_id": "WW09.row.172",
+        "speaker": "Brett",
+        "text": "Look, I'm in a tough spot here, because you guys are voting for me. I want to win the game still."
+      },
+      {
+        "utterance_id": "WW09.row.173",
+        "speaker": "Ed",
+        "text": "We're going to."
+      },
+      {
+        "utterance_id": "WW09.row.174",
+        "speaker": "Katie",
+        "text": "I'm guessing you're the Werewolf, so... we can't let that happen."
+      },
+      {
+        "utterance_id": "WW09.row.175",
+        "speaker": "Dylan",
+        "text": "Well I'm guess so."
+      },
+      {
+        "utterance_id": "WW09.row.176",
+        "speaker": "Brett",
+        "text": "Because if you guys all vote for me... it seems like I'm going to lose no matter what. Well, no... well, yeah, because if you vote for me and I'm the Mason, the villagers lose."
+      },
+      {
+        "utterance_id": "WW09.row.177",
+        "speaker": "Ed",
+        "text": "Yes."
+      },
+      {
+        "utterance_id": "WW09.row.178",
+        "speaker": "Katie",
+        "text": "Mh-hmm. Mh-hmm."
+      },
+      {
+        "utterance_id": "WW09.row.179",
+        "speaker": "Dan",
+        "text": "So you can't win."
+      },
+      {
+        "utterance_id": "WW09.row.180",
+        "speaker": "Katie",
+        "text": "Mh-hmm."
+      },
+      {
+        "utterance_id": "WW09.row.181",
+        "speaker": "Brett",
+        "text": "Unless we all vote to the right."
+      },
+      {
+        "utterance_id": "WW09.row.182",
+        "speaker": "Katie",
+        "text": "No."
+      },
+      {
+        "utterance_id": "WW09.row.183",
+        "speaker": "Dan",
+        "text": "That's not going to happen. So you can't win."
+      },
+      {
+        "utterance_id": "WW09.row.184",
+        "speaker": "Brett",
+        "text": "Because then there's a chance of all of us winning."
+      },
+      {
+        "utterance_id": "WW09.row.185",
+        "speaker": "Katie",
+        "text": "We're not going to-"
+      },
+      {
+        "utterance_id": "WW09.row.186",
+        "speaker": "Dan",
+        "text": "A one in two chances, or the two in three maybe chance, unless you two are lying, which you really might be."
+      },
+      {
+        "utterance_id": "WW09.row.187",
+        "speaker": "Audio",
+        "text": "One minute remaining."
+      },
+      {
+        "utterance_id": "WW09.row.188",
+        "speaker": "Brett",
+        "text": "I know. That's why I feel like we're being played by two Werewolves over here."
+      },
+      {
+        "utterance_id": "WW09.row.189",
+        "speaker": "Dan",
+        "text": "Definitely possible."
+      },
+      {
+        "utterance_id": "WW09.row.190",
+        "speaker": "Brett",
+        "text": "And you guys don't want to talk about that at all? All right."
+      },
+      {
+        "utterance_id": "WW09.row.191",
+        "speaker": "Dylan",
+        "text": "We got him."
+      },
+      {
+        "utterance_id": "WW09.row.192",
+        "speaker": "Audrey",
+        "text": "Yeah."
+      },
+      {
+        "utterance_id": "WW09.row.193",
+        "speaker": "Brett",
+        "text": "Wowzers, okay. Well there's nothing I can do really. Is there?"
+      },
+      {
+        "utterance_id": "WW09.row.194",
+        "speaker": "Katie",
+        "text": "Nope!"
+      },
+      {
+        "utterance_id": "WW09.row.195",
+        "speaker": "Dan",
+        "text": "Mm-mm."
+      },
+      {
+        "utterance_id": "WW09.row.196",
+        "speaker": "Katie",
+        "text": "Time to vote. We can cut it short."
+      },
+      {
+        "utterance_id": "WW09.row.197",
+        "speaker": "Dylan",
+        "text": "Does it have to be unanimous?"
+      },
+      {
+        "utterance_id": "WW09.row.198",
+        "speaker": "Katie",
+        "text": "No."
+      },
+      {
+        "utterance_id": "WW09.row.199",
+        "speaker": "Dan",
+        "text": "No, the majority."
+      },
+      {
+        "utterance_id": "WW09.row.200",
+        "speaker": "Brett",
+        "text": "No, I just have to get the most. I have to get the most votes."
+      },
+      {
+        "utterance_id": "WW09.row.201",
+        "speaker": "Dylan",
+        "text": "Okay, just wanted to make sure. Okay."
+      },
+      {
+        "utterance_id": "WW09.row.202",
+        "speaker": "Audrey",
+        "text": "Okay."
+      },
+      {
+        "utterance_id": "WW09.row.203",
+        "speaker": "Brett",
+        "text": "I guess we can vote now."
+      },
+      {
+        "utterance_id": "WW09.row.204",
+        "speaker": "Audio",
+        "text": "Time is up. Everyone-"
+      }
+    ],
+    "observed_action_or_outcome": null,
+    "event_type": null,
+    "what_it_supports": "Retained for a separate later-evidence review; no suffix inference is used as prefix support in this draft."
+  },
+  "annotation_review": {
+    "review_status": "unreviewed",
+    "independent_coder_1": null,
+    "independent_coder_2": null,
+    "adjudicated_label": null
+  },
+  "sampling_and_reference_protocol": {
+    "map_pair_id": null,
+    "provisional_source_group": "One#Night#Ultimate#Werewolf#3#Insomniac",
+    "merged_cluster_id": null,
+    "partition": "development_candidate_only",
+    "full_dev_test_split_drawn": false,
+    "evidence_tier": "S",
+    "exposure": "Assistant curation and preliminary interpretation; not a blind test set."
+  },
+  "archived_pre_tier_s_annotation_draft": {
+    "title": "Mason or Troublemaker: promising role-attribution difference",
+    "subtask": "Determine which initial role Katie is reporting",
+    "draft_status": "UNRESOLVED_OUTSIDE_STARTER_ADAPTER",
+    "supported_A": "Katie's row 56 refers to another Mason in the middle and being alone; row 58 repeats being alone in answer to Brett's Mason question.",
+    "supported_B": "Brett says So, oh you're claiming the Troublemaker before moving to Ed.",
+    "consequence": "There may be an exposed difference in the role attributed to Katie. The starter compares holders of a fixed role, not alternative roles for a fixed person, so this question has no current adapter output.",
+    "reason": "A strong review candidate that reveals a boundary of the present scripts.",
+    "uncertainty": "Verify that Brett still addresses Katie and is not joking or changing addressee. ATTRIBUTES does not mean he endorses the role's truth.",
+    "timing": "possible_exposed_attribution_difference",
+    "adapter": "outside_role_of_player_inventory",
+    "media_priority": "High priority: verify speaker, addressee and role names before treating this as a mismatch case.",
+    "author": "assistant",
+    "is_human_reference": false,
+    "is_model_prediction": false,
+    "scope": "focal exchange only; not a full-prefix label",
+    "focal_pair": [
+      "Katie",
+      "Brett"
+    ],
+    "focus_quote": "I was all by myself.",
+    "response_quote": "So, oh you're claiming the Troublemaker. What did you do, Ed?",
+    "evidence_scope": "Justification must be checked using prefix only. The assistant screened longer transcript passages, so this draft is not a blinded independent annotation.",
+    "archive_note": "Earlier assistant screening draft. Superseded by the current Tier S wording; no human reference status."
+  }
+}

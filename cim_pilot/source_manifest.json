@@ -1,0 +1,28 @@
+{
+  "record_scope": "Source synchronization from three supplied attachments, 2026-11-09",
+  "method_deck": {
+    "file": "PCC_Early_Warning_Integrated_2026-11-06(1).pptx",
+    "sha256": "cf3bfb81c30a730afdcb6e2009d95e949fc6809e4e37db6f1f5eacd1be1b4fce",
+    "slides": 20,
+    "slide_text_and_speaker_notes_inspected": true
+  },
+  "source_code_zip": {
+    "file": "pcc_pilot-main.zip",
+    "sha256": "800f6aba13b2550354d9471e5379b10e8d0eefcb05cde815573cfdd886ff5de7"
+  },
+  "wording_zip": {
+    "file": "Tier_S_Review_Wording_Package(1).zip",
+    "sha256": "fe7e517e5031d2d659bc006c23afdd85a5581c69311bda115046f75cb25ff1cf"
+  },
+  "complete_chapter_pdf_freshly_inspected": false,
+  "earlier_source_declarations": "docs/ARCHIVED_SOURCE_MANIFEST.json",
+  "repository_provenance": [
+    "prospective/provenance/maptask_sources.json",
+    "prospective/provenance/werewolf_sources.json",
+    "prospective/source_maps/provenance.json"
+  ],
+  "current_candidate_inventory": "validation/candidate_inventory.json",
+  "external_repository_modified": false,
+  "new_human_judgments": 0,
+  "new_model_experiments": 0
+}
