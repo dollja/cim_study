@@ -1,0 +1,11 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "MT07_q1ec8_r011",
+  "observer_hash": "26b593b59b78af9e618663d6e5fc9f3e87d3b4bc01b3d09789388c699ad6c24a",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "45efe7b85953f2d74c26210aadbfc60e103d7a0515287203badf72744a83ad2c",
+  "python_script_hash": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618"
+}

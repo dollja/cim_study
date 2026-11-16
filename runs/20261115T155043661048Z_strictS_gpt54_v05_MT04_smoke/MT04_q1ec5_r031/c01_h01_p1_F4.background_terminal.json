@@ -1,0 +1,109 @@
+{
+  "id": "resp_05db8727c469732a006af9d5f4328c87d1b1a7e0fed92ac14e",
+  "object": "response",
+  "created_at": 1794758132,
+  "status": "completed",
+  "access_programs": null,
+  "background": true,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794758154,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 8192,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_05db8727c469732a006af9d5f6183087d1a4b817c02ec587d4",
+      "type": "reasoning",
+      "content": [],
+      "summary": []
+    },
+    {
+      "id": "msg_05db8727c469732a006af9d60a48c487d184698063543bd258",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"records\":[{\"reading_id\":\"x1\",\"judgment\":\"undetermined\",\"paths\":[]},{\"reading_id\":\"x2\",\"judgment\":\"undetermined\",\"paths\":[]},{\"reading_id\":\"x3\",\"judgment\":\"undetermined\",\"paths\":[]}],\"updates\":[],\"unresolved_scope\":false}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 3050,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 0
+      },
+      "cached_tokens": 1792
+    },
+    "output_tokens": 3169,
+    "output_tokens_details": {
+      "reasoning_tokens": 3102
+    },
+    "total_tokens": 6219
+  },
+  "user": null,
+  "metadata": {}
+}

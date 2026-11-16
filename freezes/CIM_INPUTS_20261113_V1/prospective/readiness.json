@@ -1,0 +1,30 @@
+{
+  "prospective_episode_records": 20,
+  "MapTask_records": 10,
+  "Werewolf_records": 10,
+  "MapTask_dialogues": 10,
+  "MapTask_pairs": 4,
+  "Werewolf_games": 10,
+  "Werewolf_title_groups": 10,
+  "independent_session_clusters": null,
+  "confirmed_original_selection_records": 0,
+  "human_adjudicated_records": 0,
+  "measured_model_runs": 0,
+  "all_sources_byte_hash_checked": true,
+  "all_prefixes_complete_to_cutoff": true,
+  "blocked_by": [
+    "configured and recorded inference run"
+  ],
+  "source_acquisition_change": "Ten actual Werewolf transcripts acquired; the earlier source-access blocker is resolved for these ten games.",
+  "accepted_current_pilot_selection_records": 20,
+  "context_verified_records": 30,
+  "context_preflight_passed": 20,
+  "context_verification_basis": "user_attestation",
+  "frozen_input_version": "CIM_INPUTS_20261113_V1",
+  "final_reference_work_pending": [
+    "r1 completion for six cases",
+    "reader 2",
+    "adjudication"
+  ],
+  "current_record_date": "2026-11-13"
+}

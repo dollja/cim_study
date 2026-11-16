@@ -1,0 +1,322 @@
+{
+  "sample_id": "WW04_WW04_r009",
+  "dataset": "Werewolf Among Us",
+  "study_role": "pilot",
+  "source": {
+    "source_id": "WW04",
+    "original_path": "Youtube/transcripts/ONE#NIGHT#ULTIMATE#WEREWOLF##Retro#4_Game3.txt",
+    "revision": "4bca742d186b788aba9f252e967e97665b23f8d7",
+    "url": "https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/resolve/4bca742d186b788aba9f252e967e97665b23f8d7/Youtube/transcripts/ONE%23NIGHT%23ULTIMATE%23WEREWOLF%23%23Retro%234_Game3.txt",
+    "local_path": "source_transcripts/WW04.txt",
+    "sha256": "ba761ec6fc5c0b1066521f1ad7c415f5ca56e14ba315f4282094ed4326a21e62",
+    "git_blob_sha1": "299c9f6648392468cf0e67287e3d141e09015ad8",
+    "bytes": 2079,
+    "dialogue_id": "WW04",
+    "ids_are_generated": true,
+    "crosswalk_file": "crosswalks/WW04.json"
+  },
+  "selection_metadata": {
+    "focal_episode_start_id": "WW04.row.008",
+    "focus_utterance_id": "WW04.row.008",
+    "first_relevant_response_id": "WW04.row.009",
+    "observation_cutoff_id": "WW04.row.009",
+    "cutoff_reason": "The next source utterance by Mitchell responds to the focal contribution; no intervening response is skipped.",
+    "prefix_utterance_count": 9,
+    "prefix_word_count": 217,
+    "prefix_token_count": null,
+    "focus_position_normalized": 0.8888888888888888,
+    "focus_to_cutoff_utterances": 1,
+    "paired_delayed_prefix_id": null,
+    "selection_status": "human_confirmed_for_current_pilot",
+    "confirmed_as_original_selection": false,
+    "confirmed_for_current_pilot": true,
+    "selection_record": "selection_records/ACCEPTED_SELECTION_20261113.json"
+  },
+  "observer_input": {
+    "overall_task": "Participants discuss a One Night Ultimate Werewolf game after its night actions and decide whom to accuse or vote for. Statements about roles and actions are reports that may be disputed or strategic. Preserve the distinction between a reported initial role, a role after a reported exchange, and a current role. Use the publicly spoken instructions in this prefix for the variant; do not infer hidden cards or final votes.",
+    "participants": [
+      {
+        "participant_id": "Audio",
+        "known_role": "recorded_audio_not_player"
+      },
+      {
+        "participant_id": "James",
+        "known_role": null
+      },
+      {
+        "participant_id": "Justin",
+        "known_role": null
+      },
+      {
+        "participant_id": "Mitchell",
+        "known_role": null
+      }
+    ],
+    "context_sources": [
+      {
+        "source_id": "WW04_public_instructions",
+        "text": "Everyone, close your eyes. Werewolves, wake up and look for other werewolves\nIf there are no other werewolves, pick a card from the center.\nWerewolves close your eyes. Minion, wake up. Werewolves, stick out your thumb so the minion can see who you are. Werewolves, put your thumb away. Minion, close your eyes. Seer, wake up. You may look at another player's card or two of the center cards.\nSeer close your eyes. Robber, wake up. You may exchange your card with another player's card and then view your new card. Robber, close your eyes. Troublemaker, wake up. You may exchange cards between two other players. Troublemaker, close your eyes. Drunk, wake up and exchange your card with a card from the center. Drunk, close your eyes. Insomniac, wake up and look at your card. Insomniac, close your eyes. Everyone, keep your eyes closed and reach out and move your card around slightly. Everyone wake up.",
+        "accessible_to_participants": [
+          "James",
+          "Justin",
+          "Mitchell"
+        ],
+        "adapter": {
+          "kind": "game_rules",
+          "review_status": "verified",
+          "roles": [
+            "Werewolf",
+            "Villager",
+            "Seer",
+            "Robber",
+            "Troublemaker",
+            "Mason",
+            "Drunk",
+            "Insomniac",
+            "Minion",
+            "Tanner"
+          ]
+        }
+      }
+    ],
+    "dialogue_prefix": [
+      {
+        "utterance_id": "WW04.row.001",
+        "speaker": "Audio",
+        "text": "Everyone, close your eyes. Werewolves, wake up and look for other werewolves"
+      },
+      {
+        "utterance_id": "WW04.row.002",
+        "speaker": "James",
+        "text": "What in the world is going on in this game?"
+      },
+      {
+        "utterance_id": "WW04.row.003",
+        "speaker": "Audio",
+        "text": "If there are no other werewolves, pick a card from the center."
+      },
+      {
+        "utterance_id": "WW04.row.004",
+        "speaker": "Justin",
+        "text": "I was thinking the exact same thing."
+      },
+      {
+        "utterance_id": "WW04.row.005",
+        "speaker": "Audio",
+        "text": "Werewolves close your eyes. Minion, wake up. Werewolves, stick out your thumb so the minion can see who you are. Werewolves, put your thumb away. Minion, close your eyes. Seer, wake up. You may look at another player's card or two of the center cards."
+      },
+      {
+        "utterance_id": "WW04.row.006",
+        "speaker": "James",
+        "text": "So many choices."
+      },
+      {
+        "utterance_id": "WW04.row.007",
+        "speaker": "Audio",
+        "text": "Seer close your eyes. Robber, wake up. You may exchange your card with another player's card and then view your new card. Robber, close your eyes. Troublemaker, wake up. You may exchange cards between two other players. Troublemaker, close your eyes. Drunk, wake up and exchange your card with a card from the center. Drunk, close your eyes. Insomniac, wake up and look at your card. Insomniac, close your eyes. Everyone, keep your eyes closed and reach out and move your card around slightly. Everyone wake up."
+      },
+      {
+        "utterance_id": "WW04.row.008",
+        "speaker": "James",
+        "text": "Okay. We're going to open with Justin and say I was the insomniac, but I woke up as a seer."
+      },
+      {
+        "utterance_id": "WW04.row.009",
+        "speaker": "Mitchell",
+        "text": "That makes no sense. I looked at two in the middle because I was the seer and I saw those two."
+      }
+    ]
+  },
+  "manual_annotation": null,
+  "assistant_annotation_draft": {
+    "author": "assistant",
+    "is_human_reference": false,
+    "is_model_prediction": false,
+    "evidence_tier": "S",
+    "scope": "Proposed focal comparison only; no assigned research label.",
+    "focal_pair": [
+      "James",
+      "Mitchell"
+    ],
+    "local_question": "Which participant and night phase does each reported Insomniac/Seer identity concern, and do the reports address the same holder question?",
+    "focus_source_ids": [
+      "WW04.row.008",
+      "WW04.row.009"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "WW04.row.008",
+        "speaker": "James",
+        "quote": "Okay. We're going to open with Justin and say I was the insomniac, but I woke up as a seer."
+      },
+      {
+        "source_id": "WW04.row.009",
+        "speaker": "Mitchell",
+        "quote": "That makes no sense. I looked at two in the middle because I was the seer and I saw those two."
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "James",
+        "meaning": "James’s turn at WW04.row.008 presents the report “I was the insomniac, but I woke up as a seer”. The preceding “open with Justin and say” makes the reported subject unclear in the text; do not automatically assign the two roles to James or Justin as verified identities.",
+        "source_quotes": [
+          {
+            "source_id": "WW04.row.008",
+            "quote": "Okay. We're going to open with Justin and say I was the insomniac, but I woke up as a seer."
+          }
+        ],
+        "support": null
+      },
+      {
+        "participant_id": "Mitchell",
+        "meaning": "Mitchell rejects the preceding report as making no sense and states that he was the Seer and looked at two center cards at WW04.row.009. This is his own historical Seer-action report, not proof that he retained Seer afterward or misinterpreted the other speaker.",
+        "source_quotes": [
+          {
+            "source_id": "WW04.row.009",
+            "quote": "That makes no sense. I looked at two in the middle because I was the seer and I saw those two."
+          }
+        ],
+        "support": null
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "scope": "Which participant and night phase does each reported Insomniac/Seer identity concern, and do the reports address the same holder question?",
+      "participant_outputs": {
+        "James": "Reported sequence: Insomniac earlier, Seer on waking; the subject remains unbound because the turn introduces Justin before the first-person report.",
+        "Mitchell": "Reported Seer role for Mitchell at his claimed center-card inspection. That action-phase report is not a verified waking-phase or current-holder fact."
+      },
+      "comparison": "No determinate same-question holder comparison follows yet. The first report concerns an unclear player’s change from Insomniac to Seer on waking; Mitchell reports being Seer at his own inspection action. Different subjects or phases can coexist without consequential interpretation divergence.",
+      "blocking_reasons": [
+        "The reported subject in James’s “open with Justin and say” wording is not securely identified.",
+        "The first report’s waking phase and Mitchell’s Seer-action phase are not demonstrably the same comparison point.",
+        "A challenge to a claim may concern credibility or game consistency rather than a different interpretation.",
+        "Rule variant and source/media checks remain pending where needed for a holder computation."
+      ],
+      "verification_note": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": null,
+    "human_content_confirmed": false,
+    "current_review_path": "../../REVIEWS.json",
+    "evidence_scope": "Current Tier S wording aid. Human support review and selection remain pending; all research annotations stay outside observer input."
+  },
+  "later_evidence": {
+    "dialogue": [
+      {
+        "utterance_id": "WW04.row.010",
+        "speaker": "Mike",
+        "text": "I'm going to say that I was the seer and I looked at Mitchell's and he was a werewolf."
+      },
+      {
+        "utterance_id": "WW04.row.011",
+        "speaker": "Justin",
+        "text": "I'm going to confirm Mike's story. And I switched to these two,"
+      },
+      {
+        "utterance_id": "WW04.row.012",
+        "speaker": "Mike",
+        "text": "But Caitlynn was the drunk."
+      },
+      {
+        "utterance_id": "WW04.row.013",
+        "speaker": "Caitlynn",
+        "text": "I was a drunk."
+      },
+      {
+        "utterance_id": "WW04.row.014",
+        "speaker": "Justin",
+        "text": "Caitlynn which one did you switch with?"
+      },
+      {
+        "utterance_id": "WW04.row.015",
+        "speaker": "Caitlynn",
+        "text": "Well, I'm hoping Mitchell is wrong."
+      },
+      {
+        "utterance_id": "WW04.row.016",
+        "speaker": "Justin",
+        "text": "Well, Mitchell is wrong."
+      },
+      {
+        "utterance_id": "WW04.row.017",
+        "speaker": "Mike",
+        "text": "Mitchell is very wrong. It's still possible She's aware, but we know for sure. Mitchell is the werewolf."
+      },
+      {
+        "utterance_id": "WW04.row.018",
+        "speaker": "Justin",
+        "text": "I feel like we have to kill Mitchell."
+      },
+      {
+        "utterance_id": "WW04.row.019",
+        "speaker": "Mitchell",
+        "text": "Should we vote now?"
+      },
+      {
+        "utterance_id": "WW04.row.020",
+        "speaker": "Justin",
+        "text": "Yeah."
+      },
+      {
+        "utterance_id": "WW04.row.021",
+        "speaker": "Caitlynn",
+        "text": "He could be the minion!"
+      },
+      {
+        "utterance_id": "WW04.row.022",
+        "speaker": "Audio",
+        "text": "Time is up Everyone."
+      },
+      {
+        "utterance_id": "WW04.row.023",
+        "speaker": "Mike",
+        "text": "No, I looked at it."
+      }
+    ],
+    "observed_action_or_outcome": null,
+    "event_type": null,
+    "what_it_supports": "Retained for a separate later-evidence review; no suffix inference is used as prefix support in this draft."
+  },
+  "annotation_review": {
+    "review_status": "unreviewed",
+    "independent_coder_1": null,
+    "independent_coder_2": null,
+    "adjudicated_label": null
+  },
+  "sampling_and_reference_protocol": {
+    "map_pair_id": null,
+    "provisional_source_group": "ONE#NIGHT#ULTIMATE#WEREWOLF##Retro#4",
+    "merged_cluster_id": null,
+    "partition": "development_candidate_only",
+    "full_dev_test_split_drawn": false,
+    "evidence_tier": "S",
+    "exposure": "Assistant curation and preliminary interpretation; not a blind test set."
+  },
+  "archived_pre_tier_s_annotation_draft": {
+    "title": "Insomniac and Seer reports: disagreement is not a proven misreading",
+    "subtask": "Interpret reported role identities before and after night actions",
+    "draft_status": "UNRESOLVED",
+    "supported_A": "James reports starting as Insomniac and waking as Seer.",
+    "supported_B": "Mitchell rejects this as making no sense and reports being Seer and looking at two center cards.",
+    "consequence": "These reports concern different players and phases. They are not yet two answers to one shared holder question under one accepted premise.",
+    "reason": "Prevents treating disputed or strategic claims as interpretation mismatch.",
+    "uncertainty": "The rules allow multiple movements. The text does not establish an endorsed common event model or resolve those two center cards.",
+    "timing": "explicit_claim_disagreement",
+    "adapter": "shared_question_unresolved",
+    "media_priority": "Verify role words, wake-up phase and deictic center-card references.",
+    "author": "assistant",
+    "is_human_reference": false,
+    "is_model_prediction": false,
+    "scope": "focal exchange only; not a full-prefix label",
+    "focal_pair": [
+      "James",
+      "Mitchell"
+    ],
+    "focus_quote": "Okay. We're going to open with Justin and say I was the insomniac, but I woke up as a seer.",
+    "response_quote": "That makes no sense. I looked at two in the middle because I was the seer and I saw those two.",
+    "evidence_scope": "Justification must be checked using prefix only. The assistant screened longer transcript passages, so this draft is not a blinded independent annotation.",
+    "archive_note": "Earlier assistant screening draft. Superseded by the current Tier S wording; no human reference status."
+  }
+}

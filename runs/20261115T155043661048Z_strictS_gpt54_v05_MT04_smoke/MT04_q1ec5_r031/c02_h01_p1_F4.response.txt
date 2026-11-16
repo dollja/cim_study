@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"supported","paths":[{"id":"path1","root_type":"INSTRUCTS","root":{"source_id":"q1ec5.row.012","quote":"what's to your right"},"scope_id":"e3","links":[{"relation":"COREF","source_id":"q1ec5.row.014","quote":"the canoes"}]}]},{"reading_id":"r2","judgment":"undetermined","paths":[]}],"updates":[],"unresolved_scope":false}

@@ -1,0 +1,37 @@
+test_current_reference_schema_rejects_silent_hypothesis_or_focus_loss (tests.test_reference_review_workflow.ReferenceReviewWorkflowTests.test_current_reference_schema_rejects_silent_hypothesis_or_focus_loss) ... ok
+test_new_reason_and_changed_quote_are_both_reported (tests.test_reference_review_workflow.ReferenceReviewWorkflowTests.test_new_reason_and_changed_quote_are_both_reported) ... ok
+test_new_reason_cannot_be_added_or_removed_behind_frozen_first_pass (tests.test_reference_review_workflow.ReferenceReviewWorkflowTests.test_new_reason_cannot_be_added_or_removed_behind_frozen_first_pass) ... ok
+test_reference_format_preserves_adjudication_hashes_and_exports (tests.test_reference_review_workflow.ReferenceReviewWorkflowTests.test_reference_format_preserves_adjudication_hashes_and_exports) ... ok
+test_adjudicated_reading_quotes_are_checked (tests.test_review_tools.ReviewToolsTests.test_adjudicated_reading_quotes_are_checked) ... ok
+test_adjudication_cannot_invent_supported_readings_from_sets (tests.test_review_tools.ReviewToolsTests.test_adjudication_cannot_invent_supported_readings_from_sets) ... ok
+test_ai_wording_cannot_be_declared_strict_by_clearing_exposure_flags (tests.test_review_tools.ReviewToolsTests.test_ai_wording_cannot_be_declared_strict_by_clearing_exposure_flags) ... ok
+test_assisted_reference_requires_explicit_condition (tests.test_review_tools.ReviewToolsTests.test_assisted_reference_requires_explicit_condition) ... ok
+test_changed_reader_requires_new_adjudication (tests.test_review_tools.ReviewToolsTests.test_changed_reader_requires_new_adjudication) ... ok
+test_complete_record_validates (tests.test_review_tools.ReviewToolsTests.test_complete_record_validates) ... ok
+test_duplicate_and_nonfinite_json_rejected (tests.test_review_tools.ReviewToolsTests.test_duplicate_and_nonfinite_json_rejected) ... ok
+test_empty_or_malformed_reviews_fail_cleanly (tests.test_review_tools.ReviewToolsTests.test_empty_or_malformed_reviews_fail_cleanly) ... ok
+test_exclusive_creation_preserves_existing_review (tests.test_review_tools.ReviewToolsTests.test_exclusive_creation_preserves_existing_review) ... ok
+test_explicit_strict_export_uses_reporter_schema_without_candidate_inference (tests.test_review_tools.ReviewToolsTests.test_explicit_strict_export_uses_reporter_schema_without_candidate_inference) ... ok
+test_export_binds_exact_observer_content_and_raw_input_file (tests.test_review_tools.ReviewToolsTests.test_export_binds_exact_observer_content_and_raw_input_file) ... ok
+test_f7_consequence_sets (tests.test_review_tools.ReviewToolsTests.test_f7_consequence_sets) ... ok
+test_label_must_match_consequence_rule (tests.test_review_tools.ReviewToolsTests.test_label_must_match_consequence_rule) ... ok
+test_later_evidence_review_requires_unchanged_frozen_first_judgment (tests.test_review_tools.ReviewToolsTests.test_later_evidence_review_requires_unchanged_frozen_first_judgment) ... ok
+test_later_suggestion_viewing_requires_unchanged_frozen_first_judgment (tests.test_review_tools.ReviewToolsTests.test_later_suggestion_viewing_requires_unchanged_frozen_first_judgment) ... ok
+test_legacy_readings_get_unknown_support (tests.test_review_tools.ReviewToolsTests.test_legacy_readings_get_unknown_support) ... ok
+test_migration_preserves_history_and_does_not_certify_ai_wording (tests.test_review_tools.ReviewToolsTests.test_migration_preserves_history_and_does_not_certify_ai_wording) ... ok
+test_narrator_is_not_a_focal_participant (tests.test_review_tools.ReviewToolsTests.test_narrator_is_not_a_focal_participant) ... ok
+test_pending_adjudication_cannot_export (tests.test_review_tools.ReviewToolsTests.test_pending_adjudication_cannot_export) ... ok
+test_quote_must_be_in_frozen_prefix (tests.test_review_tools.ReviewToolsTests.test_quote_must_be_in_frozen_prefix) ... ok
+test_quote_text_and_speaker_must_match (tests.test_review_tools.ReviewToolsTests.test_quote_text_and_speaker_must_match) ... ok
+test_second_reader_starts_blank_with_unknown_exposure (tests.test_review_tools.ReviewToolsTests.test_second_reader_starts_blank_with_unknown_exposure) ... ok
+test_substring_focus_is_allowed (tests.test_review_tools.ReviewToolsTests.test_substring_focus_is_allowed) ... ok
+test_supported_outcomes_cannot_bypass_reading_support (tests.test_review_tools.ReviewToolsTests.test_supported_outcomes_cannot_bypass_reading_support) ... ok
+test_supported_reading_requires_own_expressed_evidence (tests.test_review_tools.ReviewToolsTests.test_supported_reading_requires_own_expressed_evidence) ... ok
+test_unknown_metadata_survives_canonical_roundtrip (tests.test_review_tools.ReviewToolsTests.test_unknown_metadata_survives_canonical_roundtrip) ... ok
+test_unknown_source_cluster_cannot_export (tests.test_review_tools.ReviewToolsTests.test_unknown_source_cluster_cannot_export) ... ok
+test_unrated_records_are_not_agreement (tests.test_review_tools.ReviewToolsTests.test_unrated_records_are_not_agreement) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.272s
+
+OK

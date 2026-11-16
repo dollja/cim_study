@@ -1,0 +1,31 @@
+{
+  "record_type": "software_validation_not_empirical_results",
+  "default_export_format": "CIM_REFERENCE_KEYS_V1",
+  "node_behavior_groups_passed": 19,
+  "python_builder_and_cross_language_tests_passed": 9,
+  "original_visible_field_captions_controls_order_unchanged": true,
+  "css_unchanged": true,
+  "observer_inputs_unchanged": true,
+  "technical_and_human_import_compatibility": true,
+  "reference_roundtrip_preserves_current_20_reviews": true,
+  "js_python_codec_parity": true,
+  "json_only_why_selected_preserved_without_new_field": true,
+  "nonempty_reason_captured_in_snapshot_hash": true,
+  "old_reasonless_snapshot_hashes_preserved": true,
+  "primary_and_additional_quote_extras_preserved": true,
+  "unsupported_shapes_and_aliases_reject_without_data_loss": true,
+  "export_failure_retains_editable_draft": true,
+  "visual_rendering_verified": false,
+  "modified_files": [
+    "web/review_keys.js",
+    "web/review_app.js",
+    "tests/test_review_ui.js",
+    "tests/test_review_ui.py"
+  ],
+  "file_sha256": {
+    "web/review_keys.js": "689808042e0878f4a4f552f6fac44cc11057d29d1c1289e95ca5529125e442d4",
+    "web/review_app.js": "8cffcc5a59bbdf1ca29519fa6e82b43770b261283d655a8fb581f50877410162",
+    "tests/test_review_ui.js": "70bac8878c0637997f996ddd4199e76d789fb9b14c302d442c35ff64a4f5c9dc",
+    "tests/test_review_ui.py": "6f3409cd91a63572323033ff5dde9361d70d88000e657a253bb729d1760a60cf"
+  }
+}

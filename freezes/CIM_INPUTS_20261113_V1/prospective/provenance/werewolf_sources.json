@@ -1,0 +1,102 @@
+[
+  {
+    "source_id": "WW01",
+    "original_path": "Youtube/transcripts/ONE#NIGHT#ULTIMATE#WEREWOLF##Retro#1_Game2.txt",
+    "revision": "4bca742d186b788aba9f252e967e97665b23f8d7",
+    "url": "https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/resolve/4bca742d186b788aba9f252e967e97665b23f8d7/Youtube/transcripts/ONE%23NIGHT%23ULTIMATE%23WEREWOLF%23%23Retro%231_Game2.txt",
+    "local_path": "source_transcripts/WW01.txt",
+    "sha256": "542654f03128417cbfa7a31452637bba70b8394b45112f6489a0a19cacbbaa20",
+    "git_blob_sha1": "c6c337e96ea991824eb73e201e39fdea05f4917a",
+    "bytes": 5217
+  },
+  {
+    "source_id": "WW02",
+    "original_path": "Youtube/transcripts/ONE#NIGHT#ULTIMATE#WEREWOLF##Retro#2_Game1.txt",
+    "revision": "4bca742d186b788aba9f252e967e97665b23f8d7",
+    "url": "https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/resolve/4bca742d186b788aba9f252e967e97665b23f8d7/Youtube/transcripts/ONE%23NIGHT%23ULTIMATE%23WEREWOLF%23%23Retro%232_Game1.txt",
+    "local_path": "source_transcripts/WW02.txt",
+    "sha256": "a54cbf5b9632c0357fa80dbfb926e9ce5712b73519334c99cee721fb69004cda",
+    "git_blob_sha1": "56b4d0cf58e6ff0649f78d88141627ca60768a62",
+    "bytes": 6822
+  },
+  {
+    "source_id": "WW03",
+    "original_path": "Youtube/transcripts/ONE#NIGHT#ULTIMATE#WEREWOLF##Retro#3_Game2.txt",
+    "revision": "4bca742d186b788aba9f252e967e97665b23f8d7",
+    "url": "https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/resolve/4bca742d186b788aba9f252e967e97665b23f8d7/Youtube/transcripts/ONE%23NIGHT%23ULTIMATE%23WEREWOLF%23%23Retro%233_Game2.txt",
+    "local_path": "source_transcripts/WW03.txt",
+    "sha256": "9656701c5f0e5eba10abe23441b34d0f61fbb5c36adc62d4ced8bf4faf1f53b9",
+    "git_blob_sha1": "25c1e79790a359fed51d7c94818eaff14f8aa897",
+    "bytes": 5114
+  },
+  {
+    "source_id": "WW04",
+    "original_path": "Youtube/transcripts/ONE#NIGHT#ULTIMATE#WEREWOLF##Retro#4_Game3.txt",
+    "revision": "4bca742d186b788aba9f252e967e97665b23f8d7",
+    "url": "https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/resolve/4bca742d186b788aba9f252e967e97665b23f8d7/Youtube/transcripts/ONE%23NIGHT%23ULTIMATE%23WEREWOLF%23%23Retro%234_Game3.txt",
+    "local_path": "source_transcripts/WW04.txt",
+    "sha256": "ba761ec6fc5c0b1066521f1ad7c415f5ca56e14ba315f4282094ed4326a21e62",
+    "git_blob_sha1": "299c9f6648392468cf0e67287e3d141e09015ad8",
+    "bytes": 2079
+  },
+  {
+    "source_id": "WW05",
+    "original_path": "Youtube/transcripts/ONE#NIGHT#ULTIMATE#WEREWOLF##Retro#5_Game1.txt",
+    "revision": "4bca742d186b788aba9f252e967e97665b23f8d7",
+    "url": "https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/resolve/4bca742d186b788aba9f252e967e97665b23f8d7/Youtube/transcripts/ONE%23NIGHT%23ULTIMATE%23WEREWOLF%23%23Retro%235_Game1.txt",
+    "local_path": "source_transcripts/WW05.txt",
+    "sha256": "8ca8b2064c0229698bc7f6753a605e4df815a052466da2abbbe3b8a0c8750876",
+    "git_blob_sha1": "552a61b431e6635a45e41ac23226d941d5ab548b",
+    "bytes": 4847
+  },
+  {
+    "source_id": "WW06",
+    "original_path": "Youtube/transcripts/Flashback##ONE#NIGHT#ULTIMATE#WEREWOLF##Retro#9_Game1.txt",
+    "revision": "4bca742d186b788aba9f252e967e97665b23f8d7",
+    "url": "https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/resolve/4bca742d186b788aba9f252e967e97665b23f8d7/Youtube/transcripts/Flashback%23%23ONE%23NIGHT%23ULTIMATE%23WEREWOLF%23%23Retro%239_Game1.txt",
+    "local_path": "source_transcripts/WW06.txt",
+    "sha256": "1b56f2d2a2adfb656015fe8065a03c39d474089a93e7506f34806a4e2690bd30",
+    "git_blob_sha1": "f19e9d90c52b00248b6ca81105a27ac9ea420c51",
+    "bytes": 7712
+  },
+  {
+    "source_id": "WW07",
+    "original_path": "Youtube/transcripts/One#Night#Ultimate#Werewolf#1#How-To#and#Playthrough_Game1.txt",
+    "revision": "4bca742d186b788aba9f252e967e97665b23f8d7",
+    "url": "https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/resolve/4bca742d186b788aba9f252e967e97665b23f8d7/Youtube/transcripts/One%23Night%23Ultimate%23Werewolf%231%23How-To%23and%23Playthrough_Game1.txt",
+    "local_path": "source_transcripts/WW07.txt",
+    "sha256": "18a64c3268e746f02620050e0b4e1776cd013aa710825481fd76967c443b6158",
+    "git_blob_sha1": "c79d472566d4a8671c2644a4afe87b6335436dd0",
+    "bytes": 12948
+  },
+  {
+    "source_id": "WW08",
+    "original_path": "Youtube/transcripts/One#Night#Ultimate#Werewolf#2#The#Drunk_Game1.txt",
+    "revision": "4bca742d186b788aba9f252e967e97665b23f8d7",
+    "url": "https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/resolve/4bca742d186b788aba9f252e967e97665b23f8d7/Youtube/transcripts/One%23Night%23Ultimate%23Werewolf%232%23The%23Drunk_Game1.txt",
+    "local_path": "source_transcripts/WW08.txt",
+    "sha256": "6ec84cea5dcdf889903921bd1c0ca0ae80ca06e47f29b6b3797a365cb7cf0f94",
+    "git_blob_sha1": "c2d8b193f81b9cd3aa7d30cb66dc6f0cee3d0406",
+    "bytes": 11799
+  },
+  {
+    "source_id": "WW09",
+    "original_path": "Youtube/transcripts/One#Night#Ultimate#Werewolf#3#Insomniac_Game1.txt",
+    "revision": "4bca742d186b788aba9f252e967e97665b23f8d7",
+    "url": "https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/resolve/4bca742d186b788aba9f252e967e97665b23f8d7/Youtube/transcripts/One%23Night%23Ultimate%23Werewolf%233%23Insomniac_Game1.txt",
+    "local_path": "source_transcripts/WW09.txt",
+    "sha256": "fda7b555f44adbddd67095fa1c616427420fcb9cd0080a21557fc1ff7a3fd030",
+    "git_blob_sha1": "3c7dcfd3e9e8a2f7abfc9af4eada4f85bf9bb32a",
+    "bytes": 10860
+  },
+  {
+    "source_id": "WW10",
+    "original_path": "Youtube/transcripts/One#Night#Ultimate#Werewolf#531#Classic#ONUW_Game1.txt",
+    "revision": "4bca742d186b788aba9f252e967e97665b23f8d7",
+    "url": "https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/resolve/4bca742d186b788aba9f252e967e97665b23f8d7/Youtube/transcripts/One%23Night%23Ultimate%23Werewolf%23531%23Classic%23ONUW_Game1.txt",
+    "local_path": "source_transcripts/WW10.txt",
+    "sha256": "e9ed56a2b2701d111292470eed660444c357271ccb6a33c28e6d2c74b47b8de1",
+    "git_blob_sha1": "a2231e33cebfaeec6347f4ddf6ebd804b1a81afc",
+    "bytes": 6861
+  }
+]

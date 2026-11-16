@@ -1,0 +1,11 @@
+{
+  "case_id": "MT04_q1ec5_r031",
+  "step": "c03_h01_p1_check",
+  "timestamp_utc": "2026-11-15T16:15:56.383788+00:00",
+  "reserved_usd": 0.156435,
+  "client_request_id": "e043c178-f307-4949-9e95-a710966a7ebc",
+  "request_sha256": "c78c511ad883da5a6ad7e57ddc13bd3cddaf8c4fc150b53fcd2c84ebfb6496c8",
+  "messages_sha256": "95e7282a6aeb4515c94397ea9b8be0bc57197ea3bd2583997ccb43955cf0d6cc",
+  "input_token_upper_bound": 13422,
+  "envelope": "runs\\20261115T155043661048Z_strictS_gpt54_v05_MT04_smoke\\MT04_q1ec5_r031\\c03_h01_p1_check.envelope.json"
+}

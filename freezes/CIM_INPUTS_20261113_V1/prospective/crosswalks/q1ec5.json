@@ -1,0 +1,945 @@
+{
+  "source": "q1ec5",
+  "generated_ids": true,
+  "ordering": "original file order; never timestamp-sorted",
+  "normalization": "MapTask speaker-code expansion and outer field whitespace removal only. Werewolf speaker/timestamp delimiters parsed; utterance wording retained.",
+  "source_sha256": "47c0b7cc053e72ecacece3ad52a6eee80879c28c3ead0cc1d9d56f5709025848",
+  "rows": [
+    {
+      "utterance_id": "q1ec5.row.001",
+      "source_line": 4,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.002",
+      "source_line": 5,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tnow you're starting ehm above the diamond mine \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.003",
+      "source_line": 6,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tmmhmm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.004",
+      "source_line": 7,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand er the desert is below to your left \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.005",
+      "source_line": 8,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tuh-huh \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.006",
+      "source_line": 9,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.007",
+      "source_line": 10,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tnow \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.008",
+      "source_line": 11,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tgo go south from the diamond mine until you are still above the desert \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.009",
+      "source_line": 12,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.010",
+      "source_line": 13,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.011",
+      "source_line": 14,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tnow \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.012",
+      "source_line": 15,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tif you tell me what's to your right at the what's to your right \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.013",
+      "source_line": 16,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tehm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.014",
+      "source_line": 17,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tthe canoes \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.015",
+      "source_line": 18,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tcanoes \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.016",
+      "source_line": 19,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tand a fast running creek \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.017",
+      "source_line": 20,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand a fast running creek \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.018",
+      "source_line": 21,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tum \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.019",
+      "source_line": 22,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand do you have a graveyard \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.020",
+      "source_line": 23,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tno \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.021",
+      "source_line": 24,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tdo you have a carved wooden pole in this area \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.022",
+      "source_line": 25,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright away down the very bottom \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.023",
+      "source_line": 26,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright okay \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.024",
+      "source_line": 27,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tnow \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.025",
+      "source_line": 28,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tgo go right from the diamond mine \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.026",
+      "source_line": 29,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.027",
+      "source_line": 30,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.028",
+      "source_line": 31,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand um \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.029",
+      "source_line": 32,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tnow you've got to pass \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.030",
+      "source_line": 33,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tthere's actually a graveyard to the right of the diamond mine on my map \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.031",
+      "source_line": 34,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tbelow it \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.032",
+      "source_line": 35,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tno \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.033",
+      "source_line": 36,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\ton the same level as the diamond mine \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.034",
+      "source_line": 37,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tmm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.035",
+      "source_line": 38,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand so you're going to pa-- you're going to pass by the graveyard as well \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.036",
+      "source_line": 39,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tmm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.037",
+      "source_line": 40,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then you're going to go up and over the top of the f-- uh \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.038",
+      "source_line": 41,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\twhat i've got is a fast flowing river \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.039",
+      "source_line": 42,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tmmhmm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.040",
+      "source_line": 43,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tdo you have you have your c-- \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.041",
+      "source_line": 44,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tfast running creek \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.042",
+      "source_line": 45,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tfast running creek \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.043",
+      "source_line": 46,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\twhere is that on a level with the diamond mine or is it slightly below \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.044",
+      "source_line": 47,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tit's just slightly above \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.045",
+      "source_line": 48,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tslightly above \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.046",
+      "source_line": 49,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.047",
+      "source_line": 50,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\twell i've got a fast flowing river here \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.048",
+      "source_line": 51,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tso \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.049",
+      "source_line": 52,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\twhat you'd best to do is go along past the bottom go along okay sorry go along to your right and veer slightly upwards as you reach the creek \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.050",
+      "source_line": 53,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tmmhmm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.051",
+      "source_line": 54,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then go over and round the creek to your right \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.052",
+      "source_line": 55,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then ehm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.053",
+      "source_line": 56,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tdo you have an apache camp \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.054",
+      "source_line": 57,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tuh-huh \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.055",
+      "source_line": 58,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.056",
+      "source_line": 59,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tsee when you're over the top of the fast or your creek or the river that i've got here when you're over the top of that and in line vertically in line with the apache camp \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.057",
+      "source_line": 60,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tmmhmm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.058",
+      "source_line": 61,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tmmhmm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.059",
+      "source_line": 62,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tgo south until just above the apache camp \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.060",
+      "source_line": 63,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.061",
+      "source_line": 64,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.062",
+      "source_line": 65,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\twhen you reach the apache camp \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.063",
+      "source_line": 66,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tehm do you have a walled city \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.064",
+      "source_line": 67,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright away on the far left \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.065",
+      "source_line": 68,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.066",
+      "source_line": 69,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\twell you're going to go from above the apache camp to the walled city but you've got to avoid a carved wooden pole \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.067",
+      "source_line": 70,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\twhich in my map is slightly above the level of the apache camp \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.068",
+      "source_line": 71,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tno this is vertically in line with the walled city below it \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.069",
+      "source_line": 72,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.070",
+      "source_line": 73,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tokay so \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.071",
+      "source_line": 74,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright i've got one of them as well \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.072",
+      "source_line": 75,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.073",
+      "source_line": 76,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tso \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.074",
+      "source_line": 77,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tbut there's another one a carved wooden pole here which is halfway between the walled city and the apache camp \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.075",
+      "source_line": 78,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.076",
+      "source_line": 79,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tmmhmm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.077",
+      "source_line": 80,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tbut slightly above the level of the apache camp \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.078",
+      "source_line": 81,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tso \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.079",
+      "source_line": 82,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\ti'd be better to go underneath it \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.080",
+      "source_line": 83,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.081",
+      "source_line": 84,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tuh-huh \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.082",
+      "source_line": 85,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.083",
+      "source_line": 86,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tso you've got so you're going from above the apache camp underneath the carved wooden pole and over the top of the walled city \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.084",
+      "source_line": 87,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then when you reach the far si-- yo-- your left-hand side of the walled city travel southwards until you come to the level of some flat rocks \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.085",
+      "source_line": 88,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tuh-huh \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.086",
+      "source_line": 89,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand go bel-- \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.087",
+      "source_line": 90,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tdo you have a stone creek \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.088",
+      "source_line": 91,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tuh-huh \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.089",
+      "source_line": 92,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright so \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.090",
+      "source_line": 93,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\twhat i want you to do is go between the flat rocks and the stone creek \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.091",
+      "source_line": 94,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tbut do you have anything between the walled city and the carved wooden pole \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.092",
+      "source_line": 95,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tghost town \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.093",
+      "source_line": 96,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\ta ghost town \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.094",
+      "source_line": 97,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tso you're going to \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.095",
+      "source_line": 98,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tthat's not on my map \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.096",
+      "source_line": 99,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tyou've got to avoid that i think \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.097",
+      "source_line": 100,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.098",
+      "source_line": 101,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tso go south down past the walled city underneath your ghost town and then slightly up sort of northeast direction between the flat rocks and the stone creek \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.099",
+      "source_line": 102,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tbetween \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.100",
+      "source_line": 103,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\twell \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.101",
+      "source_line": 104,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tit'd be better if i s-- s-- between the walled city and the ghost town no to go underneath it above it \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.102",
+      "source_line": 105,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tor have you got something else there \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.103",
+      "source_line": 106,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\ti've not got anything betw-- between the carved wooden pole and the walled city \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.104",
+      "source_line": 107,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tbut the map shows a curve a \"c\"-shaped curve \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.105",
+      "source_line": 108,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.106",
+      "source_line": 109,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tscore that out \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.107",
+      "source_line": 110,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.108",
+      "source_line": 111,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.109",
+      "source_line": 112,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand sort of and then slightly up underneath the flat rocks and above the stone creek \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.110",
+      "source_line": 113,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.111",
+      "source_line": 114,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.112",
+      "source_line": 115,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tthen \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.113",
+      "source_line": 116,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tgo slightly to your right beyond the flat rocks until you are above the level of the buffalo \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.114",
+      "source_line": 117,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tso i i'll be avoiding the saloon bar \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.115",
+      "source_line": 118,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\ti don't have a saloon bar here \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.116",
+      "source_line": 119,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\ti've got here \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.117",
+      "source_line": 120,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.118",
+      "source_line": 121,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tokay so avoid the saloon bar \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.119",
+      "source_line": 122,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.120",
+      "source_line": 123,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand ehm then right then ehm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.121",
+      "source_line": 124,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tjust straight down to the right of the buffalo \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.122",
+      "source_line": 125,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tto the right \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.123",
+      "source_line": 126,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\ty-- \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.124",
+      "source_line": 127,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tso that so that you're on you're on the right of the buffalo \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.125",
+      "source_line": 128,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.126",
+      "source_line": 129,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.127",
+      "source_line": 130,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand go underneath the buffalo \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.128",
+      "source_line": 131,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tnow \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.129",
+      "source_line": 132,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tdo you have a cattle ranch \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.130",
+      "source_line": 133,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tno \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.131",
+      "source_line": 134,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tehm do you have a fort \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.132",
+      "source_line": 135,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tmmhmm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.133",
+      "source_line": 136,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tso you're going to go from the buffalo to the fort but you've got to avoid the cattle ranch on the way and you'll have to go up and over the top of the cattle ranch \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.134",
+      "source_line": 137,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.135",
+      "source_line": 138,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\twhich on my map is halfway between the buffalo and the fort \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.136",
+      "source_line": 139,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.137",
+      "source_line": 140,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.138",
+      "source_line": 141,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tthat on the the level between the fort mm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.139",
+      "source_line": 142,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tehm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.140",
+      "source_line": 143,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tit's almost on level with the fort but it's slightly higher than the fort \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.141",
+      "source_line": 144,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tso \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.142",
+      "source_line": 145,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tso you need to be go up on a sort of hill \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.143",
+      "source_line": 146,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tmmhmm \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.144",
+      "source_line": 147,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tover the cattle ranch \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.145",
+      "source_line": 148,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tunderneath buffalo or over the cattle ranch \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.146",
+      "source_line": 149,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.147",
+      "source_line": 150,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tthen underneath the fort \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.148",
+      "source_line": 151,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tunder the fort \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.149",
+      "source_line": 152,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tunderneath the fort uh-huh \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.150",
+      "source_line": 153,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand come out at the left-hand side of the fort and finishing ehm not beside but on the same level as the the carved wooden pole the base of the carved woode-- wooden pole \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.151",
+      "source_line": 154,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.152",
+      "source_line": 155,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tokay that's you finished \t"
+    },
+    {
+      "utterance_id": "q1ec5.row.153",
+      "source_line": 156,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tokay \t"
+    }
+  ],
+  "non_utterance_lines": [
+    {
+      "source_line": 1,
+      "reason": "source_header",
+      "text": "Found 2 args."
+    },
+    {
+      "source_line": 2,
+      "reason": "source_header",
+      "text": "Observation: q1ec5; Result size: 153; atts: 2"
+    },
+    {
+      "source_line": 3,
+      "reason": "source_header",
+      "text": "who\t$m\t"
+    }
+  ],
+  "timestamp_reversals": []
+}

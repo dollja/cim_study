@@ -1,0 +1,135 @@
+{
+  "format_id": "CIM_FORM_LABEL_KEYS_V1",
+  "purpose": "Rename review JSON keys to the existing offline form labels; do not rename visible form fields. Structural containers use short descriptive names. Controlled values, source text, participant IDs and arrays are unchanged.",
+  "maps": {
+    "review": {
+      "review_status": "Review status",
+      "reviewer_id": "Reviewer",
+      "review_metadata": "Reviewer and exposure",
+      "focal_pair": "Participants being compared",
+      "local_question": "Local task question",
+      "focus_source_ids": "Selected dialogue turns",
+      "focus_quotes": "Selected expressions",
+      "participant_meanings_with_source_quotes": "Each participant’s reading",
+      "task_outputs": "Task consequences",
+      "blocking_uncertainty": "Could uncertainty change the conclusion?",
+      "provisional_label": "Review judgment",
+      "prefix_only_rationale": "Why this judgment? Prefix evidence only",
+      "evidence_verified": "Evidence checked?",
+      "include_in_pilot": "Include in pilot?",
+      "inclusion_or_exclusion_reason": "Selection / exclusion reason"
+    },
+    "metadata": {
+      "schema_version": "Schema version",
+      "evidence_tier": "Evidence tier",
+      "observer_input_sha256": "Observer input SHA-256",
+      "prior_exposure": "What had you seen before your first judgment?",
+      "prefix_first_review_completed": "First prefix review completed",
+      "later_evidence_review_completed": "Separate later-evidence review completed",
+      "assistant_wording_fields": "Draft wording fields",
+      "human_content_confirmed": "I checked the content now entered against the available evidence.",
+      "reference_condition": "Reference condition",
+      "provenance_record": "Preparation history record",
+      "first_pass_judgment_snapshot": "Saved first judgment",
+      "first_pass_judgment_sha256": "Saved first judgment SHA-256",
+      "first_pass_recorded_at_utc": "First judgment saved at UTC",
+      "wording_exposure_events": "Wording consultation history"
+    },
+    "prior_exposure": {
+      "assistant_draft": "Assistant drafts",
+      "system_outputs": "System predictions",
+      "released_labels": "Released / other labels",
+      "later_evidence": "Later dialogue or outcomes",
+      "notes": "Exposure notes"
+    },
+    "reading": {
+      "participant_id": "Participant",
+      "meaning": "Interpretation",
+      "support": "Evidence support",
+      "source_quotes": "Evidence quotes",
+      "support_note": "Support note"
+    },
+    "focus_quote": {
+      "source_id": "Source turn",
+      "speaker": "Speaker",
+      "quote": "Exact expression"
+    },
+    "evidence_quote": {
+      "source_id": "Evidence source",
+      "speaker": "Speaker",
+      "quote": "Exact evidence"
+    },
+    "task_outputs": {
+      "evidence_tier": "Evidence tier",
+      "scope": "Same task / event scope",
+      "participant_outputs": "Consequences by participant",
+      "comparison": "Comparison in words",
+      "blocking_reasons": "What is still unknown? One reason per line",
+      "supported_consequences": "Supported consequences JSON",
+      "verification_note": "Evidence check notes",
+      "consequence_encoding_note": "Consequence format notes",
+      "implementation_limits": "Implementation limits",
+      "computation_status": "Computation status",
+      "authorship": "Preparation notes"
+    },
+    "wording_event": {
+      "at_utc": "Time UTC",
+      "source_filename": "Source file",
+      "action": "Action",
+      "before_prefix_first_review": "Before first prefix judgment",
+      "fields": "Fields"
+    }
+  },
+  "children": {
+    "review": {
+      "review_metadata": {
+        "context": "metadata"
+      },
+      "focus_quotes": {
+        "context": "focus_quote",
+        "array": true
+      },
+      "participant_meanings_with_source_quotes": {
+        "context": "reading",
+        "array": true
+      },
+      "task_outputs": {
+        "context": "task_outputs"
+      }
+    },
+    "metadata": {
+      "prior_exposure": {
+        "context": "prior_exposure"
+      },
+      "first_pass_judgment_snapshot": {
+        "context": "review"
+      },
+      "wording_exposure_events": {
+        "context": "wording_event",
+        "array": true
+      }
+    },
+    "reading": {
+      "source_quotes": {
+        "context": "evidence_quote",
+        "array": true
+      }
+    }
+  },
+  "field_reference_lists": {
+    "metadata": [
+      "assistant_wording_fields"
+    ],
+    "wording_event": [
+      "fields"
+    ]
+  },
+  "container_notes": {
+    "Participants being compared": "The existing two-item array: first item is First participant and second item is Second participant.",
+    "Selected dialogue turns": "IDs of turns chosen using the original Use as focus button.",
+    "Selected expressions": "Array of source-linked Exact expression entries.",
+    "Evidence quotes": "Array of Evidence source / Exact evidence entries.",
+    "Consequences by participant": "The keys remain actual participant IDs; the original form displays each as <participant> · consequence.",
+    "Support note": "Existing optional JSON-only note; no new field is added to the original form."
+  }
+}

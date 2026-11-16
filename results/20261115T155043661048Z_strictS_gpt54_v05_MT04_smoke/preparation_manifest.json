@@ -1,0 +1,29 @@
+{
+  "run_id": "20261115T155043661048Z_strictS_gpt54_v05_MT04_smoke",
+  "status": "PREPARED_NOT_EXECUTED",
+  "smoke_case": "MT04_q1ec5_r031",
+  "prior_run": "20261115T030043628089Z_strictS_gpt54_v04_MT04_smoke",
+  "prompt_revision": "cim-current-pilot-0.5",
+  "historical_reserved_usd": 12.32716,
+  "remaining_authorized_usd": 87.67284,
+  "prior_ledger_sha256": {
+    "results\\20261114T021237533921Z_strictS_gpt54\\attempt_ledger.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results\\20261114T021352286517Z_strictS_gpt54\\attempt_ledger.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results\\20261114T021656430460Z_strictS_gpt54\\attempt_ledger.jsonl": "6013c75169dc3518c6d207347e2e9af2c7b369690e0b415f6a37cd3f3b2291f8",
+    "results\\20261114T034613649918Z_strictS_gpt54_v2\\attempt_ledger.jsonl": "badf58b42b3ff62fc2608f31eec3a1da342f564a45a8dbff7a2281cac6b085c9",
+    "results\\20261114T035056752322Z_strictS_gpt54_quota_recovery\\attempt_ledger.jsonl": "49ad29c0bbd1eec6114af359a580fc881ca3cf05e7eba2d49b9dd55c3a3e8e1f",
+    "results\\20261114T043918435738Z_strictS_gpt54_continuation\\attempt_ledger.jsonl": "5656375f56ab625932fc189bcc7af74eace52c462a12ce4adce354af6d8f0c11",
+    "results\\20261114T055827402895Z_strictS_gpt54_background\\attempt_ledger.jsonl": "e56db31e6507a78b5caedeea483c364fcbe554d65877e0a1217e54273a0a70b7",
+    "results\\20261114T2044179594809Z_strictS_gpt54_project_recovery\\attempt_ledger.jsonl": "13d360385584cdf5594fb088ec7a52b4fee9dd977e7c226470524df4b91c6749",
+    "results\\20261115T030043628089Z_strictS_gpt54_v04_MT04_smoke\\attempt_ledger.jsonl": "753214fbd88fc8e2847a3adc6c03a51897a3922d7df61473b6dd7f3cd9c49d44"
+  },
+  "code_sha256": {
+    "pilot.py": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618",
+    "run_model.py": "2db92cc4b2251c3c13daf7f16757eca08948a8163e173d176d1766f06d40dcac",
+    "background_transport.py": "84aac7a5fda35a8f44edc80b727ac8269e1800ca31dad5427311567f4330ffaa",
+    "execute_condition.py": "106f804a845863e44242d109db8d6691b3af17503b023d518fb4d2d3534bd0e8"
+  },
+  "offline_tests_passed": 28,
+  "provider_attempts": 0,
+  "prior_failures_preserved": true
+}

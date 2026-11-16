@@ -1,0 +1,28 @@
+{
+  "record_type": "software_and_representation_validation_not_model_results",
+  "new_format": "CIM_REFERENCE_KEYS_V1",
+  "selected_cases": 20,
+  "frozen_inputs_ready": 20,
+  "completed_r1_records": 14,
+  "canonical_review_records_and_hashes_preserved": 20,
+  "selected_quotations_preserved": 40,
+  "separate_new_focus_reason_fields_pending": 20,
+  "python_codec_checks_passed": 27,
+  "python_review_workflow_checks_passed": 32,
+  "python_builder_cross_language_checks_passed": 9,
+  "node_behavior_groups_passed": 19,
+  "actual_model_calls": 0,
+  "original_form_fields_controls_order_and_styles_retained": true,
+  "previous_form_label_version": "REVIEWS_r1_v4_context_confirmed.json",
+  "current_version": "REVIEWS_r1_v5_reference_keys.json",
+  "validation_records": [
+    "key_conversion_audit.json",
+    "REVIEWS_validation.json",
+    "frozen_inputs_unchanged.json",
+    "review_workflow_tests.txt",
+    "ui_behavior_result.json",
+    "reference_codec_form_validation.json",
+    "final_commands.json",
+    "cli_roundtrip_result.json"
+  ]
+}

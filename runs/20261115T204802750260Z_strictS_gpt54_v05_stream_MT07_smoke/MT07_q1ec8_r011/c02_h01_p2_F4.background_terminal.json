@@ -1,0 +1,109 @@
+{
+  "id": "resp_02f1699714839ace006afa2c3cbddc87d280d3674bc9f4fc8d",
+  "object": "response",
+  "created_at": 1794780220,
+  "status": "completed",
+  "access_programs": null,
+  "background": true,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794780239,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 8192,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_02f1699714839ace006afa2c3f5e0487d29a45ea1f323c7ffa",
+      "type": "reasoning",
+      "content": [],
+      "summary": []
+    },
+    {
+      "id": "msg_02f1699714839ace006afa2c4f0f1c87d28195e72241e6c064",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"records\":[{\"reading_id\":\"x1\",\"judgment\":\"supported\",\"paths\":[{\"id\":\"path1\",\"root_type\":\"SAYS\",\"root\":{\"source_id\":\"q1ec8.row.008\",\"quote\":\"west and then down south\"},\"scope_id\":\"e2\",\"links\":[]}]},{\"reading_id\":\"x2\",\"judgment\":\"undetermined\",\"paths\":[]},{\"reading_id\":\"x3\",\"judgment\":\"undetermined\",\"paths\":[]}],\"updates\":[],\"unresolved_scope\":false}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2049,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 0
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 2507,
+    "output_tokens_details": {
+      "reasoning_tokens": 2507
+    },
+    "total_tokens": 4556
+  },
+  "user": null,
+  "metadata": {}
+}

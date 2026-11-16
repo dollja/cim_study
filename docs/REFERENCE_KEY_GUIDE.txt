@@ -1,0 +1,95 @@
+CIM_REFERENCE_KEYS_V1 — REVIEW FIELD GUIDE
+
+Use REVIEWS.json or its identical active copy, REVIEWS_r1_v5_reference_keys.json. The package is cim_study.zip; extract it into the cim_study folder. The original HTML form captions and layout are unchanged. It imports reference keys, previous form-label keys or technical keys and exports reference keys.
+
+The requested names come from the earlier teaching-example style. This is a lossless adaptation of the current reviews, not an assertion that the old examples were verified human references. The selected 20 cases, frozen evidence, support codes and judgments are unchanged by this representation update.
+
+1. subtask_hypotheses[0].description
+
+Write the single local task question being judged. This corresponds to the form's Local task question. For MT10: "What route relation to the start is expressed for the current downward segment?"
+
+The exporter wraps that one value in an array; a pending description can be null. The current human-review workflow does not evaluate several subtask hypotheses at once. Do not add a second hypothesis merely because the field is an array.
+
+2. focus.quote and focus.utterance_id
+
+These identify the first saved selected expression. Keep the quotation exactly as it appears in the permitted dialogue and retain its source ID. For MT10, the first selected expression is "straight down under the start", at q1nc4.row.043. Optional focus.speaker retains the speaker, here follower.
+
+focus.additional_quotes preserves the other selected expressions, in order. focus.selected_utterance_ids preserves the complete selected-ID array independently of quote order. All 20 current reviews have two selected turns and two quotes. Do not delete the second quote to imitate an older single-focus example or fabricate a quote for a selected ID that has no saved quote. Optional focus.quote_metadata preserves extra primary-quote properties; leave these intact when present.
+
+3. focus.why_selected
+
+This asks why this expression was chosen as the focus. It is a new optional JSON-only field, currently null. No new HTML control was added. Leave it null until you supply a separate reason. Do not copy rationale, which explains the judgment, or selection_reason, which explains the episode's inclusion/exclusion. A new reason is review content, not evidence that a judgment was independently rechecked.
+
+4. participant_interpretations
+
+This is the existing array of participant readings. Its inner fields remain Participant, Interpretation, Evidence support, Evidence quotes and any existing Support note. Keep supported, possible, unsupported or null exactly as justified. A possible reading must not be moved into an assumed supported-reading list.
+
+For MT10, the giver's expressed reading is grounded at .041 and the follower's at .043. The final yeah remains selected dialogue but does not independently establish the giver's interpretation. A map establishes an available referent; participant-owned expressed evidence establishes adoption under Tier S.
+
+5. consequence_analysis
+
+This retains the entire existing task-consequence object, not just a summary sentence. It includes the same task/event scope, consequences by participant, comparison, uncertainty, evidence notes and Supported consequences JSON.
+
+For MT10, each participant's recorded consequence is:
+  ["Route", "current_below_start_segment", "below", "m3_start"]
+
+The verified m3_start is the existing shared map identifier. Do not replace the required anchor with a new invented name, drop arguments or infer entire-route agreement from this local relation. Keep participant IDs and nested consequence arrays unchanged.
+
+6. rationale
+
+This corresponds to Why this judgment? Prefix evidence only. Explain how each participant's supported interpretation and task consequence justify the chosen code, including relevant uncertainty. For MT10 the relevant evidence is the giver's .041 instruction, the follower's .043 wording and the confirmed START correspondence. Later outcomes must not strengthen a prefix-only judgment.
+
+7. selection_reason
+
+This corresponds to Selection / exclusion reason. Explain the episode's role in the pilot, or why it would be excluded. MT10 is a selected local-agreement case after clarification. That selection reason does not establish an advance warning, overall route success or a second human review.
+
+PARTIAL MT10 EXAMPLE — ILLUSTRATIVE EXCERPT ONLY
+
+The following excerpt shows the paths and existing local comparison. It omits required review/provenance fields and is not a complete review file. Use the supplied complete REVIEWS.json for editing. The null focus reason is deliberate; no new reason has been invented.
+
+{
+  "subtask_hypotheses": [
+    {
+      "description": "What route relation to the start is expressed for the current downward segment?"
+    }
+  ],
+  "focus": {
+    "utterance_id": "q1nc4.row.043",
+    "quote": "straight down under the start",
+    "speaker": "follower",
+    "why_selected": null,
+    "additional_quotes": [
+      {
+        "utterance_id": "q1nc4.row.044",
+        "quote": "yeah",
+        "speaker": "giver"
+      }
+    ],
+    "selected_utterance_ids": [
+      "q1nc4.row.043",
+      "q1nc4.row.044"
+    ]
+  },
+  "consequence_analysis": {
+    "Supported consequences JSON": {
+      "giver": [["Route", "current_below_start_segment", "below", "m3_start"]],
+      "follower": [["Route", "current_below_start_segment", "below", "m3_start"]]
+    }
+  },
+  "Could uncertainty change the conclusion?": false,
+  "Review judgment": "ALIGNED"
+}
+
+OTHER FIELDS AND SAVING
+
+Reviewer, Review status, Participants being compared, Review judgment, Could uncertainty change the conclusion?, Evidence checked?, Include in pilot? and Reviewer and exposure keep their readable names. The three judgment codes remain ALIGNED, POTENTIAL_MISMATCH and UNRESOLVED. Preserve true prior exposure and saved first-pass history.
+
+Import the current review into REVIEW.html, edit the existing controls, then download the new JSON before closing. For a separate conversion:
+
+  python review_tools.py convert-keys OLD.json --to reference --out NEW.json
+
+reference is the default. human produces the previous form-label structure; technical produces the internal key convention. CLI migrate uses the same default and supports --output-keys reference|human|technical. Use new output filenames. Conversion never changes input bindings, confirms evidence or creates another reader.
+
+The codec normalizes all three formats before checking canonical review/snapshot hashes. Do not manually rewrite saved hashes after editing substantive content. Conflicting aliases, ambiguous structures and more than one task hypothesis are rejected rather than silently discarded. Source evidence, participant IDs and unknown supported history must survive round trips.
+
+Validation uses schemas/reviews.schema.json for this format. Previous encodings retain schemas/reviews_form_labels.schema.json and schemas/reviews_technical.schema.json. See validation/reference_keys_20261113/key_conversion_audit.json for the conversion checks and CURRENT_READINESS.json for current review/execution status. Model observer inputs, model replies and adjudication ledgers retain their separate machine formats.

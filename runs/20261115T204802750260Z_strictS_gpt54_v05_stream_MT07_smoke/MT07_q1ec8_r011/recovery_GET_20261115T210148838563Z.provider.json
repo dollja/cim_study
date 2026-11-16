@@ -1,0 +1,109 @@
+{
+  "id": "resp_0a1dff658be2976f006afa1b5ef3fc87d2bc7c4c835f541df6",
+  "object": "response",
+  "created_at": 1794775902,
+  "status": "completed",
+  "access_programs": null,
+  "background": true,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794775930,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 8192,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0a1dff658be2976f006afa1b6175d087d2a19b701bb370390c",
+      "type": "reasoning",
+      "content": [],
+      "summary": []
+    },
+    {
+      "id": "msg_0a1dff658be2976f006afa1b7800f087d2a549cab62b69be96",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"candidates\":[{\"id\":\"c1\",\"participant_pair\":[\"giver\",\"follower\"],\"focus_spans\":[{\"source_id\":\"q1ec8.row.001\",\"quote\":\"right starts above the stony desert\"}],\"hypotheses\":[{\"id\":\"h1\",\"subtask\":\"anchor\",\"event_id\":\"e1\",\"scope_evidence\":[{\"source_id\":\"q1ec8.row.001\",\"quote\":\"right starts above the stony desert\"},{\"source_id\":\"m9_giver_inventory\",\"quote\":\"stony desert; lower right; correspondence m9_desert\"},{\"source_id\":\"m9_follower_inventory\",\"quote\":\"stony desert; lower right; correspondence m9_desert\"}]}]},{\"id\":\"c2\",\"participant_pair\":[\"giver\",\"follower\"],\"focus_spans\":[{\"source_id\":\"q1ec8.row.005\",\"quote\":\"turn to the west\"}],\"hypotheses\":[{\"id\":\"h2\",\"subtask\":\"route\",\"event_id\":\"e2\",\"scope_evidence\":[{\"source_id\":\"q1ec8.row.005\",\"quote\":\"turn to the west\"},{\"source_id\":\"q1ec8.row.008\",\"quote\":\"west and then down south\"}]}]},{\"id\":\"c3\",\"participant_pair\":[\"giver\",\"follower\"],\"focus_spans\":[{\"source_id\":\"q1ec8.row.007\",\"quote\":\"er go forward and then kind of down south\"}],\"hypotheses\":[{\"id\":\"h3\",\"subtask\":\"route\",\"event_id\":\"e3\",\"scope_evidence\":[{\"source_id\":\"q1ec8.row.007\",\"quote\":\"er go forward and then kind of down south\"},{\"source_id\":\"q1ec8.row.008\",\"quote\":\"west and then down south\"}]}]}],\"overflow\":true}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2126,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 0
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 4182,
+    "output_tokens_details": {
+      "reasoning_tokens": 4182
+    },
+    "total_tokens": 6308
+  },
+  "user": null,
+  "metadata": {}
+}

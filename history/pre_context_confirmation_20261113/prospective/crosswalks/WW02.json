@@ -1,0 +1,667 @@
+{
+  "source": "WW02",
+  "generated_ids": true,
+  "ordering": "original file order; never timestamp-sorted",
+  "normalization": "MapTask speaker-code expansion and outer field whitespace removal only. Werewolf speaker/timestamp delimiters parsed; utterance wording retained.",
+  "source_sha256": "a54cbf5b9632c0357fa80dbfb926e9ce5712b73519334c99cee721fb69004cda",
+  "rows": [
+    {
+      "utterance_id": "WW02.row.001",
+      "source_line": 1,
+      "timestamp_as_supplied": "00:00",
+      "raw_line": "Audio (00:00): Everyone close your eyes. Werewolves, wake up and look for other Werewolves. If there is only one Werewolf, you may look at a card from the center. Werewolves, close your eyes. Seer, wake up. You may look at another player's card, or two of the center cards. Seer, close your eyes. Robber, wake up."
+    },
+    {
+      "utterance_id": "WW02.row.002",
+      "source_line": 2,
+      "timestamp_as_supplied": "00:36",
+      "raw_line": "Justin (00:36): Robber."
+    },
+    {
+      "utterance_id": "WW02.row.003",
+      "source_line": 3,
+      "timestamp_as_supplied": "00:37",
+      "raw_line": "Audio (00:37): You may exchange your card with another player's card, and then view your new card. Robber, close your eyes. Troublemaker, wake up. You may exchange cards between two other players. Troublemaker, close your eyes. Everyone, keep your eyes closed, and reach out and move your card around slightly."
+    },
+    {
+      "utterance_id": "WW02.row.004",
+      "source_line": 4,
+      "timestamp_as_supplied": "01:10",
+      "raw_line": "Justin (01:10): Yes."
+    },
+    {
+      "utterance_id": "WW02.row.005",
+      "source_line": 5,
+      "timestamp_as_supplied": "01:12",
+      "raw_line": "Audio (01:12): Wake up."
+    },
+    {
+      "utterance_id": "WW02.row.006",
+      "source_line": 6,
+      "timestamp_as_supplied": "01:17",
+      "raw_line": "Justin (01:17): All right, now we have five minutes to talk."
+    },
+    {
+      "utterance_id": "WW02.row.007",
+      "source_line": 7,
+      "timestamp_as_supplied": "01:19",
+      "raw_line": "Mitchell (01:19): And you don't look at your card."
+    },
+    {
+      "utterance_id": "WW02.row.008",
+      "source_line": 8,
+      "timestamp_as_supplied": "01:20",
+      "raw_line": "Justin (01:20): Yeah. You don't look at your card."
+    },
+    {
+      "utterance_id": "WW02.row.009",
+      "source_line": 9,
+      "timestamp_as_supplied": "01:20",
+      "raw_line": "Dan (01:20): No, no. Just leave it."
+    },
+    {
+      "utterance_id": "WW02.row.010",
+      "source_line": 10,
+      "timestamp_as_supplied": "01:20",
+      "raw_line": "Mitchell (01:20): So you might not..."
+    },
+    {
+      "utterance_id": "WW02.row.011",
+      "source_line": 11,
+      "timestamp_as_supplied": "01:20",
+      "raw_line": "Caitlynn (01:20): I was just going to absentmindedly play with them, I'm sorry."
+    },
+    {
+      "utterance_id": "WW02.row.012",
+      "source_line": 12,
+      "timestamp_as_supplied": "01:24",
+      "raw_line": "Mitchell (01:24): You might not be who you thought, who you think you are."
+    },
+    {
+      "utterance_id": "WW02.row.013",
+      "source_line": 13,
+      "timestamp_as_supplied": "01:28",
+      "raw_line": "Justin (01:28): So does anyone want to declare anything?"
+    },
+    {
+      "utterance_id": "WW02.row.014",
+      "source_line": 14,
+      "timestamp_as_supplied": "01:32",
+      "raw_line": "Dan (01:32): I'll wait until someone else first."
+    },
+    {
+      "utterance_id": "WW02.row.015",
+      "source_line": 15,
+      "timestamp_as_supplied": "01:35",
+      "raw_line": "Justin (01:35): I'm going to say I was the Robber."
+    },
+    {
+      "utterance_id": "WW02.row.016",
+      "source_line": 16,
+      "timestamp_as_supplied": "01:42",
+      "raw_line": "Dan (01:42): But I could take that from you, right?"
+    },
+    {
+      "utterance_id": "WW02.row.017",
+      "source_line": 17,
+      "timestamp_as_supplied": "01:44",
+      "raw_line": "Mitchell (01:44): I was the Seer. I know of one person, what their card was. So do not lie to me."
+    },
+    {
+      "utterance_id": "WW02.row.018",
+      "source_line": 18,
+      "timestamp_as_supplied": "01:54",
+      "raw_line": "Mike (01:54): But it could have been switched."
+    },
+    {
+      "utterance_id": "WW02.row.019",
+      "source_line": 19,
+      "timestamp_as_supplied": "01:55",
+      "raw_line": "Mitchell (01:55): Well, I played my Seer role, so I did look at a card."
+    },
+    {
+      "utterance_id": "WW02.row.020",
+      "source_line": 20,
+      "timestamp_as_supplied": "02:00",
+      "raw_line": "Justin (02:00): Caitlynn's saying she's a Villager? Dan, did you switch anyone's cards around?"
+    },
+    {
+      "utterance_id": "WW02.row.021",
+      "source_line": 21,
+      "timestamp_as_supplied": "02:08",
+      "raw_line": "Dan (02:08): Yes."
+    },
+    {
+      "utterance_id": "WW02.row.022",
+      "source_line": 22,
+      "timestamp_as_supplied": "02:09",
+      "raw_line": "Mike (02:09): Who?"
+    },
+    {
+      "utterance_id": "WW02.row.023",
+      "source_line": 23,
+      "timestamp_as_supplied": "02:09",
+      "raw_line": "Justin (02:09): Whose did you switch?"
+    },
+    {
+      "utterance_id": "WW02.row.024",
+      "source_line": 24,
+      "timestamp_as_supplied": "02:12",
+      "raw_line": "Mitchell (02:12): Maybe wait til Mike..."
+    },
+    {
+      "utterance_id": "WW02.row.025",
+      "source_line": 25,
+      "timestamp_as_supplied": "02:14",
+      "raw_line": "Justin (02:14): Yeah. Mike. Yeah. What are you? A Villager. So we got Villager, Villager, Seer, Troublemaker, Driver. So we currently have no Werewolves. It is possible to have no Werewolves. Dan, who did you switch around?"
+    },
+    {
+      "utterance_id": "WW02.row.026",
+      "source_line": 26,
+      "timestamp_as_supplied": "02:29",
+      "raw_line": "Dan (02:29): Whose card did you take? "
+    },
+    {
+      "utterance_id": "WW02.row.027",
+      "source_line": 27,
+      "timestamp_as_supplied": "02:31",
+      "raw_line": "Justin (02:31): I took the logic of trying to not, just to stay on the side of the village, as we said. So I did not switch with anybody. I'm still the Robber."
+    },
+    {
+      "utterance_id": "WW02.row.028",
+      "source_line": 28,
+      "timestamp_as_supplied": "02:45",
+      "raw_line": "Mitchell (02:45): It's possible, he switched with someone, looked at the card, and it turns out to be a Werewolf. And now, he's trying to play innocent."
+    },
+    {
+      "utterance_id": "WW02.row.029",
+      "source_line": 29,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "Justin (02:51): It's possible."
+    },
+    {
+      "utterance_id": "WW02.row.030",
+      "source_line": 30,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "Mitchell (02:51): Possible."
+    },
+    {
+      "utterance_id": "WW02.row.031",
+      "source_line": 31,
+      "timestamp_as_supplied": "02:52",
+      "raw_line": "Justin (02:52): Can I know either who you swapped with, or who you looked at?"
+    },
+    {
+      "utterance_id": "WW02.row.032",
+      "source_line": 32,
+      "timestamp_as_supplied": "02:56",
+      "raw_line": "Mitchell (02:56): I just say the person I looked at, is being honest right now. I'll start with that."
+    },
+    {
+      "utterance_id": "WW02.row.033",
+      "source_line": 33,
+      "timestamp_as_supplied": "03:02",
+      "raw_line": "Justin (03:02): Okay. That's fair."
+    },
+    {
+      "utterance_id": "WW02.row.034",
+      "source_line": 34,
+      "timestamp_as_supplied": "03:03",
+      "raw_line": "Mitchell (03:03): A tidbit."
+    },
+    {
+      "utterance_id": "WW02.row.035",
+      "source_line": 35,
+      "timestamp_as_supplied": "03:03",
+      "raw_line": "Mike (03:03): Okay."
+    },
+    {
+      "utterance_id": "WW02.row.036",
+      "source_line": 36,
+      "timestamp_as_supplied": "03:04",
+      "raw_line": "Dan (03:04): Okay. I switched Caitlynn and Justin."
+    },
+    {
+      "utterance_id": "WW02.row.037",
+      "source_line": 37,
+      "timestamp_as_supplied": "03:11",
+      "raw_line": "Justin (03:11): No lie?"
+    },
+    {
+      "utterance_id": "WW02.row.038",
+      "source_line": 38,
+      "timestamp_as_supplied": "03:12",
+      "raw_line": "Dan (03:12): No lie."
+    },
+    {
+      "utterance_id": "WW02.row.039",
+      "source_line": 39,
+      "timestamp_as_supplied": "03:13",
+      "raw_line": "Justin (03:13): All right. Caitlynn's a Werewolf."
+    },
+    {
+      "utterance_id": "WW02.row.040",
+      "source_line": 40,
+      "timestamp_as_supplied": "03:14",
+      "raw_line": "Dan (03:14): I think that she is a Werewolf."
+    },
+    {
+      "utterance_id": "WW02.row.041",
+      "source_line": 41,
+      "timestamp_as_supplied": "03:17",
+      "raw_line": "Justin (03:17): No, Caitlynn's a Werewolf. I was a Werewolf."
+    },
+    {
+      "utterance_id": "WW02.row.042",
+      "source_line": 42,
+      "timestamp_as_supplied": "03:21",
+      "raw_line": "Dan (03:21): But, to be fair, Caitlynn put Villager, and she could be Villager, but I think that she was a Werewolf, and she didn't know what else to take. So she took a Villager."
+    },
+    {
+      "utterance_id": "WW02.row.043",
+      "source_line": 43,
+      "timestamp_as_supplied": "03:31",
+      "raw_line": "Justin (03:31): No, no, no, no. You switched with me? You switched ours?"
+    },
+    {
+      "utterance_id": "WW02.row.044",
+      "source_line": 44,
+      "timestamp_as_supplied": "03:34",
+      "raw_line": "Dan (03:34): Yeah."
+    },
+    {
+      "utterance_id": "WW02.row.045",
+      "source_line": 45,
+      "timestamp_as_supplied": "03:34",
+      "raw_line": "Justin (03:34): Yeah, no. I was a Werewolf, and I was the only Werewolf."
+    },
+    {
+      "utterance_id": "WW02.row.046",
+      "source_line": 46,
+      "timestamp_as_supplied": "03:37",
+      "raw_line": "Mike (03:37): He said he's a Werewolf, and switched with Caitlynn."
+    },
+    {
+      "utterance_id": "WW02.row.047",
+      "source_line": 47,
+      "timestamp_as_supplied": "03:39",
+      "raw_line": "Dan (03:39): Yeah. But I'm saying..."
+    },
+    {
+      "utterance_id": "WW02.row.048",
+      "source_line": 48,
+      "timestamp_as_supplied": "03:41",
+      "raw_line": "Justin (03:41): No, no. I can guarantee there was only one Werewolf. It was me. If you switched with Caitlynn, she's the Werewolf."
+    },
+    {
+      "utterance_id": "WW02.row.049",
+      "source_line": 49,
+      "timestamp_as_supplied": "03:45",
+      "raw_line": "Dan (03:45): There's not two Werewolves in there?"
+    },
+    {
+      "utterance_id": "WW02.row.050",
+      "source_line": 50,
+      "timestamp_as_supplied": "03:45",
+      "raw_line": "Justin (03:45): There is one in here."
+    },
+    {
+      "utterance_id": "WW02.row.051",
+      "source_line": 51,
+      "timestamp_as_supplied": "03:46",
+      "raw_line": "Mike (03:46): There is."
+    },
+    {
+      "utterance_id": "WW02.row.052",
+      "source_line": 52,
+      "timestamp_as_supplied": "03:47",
+      "raw_line": "Dan (03:47): That's what I'm saying, is I think you're the other Werewolf."
+    },
+    {
+      "utterance_id": "WW02.row.053",
+      "source_line": 53,
+      "timestamp_as_supplied": "03:50",
+      "raw_line": "Justin (03:50): No, I was the Werewolf at the start."
+    },
+    {
+      "utterance_id": "WW02.row.054",
+      "source_line": 54,
+      "timestamp_as_supplied": "03:52",
+      "raw_line": "Mike (03:52): He gets to know what all the other Werewolves are."
+    },
+    {
+      "utterance_id": "WW02.row.055",
+      "source_line": 55,
+      "timestamp_as_supplied": "03:53",
+      "raw_line": "Justin (03:53): I opened my eyes."
+    },
+    {
+      "utterance_id": "WW02.row.056",
+      "source_line": 56,
+      "timestamp_as_supplied": "03:54",
+      "raw_line": "Dan (03:54): Oh, okay."
+    },
+    {
+      "utterance_id": "WW02.row.057",
+      "source_line": 57,
+      "timestamp_as_supplied": "03:55",
+      "raw_line": "Justin (03:55): I was the only one, saw Robber. And if you switched us, Caitlynn's the Werewolf. Who did you look at?"
+    },
+    {
+      "utterance_id": "WW02.row.058",
+      "source_line": 58,
+      "timestamp_as_supplied": "04:03",
+      "raw_line": "Mitchell (04:03): I looked at his."
+    },
+    {
+      "utterance_id": "WW02.row.059",
+      "source_line": 59,
+      "timestamp_as_supplied": "04:04",
+      "raw_line": "Justin (04:04): So if what you're saying is true, as decided the Village. She's the Werewolf. 'Cause I was the Werewolf at the beginning."
+    },
+    {
+      "utterance_id": "WW02.row.060",
+      "source_line": 60,
+      "timestamp_as_supplied": "04:11",
+      "raw_line": "Mitchell (04:11): Now, is there any way Justin is messing with us?"
+    },
+    {
+      "utterance_id": "WW02.row.061",
+      "source_line": 61,
+      "timestamp_as_supplied": "04:14",
+      "raw_line": "Dan (04:14): Yes. I think that they're both Werewolves, and he's just trying to save his ass."
+    },
+    {
+      "utterance_id": "WW02.row.062",
+      "source_line": 62,
+      "timestamp_as_supplied": "04:18",
+      "raw_line": "Mitchell (04:18): But, if he threw her under the bus, and she is a Werewolf right now, and she gets voted, both Werewolves lose."
+    },
+    {
+      "utterance_id": "WW02.row.063",
+      "source_line": 63,
+      "timestamp_as_supplied": "04:22",
+      "raw_line": "Justin (04:22): Yes."
+    },
+    {
+      "utterance_id": "WW02.row.064",
+      "source_line": 64,
+      "timestamp_as_supplied": "04:23",
+      "raw_line": "Mitchell (04:23): So they need, the Werewolves..."
+    },
+    {
+      "utterance_id": "WW02.row.065",
+      "source_line": 65,
+      "timestamp_as_supplied": "04:24",
+      "raw_line": "Mike (04:24): Yeah."
+    },
+    {
+      "utterance_id": "WW02.row.066",
+      "source_line": 66,
+      "timestamp_as_supplied": "04:24",
+      "raw_line": "Mitchell (04:24): ... do need to work together."
+    },
+    {
+      "utterance_id": "WW02.row.067",
+      "source_line": 67,
+      "timestamp_as_supplied": "04:26",
+      "raw_line": "Dan (04:26): Oh, that's true."
+    },
+    {
+      "utterance_id": "WW02.row.068",
+      "source_line": 68,
+      "timestamp_as_supplied": "04:26",
+      "raw_line": "Mitchell (04:26): They win or lose as a team."
+    },
+    {
+      "utterance_id": "WW02.row.069",
+      "source_line": 69,
+      "timestamp_as_supplied": "04:28",
+      "raw_line": "Dan (04:28): Okay."
+    },
+    {
+      "utterance_id": "WW02.row.070",
+      "source_line": 70,
+      "timestamp_as_supplied": "04:28",
+      "raw_line": "Justin (04:28): The Troublemaker happens after the Robber."
+    },
+    {
+      "utterance_id": "WW02.row.071",
+      "source_line": 71,
+      "timestamp_as_supplied": "04:32",
+      "raw_line": "Mitchell (04:32): But there is no Robber."
+    },
+    {
+      "utterance_id": "WW02.row.072",
+      "source_line": 72,
+      "timestamp_as_supplied": "04:33",
+      "raw_line": "Mike (04:33): There was no Robber."
+    },
+    {
+      "utterance_id": "WW02.row.073",
+      "source_line": 73,
+      "timestamp_as_supplied": "04:33",
+      "raw_line": "Justin (04:33): Exactly. So, it's her. She's the Werewolf."
+    },
+    {
+      "utterance_id": "WW02.row.074",
+      "source_line": 74,
+      "timestamp_as_supplied": "04:36",
+      "raw_line": "Mitchell (04:36): If what you're saying is true, then yes, that totally makes sense. I'm just trying to see if there's a loophole that you're..."
+    },
+    {
+      "utterance_id": "WW02.row.075",
+      "source_line": 75,
+      "timestamp_as_supplied": "04:43",
+      "raw_line": "Caitlynn (04:43): Just exploiting."
+    },
+    {
+      "utterance_id": "WW02.row.076",
+      "source_line": 76,
+      "timestamp_as_supplied": "04:44",
+      "raw_line": "Dan (04:44): What happens if there's two Werewolves, we just have to vote out one and we win?"
+    },
+    {
+      "utterance_id": "WW02.row.077",
+      "source_line": 77,
+      "timestamp_as_supplied": "04:44",
+      "raw_line": "Justin (04:44): Yes."
+    },
+    {
+      "utterance_id": "WW02.row.078",
+      "source_line": 78,
+      "timestamp_as_supplied": "04:44",
+      "raw_line": "Dan (04:44): Oh, okay."
+    },
+    {
+      "utterance_id": "WW02.row.079",
+      "source_line": 79,
+      "timestamp_as_supplied": "04:49",
+      "raw_line": "Mitchell (04:49): And if there's no Werewolves, we have to be careful to not vote anyone out."
+    },
+    {
+      "utterance_id": "WW02.row.080",
+      "source_line": 80,
+      "timestamp_as_supplied": "04:51",
+      "raw_line": "Mike (04:51): So..."
+    },
+    {
+      "utterance_id": "WW02.row.081",
+      "source_line": 81,
+      "timestamp_as_supplied": "04:52",
+      "raw_line": "Justin (04:52): So, if we think there's no Werewolves, we just get a tie and then no one..."
+    },
+    {
+      "utterance_id": "WW02.row.082",
+      "source_line": 82,
+      "timestamp_as_supplied": "04:55",
+      "raw_line": "Mike (04:55): Unless, he saw her card."
+    },
+    {
+      "utterance_id": "WW02.row.083",
+      "source_line": 83,
+      "timestamp_as_supplied": "05:01",
+      "raw_line": "Justin (05:01): With what?"
+    },
+    {
+      "utterance_id": "WW02.row.084",
+      "source_line": 84,
+      "timestamp_as_supplied": "05:02",
+      "raw_line": "Mike (05:02): With something else. I don't know."
+    },
+    {
+      "utterance_id": "WW02.row.085",
+      "source_line": 85,
+      "timestamp_as_supplied": "05:06",
+      "raw_line": "Mitchell (05:06): Maybe he was a Robber."
+    },
+    {
+      "utterance_id": "WW02.row.086",
+      "source_line": 86,
+      "timestamp_as_supplied": "05:08",
+      "raw_line": "Mike (05:08): Maybe he looked at her..."
+    },
+    {
+      "utterance_id": "WW02.row.087",
+      "source_line": 87,
+      "timestamp_as_supplied": "05:09",
+      "raw_line": "Mitchell (05:09): He switched with her. He ended up with the Werewolf, and then..."
+    },
+    {
+      "utterance_id": "WW02.row.088",
+      "source_line": 88,
+      "timestamp_as_supplied": "05:17",
+      "raw_line": "Audio (05:17): One minute remaining."
+    },
+    {
+      "utterance_id": "WW02.row.089",
+      "source_line": 89,
+      "timestamp_as_supplied": "05:18",
+      "raw_line": "Mike (05:18): That's true."
+    },
+    {
+      "utterance_id": "WW02.row.090",
+      "source_line": 90,
+      "timestamp_as_supplied": "05:19",
+      "raw_line": "Justin (05:19): No guys. Why would..."
+    },
+    {
+      "utterance_id": "WW02.row.091",
+      "source_line": 91,
+      "timestamp_as_supplied": "05:20",
+      "raw_line": "Mitchell (05:20): So now he is a Werewolf, he knows it."
+    },
+    {
+      "utterance_id": "WW02.row.092",
+      "source_line": 92,
+      "timestamp_as_supplied": "05:22",
+      "raw_line": "Dan (05:22): But, you said you picked up a card here."
+    },
+    {
+      "utterance_id": "WW02.row.093",
+      "source_line": 93,
+      "timestamp_as_supplied": "05:24",
+      "raw_line": "Justin (05:24): I looked at this card. Why would I lie at the beginning, then change my story?"
+    },
+    {
+      "utterance_id": "WW02.row.094",
+      "source_line": 94,
+      "timestamp_as_supplied": "05:27",
+      "raw_line": "Dan (05:27): I thought you had to take the card if you were the Robber."
+    },
+    {
+      "utterance_id": "WW02.row.095",
+      "source_line": 95,
+      "timestamp_as_supplied": "05:28",
+      "raw_line": "Justin (05:28): No, you just look at it. No, not as the Robber, you can only change with players. As the only Werewolf, I looked here, saw Robber."
+    },
+    {
+      "utterance_id": "WW02.row.096",
+      "source_line": 96,
+      "timestamp_as_supplied": "05:36",
+      "raw_line": "Dan (05:36): Okay, you know what? I think that Justin checks out, and I think we should figure..."
+    },
+    {
+      "utterance_id": "WW02.row.097",
+      "source_line": 97,
+      "timestamp_as_supplied": "05:40",
+      "raw_line": "Mitchell (05:40): I think I agree."
+    },
+    {
+      "utterance_id": "WW02.row.098",
+      "source_line": 98,
+      "timestamp_as_supplied": "05:41",
+      "raw_line": "Dan (05:41): She hasn't said a thing."
+    },
+    {
+      "utterance_id": "WW02.row.099",
+      "source_line": 99,
+      "timestamp_as_supplied": "05:42",
+      "raw_line": "Caitlynn (05:42): I was a Villager."
+    },
+    {
+      "utterance_id": "WW02.row.100",
+      "source_line": 100,
+      "timestamp_as_supplied": "05:47",
+      "raw_line": "Dan (05:47): [crosstalk 00:05:47] to me."
+    },
+    {
+      "utterance_id": "WW02.row.101",
+      "source_line": 101,
+      "timestamp_as_supplied": "05:49",
+      "raw_line": "Audio (05:49): Only 30 seconds left."
+    },
+    {
+      "utterance_id": "WW02.row.102",
+      "source_line": 102,
+      "timestamp_as_supplied": "05:48",
+      "raw_line": "Justin (05:48): Whenever it starts counting, and when it says 3, 2, 1, you have to vote immediately."
+    },
+    {
+      "utterance_id": "WW02.row.103",
+      "source_line": 103,
+      "timestamp_as_supplied": "05:52",
+      "raw_line": "Mitchell (05:52): Yeah."
+    },
+    {
+      "utterance_id": "WW02.row.104",
+      "source_line": 104,
+      "timestamp_as_supplied": "05:52",
+      "raw_line": "Justin (05:52): You vote by pointing. You can't wait for other people to vote. That's [crosstalk 00:05:55]."
+    },
+    {
+      "utterance_id": "WW02.row.105",
+      "source_line": 105,
+      "timestamp_as_supplied": "05:55",
+      "raw_line": "Mike (05:55): And then the majority wins."
+    },
+    {
+      "utterance_id": "WW02.row.106",
+      "source_line": 106,
+      "timestamp_as_supplied": "05:56",
+      "raw_line": "Justin (05:56): Yes."
+    },
+    {
+      "utterance_id": "WW02.row.107",
+      "source_line": 107,
+      "timestamp_as_supplied": "05:56",
+      "raw_line": "Mitchell (05:56): Yes."
+    },
+    {
+      "utterance_id": "WW02.row.108",
+      "source_line": 108,
+      "timestamp_as_supplied": "05:56",
+      "raw_line": "Justin (05:56): So let's stop and vote."
+    },
+    {
+      "utterance_id": "WW02.row.109",
+      "source_line": 109,
+      "timestamp_as_supplied": "05:58",
+      "raw_line": "Mitchell (05:58): Okay."
+    }
+  ],
+  "non_utterance_lines": [],
+  "timestamp_reversals": [
+    "WW02.row.102"
+  ]
+}

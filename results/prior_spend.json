@@ -1,0 +1,8 @@
+{
+  "measured_usd": 15.9397,
+  "open_reservations_usd": 3.681,
+  "calls_sent": 187,
+  "completions_saved": 163,
+  "covers": "All model calls made before 2026-11-16T13:30Z in development and transport-testing runs whose records were moved out of this repository.",
+  "rule": "Measured token cost of saved completions at list price, plus the full upper-bound reservation of every call that returned no completion."
+}

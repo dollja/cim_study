@@ -1,0 +1,109 @@
+{
+  "id": "resp_03a4b1f27d614145006af9d69005bc87d18678e8072d92a6bd",
+  "object": "response",
+  "created_at": 1794758288,
+  "status": "completed",
+  "access_programs": null,
+  "background": true,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1794758342,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "image": {
+    "context_compression": "disabled"
+  },
+  "incomplete_details": null,
+  "input_transformations": [],
+  "instructions": null,
+  "max_output_tokens": 8192,
+  "max_tool_calls": null,
+  "model": "gpt-5.4-2026-03-05",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_03a4b1f27d614145006af9d691c0b087d1954dbc4911d28023",
+      "type": "reasoning",
+      "content": [],
+      "summary": []
+    },
+    {
+      "id": "msg_03a4b1f27d614145006af9d6c3672c87d194cb00186b8b264b",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"records\":[{\"reading_id\":\"r1\",\"judgment\":\"supported\",\"paths\":[{\"id\":\"path_r1_1\",\"root_type\":\"INSTRUCTS\",\"root\":{\"source_id\":\"q1ec5.row.008\",\"quote\":\"go go south from the diamond mine until you are still above the desert\"},\"scope_id\":\"e2\",\"links\":[{\"relation\":\"LOCAL_DEF\",\"source_id\":\"q1ec5.row.004\",\"quote\":\"the desert is below to your left\"},{\"relation\":\"MAP_FACT\",\"source_id\":\"m6_giver_inventory\",\"quote\":\"m6_giver_05: desert; left below diamond mine; correspondence m6_desert\"}]}]},{\"reading_id\":\"r2\",\"judgment\":\"supported\",\"paths\":[{\"id\":\"path_r2_1\",\"root_type\":\"INSTRUCTS\",\"root\":{\"source_id\":\"q1ec5.row.008\",\"quote\":\"go go south from the diamond mine until you are still above the desert\"},\"scope_id\":\"e2\",\"links\":[{\"relation\":\"LOCAL_DEF\",\"source_id\":\"q1ec5.row.002\",\"quote\":\"now you're starting ehm above the diamond mine\"},{\"relation\":\"MAP_FACT\",\"source_id\":\"m6_giver_inventory\",\"quote\":\"m6_giver_02: diamond mine; upper left; correspondence m6_diamond_mine\"}]}]},{\"reading_id\":\"r3\",\"judgment\":\"supported\",\"paths\":[{\"id\":\"path_r3_1\",\"root_type\":\"INSTRUCTS\",\"root\":{\"source_id\":\"q1ec5.row.008\",\"quote\":\"go go south from the diamond mine until you are still above the desert\"},\"scope_id\":\"e2\",\"links\":[{\"relation\":\"LOCAL_DEF\",\"source_id\":\"q1ec5.row.002\",\"quote\":\"now you're starting ehm above the diamond mine\"},{\"relation\":\"LOCAL_DEF\",\"source_id\":\"q1ec5.row.004\",\"quote\":\"the desert is below to your left\"}]}]}],\"updates\":[],\"unresolved_scope\":false}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 3048,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 0
+      },
+      "cached_tokens": 1792
+    },
+    "output_tokens": 8360,
+    "output_tokens_details": {
+      "reasoning_tokens": 8360
+    },
+    "total_tokens": 11408
+  },
+  "user": null,
+  "metadata": {}
+}

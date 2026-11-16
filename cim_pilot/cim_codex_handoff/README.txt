@@ -1,1 +1,0 @@
-ARCHIVED HANDOFF EVIDENCE. These records describe the earlier supplied package and its 26-test run, not fresh verification of the updated source. Use ../README.md and ../validation/ for the current package. Historical personal attributions have been neutralized. The archived checksum list identifies the older input artifacts, not current bytes.

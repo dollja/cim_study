@@ -1,0 +1,211 @@
+{
+  "protocol": "Convenience feasibility batch, one prospective record per source. Sources chosen before this draft analysis from four MapTask pairs and ten distinct Werewolf file-title groups. Not a prespecified comprehensive screening study.",
+  "candidate_retrieval": "Source transcript text, no released interpretation/persuasion/outcome labels.",
+  "limits": "The assistant saw longer passages during curation. Independent prefix-first annotation, complete candidate enumeration, event timing and session/person overlap review remain undone.",
+  "records": [
+    {
+      "source": "q1ec1",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "The first response acknowledges the instruction without expressing a landmark-relative path.",
+      "draft_status": "UNRESOLVED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "q1ec3",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "This is a useful missing-context case, not sufficient evidence of two adopted interpretations.",
+      "draft_status": "UNRESOLVED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "q1ec4",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "A clear local repetition provides stronger evidence than a bare acknowledgment.",
+      "draft_status": "ALIGNED_CONDITIONAL_ON_MAP_REVIEW",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "q1ec5",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "Prevents turning two spatial words into a mismatch without checking the same question and adopted meanings.",
+      "draft_status": "UNRESOLVED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "q1ec6",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "A local relation match with explicit wording from both participants.",
+      "draft_status": "ALIGNED_CONDITIONAL_ON_MAP_REVIEW",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "q1ec7",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "Tests whether an observer mistakes access and an acknowledgment for explicit adoption.",
+      "draft_status": "UNRESOLVED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "q1ec8",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "Potentially consequential wording with insufficient stance evidence at the required first-response cutoff.",
+      "draft_status": "UNRESOLVED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "q1nc2",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "A useful guard against equating map discrepancy with misunderstanding.",
+      "draft_status": "UNRESOLVED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "q1nc3",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "Tests lexical difference, questions and negative responses without importing released interpretation labels.",
+      "draft_status": "UNRESOLVED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "q1nc4",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "Shows why earlier prefix evidence can support a reading even when the immediate response is short.",
+      "draft_status": "ALIGNED_CONDITIONAL_ON_MAP_REVIEW",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "WW01",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "Tests deictic target resolution and the first-response boundary.",
+      "draft_status": "UNRESOLVED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "WW02",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "A bounded aligned control with a straightforward pronoun link.",
+      "draft_status": "ALIGNED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": [
+        "WW02.row.102"
+      ]
+    },
+    {
+      "source": "WW03",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "Separates asking about an interpretation from asserting it.",
+      "draft_status": "UNRESOLVED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "WW04",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "Prevents treating disputed or strategic claims as interpretation mismatch.",
+      "draft_status": "UNRESOLVED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "WW05",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "Tests conditional reasoning without promoting a clarification question to agreement.",
+      "draft_status": "UNRESOLVED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "WW06",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "A candidate aligned reading is insufficient if the consequence-changing phase is not fixed.",
+      "draft_status": "UNRESOLVED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": [
+        "WW06.row.111"
+      ]
+    },
+    {
+      "source": "WW07",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "Tests conditional report interpretation and generic acknowledgment.",
+      "draft_status": "UNRESOLVED",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "WW08",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "An explicit endorsement can support a specific role claim when event and phase are fixed.",
+      "draft_status": "ALIGNED_CONDITIONAL_ON_RULE_REVIEW",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "WW09",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "A strong review candidate that reveals a boundary of the present scripts.",
+      "draft_status": "UNRESOLVED_OUTSIDE_STARTER_ADAPTER",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    },
+    {
+      "source": "WW10",
+      "prospective_records_created": 1,
+      "reviewed_candidate_chains_recorded": 1,
+      "comprehensive_chain_enumeration": false,
+      "selection_reason": "Tests a consequential rule disagreement without treating deception or hidden roles as established.",
+      "draft_status": "UNRESOLVED_OUTSIDE_STARTER_ADAPTER",
+      "eligible_for_measured_run_now": false,
+      "timestamp_reversals": []
+    }
+  ]
+}

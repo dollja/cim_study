@@ -1,0 +1,641 @@
+{
+  "source": "WW03",
+  "generated_ids": true,
+  "ordering": "original file order; never timestamp-sorted",
+  "normalization": "MapTask speaker-code expansion and outer field whitespace removal only. Werewolf speaker/timestamp delimiters parsed; utterance wording retained.",
+  "source_sha256": "9656701c5f0e5eba10abe23441b34d0f61fbb5c36adc62d4ced8bf4faf1f53b9",
+  "rows": [
+    {
+      "utterance_id": "WW03.row.001",
+      "source_line": 1,
+      "timestamp_as_supplied": "00:00",
+      "raw_line": "Audio (00:00): Everyone, close your eyes."
+    },
+    {
+      "utterance_id": "WW03.row.002",
+      "source_line": 2,
+      "timestamp_as_supplied": "00:00",
+      "raw_line": "James (00:00): Oh god, we've made a mistake. (laughter)"
+    },
+    {
+      "utterance_id": "WW03.row.003",
+      "source_line": 3,
+      "timestamp_as_supplied": "00:00",
+      "raw_line": "Audio (00:00): Werewolves, wake up and look for other werewolves. (Still more laughter) If there is only one-"
+    },
+    {
+      "utterance_id": "WW03.row.004",
+      "source_line": 4,
+      "timestamp_as_supplied": "00:00",
+      "raw_line": "Mike (00:00): -There's two right?"
+    },
+    {
+      "utterance_id": "WW03.row.005",
+      "source_line": 5,
+      "timestamp_as_supplied": "00:19",
+      "raw_line": "Audio (00:19): You may look at a card from the center. Werewolves, close your eyes. Seer, wake up. You may look at another players' card or two of the center cards."
+    },
+    {
+      "utterance_id": "WW03.row.006",
+      "source_line": 6,
+      "timestamp_as_supplied": "00:22",
+      "raw_line": "Justin (00:22): I feel like I'm cheating on a girlfriend right now. But it's like the normal voice dude."
+    },
+    {
+      "utterance_id": "WW03.row.007",
+      "source_line": 7,
+      "timestamp_as_supplied": "00:30",
+      "raw_line": "Audio (00:30): Seer, close your eyes. Robber, wake up."
+    },
+    {
+      "utterance_id": "WW03.row.008",
+      "source_line": 8,
+      "timestamp_as_supplied": "00:30",
+      "raw_line": "Justin (00:30): \"Rubber.\""
+    },
+    {
+      "utterance_id": "WW03.row.009",
+      "source_line": 9,
+      "timestamp_as_supplied": "00:30",
+      "raw_line": "Mike (00:30): \"Rubber!\""
+    },
+    {
+      "utterance_id": "WW03.row.010",
+      "source_line": 10,
+      "timestamp_as_supplied": "00:30",
+      "raw_line": "James (00:30): \"Rubber.\""
+    },
+    {
+      "utterance_id": "WW03.row.011",
+      "source_line": 11,
+      "timestamp_as_supplied": "00:30",
+      "raw_line": "Mitchell (00:30): \"Rubber.\""
+    },
+    {
+      "utterance_id": "WW03.row.012",
+      "source_line": 12,
+      "timestamp_as_supplied": "00:34",
+      "raw_line": "Mike (00:34): It keeps saying \"rubber.\""
+    },
+    {
+      "utterance_id": "WW03.row.013",
+      "source_line": 13,
+      "timestamp_as_supplied": "00:34",
+      "raw_line": "Audio (00:34): You may exchange your card with another players' card and then view your new card."
+    },
+    {
+      "utterance_id": "WW03.row.014",
+      "source_line": 14,
+      "timestamp_as_supplied": "00:36",
+      "raw_line": "Justin (00:36): \"Rubber.\""
+    },
+    {
+      "utterance_id": "WW03.row.015",
+      "source_line": 15,
+      "timestamp_as_supplied": "00:36",
+      "raw_line": "Mike (00:36): \"Rubber.\""
+    },
+    {
+      "utterance_id": "WW03.row.016",
+      "source_line": 16,
+      "timestamp_as_supplied": "00:39",
+      "raw_line": "Justin (00:39): \"Robber.\" I like this horror more."
+    },
+    {
+      "utterance_id": "WW03.row.017",
+      "source_line": 17,
+      "timestamp_as_supplied": "00:43",
+      "raw_line": "James (00:43): No, I like the strings."
+    },
+    {
+      "utterance_id": "WW03.row.018",
+      "source_line": 18,
+      "timestamp_as_supplied": "00:45",
+      "raw_line": "Justin (00:45): Yeah, you're a butt."
+    },
+    {
+      "utterance_id": "WW03.row.019",
+      "source_line": 19,
+      "timestamp_as_supplied": "00:45",
+      "raw_line": "Audio (00:45): Robber, close your eyes. Insomniac, wake up and look at your card."
+    },
+    {
+      "utterance_id": "WW03.row.020",
+      "source_line": 20,
+      "timestamp_as_supplied": "00:49",
+      "raw_line": "Justin (00:49): I'm blaming you for that last loss. (Laughter)"
+    },
+    {
+      "utterance_id": "WW03.row.021",
+      "source_line": 21,
+      "timestamp_as_supplied": "00:54",
+      "raw_line": "James (00:54): You just straight-up cheated."
+    },
+    {
+      "utterance_id": "WW03.row.022",
+      "source_line": 22,
+      "timestamp_as_supplied": "00:55",
+      "raw_line": "Audio (00:55): Insomniac, close your eyes. Everyone, keep your eyes closed and reach out and move your card around slightly."
+    },
+    {
+      "utterance_id": "WW03.row.023",
+      "source_line": 23,
+      "timestamp_as_supplied": "01:03",
+      "raw_line": "Justin (01:03): Goddamn, this is why you play boardgames."
+    },
+    {
+      "utterance_id": "WW03.row.024",
+      "source_line": 24,
+      "timestamp_as_supplied": "01:07",
+      "raw_line": "Audio (01:07): Everyone, wake up."
+    },
+    {
+      "utterance_id": "WW03.row.025",
+      "source_line": 25,
+      "timestamp_as_supplied": "01:11",
+      "raw_line": "Justin (01:11): Oh, she also did the voice of Tiny Tina."
+    },
+    {
+      "utterance_id": "WW03.row.026",
+      "source_line": 26,
+      "timestamp_as_supplied": "01:13",
+      "raw_line": "James (01:13): Oh."
+    },
+    {
+      "utterance_id": "WW03.row.027",
+      "source_line": 27,
+      "timestamp_as_supplied": "01:13",
+      "raw_line": "Mike (01:13): Who?"
+    },
+    {
+      "utterance_id": "WW03.row.028",
+      "source_line": 28,
+      "timestamp_as_supplied": "01:13",
+      "raw_line": "Justin (01:13): It's Ash from Hey Ash, what are you playing?"
+    },
+    {
+      "utterance_id": "WW03.row.029",
+      "source_line": 29,
+      "timestamp_as_supplied": "01:16",
+      "raw_line": "James (01:16): I don't know that."
+    },
+    {
+      "utterance_id": "WW03.row.030",
+      "source_line": 30,
+      "timestamp_as_supplied": "01:19",
+      "raw_line": "Mitchell (01:19): Any minute now James is going to suggest you put her in the slambulance."
+    },
+    {
+      "utterance_id": "WW03.row.031",
+      "source_line": 31,
+      "timestamp_as_supplied": "01:27",
+      "raw_line": "James (01:27): No one's made a call."
+    },
+    {
+      "utterance_id": "WW03.row.032",
+      "source_line": 32,
+      "timestamp_as_supplied": "01:27",
+      "raw_line": "Justin (01:27): I was a villager."
+    },
+    {
+      "utterance_id": "WW03.row.033",
+      "source_line": 33,
+      "timestamp_as_supplied": "01:28",
+      "raw_line": "Mike (01:28): I don't blame you on that."
+    },
+    {
+      "utterance_id": "WW03.row.034",
+      "source_line": 34,
+      "timestamp_as_supplied": "01:30",
+      "raw_line": "James (01:30): I'm going to go ahead and see that."
+    },
+    {
+      "utterance_id": "WW03.row.035",
+      "source_line": 35,
+      "timestamp_as_supplied": "01:34",
+      "raw_line": "Mitchell (01:34): What did you see?"
+    },
+    {
+      "utterance_id": "WW03.row.036",
+      "source_line": 36,
+      "timestamp_as_supplied": "01:36",
+      "raw_line": "Justin (01:36): We all put one down."
+    },
+    {
+      "utterance_id": "WW03.row.037",
+      "source_line": 37,
+      "timestamp_as_supplied": "01:37",
+      "raw_line": "James (01:37): Yeah."
+    },
+    {
+      "utterance_id": "WW03.row.038",
+      "source_line": 38,
+      "timestamp_as_supplied": "01:38",
+      "raw_line": "Justin (01:38): Put down any of them. We don't even care what they are. All right, what did you look at?"
+    },
+    {
+      "utterance_id": "WW03.row.039",
+      "source_line": 39,
+      "timestamp_as_supplied": "01:43",
+      "raw_line": "James (01:43): What did I look at, was..."
+    },
+    {
+      "utterance_id": "WW03.row.040",
+      "source_line": 40,
+      "timestamp_as_supplied": "01:50",
+      "raw_line": "Justin (01:50): Did you steal from somebody?"
+    },
+    {
+      "utterance_id": "WW03.row.041",
+      "source_line": 41,
+      "timestamp_as_supplied": "01:52",
+      "raw_line": "James (01:52): Someone boring."
+    },
+    {
+      "utterance_id": "WW03.row.042",
+      "source_line": 42,
+      "timestamp_as_supplied": "01:54",
+      "raw_line": "Justin (01:54): Okay, I get that."
+    },
+    {
+      "utterance_id": "WW03.row.043",
+      "source_line": 43,
+      "timestamp_as_supplied": "01:57",
+      "raw_line": "Mike (01:57): Who was it?"
+    },
+    {
+      "utterance_id": "WW03.row.044",
+      "source_line": 44,
+      "timestamp_as_supplied": "01:58",
+      "raw_line": "Mitchell (01:58): So it wasn't that much info."
+    },
+    {
+      "utterance_id": "WW03.row.045",
+      "source_line": 45,
+      "timestamp_as_supplied": "02:02",
+      "raw_line": "Mike (02:02): Well..."
+    },
+    {
+      "utterance_id": "WW03.row.046",
+      "source_line": 46,
+      "timestamp_as_supplied": "02:04",
+      "raw_line": "Justin (02:04): Were you were what you were when you woke up?"
+    },
+    {
+      "utterance_id": "WW03.row.047",
+      "source_line": 47,
+      "timestamp_as_supplied": "02:08",
+      "raw_line": "James (02:08): No, I was a villager."
+    },
+    {
+      "utterance_id": "WW03.row.048",
+      "source_line": 48,
+      "timestamp_as_supplied": "02:09",
+      "raw_line": "Mitchell (02:09): So you woke up as a villager? You went to sleep as an Insomniac and you woke up as a villager? Is that what you're claiming?"
+    },
+    {
+      "utterance_id": "WW03.row.049",
+      "source_line": 49,
+      "timestamp_as_supplied": "02:17",
+      "raw_line": "James (02:17): There's no way that could happen."
+    },
+    {
+      "utterance_id": "WW03.row.050",
+      "source_line": 50,
+      "timestamp_as_supplied": "02:18",
+      "raw_line": "Mike (02:18): Yes, it is. No, it's not."
+    },
+    {
+      "utterance_id": "WW03.row.051",
+      "source_line": 51,
+      "timestamp_as_supplied": "02:21",
+      "raw_line": "James (02:21): That does not stand up in a court of law."
+    },
+    {
+      "utterance_id": "WW03.row.052",
+      "source_line": 52,
+      "timestamp_as_supplied": "02:22",
+      "raw_line": "Mike (02:22): No, I was actually villager the whole time."
+    },
+    {
+      "utterance_id": "WW03.row.053",
+      "source_line": 53,
+      "timestamp_as_supplied": "02:24",
+      "raw_line": "Mitchell (02:24): So why did you say, \"Insomniac\"?"
+    },
+    {
+      "utterance_id": "WW03.row.054",
+      "source_line": 54,
+      "timestamp_as_supplied": "02:26",
+      "raw_line": "Mike (02:26): To see if anyone else would say it."
+    },
+    {
+      "utterance_id": "WW03.row.055",
+      "source_line": 55,
+      "timestamp_as_supplied": "02:28",
+      "raw_line": "Justin (02:28): Guys, I think Mike is..."
+    },
+    {
+      "utterance_id": "WW03.row.056",
+      "source_line": 56,
+      "timestamp_as_supplied": "02:31",
+      "raw_line": "Mitchell (02:31): Do we have a Tanner? No, we don't have a Tanner."
+    },
+    {
+      "utterance_id": "WW03.row.057",
+      "source_line": 57,
+      "timestamp_as_supplied": "02:33",
+      "raw_line": "Justin (02:33): I think Mike might be a werewolf."
+    },
+    {
+      "utterance_id": "WW03.row.058",
+      "source_line": 58,
+      "timestamp_as_supplied": "02:35",
+      "raw_line": "Mike (02:35): I am not a werewolf."
+    },
+    {
+      "utterance_id": "WW03.row.059",
+      "source_line": 59,
+      "timestamp_as_supplied": "02:36",
+      "raw_line": "James (02:36): What did you steal?"
+    },
+    {
+      "utterance_id": "WW03.row.060",
+      "source_line": 60,
+      "timestamp_as_supplied": "02:37",
+      "raw_line": "Mike (02:37): I think Mitchell."
+    },
+    {
+      "utterance_id": "WW03.row.061",
+      "source_line": 61,
+      "timestamp_as_supplied": "02:38",
+      "raw_line": "Justin (02:38): He stole something very boring and I think I know what that means."
+    },
+    {
+      "utterance_id": "WW03.row.062",
+      "source_line": 62,
+      "timestamp_as_supplied": "02:42",
+      "raw_line": "Mike (02:42): What'd you steal? Who'd you steal it from?"
+    },
+    {
+      "utterance_id": "WW03.row.063",
+      "source_line": 63,
+      "timestamp_as_supplied": "02:44",
+      "raw_line": "Mitchell (02:44): I'm just going to go with \"boring\" for now."
+    },
+    {
+      "utterance_id": "WW03.row.064",
+      "source_line": 64,
+      "timestamp_as_supplied": "02:46",
+      "raw_line": "Justin (02:46): Yeah, I think I know exactly..."
+    },
+    {
+      "utterance_id": "WW03.row.065",
+      "source_line": 65,
+      "timestamp_as_supplied": "02:48",
+      "raw_line": "Mike (02:48): Did he steal from you?"
+    },
+    {
+      "utterance_id": "WW03.row.066",
+      "source_line": 66,
+      "timestamp_as_supplied": "02:49",
+      "raw_line": "Justin (02:49): Yes."
+    },
+    {
+      "utterance_id": "WW03.row.067",
+      "source_line": 67,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "Mike (02:51): I think he stole from me."
+    },
+    {
+      "utterance_id": "WW03.row.068",
+      "source_line": 68,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "James (02:51): I don't..."
+    },
+    {
+      "utterance_id": "WW03.row.069",
+      "source_line": 69,
+      "timestamp_as_supplied": "02:54",
+      "raw_line": "Mike (02:54): I think Justin's the werewolf."
+    },
+    {
+      "utterance_id": "WW03.row.070",
+      "source_line": 70,
+      "timestamp_as_supplied": "02:56",
+      "raw_line": "James (02:56): No, I..."
+    },
+    {
+      "utterance_id": "WW03.row.071",
+      "source_line": 71,
+      "timestamp_as_supplied": "02:57",
+      "raw_line": "Mike (02:57): No, I'm telling you."
+    },
+    {
+      "utterance_id": "WW03.row.072",
+      "source_line": 72,
+      "timestamp_as_supplied": "02:59",
+      "raw_line": "James (02:59): I think this would be probably what the board position reflects now. Wait, but if you steal the Seer..."
+    },
+    {
+      "utterance_id": "WW03.row.073",
+      "source_line": 73,
+      "timestamp_as_supplied": "03:10",
+      "raw_line": "Justin (03:10): You don't get the..."
+    },
+    {
+      "utterance_id": "WW03.row.074",
+      "source_line": 74,
+      "timestamp_as_supplied": "03:10",
+      "raw_line": "Mike (03:10): You don't get to see... So that could be a boring steal."
+    },
+    {
+      "utterance_id": "WW03.row.075",
+      "source_line": 75,
+      "timestamp_as_supplied": "03:15",
+      "raw_line": "Mitchell (03:15): Well, I didn't steal the Seer."
+    },
+    {
+      "utterance_id": "WW03.row.076",
+      "source_line": 76,
+      "timestamp_as_supplied": "03:17",
+      "raw_line": "James (03:17): Okay."
+    },
+    {
+      "utterance_id": "WW03.row.077",
+      "source_line": 77,
+      "timestamp_as_supplied": "03:17",
+      "raw_line": "Justin (03:17): Did you steal a villager?"
+    },
+    {
+      "utterance_id": "WW03.row.078",
+      "source_line": 78,
+      "timestamp_as_supplied": "03:18",
+      "raw_line": "Mitchell (03:18): I stole a villager."
+    },
+    {
+      "utterance_id": "WW03.row.079",
+      "source_line": 79,
+      "timestamp_as_supplied": "03:20",
+      "raw_line": "Justin (03:20): Did you steal from me?"
+    },
+    {
+      "utterance_id": "WW03.row.080",
+      "source_line": 80,
+      "timestamp_as_supplied": "03:21",
+      "raw_line": "Mitchell (03:21): I stole your villager."
+    },
+    {
+      "utterance_id": "WW03.row.081",
+      "source_line": 81,
+      "timestamp_as_supplied": "03:22",
+      "raw_line": "Justin (03:22): Yeah. So Mike's a werewolf."
+    },
+    {
+      "utterance_id": "WW03.row.082",
+      "source_line": 82,
+      "timestamp_as_supplied": "03:24",
+      "raw_line": "Mike (03:24): No, I think they're both werewolves."
+    },
+    {
+      "utterance_id": "WW03.row.083",
+      "source_line": 83,
+      "timestamp_as_supplied": "03:25",
+      "raw_line": "James (03:25): Mike's a werewolf."
+    },
+    {
+      "utterance_id": "WW03.row.084",
+      "source_line": 84,
+      "timestamp_as_supplied": "03:25",
+      "raw_line": "Mike (03:25): No, they're both werewolves. James..."
+    },
+    {
+      "utterance_id": "WW03.row.085",
+      "source_line": 85,
+      "timestamp_as_supplied": "03:26",
+      "raw_line": "James (03:26): Mike's a werewolf."
+    },
+    {
+      "utterance_id": "WW03.row.086",
+      "source_line": 86,
+      "timestamp_as_supplied": "03:26",
+      "raw_line": "Mike (03:26): No, James..."
+    },
+    {
+      "utterance_id": "WW03.row.087",
+      "source_line": 87,
+      "timestamp_as_supplied": "03:27",
+      "raw_line": "James (03:27): They can't both be werewolves, Mike."
+    },
+    {
+      "utterance_id": "WW03.row.088",
+      "source_line": 88,
+      "timestamp_as_supplied": "03:30",
+      "raw_line": "Mike (03:30): Oh, shit."
+    },
+    {
+      "utterance_id": "WW03.row.089",
+      "source_line": 89,
+      "timestamp_as_supplied": "03:32",
+      "raw_line": "James (03:32): Mike's the werewolf."
+    },
+    {
+      "utterance_id": "WW03.row.090",
+      "source_line": 90,
+      "timestamp_as_supplied": "03:32",
+      "raw_line": "Mike (03:32): I'm not the werewolf."
+    },
+    {
+      "utterance_id": "WW03.row.091",
+      "source_line": 91,
+      "timestamp_as_supplied": "03:34",
+      "raw_line": "Mitchell (03:34): Mike, what's happening with you?"
+    },
+    {
+      "utterance_id": "WW03.row.092",
+      "source_line": 92,
+      "timestamp_as_supplied": "03:35",
+      "raw_line": "Mike (03:35): I guarantee you I'm not the werewolf."
+    },
+    {
+      "utterance_id": "WW03.row.093",
+      "source_line": 93,
+      "timestamp_as_supplied": "03:35",
+      "raw_line": "Mitchell (03:35): Where are you?"
+    },
+    {
+      "utterance_id": "WW03.row.094",
+      "source_line": 94,
+      "timestamp_as_supplied": "03:37",
+      "raw_line": "Justin (03:37): Where are you?"
+    },
+    {
+      "utterance_id": "WW03.row.095",
+      "source_line": 95,
+      "timestamp_as_supplied": "03:37",
+      "raw_line": "Mitchell (03:37): And why do you..."
+    },
+    {
+      "utterance_id": "WW03.row.096",
+      "source_line": 96,
+      "timestamp_as_supplied": "03:38",
+      "raw_line": "Mike (03:38): I am the villager."
+    },
+    {
+      "utterance_id": "WW03.row.097",
+      "source_line": 97,
+      "timestamp_as_supplied": "03:39",
+      "raw_line": "Justin (03:39): You're not the villager."
+    },
+    {
+      "utterance_id": "WW03.row.098",
+      "source_line": 98,
+      "timestamp_as_supplied": "03:40",
+      "raw_line": "Mitchell (03:40): So he stole a villager, I grabbed a villager. And now you're claiming you're a villager."
+    },
+    {
+      "utterance_id": "WW03.row.099",
+      "source_line": 99,
+      "timestamp_as_supplied": "03:45",
+      "raw_line": "Justin (03:45): That's bull crap!"
+    },
+    {
+      "utterance_id": "WW03.row.100",
+      "source_line": 100,
+      "timestamp_as_supplied": "03:46",
+      "raw_line": "Mitchell (03:46): And then you first claimed you were an Insomniac."
+    },
+    {
+      "utterance_id": "WW03.row.101",
+      "source_line": 101,
+      "timestamp_as_supplied": "03:48",
+      "raw_line": "Justin (03:48): That's it, let's hang him. Let's hang him. Click \"vote now.\""
+    },
+    {
+      "utterance_id": "WW03.row.102",
+      "source_line": 102,
+      "timestamp_as_supplied": "03:52",
+      "raw_line": "Mitchell (03:52): Vote now."
+    },
+    {
+      "utterance_id": "WW03.row.103",
+      "source_line": 103,
+      "timestamp_as_supplied": "03:53",
+      "raw_line": "Audio (03:53): Time is up! everyone..."
+    },
+    {
+      "utterance_id": "WW03.row.104",
+      "source_line": 104,
+      "timestamp_as_supplied": "03:53",
+      "raw_line": "Mike (03:53): I think it's one of these two."
+    },
+    {
+      "utterance_id": "WW03.row.105",
+      "source_line": 105,
+      "timestamp_as_supplied": "03:53",
+      "raw_line": "Audio (03:53): ...Three."
+    }
+  ],
+  "non_utterance_lines": [],
+  "timestamp_reversals": []
+}

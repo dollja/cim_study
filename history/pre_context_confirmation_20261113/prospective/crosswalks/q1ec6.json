@@ -1,0 +1,669 @@
+{
+  "source": "q1ec6",
+  "generated_ids": true,
+  "ordering": "original file order; never timestamp-sorted",
+  "normalization": "MapTask speaker-code expansion and outer field whitespace removal only. Werewolf speaker/timestamp delimiters parsed; utterance wording retained.",
+  "source_sha256": "3aae681b77428746cec3fecd5bd9f5a02799efe53cc8f807b6721243e8241efc",
+  "rows": [
+    {
+      "utterance_id": "q1ec6.row.001",
+      "source_line": 4,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.002",
+      "source_line": 5,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tgo south and you'll pass some cliffs on your right \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.003",
+      "source_line": 6,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.004",
+      "source_line": 7,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tyeah \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.005",
+      "source_line": 8,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand keep going down south \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.006",
+      "source_line": 9,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tmmhmm \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.007",
+      "source_line": 10,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tpast a forge on your right \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.008",
+      "source_line": 11,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tpast a what \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.009",
+      "source_line": 12,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\ta forge \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.010",
+      "source_line": 13,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\twell keep going down \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.011",
+      "source_line": 14,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.012",
+      "source_line": 15,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then loop towards the east \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.013",
+      "source_line": 16,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tunderneath what wheatfields \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.014",
+      "source_line": 17,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tso i go straight \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.015",
+      "source_line": 18,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tnot as far down as that \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.016",
+      "source_line": 19,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tnot as far down as that \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.017",
+      "source_line": 20,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tno \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.018",
+      "source_line": 21,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.019",
+      "source_line": 22,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tand do a loop \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.020",
+      "source_line": 23,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand do a loop \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.021",
+      "source_line": 24,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then start going back up again you're going kind of northeast \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.022",
+      "source_line": 25,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.023",
+      "source_line": 26,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.024",
+      "source_line": 27,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tyou there's a \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.025",
+      "source_line": 28,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tand am i going to come like between these cliffs and pine or \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.026",
+      "source_line": 29,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\toh you go up past the pine pine's on your right \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.027",
+      "source_line": 30,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright okay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.028",
+      "source_line": 31,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand go up past it 'til you're just above the top of the pine \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.029",
+      "source_line": 32,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright okay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.030",
+      "source_line": 33,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then east again \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.031",
+      "source_line": 34,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\teast again \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.032",
+      "source_line": 35,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\teast again \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.033",
+      "source_line": 36,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright okay right \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.034",
+      "source_line": 37,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tsorry right \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.035",
+      "source_line": 38,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.036",
+      "source_line": 39,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.037",
+      "source_line": 40,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\teast sort of for a wee bit \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.038",
+      "source_line": 41,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tum \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.039",
+      "source_line": 42,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then start going southeast \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.040",
+      "source_line": 43,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright okay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.041",
+      "source_line": 44,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tthere's a pine forest on your way \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.042",
+      "source_line": 45,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tehm yeah that's right uh-huh \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.043",
+      "source_line": 46,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.044",
+      "source_line": 47,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright okay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.045",
+      "source_line": 48,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\t'til you get to just underneath the pine forest \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.046",
+      "source_line": 49,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.047",
+      "source_line": 50,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then start going south \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.048",
+      "source_line": 51,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.049",
+      "source_line": 52,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then go east again and you loop round about a bakery \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.050",
+      "source_line": 53,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tyeah \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.051",
+      "source_line": 54,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.052",
+      "source_line": 55,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\ti'm going east underneath the bakery \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.053",
+      "source_line": 56,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tunderneath the bakery \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.054",
+      "source_line": 57,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright okay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.055",
+      "source_line": 58,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tuh-huh right \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.056",
+      "source_line": 59,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand coming back round towards the west \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.057",
+      "source_line": 60,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\twhoa whoa wait a minute right \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.058",
+      "source_line": 61,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\ti'm coming down by the pine forest i'm going right down straight down and then you s-- \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.059",
+      "source_line": 62,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.060",
+      "source_line": 63,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\t'til you're not 'til you're at the top of the bakery \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.061",
+      "source_line": 64,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tah right sorry right okay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.062",
+      "source_line": 65,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.063",
+      "source_line": 66,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand loop round a bit until you're underneath it right and then west \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.064",
+      "source_line": 67,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright okay right got that \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.065",
+      "source_line": 68,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.066",
+      "source_line": 69,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then down south \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.067",
+      "source_line": 70,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tokay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.068",
+      "source_line": 71,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand there's a crane bay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.069",
+      "source_line": 72,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tyeah that's it \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.070",
+      "source_line": 73,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.071",
+      "source_line": 74,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tuh-huh \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.072",
+      "source_line": 75,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand it's got a \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.073",
+      "source_line": 76,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tcan you curve follow the curve \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.074",
+      "source_line": 77,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tyeah right \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.075",
+      "source_line": 78,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tof crane bay so you're going west \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.076",
+      "source_line": 79,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tuh-huh \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.077",
+      "source_line": 80,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tyep \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.078",
+      "source_line": 81,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright and then um \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.079",
+      "source_line": 82,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tyou're going southwest \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.080",
+      "source_line": 83,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tmmhmm \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.081",
+      "source_line": 84,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tbetween the wheatfields and the warehouse between the two of them \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.082",
+      "source_line": 85,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright okay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.083",
+      "source_line": 86,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.084",
+      "source_line": 87,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tyou're going \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.085",
+      "source_line": 88,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tyep \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.086",
+      "source_line": 89,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.087",
+      "source_line": 90,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tlike go west \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.088",
+      "source_line": 91,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.089",
+      "source_line": 92,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tso you're underneath them between them \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.090",
+      "source_line": 93,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tbetween them \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.091",
+      "source_line": 94,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tum mmhmm \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.092",
+      "source_line": 95,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright okay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.093",
+      "source_line": 96,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.094",
+      "source_line": 97,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tsouthwest towards the edge of the map \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.095",
+      "source_line": 98,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright okay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.096",
+      "source_line": 99,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.097",
+      "source_line": 100,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then south \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.098",
+      "source_line": 101,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tmm right \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.099",
+      "source_line": 102,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tand then um \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.100",
+      "source_line": 103,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tyou're going east you come to the lighthouse \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.101",
+      "source_line": 104,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tso right down past the caves \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.102",
+      "source_line": 105,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tuntil you then go east until you get to the lighthouse \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.103",
+      "source_line": 106,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tright okay \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.104",
+      "source_line": 107,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tright \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.105",
+      "source_line": 108,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tthat's the end \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.106",
+      "source_line": 109,
+      "timestamp_as_supplied": null,
+      "raw_line": "f\tabove or below \t"
+    },
+    {
+      "utterance_id": "q1ec6.row.107",
+      "source_line": 110,
+      "timestamp_as_supplied": null,
+      "raw_line": "g\tat the side \t"
+    }
+  ],
+  "non_utterance_lines": [
+    {
+      "source_line": 1,
+      "reason": "source_header",
+      "text": "Found 2 args."
+    },
+    {
+      "source_line": 2,
+      "reason": "source_header",
+      "text": "Observation: q1ec6; Result size: 107; atts: 2"
+    },
+    {
+      "source_line": 3,
+      "reason": "source_header",
+      "text": "who\t$m\t"
+    }
+  ],
+  "timestamp_reversals": []
+}

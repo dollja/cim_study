@@ -1,0 +1,1512 @@
+{
+  "sample_id": "MT10_q1nc4_r044",
+  "dataset": "MapTask/GMMT",
+  "study_role": "pilot",
+  "source": {
+    "source_id": "q1nc4",
+    "revision": "75814e7c5898e3b1f35f823c90e5f4582b24e140",
+    "url": "https://github.com/dollja/gmmt-datasets/blob/75814e7c5898e3b1f35f823c90e5f4582b24e140/prepared/curator/extracted/hcrc/Transcripts/q1nc4.txt",
+    "local_path": "source_transcripts/q1nc4.txt",
+    "sha256": "e1221771f732231250284695021559339c9ae8cc54bf4a386ecd92140540afca",
+    "git_blob_sha1": "e4bed15e3e023865c7ec89a65e7c8d9d4233f3be",
+    "bytes": 8119,
+    "dialogue_id": "q1nc4",
+    "ids_are_generated": true,
+    "crosswalk_file": "crosswalks/q1nc4.json"
+  },
+  "selection_metadata": {
+    "focal_episode_start_id": "q1nc4.row.043",
+    "focus_utterance_id": "q1nc4.row.043",
+    "first_relevant_response_id": "q1nc4.row.044",
+    "observation_cutoff_id": "q1nc4.row.044",
+    "cutoff_reason": "The next source utterance by giver responds to the focal contribution; no intervening response is skipped.",
+    "prefix_utterance_count": 44,
+    "prefix_word_count": 307,
+    "prefix_token_count": null,
+    "focus_position_normalized": 0.9772727272727273,
+    "focus_to_cutoff_utterances": 1,
+    "paired_delayed_prefix_id": null,
+    "selection_status": "human_confirmed_for_current_pilot",
+    "confirmed_as_original_selection": false,
+    "confirmed_for_current_pilot": true,
+    "selection_record": "selection_records/ACCEPTED_SELECTION_20261113.json"
+  },
+  "observer_input": {
+    "overall_task": "One participant describes a route, and another attempts to reproduce it on their own map. Their maps may differ, and neither participant can see the other's map.",
+    "participants": [
+      {
+        "participant_id": "giver",
+        "known_role": "giver"
+      },
+      {
+        "participant_id": "follower",
+        "known_role": "follower"
+      }
+    ],
+    "context_sources": [
+      {
+        "source_id": "m3_giver_inventory",
+        "text": "m3_giver_01: START; upper left; correspondence m3_start\nm3_giver_02: cliffs; below start; correspondence m3_cliffs\nm3_giver_03: forge; below cliffs; correspondence m3_forge\nm3_giver_04: old pine; right of forge; correspondence m3_old_pine\nm3_giver_05: pine forest; upper right; correspondence m3_pine_forest\nm3_giver_06: wheatfields; left middle; correspondence m3_wheatfields_upper\nm3_giver_07: canal; left of bakery; correspondence m3_canal\nm3_giver_08: bakery; right middle; correspondence m3_bakery\nm3_giver_09: wheatfields; lower left above rocket warehouse; correspondence m3_wheatfields_lower\nm3_giver_10: crane bay; lower right; correspondence m3_crane_bay\nm3_giver_11: rocket warehouse; lower left; correspondence m3_rocket_warehouse\nm3_giver_12: old lighthouse; bottom left; correspondence m3_old_lighthouse",
+        "accessible_to_participants": [
+          "giver"
+        ],
+        "adapter": {
+          "kind": "map_inventory",
+          "review_status": "verified",
+          "entities": [
+            {
+              "id": "m3_giver_01",
+              "label": "START",
+              "class_id": "m3_start",
+              "description": "upper left"
+            },
+            {
+              "id": "m3_giver_02",
+              "label": "cliffs",
+              "class_id": "m3_cliffs",
+              "description": "below start"
+            },
+            {
+              "id": "m3_giver_03",
+              "label": "forge",
+              "class_id": "m3_forge",
+              "description": "below cliffs"
+            },
+            {
+              "id": "m3_giver_04",
+              "label": "old pine",
+              "class_id": "m3_old_pine",
+              "description": "right of forge"
+            },
+            {
+              "id": "m3_giver_05",
+              "label": "pine forest",
+              "class_id": "m3_pine_forest",
+              "description": "upper right"
+            },
+            {
+              "id": "m3_giver_06",
+              "label": "wheatfields",
+              "class_id": "m3_wheatfields_upper",
+              "description": "left middle"
+            },
+            {
+              "id": "m3_giver_07",
+              "label": "canal",
+              "class_id": "m3_canal",
+              "description": "left of bakery"
+            },
+            {
+              "id": "m3_giver_08",
+              "label": "bakery",
+              "class_id": "m3_bakery",
+              "description": "right middle"
+            },
+            {
+              "id": "m3_giver_09",
+              "label": "wheatfields",
+              "class_id": "m3_wheatfields_lower",
+              "description": "lower left above rocket warehouse"
+            },
+            {
+              "id": "m3_giver_10",
+              "label": "crane bay",
+              "class_id": "m3_crane_bay",
+              "description": "lower right"
+            },
+            {
+              "id": "m3_giver_11",
+              "label": "rocket warehouse",
+              "class_id": "m3_rocket_warehouse",
+              "description": "lower left"
+            },
+            {
+              "id": "m3_giver_12",
+              "label": "old lighthouse",
+              "class_id": "m3_old_lighthouse",
+              "description": "bottom left"
+            }
+          ]
+        }
+      },
+      {
+        "source_id": "m3_follower_inventory",
+        "text": "m3_follower_01: START; upper left; correspondence m3_start\nm3_follower_02: green bay; top; correspondence m3_green_bay\nm3_follower_03: sandstone cliffs; below start; correspondence m3_cliffs\nm3_follower_04: old pine; upper left-middle; correspondence m3_old_pine\nm3_follower_05: pine forest; upper right; correspondence m3_pine_forest\nm3_follower_06: forest stream; extends down from pine forest; correspondence m3_forest_stream\nm3_follower_07: wheatfields; left middle; correspondence m3_wheatfields_upper\nm3_follower_08: bakery; right middle; correspondence m3_bakery\nm3_follower_09: crane bay; lower right; correspondence m3_crane_bay\nm3_follower_10: rocket warehouse; lower left; correspondence m3_rocket_warehouse\nm3_follower_11: cave; below rocket warehouse; correspondence m3_cave\nm3_follower_12: old lighthouse; bottom left; correspondence m3_old_lighthouse",
+        "accessible_to_participants": [
+          "follower"
+        ],
+        "adapter": {
+          "kind": "map_inventory",
+          "review_status": "verified",
+          "entities": [
+            {
+              "id": "m3_follower_01",
+              "label": "START",
+              "class_id": "m3_start",
+              "description": "upper left"
+            },
+            {
+              "id": "m3_follower_02",
+              "label": "green bay",
+              "class_id": "m3_green_bay",
+              "description": "top"
+            },
+            {
+              "id": "m3_follower_03",
+              "label": "sandstone cliffs",
+              "class_id": "m3_cliffs",
+              "description": "below start"
+            },
+            {
+              "id": "m3_follower_04",
+              "label": "old pine",
+              "class_id": "m3_old_pine",
+              "description": "upper left-middle"
+            },
+            {
+              "id": "m3_follower_05",
+              "label": "pine forest",
+              "class_id": "m3_pine_forest",
+              "description": "upper right"
+            },
+            {
+              "id": "m3_follower_06",
+              "label": "forest stream",
+              "class_id": "m3_forest_stream",
+              "description": "extends down from pine forest"
+            },
+            {
+              "id": "m3_follower_07",
+              "label": "wheatfields",
+              "class_id": "m3_wheatfields_upper",
+              "description": "left middle"
+            },
+            {
+              "id": "m3_follower_08",
+              "label": "bakery",
+              "class_id": "m3_bakery",
+              "description": "right middle"
+            },
+            {
+              "id": "m3_follower_09",
+              "label": "crane bay",
+              "class_id": "m3_crane_bay",
+              "description": "lower right"
+            },
+            {
+              "id": "m3_follower_10",
+              "label": "rocket warehouse",
+              "class_id": "m3_rocket_warehouse",
+              "description": "lower left"
+            },
+            {
+              "id": "m3_follower_11",
+              "label": "cave",
+              "class_id": "m3_cave",
+              "description": "below rocket warehouse"
+            },
+            {
+              "id": "m3_follower_12",
+              "label": "old lighthouse",
+              "class_id": "m3_old_lighthouse",
+              "description": "bottom left"
+            }
+          ]
+        }
+      }
+    ],
+    "dialogue_prefix": [
+      {
+        "utterance_id": "q1nc4.row.001",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.002",
+        "speaker": "giver",
+        "text": "so the start is at the top left-hand side of the page"
+      },
+      {
+        "utterance_id": "q1nc4.row.003",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.004",
+        "speaker": "giver",
+        "text": "do you have cliffs just to to the right"
+      },
+      {
+        "utterance_id": "q1nc4.row.005",
+        "speaker": "follower",
+        "text": "to the right uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.006",
+        "speaker": "follower",
+        "text": "stas-- sandstone cliffs"
+      },
+      {
+        "utterance_id": "q1nc4.row.007",
+        "speaker": "giver",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1nc4.row.008",
+        "speaker": "giver",
+        "text": "do you have a forge below the cliffs about you know an inch or so down two inches maybe"
+      },
+      {
+        "utterance_id": "q1nc4.row.009",
+        "speaker": "follower",
+        "text": "er no"
+      },
+      {
+        "utterance_id": "q1nc4.row.010",
+        "speaker": "giver",
+        "text": "you don't have a forge"
+      },
+      {
+        "utterance_id": "q1nc4.row.011",
+        "speaker": "giver",
+        "text": "well"
+      },
+      {
+        "utterance_id": "q1nc4.row.012",
+        "speaker": "giver",
+        "text": "the forge is eh below the c-- the cliffs say about two inches down"
+      },
+      {
+        "utterance_id": "q1nc4.row.013",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.014",
+        "speaker": "giver",
+        "text": "so you go from the start slightly to your right down the way right a curve"
+      },
+      {
+        "utterance_id": "q1nc4.row.015",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.016",
+        "speaker": "follower",
+        "text": "how far down"
+      },
+      {
+        "utterance_id": "q1nc4.row.017",
+        "speaker": "giver",
+        "text": "to the bottom of the cliffs"
+      },
+      {
+        "utterance_id": "q1nc4.row.018",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.019",
+        "speaker": "giver",
+        "text": "and then you start to go left go about half an inch out to the left and d-- and down about you know two and a half inches three inches"
+      },
+      {
+        "utterance_id": "q1nc4.row.020",
+        "speaker": "follower",
+        "text": "s-- so how far am i from the left of the page"
+      },
+      {
+        "utterance_id": "q1nc4.row.021",
+        "speaker": "giver",
+        "text": "an inch and a half"
+      },
+      {
+        "utterance_id": "q1nc4.row.022",
+        "speaker": "giver",
+        "text": "if you draw that line down you'll be on the left-hand side of the forge you don't have a forge but there is one there"
+      },
+      {
+        "utterance_id": "q1nc4.row.023",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.024",
+        "speaker": "giver",
+        "text": "so now you're about"
+      },
+      {
+        "utterance_id": "q1nc4.row.025",
+        "speaker": "follower",
+        "text": "no hold on a minute"
+      },
+      {
+        "utterance_id": "q1nc4.row.026",
+        "speaker": "giver",
+        "text": "you should really end up about four inches down from the the cross er you know in the same line like just beneath it in fact fo-- four inches down"
+      },
+      {
+        "utterance_id": "q1nc4.row.027",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.028",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.029",
+        "speaker": "follower",
+        "text": "hold on wait a minute"
+      },
+      {
+        "utterance_id": "q1nc4.row.030",
+        "speaker": "follower",
+        "text": "am i right under the sandstone cliffs"
+      },
+      {
+        "utterance_id": "q1nc4.row.031",
+        "speaker": "giver",
+        "text": "no no"
+      },
+      {
+        "utterance_id": "q1nc4.row.032",
+        "speaker": "follower",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1nc4.row.033",
+        "speaker": "giver",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1nc4.row.034",
+        "speaker": "giver",
+        "text": "the initial line from th-- the cross"
+      },
+      {
+        "utterance_id": "q1nc4.row.035",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1nc4.row.036",
+        "speaker": "giver",
+        "text": "goes right but it doesn't go as far right as the cliffs"
+      },
+      {
+        "utterance_id": "q1nc4.row.037",
+        "speaker": "follower",
+        "text": "right okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.038",
+        "speaker": "giver",
+        "text": "it goes down to where it says cliffs"
+      },
+      {
+        "utterance_id": "q1nc4.row.039",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.040",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.041",
+        "speaker": "giver",
+        "text": "about a centimetre from where it says cliffs to the left-hand side of it okay then you go back left slightly until you're beneath the the start and down you know two or three inches until you're ab--"
+      },
+      {
+        "utterance_id": "q1nc4.row.042",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.043",
+        "speaker": "follower",
+        "text": "straight down under the start"
+      },
+      {
+        "utterance_id": "q1nc4.row.044",
+        "speaker": "giver",
+        "text": "yeah"
+      }
+    ]
+  },
+  "manual_annotation": null,
+  "assistant_annotation_draft": {
+    "author": "assistant",
+    "is_human_reference": false,
+    "is_model_prediction": false,
+    "evidence_tier": "S",
+    "scope": "Proposed focal comparison only; no assigned research label.",
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "local_question": "What route relation to the start is expressed for the current downward segment?",
+    "focus_source_ids": [
+      "q1nc4.row.043",
+      "q1nc4.row.044"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "q1nc4.row.043",
+        "speaker": "follower",
+        "quote": "straight down under the start"
+      },
+      {
+        "source_id": "q1nc4.row.044",
+        "speaker": "giver",
+        "quote": "yeah"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "giver",
+        "meaning": "The giver already instructs moving until beneath the start and then downward at q1nc4.row.041. The final yeah at .044 follows the follower’s restatement, but the giver’s relevant reading has its own earlier explicit support.",
+        "source_quotes": [
+          {
+            "source_id": "q1nc4.row.002",
+            "quote": "so the start is at the top left-hand side of the page"
+          },
+          {
+            "source_id": "q1nc4.row.026",
+            "quote": "you should really end up about four inches down from the the cross er you know in the same line like just beneath it in fact fo-- four inches down"
+          },
+          {
+            "source_id": "q1nc4.row.031",
+            "quote": "no no"
+          },
+          {
+            "source_id": "q1nc4.row.034",
+            "quote": "the initial line from th-- the cross"
+          },
+          {
+            "source_id": "q1nc4.row.036",
+            "quote": "goes right but it doesn't go as far right as the cliffs"
+          },
+          {
+            "source_id": "q1nc4.row.038",
+            "quote": "it goes down to where it says cliffs"
+          },
+          {
+            "source_id": "q1nc4.row.041",
+            "quote": "about a centimetre from where it says cliffs to the left-hand side of it okay then you go back left slightly until you're beneath the the start and down you know two or three inches until you're ab--"
+          },
+          {
+            "source_id": "q1nc4.row.044",
+            "quote": "yeah"
+          }
+        ],
+        "support": null
+      },
+      {
+        "participant_id": "follower",
+        "meaning": "At q1nc4.row.043 the follower explicitly restates straight down under the start. This provides participant-owned evidence for the current below-start relation, rather than relying on an acknowledgment.",
+        "source_quotes": [
+          {
+            "source_id": "q1nc4.row.030",
+            "quote": "am i right under the sandstone cliffs"
+          },
+          {
+            "source_id": "q1nc4.row.032",
+            "quote": "no"
+          },
+          {
+            "source_id": "q1nc4.row.042",
+            "quote": "right"
+          },
+          {
+            "source_id": "q1nc4.row.043",
+            "quote": "straight down under the start"
+          }
+        ],
+        "support": null
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "scope": "What route relation to the start is expressed for the current downward segment?",
+      "participant_outputs": {
+        "giver": "Proposed giver consequence: the same below-start local constraint expressed at .041, conditional on verified START correspondence and event scope.",
+        "follower": "Proposed follower consequence: Route(current_downward_step, below, verified_start), with straight-down wording recorded separately from the bounded below relation."
+      },
+      "comparison": "Both participants explicitly supply a below-start relation before or at the cutoff. Conditional on verified START correspondence and shared event scope, the bounded local outputs match.",
+      "blocking_reasons": [
+        "The START identity/correspondence and current event scope still require context review.",
+        "The local below-start comparison must not be expanded into a claim about matching all distances or the complete route.",
+        "The required m3 inventories are draft."
+      ],
+      "verification_note": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": null,
+    "human_content_confirmed": false,
+    "current_review_path": "../../REVIEWS.json",
+    "evidence_scope": "Current Tier S wording aid. Human support review and selection remain pending; all research annotations stay outside observer input."
+  },
+  "later_evidence": {
+    "dialogue": [
+      {
+        "utterance_id": "q1nc4.row.045",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.046",
+        "speaker": "giver",
+        "text": "until you're about you know four inches or four and a half inches or so down from the start"
+      },
+      {
+        "utterance_id": "q1nc4.row.047",
+        "speaker": "follower",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.048",
+        "speaker": "giver",
+        "text": "do you have an old pine"
+      },
+      {
+        "utterance_id": "q1nc4.row.049",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.050",
+        "speaker": "follower",
+        "text": "in the right kind of towards the middle a bit"
+      },
+      {
+        "utterance_id": "q1nc4.row.051",
+        "speaker": "giver",
+        "text": "yeah"
+      },
+      {
+        "utterance_id": "q1nc4.row.052",
+        "speaker": "giver",
+        "text": "a single old pine"
+      },
+      {
+        "utterance_id": "q1nc4.row.053",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.054",
+        "speaker": "giver",
+        "text": "w-- and down down as far as that"
+      },
+      {
+        "utterance_id": "q1nc4.row.055",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.056",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.057",
+        "speaker": "giver",
+        "text": "but you know beneath the start"
+      },
+      {
+        "utterance_id": "q1nc4.row.058",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.059",
+        "speaker": "giver",
+        "text": "so then you go right which would be under the forge and you go up over the old pine"
+      },
+      {
+        "utterance_id": "q1nc4.row.060",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.061",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.062",
+        "speaker": "follower",
+        "text": "right up over the pine"
+      },
+      {
+        "utterance_id": "q1nc4.row.063",
+        "speaker": "giver",
+        "text": "over the pine"
+      },
+      {
+        "utterance_id": "q1nc4.row.064",
+        "speaker": "follower",
+        "text": "and i go right as far as the pine"
+      },
+      {
+        "utterance_id": "q1nc4.row.065",
+        "speaker": "giver",
+        "text": "yeah more or less"
+      },
+      {
+        "utterance_id": "q1nc4.row.066",
+        "speaker": "follower",
+        "text": "if you see what i mean"
+      },
+      {
+        "utterance_id": "q1nc4.row.067",
+        "speaker": "giver",
+        "text": "as as long as you avoid the forge and the pine you you don't have to"
+      },
+      {
+        "utterance_id": "q1nc4.row.068",
+        "speaker": "follower",
+        "text": "oh"
+      },
+      {
+        "utterance_id": "q1nc4.row.069",
+        "speaker": "giver",
+        "text": "worry too much about the exact"
+      },
+      {
+        "utterance_id": "q1nc4.row.070",
+        "speaker": "follower",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.071",
+        "speaker": "follower",
+        "text": "i don't have a forge anyway"
+      },
+      {
+        "utterance_id": "q1nc4.row.072",
+        "speaker": "giver",
+        "text": "route but eh"
+      },
+      {
+        "utterance_id": "q1nc4.row.073",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.074",
+        "speaker": "follower",
+        "text": "up"
+      },
+      {
+        "utterance_id": "q1nc4.row.075",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.076",
+        "speaker": "giver",
+        "text": "so y-- once you're at the top of the pine if you go about two and a half inches three inches to the right"
+      },
+      {
+        "utterance_id": "q1nc4.row.077",
+        "speaker": "giver",
+        "text": "have you got a pine forest"
+      },
+      {
+        "utterance_id": "q1nc4.row.078",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.079",
+        "speaker": "giver",
+        "text": "you have"
+      },
+      {
+        "utterance_id": "q1nc4.row.080",
+        "speaker": "giver",
+        "text": "well"
+      },
+      {
+        "utterance_id": "q1nc4.row.081",
+        "speaker": "giver",
+        "text": "just go down the left-hand side of the pine forest"
+      },
+      {
+        "utterance_id": "q1nc4.row.082",
+        "speaker": "follower",
+        "text": "am i and am i going straight kind of along the outline of the bay"
+      },
+      {
+        "utterance_id": "q1nc4.row.083",
+        "speaker": "giver",
+        "text": "you've got a bay there"
+      },
+      {
+        "utterance_id": "q1nc4.row.084",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.085",
+        "speaker": "giver",
+        "text": "i don't have a bay there"
+      },
+      {
+        "utterance_id": "q1nc4.row.086",
+        "speaker": "giver",
+        "text": "it'll be at the top"
+      },
+      {
+        "utterance_id": "q1nc4.row.087",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.088",
+        "speaker": "giver",
+        "text": "have you got a bay at the bottom"
+      },
+      {
+        "utterance_id": "q1nc4.row.089",
+        "speaker": "follower",
+        "text": "yeah"
+      },
+      {
+        "utterance_id": "q1nc4.row.090",
+        "speaker": "giver",
+        "text": "crane bay"
+      },
+      {
+        "utterance_id": "q1nc4.row.091",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.092",
+        "speaker": "giver",
+        "text": "where's the one at the top"
+      },
+      {
+        "utterance_id": "q1nc4.row.093",
+        "speaker": "follower",
+        "text": "it's just in the centre of the page at the top very top"
+      },
+      {
+        "utterance_id": "q1nc4.row.094",
+        "speaker": "giver",
+        "text": "how far down"
+      },
+      {
+        "utterance_id": "q1nc4.row.095",
+        "speaker": "follower",
+        "text": "erm about an inch and a half"
+      },
+      {
+        "utterance_id": "q1nc4.row.096",
+        "speaker": "giver",
+        "text": "yeah well"
+      },
+      {
+        "utterance_id": "q1nc4.row.097",
+        "speaker": "giver",
+        "text": "don't go much you know don't go any higher than than the the height of the old pine or or the forest that must be where the bay is i don't have a bay there but th-- the route you know must miss the bay er so you know just go along 'til you get to the pine forest more or less and then go go down on the left-hand side of the pine forest"
+      },
+      {
+        "utterance_id": "q1nc4.row.098",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.099",
+        "speaker": "follower",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.100",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.101",
+        "speaker": "giver",
+        "text": "once you're at the bottom of the pine forest just where it says pine"
+      },
+      {
+        "utterance_id": "q1nc4.row.102",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1nc4.row.103",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.104",
+        "speaker": "giver",
+        "text": "if you if you just kind of draw a draw an arc er to the right just more or less the same direction as you've been going until"
+      },
+      {
+        "utterance_id": "q1nc4.row.105",
+        "speaker": "giver",
+        "text": "have you got wheatfields"
+      },
+      {
+        "utterance_id": "q1nc4.row.106",
+        "speaker": "follower",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1nc4.row.107",
+        "speaker": "giver",
+        "text": "on your map"
+      },
+      {
+        "utterance_id": "q1nc4.row.108",
+        "speaker": "giver",
+        "text": "no well the"
+      },
+      {
+        "utterance_id": "q1nc4.row.109",
+        "speaker": "follower",
+        "text": "oh yeah uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.110",
+        "speaker": "giver",
+        "text": "you have right"
+      },
+      {
+        "utterance_id": "q1nc4.row.111",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1nc4.row.112",
+        "speaker": "giver",
+        "text": "well"
+      },
+      {
+        "utterance_id": "q1nc4.row.113",
+        "speaker": "giver",
+        "text": "just draw the arc and stop the arc t-- you know in line with the wheatfields but beneath the pine forest"
+      },
+      {
+        "utterance_id": "q1nc4.row.114",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.115",
+        "speaker": "follower",
+        "text": "i"
+      },
+      {
+        "utterance_id": "q1nc4.row.116",
+        "speaker": "follower",
+        "text": "don't understand"
+      },
+      {
+        "utterance_id": "q1nc4.row.117",
+        "speaker": "follower",
+        "text": "say that again"
+      },
+      {
+        "utterance_id": "q1nc4.row.118",
+        "speaker": "giver",
+        "text": "oh two or three inches down from the pine forest"
+      },
+      {
+        "utterance_id": "q1nc4.row.119",
+        "speaker": "giver",
+        "text": "okay you know"
+      },
+      {
+        "utterance_id": "q1nc4.row.120",
+        "speaker": "giver",
+        "text": "it doesn't have to be an arc as long as you avoid all the obstacles i think eh if you you know if you finish up eh in line with the wheatfields"
+      },
+      {
+        "utterance_id": "q1nc4.row.121",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.122",
+        "speaker": "giver",
+        "text": "but beneath the pine forest you if you stop drawing your line there"
+      },
+      {
+        "utterance_id": "q1nc4.row.123",
+        "speaker": "giver",
+        "text": "above the bakery in other words ab-- above the eh th-- th-- th--"
+      },
+      {
+        "utterance_id": "q1nc4.row.124",
+        "speaker": "follower",
+        "text": "whe--"
+      },
+      {
+        "utterance_id": "q1nc4.row.125",
+        "speaker": "follower",
+        "text": "where is your wheatfields"
+      },
+      {
+        "utterance_id": "q1nc4.row.126",
+        "speaker": "giver",
+        "text": "well er you know"
+      },
+      {
+        "utterance_id": "q1nc4.row.127",
+        "speaker": "giver",
+        "text": "ca-- imagine where the forge would be on your map or it's o-- it's on mine but imagine where it would be"
+      },
+      {
+        "utterance_id": "q1nc4.row.128",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1nc4.row.129",
+        "speaker": "giver",
+        "text": "about two inches down from that in in between the the forge and the old pine"
+      },
+      {
+        "utterance_id": "q1nc4.row.130",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.131",
+        "speaker": "giver",
+        "text": "on the left-hand side"
+      },
+      {
+        "utterance_id": "q1nc4.row.132",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.133",
+        "speaker": "giver",
+        "text": "so"
+      },
+      {
+        "utterance_id": "q1nc4.row.134",
+        "speaker": "giver",
+        "text": "where are you now"
+      },
+      {
+        "utterance_id": "q1nc4.row.135",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.136",
+        "speaker": "follower",
+        "text": "i'm going down past the pine forest in an arch towards the wheatfields"
+      },
+      {
+        "utterance_id": "q1nc4.row.137",
+        "speaker": "giver",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1nc4.row.138",
+        "speaker": "giver",
+        "text": "no no no"
+      },
+      {
+        "utterance_id": "q1nc4.row.139",
+        "speaker": "follower",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1nc4.row.140",
+        "speaker": "giver",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1nc4.row.141",
+        "speaker": "giver",
+        "text": "don't worry about the wheatfields it's just to tell you where to stop the line"
+      },
+      {
+        "utterance_id": "q1nc4.row.142",
+        "speaker": "follower",
+        "text": "right okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.143",
+        "speaker": "giver",
+        "text": "never mind about it being an arc or a curve or anything"
+      },
+      {
+        "utterance_id": "q1nc4.row.144",
+        "speaker": "follower",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.145",
+        "speaker": "giver",
+        "text": "just just go down the left-hand side of the pine forest"
+      },
+      {
+        "utterance_id": "q1nc4.row.146",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.147",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.148",
+        "speaker": "giver",
+        "text": "and once you get to the where it says pine draw a line from there to eh above the bakery but not the chimney a bit to the left of that in fact the left-hand side it must be a wee shed or whatever it is"
+      },
+      {
+        "utterance_id": "q1nc4.row.149",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.150",
+        "speaker": "giver",
+        "text": "you see what i m--"
+      },
+      {
+        "utterance_id": "q1nc4.row.151",
+        "speaker": "follower",
+        "text": "and i'm going s-- am i going straight down"
+      },
+      {
+        "utterance_id": "q1nc4.row.152",
+        "speaker": "giver",
+        "text": "yeah"
+      },
+      {
+        "utterance_id": "q1nc4.row.153",
+        "speaker": "giver",
+        "text": "but stop when you get just to above the bakery"
+      },
+      {
+        "utterance_id": "q1nc4.row.154",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.155",
+        "speaker": "follower",
+        "text": "right okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.156",
+        "speaker": "giver",
+        "text": "then just go round the bakery on the right-hand side just draw a an oval shape round the right-hand side of the bakery"
+      },
+      {
+        "utterance_id": "q1nc4.row.157",
+        "speaker": "follower",
+        "text": "i'm go-- i'm going down and round"
+      },
+      {
+        "utterance_id": "q1nc4.row.158",
+        "speaker": "giver",
+        "text": "yeah"
+      },
+      {
+        "utterance_id": "q1nc4.row.159",
+        "speaker": "giver",
+        "text": "right round it uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.160",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.161",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.162",
+        "speaker": "follower",
+        "text": "now where"
+      },
+      {
+        "utterance_id": "q1nc4.row.163",
+        "speaker": "giver",
+        "text": "underneath the bakery"
+      },
+      {
+        "utterance_id": "q1nc4.row.164",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.165",
+        "speaker": "giver",
+        "text": "have you got a canal"
+      },
+      {
+        "utterance_id": "q1nc4.row.166",
+        "speaker": "follower",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1nc4.row.167",
+        "speaker": "giver",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1nc4.row.168",
+        "speaker": "giver",
+        "text": "well"
+      },
+      {
+        "utterance_id": "q1nc4.row.169",
+        "speaker": "giver",
+        "text": "the canal is about two inches to the left-hand side of the bakery but it's in line with it"
+      },
+      {
+        "utterance_id": "q1nc4.row.170",
+        "speaker": "giver",
+        "text": "so once you get an inch or and a half or so past the bakery"
+      },
+      {
+        "utterance_id": "q1nc4.row.171",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1nc4.row.172",
+        "speaker": "giver",
+        "text": "eh take your line down to crane bay"
+      },
+      {
+        "utterance_id": "q1nc4.row.173",
+        "speaker": "giver",
+        "text": "oh i've got two wheatfields that's not important is it right anyway w--"
+      },
+      {
+        "utterance_id": "q1nc4.row.174",
+        "speaker": "giver",
+        "text": "so you get to the canal right you don't have one but g-- just go down about two inches until you get to crane bay and follow follow the curve"
+      },
+      {
+        "utterance_id": "q1nc4.row.175",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.176",
+        "speaker": "giver",
+        "text": "of crane bay"
+      },
+      {
+        "utterance_id": "q1nc4.row.177",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.178",
+        "speaker": "follower",
+        "text": "right round to the left"
+      },
+      {
+        "utterance_id": "q1nc4.row.179",
+        "speaker": "giver",
+        "text": "but not don't go down just go along don't go dow-- don't go down where it it really curves away there don't don't follow that"
+      },
+      {
+        "utterance_id": "q1nc4.row.180",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.181",
+        "speaker": "follower",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.182",
+        "speaker": "giver",
+        "text": "so you're at the top le-- left-hand side of crane bay right n-- just northwest of where it says crane"
+      },
+      {
+        "utterance_id": "q1nc4.row.183",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.184",
+        "speaker": "giver",
+        "text": "or the s-- where the \"c\" is"
+      },
+      {
+        "utterance_id": "q1nc4.row.185",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.186",
+        "speaker": "giver",
+        "text": "i've got wheatfields in line with where it says bay okay about an inch or so to the left of crane bay itself just in line in fact beneath where the other wheatfields were that i that i was telling you about"
+      },
+      {
+        "utterance_id": "q1nc4.row.187",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1nc4.row.188",
+        "speaker": "follower",
+        "text": "right okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.189",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.190",
+        "speaker": "giver",
+        "text": "so y-- you go round the round that curve and you have to go down and about an inch and a half"
+      },
+      {
+        "utterance_id": "q1nc4.row.191",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.192",
+        "speaker": "giver",
+        "text": "to a-- to avoid the wheatfields which are just to the left of crane bay so you go down there"
+      },
+      {
+        "utterance_id": "q1nc4.row.193",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1nc4.row.194",
+        "speaker": "follower",
+        "text": "hmm"
+      },
+      {
+        "utterance_id": "q1nc4.row.195",
+        "speaker": "giver",
+        "text": "go beneath the wheatfields in other words draw a line you know two inches or so to the left"
+      },
+      {
+        "utterance_id": "q1nc4.row.196",
+        "speaker": "giver",
+        "text": "have you got a rocket warehouse"
+      },
+      {
+        "utterance_id": "q1nc4.row.197",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.198",
+        "speaker": "giver",
+        "text": "well"
+      },
+      {
+        "utterance_id": "q1nc4.row.199",
+        "speaker": "giver",
+        "text": "just draw a line between well above the rocket warehouse in fact"
+      },
+      {
+        "utterance_id": "q1nc4.row.200",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.201",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.202",
+        "speaker": "giver",
+        "text": "an in-- an inch or so above the rocket warehouse but to the left of it go round it the same way as you went round the igloo but on the other side"
+      },
+      {
+        "utterance_id": "q1nc4.row.203",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.204",
+        "speaker": "giver",
+        "text": "just follow it round"
+      },
+      {
+        "utterance_id": "q1nc4.row.205",
+        "speaker": "follower",
+        "text": "yeah"
+      },
+      {
+        "utterance_id": "q1nc4.row.206",
+        "speaker": "follower",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.207",
+        "speaker": "giver",
+        "text": "go down the left-hand side of the page once you've done that"
+      },
+      {
+        "utterance_id": "q1nc4.row.208",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.209",
+        "speaker": "giver",
+        "text": "have you got a lighthouse"
+      },
+      {
+        "utterance_id": "q1nc4.row.210",
+        "speaker": "follower",
+        "text": "yeah"
+      },
+      {
+        "utterance_id": "q1nc4.row.211",
+        "speaker": "follower",
+        "text": "kind of directly underneath the warehouse"
+      },
+      {
+        "utterance_id": "q1nc4.row.212",
+        "speaker": "giver",
+        "text": "the rocket warehouse"
+      },
+      {
+        "utterance_id": "q1nc4.row.213",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.214",
+        "speaker": "giver",
+        "text": "the cross is right next to the lighthouse and just take your line to there and that's it finished"
+      },
+      {
+        "utterance_id": "q1nc4.row.215",
+        "speaker": "follower",
+        "text": "it's right next to the lighthouse"
+      },
+      {
+        "utterance_id": "q1nc4.row.216",
+        "speaker": "giver",
+        "text": "on the left-hand side of it"
+      },
+      {
+        "utterance_id": "q1nc4.row.217",
+        "speaker": "follower",
+        "text": "right okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.218",
+        "speaker": "follower",
+        "text": "and just go straight down"
+      },
+      {
+        "utterance_id": "q1nc4.row.219",
+        "speaker": "giver",
+        "text": "well y--"
+      },
+      {
+        "utterance_id": "q1nc4.row.220",
+        "speaker": "giver",
+        "text": "yeah that would be okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.221",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1nc4.row.222",
+        "speaker": "giver",
+        "text": "uh-huh and just the cross is right you know the left-hand side of the lighthouse just next to it"
+      },
+      {
+        "utterance_id": "q1nc4.row.223",
+        "speaker": "follower",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1nc4.row.224",
+        "speaker": "giver",
+        "text": "okay got it"
+      },
+      {
+        "utterance_id": "q1nc4.row.225",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1nc4.row.226",
+        "speaker": "giver",
+        "text": "right that's it finished"
+      }
+    ],
+    "observed_action_or_outcome": null,
+    "event_type": null,
+    "what_it_supports": "Retained for a separate later-evidence review; no suffix inference is used as prefix support in this draft."
+  },
+  "annotation_review": {
+    "review_status": "unreviewed",
+    "independent_coder_1": null,
+    "independent_coder_2": null,
+    "adjudicated_label": null
+  },
+  "sampling_and_reference_protocol": {
+    "map_pair_id": "m3",
+    "provisional_source_group": "m3",
+    "merged_cluster_id": null,
+    "partition": "development_candidate_only",
+    "full_dev_test_split_drawn": false,
+    "evidence_tier": "S",
+    "exposure": "Assistant curation and preliminary interpretation; not a blind test set."
+  },
+  "archived_pre_tier_s_annotation_draft": {
+    "title": "Under the start: explicit route restatement",
+    "subtask": "Place the current route segment beneath the start marker",
+    "draft_status": "ALIGNED_CONDITIONAL_ON_MAP_REVIEW",
+    "supported_A": "The follower explicitly restates straight down under the start.",
+    "supported_B": "The giver's prior row 41 explicitly describes going beneath the start; row 44 acknowledges the restatement.",
+    "consequence": "Both proposed readings yield Route(start_vertical_segment, below, m3_start). The giver support root is row 41, not the bare yeah alone.",
+    "reason": "Shows why earlier prefix evidence can support a reading even when the immediate response is short.",
+    "uncertainty": "Exact distances and geometry are outside the comparison. This follows earlier clarification and cannot be claimed as early detection.",
+    "timing": "after_prior_clarification",
+    "adapter": "route",
+    "media_priority": "Verify the previous correction and current segment continuity.",
+    "author": "assistant",
+    "is_human_reference": false,
+    "is_model_prediction": false,
+    "scope": "focal exchange only; not a full-prefix label",
+    "focal_pair": [
+      "follower",
+      "giver"
+    ],
+    "focus_quote": "straight down under the start",
+    "response_quote": "yeah",
+    "evidence_scope": "Justification must be checked using prefix only. The assistant screened longer transcript passages, so this draft is not a blinded independent annotation.",
+    "archive_note": "Earlier assistant screening draft. Superseded by the current Tier S wording; no human reference status."
+  }
+}

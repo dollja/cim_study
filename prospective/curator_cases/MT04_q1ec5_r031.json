@@ -1,0 +1,1157 @@
+{
+  "sample_id": "MT04_q1ec5_r031",
+  "dataset": "MapTask/GMMT",
+  "study_role": "pilot",
+  "source": {
+    "source_id": "q1ec5",
+    "revision": "75814e7c5898e3b1f35f823c90e5f4582b24e140",
+    "url": "https://github.com/dollja/gmmt-datasets/blob/75814e7c5898e3b1f35f823c90e5f4582b24e140/prepared/curator/extracted/hcrc/Transcripts/q1ec5.txt",
+    "local_path": "source_transcripts/q1ec5.txt",
+    "sha256": "47c0b7cc053e72ecacece3ad52a6eee80879c28c3ead0cc1d9d56f5709025848",
+    "git_blob_sha1": "9a4d25d405dbe10083d245de16808e375beb9aca",
+    "bytes": 5242,
+    "dialogue_id": "q1ec5",
+    "ids_are_generated": true,
+    "crosswalk_file": "crosswalks/q1ec5.json"
+  },
+  "selection_metadata": {
+    "focal_episode_start_id": "q1ec5.row.030",
+    "focus_utterance_id": "q1ec5.row.030",
+    "first_relevant_response_id": "q1ec5.row.031",
+    "observation_cutoff_id": "q1ec5.row.031",
+    "cutoff_reason": "The next source utterance by follower responds to the focal contribution; no intervening response is skipped.",
+    "prefix_utterance_count": 31,
+    "prefix_word_count": 126,
+    "prefix_token_count": null,
+    "focus_position_normalized": 0.967741935483871,
+    "focus_to_cutoff_utterances": 1,
+    "paired_delayed_prefix_id": null,
+    "selection_status": "human_confirmed_for_current_pilot",
+    "confirmed_as_original_selection": false,
+    "confirmed_for_current_pilot": true,
+    "selection_record": "selection_records/ACCEPTED_SELECTION_20261113.json"
+  },
+  "observer_input": {
+    "overall_task": "One participant describes a route, and another attempts to reproduce it on their own map. Their maps may differ, and neither participant can see the other's map.",
+    "participants": [
+      {
+        "participant_id": "giver",
+        "known_role": "giver"
+      },
+      {
+        "participant_id": "follower",
+        "known_role": "follower"
+      }
+    ],
+    "context_sources": [
+      {
+        "source_id": "m6_giver_inventory",
+        "text": "m6_giver_01: START; top left above diamond mine; correspondence m6_start\nm6_giver_02: diamond mine; upper left; correspondence m6_diamond_mine\nm6_giver_03: graveyard; right of diamond mine; correspondence m6_graveyard\nm6_giver_04: fast flowing river; upper right; correspondence m6_watercourse\nm6_giver_05: desert; left below diamond mine; correspondence m6_desert\nm6_giver_06: carved wooden pole; middle above walled city; correspondence m6_pole_upper\nm6_giver_07: apache camp; right above flat rocks; correspondence m6_apache_camp\nm6_giver_08: walled city; left middle; correspondence m6_walled_city\nm6_giver_09: flat rocks; right middle; correspondence m6_flat_rocks\nm6_giver_10: stone creek; below flat rocks; correspondence m6_stone_creek\nm6_giver_11: carved wooden pole; lower left above fort; correspondence m6_pole_lower\nm6_giver_12: buffalo; lower right; correspondence m6_buffalo\nm6_giver_13: cattle ranch; bottom middle; correspondence m6_cattle_ranch\nm6_giver_14: fort; bottom left; correspondence m6_fort\nm6_giver_15: FINISH; left above fort; correspondence m6_finish",
+        "accessible_to_participants": [
+          "giver"
+        ],
+        "adapter": {
+          "kind": "map_inventory",
+          "review_status": "verified",
+          "entities": [
+            {
+              "id": "m6_giver_01",
+              "label": "START",
+              "class_id": "m6_start",
+              "description": "top left above diamond mine"
+            },
+            {
+              "id": "m6_giver_02",
+              "label": "diamond mine",
+              "class_id": "m6_diamond_mine",
+              "description": "upper left"
+            },
+            {
+              "id": "m6_giver_03",
+              "label": "graveyard",
+              "class_id": "m6_graveyard",
+              "description": "right of diamond mine"
+            },
+            {
+              "id": "m6_giver_04",
+              "label": "fast flowing river",
+              "class_id": "m6_watercourse",
+              "description": "upper right"
+            },
+            {
+              "id": "m6_giver_05",
+              "label": "desert",
+              "class_id": "m6_desert",
+              "description": "left below diamond mine"
+            },
+            {
+              "id": "m6_giver_06",
+              "label": "carved wooden pole",
+              "class_id": "m6_pole_upper",
+              "description": "middle above walled city"
+            },
+            {
+              "id": "m6_giver_07",
+              "label": "apache camp",
+              "class_id": "m6_apache_camp",
+              "description": "right above flat rocks"
+            },
+            {
+              "id": "m6_giver_08",
+              "label": "walled city",
+              "class_id": "m6_walled_city",
+              "description": "left middle"
+            },
+            {
+              "id": "m6_giver_09",
+              "label": "flat rocks",
+              "class_id": "m6_flat_rocks",
+              "description": "right middle"
+            },
+            {
+              "id": "m6_giver_10",
+              "label": "stone creek",
+              "class_id": "m6_stone_creek",
+              "description": "below flat rocks"
+            },
+            {
+              "id": "m6_giver_11",
+              "label": "carved wooden pole",
+              "class_id": "m6_pole_lower",
+              "description": "lower left above fort"
+            },
+            {
+              "id": "m6_giver_12",
+              "label": "buffalo",
+              "class_id": "m6_buffalo",
+              "description": "lower right"
+            },
+            {
+              "id": "m6_giver_13",
+              "label": "cattle ranch",
+              "class_id": "m6_cattle_ranch",
+              "description": "bottom middle"
+            },
+            {
+              "id": "m6_giver_14",
+              "label": "fort",
+              "class_id": "m6_fort",
+              "description": "bottom left"
+            },
+            {
+              "id": "m6_giver_15",
+              "label": "FINISH",
+              "class_id": "m6_finish",
+              "description": "left above fort"
+            }
+          ]
+        }
+      },
+      {
+        "source_id": "m6_follower_inventory",
+        "text": "m6_follower_01: START; top left above diamond mine; correspondence m6_start\nm6_follower_02: diamond mine; upper left; correspondence m6_diamond_mine\nm6_follower_03: fast running creek; upper right; correspondence m6_watercourse\nm6_follower_04: canoes; below fast running creek; correspondence m6_canoes\nm6_follower_05: desert; left below diamond mine; correspondence m6_desert\nm6_follower_06: apache camp; right above flat rocks; correspondence m6_apache_camp\nm6_follower_07: walled city; left middle; correspondence m6_walled_city\nm6_follower_08: flat rocks; right middle; correspondence m6_flat_rocks\nm6_follower_09: ghost town; left below walled city; correspondence m6_ghost_town\nm6_follower_10: saloon bar; right below flat rocks; correspondence m6_saloon_bar\nm6_follower_11: stone creek; lower middle; correspondence m6_stone_creek\nm6_follower_12: carved wooden pole; lower left above fort; correspondence m6_pole_lower\nm6_follower_13: buffalo; lower right; correspondence m6_buffalo\nm6_follower_14: fort; bottom left; correspondence m6_fort",
+        "accessible_to_participants": [
+          "follower"
+        ],
+        "adapter": {
+          "kind": "map_inventory",
+          "review_status": "verified",
+          "entities": [
+            {
+              "id": "m6_follower_01",
+              "label": "START",
+              "class_id": "m6_start",
+              "description": "top left above diamond mine"
+            },
+            {
+              "id": "m6_follower_02",
+              "label": "diamond mine",
+              "class_id": "m6_diamond_mine",
+              "description": "upper left"
+            },
+            {
+              "id": "m6_follower_03",
+              "label": "fast running creek",
+              "class_id": "m6_watercourse",
+              "description": "upper right"
+            },
+            {
+              "id": "m6_follower_04",
+              "label": "canoes",
+              "class_id": "m6_canoes",
+              "description": "below fast running creek"
+            },
+            {
+              "id": "m6_follower_05",
+              "label": "desert",
+              "class_id": "m6_desert",
+              "description": "left below diamond mine"
+            },
+            {
+              "id": "m6_follower_06",
+              "label": "apache camp",
+              "class_id": "m6_apache_camp",
+              "description": "right above flat rocks"
+            },
+            {
+              "id": "m6_follower_07",
+              "label": "walled city",
+              "class_id": "m6_walled_city",
+              "description": "left middle"
+            },
+            {
+              "id": "m6_follower_08",
+              "label": "flat rocks",
+              "class_id": "m6_flat_rocks",
+              "description": "right middle"
+            },
+            {
+              "id": "m6_follower_09",
+              "label": "ghost town",
+              "class_id": "m6_ghost_town",
+              "description": "left below walled city"
+            },
+            {
+              "id": "m6_follower_10",
+              "label": "saloon bar",
+              "class_id": "m6_saloon_bar",
+              "description": "right below flat rocks"
+            },
+            {
+              "id": "m6_follower_11",
+              "label": "stone creek",
+              "class_id": "m6_stone_creek",
+              "description": "lower middle"
+            },
+            {
+              "id": "m6_follower_12",
+              "label": "carved wooden pole",
+              "class_id": "m6_pole_lower",
+              "description": "lower left above fort"
+            },
+            {
+              "id": "m6_follower_13",
+              "label": "buffalo",
+              "class_id": "m6_buffalo",
+              "description": "lower right"
+            },
+            {
+              "id": "m6_follower_14",
+              "label": "fort",
+              "class_id": "m6_fort",
+              "description": "bottom left"
+            }
+          ]
+        }
+      }
+    ],
+    "dialogue_prefix": [
+      {
+        "utterance_id": "q1ec5.row.001",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1ec5.row.002",
+        "speaker": "giver",
+        "text": "now you're starting ehm above the diamond mine"
+      },
+      {
+        "utterance_id": "q1ec5.row.003",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec5.row.004",
+        "speaker": "giver",
+        "text": "and er the desert is below to your left"
+      },
+      {
+        "utterance_id": "q1ec5.row.005",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1ec5.row.006",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.007",
+        "speaker": "giver",
+        "text": "now"
+      },
+      {
+        "utterance_id": "q1ec5.row.008",
+        "speaker": "giver",
+        "text": "go go south from the diamond mine until you are still above the desert"
+      },
+      {
+        "utterance_id": "q1ec5.row.009",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1ec5.row.010",
+        "speaker": "follower",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1ec5.row.011",
+        "speaker": "giver",
+        "text": "now"
+      },
+      {
+        "utterance_id": "q1ec5.row.012",
+        "speaker": "giver",
+        "text": "if you tell me what's to your right at the what's to your right"
+      },
+      {
+        "utterance_id": "q1ec5.row.013",
+        "speaker": "follower",
+        "text": "ehm"
+      },
+      {
+        "utterance_id": "q1ec5.row.014",
+        "speaker": "follower",
+        "text": "the canoes"
+      },
+      {
+        "utterance_id": "q1ec5.row.015",
+        "speaker": "giver",
+        "text": "canoes"
+      },
+      {
+        "utterance_id": "q1ec5.row.016",
+        "speaker": "follower",
+        "text": "and a fast running creek"
+      },
+      {
+        "utterance_id": "q1ec5.row.017",
+        "speaker": "giver",
+        "text": "and a fast running creek"
+      },
+      {
+        "utterance_id": "q1ec5.row.018",
+        "speaker": "giver",
+        "text": "um"
+      },
+      {
+        "utterance_id": "q1ec5.row.019",
+        "speaker": "giver",
+        "text": "and do you have a graveyard"
+      },
+      {
+        "utterance_id": "q1ec5.row.020",
+        "speaker": "follower",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1ec5.row.021",
+        "speaker": "giver",
+        "text": "do you have a carved wooden pole in this area"
+      },
+      {
+        "utterance_id": "q1ec5.row.022",
+        "speaker": "follower",
+        "text": "right away down the very bottom"
+      },
+      {
+        "utterance_id": "q1ec5.row.023",
+        "speaker": "giver",
+        "text": "right okay"
+      },
+      {
+        "utterance_id": "q1ec5.row.024",
+        "speaker": "giver",
+        "text": "now"
+      },
+      {
+        "utterance_id": "q1ec5.row.025",
+        "speaker": "giver",
+        "text": "go go right from the diamond mine"
+      },
+      {
+        "utterance_id": "q1ec5.row.026",
+        "speaker": "follower",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1ec5.row.027",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1ec5.row.028",
+        "speaker": "giver",
+        "text": "and um"
+      },
+      {
+        "utterance_id": "q1ec5.row.029",
+        "speaker": "giver",
+        "text": "now you've got to pass"
+      },
+      {
+        "utterance_id": "q1ec5.row.030",
+        "speaker": "giver",
+        "text": "there's actually a graveyard to the right of the diamond mine on my map"
+      },
+      {
+        "utterance_id": "q1ec5.row.031",
+        "speaker": "follower",
+        "text": "below it"
+      }
+    ]
+  },
+  "manual_annotation": null,
+  "assistant_annotation_draft": {
+    "author": "assistant",
+    "is_human_reference": false,
+    "is_model_prediction": false,
+    "evidence_tier": "S",
+    "scope": "Proposed focal comparison only; no assigned research label.",
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "local_question": "What relation to the diamond mine is being expressed for the graveyard in the current exchange?",
+    "focus_source_ids": [
+      "q1ec5.row.030",
+      "q1ec5.row.031"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "q1ec5.row.030",
+        "speaker": "giver",
+        "quote": "there's actually a graveyard to the right of the diamond mine on my map"
+      },
+      {
+        "source_id": "q1ec5.row.031",
+        "speaker": "follower",
+        "quote": "below it"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "giver",
+        "meaning": "At q1ec5.row.030 the giver states that a graveyard is to the right of the diamond mine on the giver’s map. This reports a landmark relation, not a complete route instruction for both participants.",
+        "source_quotes": [
+          {
+            "source_id": "q1ec5.row.019",
+            "quote": "and do you have a graveyard"
+          },
+          {
+            "source_id": "q1ec5.row.021",
+            "quote": "do you have a carved wooden pole in this area"
+          },
+          {
+            "source_id": "q1ec5.row.025",
+            "quote": "go go right from the diamond mine"
+          },
+          {
+            "source_id": "q1ec5.row.030",
+            "quote": "there's actually a graveyard to the right of the diamond mine on my map"
+          }
+        ],
+        "support": null
+      },
+      {
+        "participant_id": "follower",
+        "meaning": "The follower earlier answers no to having a graveyard (.020), then says below it at .031. The fragment does not unambiguously establish which entity it denotes or whether the utterance is a question, correction or assertion.",
+        "source_quotes": [
+          {
+            "source_id": "q1ec5.row.020",
+            "quote": "no"
+          },
+          {
+            "source_id": "q1ec5.row.022",
+            "quote": "right away down the very bottom"
+          },
+          {
+            "source_id": "q1ec5.row.031",
+            "quote": "below it"
+          }
+        ],
+        "support": null
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "scope": "What relation to the diamond mine is being expressed for the graveyard in the current exchange?",
+      "participant_outputs": {
+        "giver": "Proposed giver content: graveyard right_of diamond mine. A landmark-to-landmark relation must not be silently encoded as a route-position output.",
+        "follower": "Follower consequence: unknown until the subject, antecedent and force of below it are established for the same task question."
+      },
+      "comparison": "Right_of and below are not inherently incompatible; one object can be both right of and below another. The follower’s fragment and the consequence type remain unresolved.",
+      "blocking_reasons": [
+        "The follower fragment’s subject, it antecedent and question-versus-assertion force are unclear.",
+        "Right_of and below can be jointly true and do not establish incompatible alternatives.",
+        "The current adapter does not directly encode this landmark-to-landmark question as a route output; required m6 facts are draft."
+      ],
+      "verification_note": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": null,
+    "human_content_confirmed": false,
+    "current_review_path": "../../REVIEWS.json",
+    "evidence_scope": "Current Tier S wording aid. Human support review and selection remain pending; all research annotations stay outside observer input."
+  },
+  "later_evidence": {
+    "dialogue": [
+      {
+        "utterance_id": "q1ec5.row.032",
+        "speaker": "giver",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1ec5.row.033",
+        "speaker": "giver",
+        "text": "on the same level as the diamond mine"
+      },
+      {
+        "utterance_id": "q1ec5.row.034",
+        "speaker": "follower",
+        "text": "mm"
+      },
+      {
+        "utterance_id": "q1ec5.row.035",
+        "speaker": "giver",
+        "text": "and so you're going to pa-- you're going to pass by the graveyard as well"
+      },
+      {
+        "utterance_id": "q1ec5.row.036",
+        "speaker": "follower",
+        "text": "mm"
+      },
+      {
+        "utterance_id": "q1ec5.row.037",
+        "speaker": "giver",
+        "text": "and then you're going to go up and over the top of the f-- uh"
+      },
+      {
+        "utterance_id": "q1ec5.row.038",
+        "speaker": "giver",
+        "text": "what i've got is a fast flowing river"
+      },
+      {
+        "utterance_id": "q1ec5.row.039",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec5.row.040",
+        "speaker": "giver",
+        "text": "do you have you have your c--"
+      },
+      {
+        "utterance_id": "q1ec5.row.041",
+        "speaker": "follower",
+        "text": "fast running creek"
+      },
+      {
+        "utterance_id": "q1ec5.row.042",
+        "speaker": "giver",
+        "text": "fast running creek"
+      },
+      {
+        "utterance_id": "q1ec5.row.043",
+        "speaker": "giver",
+        "text": "where is that on a level with the diamond mine or is it slightly below"
+      },
+      {
+        "utterance_id": "q1ec5.row.044",
+        "speaker": "follower",
+        "text": "it's just slightly above"
+      },
+      {
+        "utterance_id": "q1ec5.row.045",
+        "speaker": "giver",
+        "text": "slightly above"
+      },
+      {
+        "utterance_id": "q1ec5.row.046",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.047",
+        "speaker": "giver",
+        "text": "well i've got a fast flowing river here"
+      },
+      {
+        "utterance_id": "q1ec5.row.048",
+        "speaker": "giver",
+        "text": "so"
+      },
+      {
+        "utterance_id": "q1ec5.row.049",
+        "speaker": "giver",
+        "text": "what you'd best to do is go along past the bottom go along okay sorry go along to your right and veer slightly upwards as you reach the creek"
+      },
+      {
+        "utterance_id": "q1ec5.row.050",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec5.row.051",
+        "speaker": "giver",
+        "text": "and then go over and round the creek to your right"
+      },
+      {
+        "utterance_id": "q1ec5.row.052",
+        "speaker": "giver",
+        "text": "and then ehm"
+      },
+      {
+        "utterance_id": "q1ec5.row.053",
+        "speaker": "giver",
+        "text": "do you have an apache camp"
+      },
+      {
+        "utterance_id": "q1ec5.row.054",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1ec5.row.055",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.056",
+        "speaker": "giver",
+        "text": "see when you're over the top of the fast or your creek or the river that i've got here when you're over the top of that and in line vertically in line with the apache camp"
+      },
+      {
+        "utterance_id": "q1ec5.row.057",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec5.row.058",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec5.row.059",
+        "speaker": "giver",
+        "text": "go south until just above the apache camp"
+      },
+      {
+        "utterance_id": "q1ec5.row.060",
+        "speaker": "follower",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1ec5.row.061",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.062",
+        "speaker": "giver",
+        "text": "when you reach the apache camp"
+      },
+      {
+        "utterance_id": "q1ec5.row.063",
+        "speaker": "giver",
+        "text": "ehm do you have a walled city"
+      },
+      {
+        "utterance_id": "q1ec5.row.064",
+        "speaker": "follower",
+        "text": "right away on the far left"
+      },
+      {
+        "utterance_id": "q1ec5.row.065",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.066",
+        "speaker": "giver",
+        "text": "well you're going to go from above the apache camp to the walled city but you've got to avoid a carved wooden pole"
+      },
+      {
+        "utterance_id": "q1ec5.row.067",
+        "speaker": "giver",
+        "text": "which in my map is slightly above the level of the apache camp"
+      },
+      {
+        "utterance_id": "q1ec5.row.068",
+        "speaker": "follower",
+        "text": "no this is vertically in line with the walled city below it"
+      },
+      {
+        "utterance_id": "q1ec5.row.069",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.070",
+        "speaker": "follower",
+        "text": "okay so"
+      },
+      {
+        "utterance_id": "q1ec5.row.071",
+        "speaker": "giver",
+        "text": "right i've got one of them as well"
+      },
+      {
+        "utterance_id": "q1ec5.row.072",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.073",
+        "speaker": "giver",
+        "text": "so"
+      },
+      {
+        "utterance_id": "q1ec5.row.074",
+        "speaker": "giver",
+        "text": "but there's another one a carved wooden pole here which is halfway between the walled city and the apache camp"
+      },
+      {
+        "utterance_id": "q1ec5.row.075",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1ec5.row.076",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec5.row.077",
+        "speaker": "giver",
+        "text": "but slightly above the level of the apache camp"
+      },
+      {
+        "utterance_id": "q1ec5.row.078",
+        "speaker": "follower",
+        "text": "so"
+      },
+      {
+        "utterance_id": "q1ec5.row.079",
+        "speaker": "follower",
+        "text": "i'd be better to go underneath it"
+      },
+      {
+        "utterance_id": "q1ec5.row.080",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1ec5.row.081",
+        "speaker": "giver",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1ec5.row.082",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.083",
+        "speaker": "giver",
+        "text": "so you've got so you're going from above the apache camp underneath the carved wooden pole and over the top of the walled city"
+      },
+      {
+        "utterance_id": "q1ec5.row.084",
+        "speaker": "giver",
+        "text": "and then when you reach the far si-- yo-- your left-hand side of the walled city travel southwards until you come to the level of some flat rocks"
+      },
+      {
+        "utterance_id": "q1ec5.row.085",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1ec5.row.086",
+        "speaker": "giver",
+        "text": "and go bel--"
+      },
+      {
+        "utterance_id": "q1ec5.row.087",
+        "speaker": "giver",
+        "text": "do you have a stone creek"
+      },
+      {
+        "utterance_id": "q1ec5.row.088",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1ec5.row.089",
+        "speaker": "giver",
+        "text": "right so"
+      },
+      {
+        "utterance_id": "q1ec5.row.090",
+        "speaker": "giver",
+        "text": "what i want you to do is go between the flat rocks and the stone creek"
+      },
+      {
+        "utterance_id": "q1ec5.row.091",
+        "speaker": "giver",
+        "text": "but do you have anything between the walled city and the carved wooden pole"
+      },
+      {
+        "utterance_id": "q1ec5.row.092",
+        "speaker": "follower",
+        "text": "ghost town"
+      },
+      {
+        "utterance_id": "q1ec5.row.093",
+        "speaker": "giver",
+        "text": "a ghost town"
+      },
+      {
+        "utterance_id": "q1ec5.row.094",
+        "speaker": "giver",
+        "text": "so you're going to"
+      },
+      {
+        "utterance_id": "q1ec5.row.095",
+        "speaker": "giver",
+        "text": "that's not on my map"
+      },
+      {
+        "utterance_id": "q1ec5.row.096",
+        "speaker": "giver",
+        "text": "you've got to avoid that i think"
+      },
+      {
+        "utterance_id": "q1ec5.row.097",
+        "speaker": "follower",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1ec5.row.098",
+        "speaker": "giver",
+        "text": "so go south down past the walled city underneath your ghost town and then slightly up sort of northeast direction between the flat rocks and the stone creek"
+      },
+      {
+        "utterance_id": "q1ec5.row.099",
+        "speaker": "follower",
+        "text": "between"
+      },
+      {
+        "utterance_id": "q1ec5.row.100",
+        "speaker": "follower",
+        "text": "well"
+      },
+      {
+        "utterance_id": "q1ec5.row.101",
+        "speaker": "follower",
+        "text": "it'd be better if i s-- s-- between the walled city and the ghost town no to go underneath it above it"
+      },
+      {
+        "utterance_id": "q1ec5.row.102",
+        "speaker": "follower",
+        "text": "or have you got something else there"
+      },
+      {
+        "utterance_id": "q1ec5.row.103",
+        "speaker": "giver",
+        "text": "i've not got anything betw-- between the carved wooden pole and the walled city"
+      },
+      {
+        "utterance_id": "q1ec5.row.104",
+        "speaker": "giver",
+        "text": "but the map shows a curve a \"c\"-shaped curve"
+      },
+      {
+        "utterance_id": "q1ec5.row.105",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.106",
+        "speaker": "follower",
+        "text": "score that out"
+      },
+      {
+        "utterance_id": "q1ec5.row.107",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.108",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.109",
+        "speaker": "giver",
+        "text": "and sort of and then slightly up underneath the flat rocks and above the stone creek"
+      },
+      {
+        "utterance_id": "q1ec5.row.110",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.111",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1ec5.row.112",
+        "speaker": "giver",
+        "text": "then"
+      },
+      {
+        "utterance_id": "q1ec5.row.113",
+        "speaker": "giver",
+        "text": "go slightly to your right beyond the flat rocks until you are above the level of the buffalo"
+      },
+      {
+        "utterance_id": "q1ec5.row.114",
+        "speaker": "follower",
+        "text": "so i i'll be avoiding the saloon bar"
+      },
+      {
+        "utterance_id": "q1ec5.row.115",
+        "speaker": "giver",
+        "text": "i don't have a saloon bar here"
+      },
+      {
+        "utterance_id": "q1ec5.row.116",
+        "speaker": "follower",
+        "text": "i've got here"
+      },
+      {
+        "utterance_id": "q1ec5.row.117",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.118",
+        "speaker": "giver",
+        "text": "okay so avoid the saloon bar"
+      },
+      {
+        "utterance_id": "q1ec5.row.119",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.120",
+        "speaker": "giver",
+        "text": "and ehm then right then ehm"
+      },
+      {
+        "utterance_id": "q1ec5.row.121",
+        "speaker": "giver",
+        "text": "just straight down to the right of the buffalo"
+      },
+      {
+        "utterance_id": "q1ec5.row.122",
+        "speaker": "follower",
+        "text": "to the right"
+      },
+      {
+        "utterance_id": "q1ec5.row.123",
+        "speaker": "giver",
+        "text": "y--"
+      },
+      {
+        "utterance_id": "q1ec5.row.124",
+        "speaker": "giver",
+        "text": "so that so that you're on you're on the right of the buffalo"
+      },
+      {
+        "utterance_id": "q1ec5.row.125",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.126",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1ec5.row.127",
+        "speaker": "giver",
+        "text": "and go underneath the buffalo"
+      },
+      {
+        "utterance_id": "q1ec5.row.128",
+        "speaker": "giver",
+        "text": "now"
+      },
+      {
+        "utterance_id": "q1ec5.row.129",
+        "speaker": "giver",
+        "text": "do you have a cattle ranch"
+      },
+      {
+        "utterance_id": "q1ec5.row.130",
+        "speaker": "follower",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1ec5.row.131",
+        "speaker": "giver",
+        "text": "ehm do you have a fort"
+      },
+      {
+        "utterance_id": "q1ec5.row.132",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec5.row.133",
+        "speaker": "giver",
+        "text": "so you're going to go from the buffalo to the fort but you've got to avoid the cattle ranch on the way and you'll have to go up and over the top of the cattle ranch"
+      },
+      {
+        "utterance_id": "q1ec5.row.134",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.135",
+        "speaker": "giver",
+        "text": "which on my map is halfway between the buffalo and the fort"
+      },
+      {
+        "utterance_id": "q1ec5.row.136",
+        "speaker": "giver",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1ec5.row.137",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.138",
+        "speaker": "follower",
+        "text": "that on the the level between the fort mm"
+      },
+      {
+        "utterance_id": "q1ec5.row.139",
+        "speaker": "giver",
+        "text": "ehm"
+      },
+      {
+        "utterance_id": "q1ec5.row.140",
+        "speaker": "giver",
+        "text": "it's almost on level with the fort but it's slightly higher than the fort"
+      },
+      {
+        "utterance_id": "q1ec5.row.141",
+        "speaker": "follower",
+        "text": "so"
+      },
+      {
+        "utterance_id": "q1ec5.row.142",
+        "speaker": "giver",
+        "text": "so you need to be go up on a sort of hill"
+      },
+      {
+        "utterance_id": "q1ec5.row.143",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec5.row.144",
+        "speaker": "giver",
+        "text": "over the cattle ranch"
+      },
+      {
+        "utterance_id": "q1ec5.row.145",
+        "speaker": "giver",
+        "text": "underneath buffalo or over the cattle ranch"
+      },
+      {
+        "utterance_id": "q1ec5.row.146",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.147",
+        "speaker": "giver",
+        "text": "then underneath the fort"
+      },
+      {
+        "utterance_id": "q1ec5.row.148",
+        "speaker": "follower",
+        "text": "under the fort"
+      },
+      {
+        "utterance_id": "q1ec5.row.149",
+        "speaker": "giver",
+        "text": "underneath the fort uh-huh"
+      },
+      {
+        "utterance_id": "q1ec5.row.150",
+        "speaker": "giver",
+        "text": "and come out at the left-hand side of the fort and finishing ehm not beside but on the same level as the the carved wooden pole the base of the carved woode-- wooden pole"
+      },
+      {
+        "utterance_id": "q1ec5.row.151",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec5.row.152",
+        "speaker": "giver",
+        "text": "okay that's you finished"
+      },
+      {
+        "utterance_id": "q1ec5.row.153",
+        "speaker": "follower",
+        "text": "okay"
+      }
+    ],
+    "observed_action_or_outcome": null,
+    "event_type": null,
+    "what_it_supports": "Retained for a separate later-evidence review; no suffix inference is used as prefix support in this draft."
+  },
+  "annotation_review": {
+    "review_status": "unreviewed",
+    "independent_coder_1": null,
+    "independent_coder_2": null,
+    "adjudicated_label": null
+  },
+  "sampling_and_reference_protocol": {
+    "map_pair_id": "m6",
+    "provisional_source_group": "m6",
+    "merged_cluster_id": null,
+    "partition": "development_candidate_only",
+    "full_dev_test_split_drawn": false,
+    "evidence_tier": "S",
+    "exposure": "Assistant curation and preliminary interpretation; not a blind test set."
+  },
+  "archived_pre_tier_s_annotation_draft": {
+    "title": "Graveyard: right of versus below is not automatically incompatible",
+    "subtask": "Locate the graveyard relative to the diamond mine",
+    "draft_status": "UNRESOLVED",
+    "supported_A": "The giver describes a graveyard to the right of the diamond mine on the giver map.",
+    "supported_B": "The follower offers below it, with question versus assertion force unresolved in the plain transcript.",
+    "consequence": "No supported pair of incompatible route outputs: right of and below can both hold, and the follower previously reports no graveyard.",
+    "reason": "Prevents turning two spatial words into a mismatch without checking the same question and adopted meanings.",
+    "uncertainty": "Stance, pronoun binding and whether the response concerns the graveyard all require review. The next turn is withheld.",
+    "timing": "tentative_alternative",
+    "adapter": "outside_landmark_relation_question",
+    "media_priority": "Listen to row 31 for interrogative intonation and intended referent.",
+    "author": "assistant",
+    "is_human_reference": false,
+    "is_model_prediction": false,
+    "scope": "focal exchange only; not a full-prefix label",
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "focus_quote": "there's actually a graveyard to the right of the diamond mine on my map",
+    "response_quote": "below it",
+    "evidence_scope": "Justification must be checked using prefix only. The assistant screened longer transcript passages, so this draft is not a blinded independent annotation.",
+    "archive_note": "Earlier assistant screening draft. Superseded by the current Tier S wording; no human reference status."
+  }
+}

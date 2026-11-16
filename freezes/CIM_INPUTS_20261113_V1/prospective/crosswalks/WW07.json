@@ -1,0 +1,1337 @@
+{
+  "source": "WW07",
+  "generated_ids": true,
+  "ordering": "original file order; never timestamp-sorted",
+  "normalization": "MapTask speaker-code expansion and outer field whitespace removal only. Werewolf speaker/timestamp delimiters parsed; utterance wording retained.",
+  "source_sha256": "18a64c3268e746f02620050e0b4e1776cd013aa710825481fd76967c443b6158",
+  "rows": [
+    {
+      "utterance_id": "WW07.row.001",
+      "source_line": 1,
+      "timestamp_as_supplied": "00:00",
+      "raw_line": "Audio (00:00): Everyone close your eyes. Werewolves, wake up and look for other Werewolves. If there is only one Werewolf, you may look at a card from the center. Werewolves, close your eyes. Masons, wake up and look for the other Mason. Masons, close your eyes. Seer, wake up. You may look at another player's card or two of the center cards. Seer, close your eyes. Robber, wake up. You may exchange your card with another player's card and then view your new card. Robber, close your eyes. Troublemaker, wake up. You may exchange cards between two other players. Troublemaker, close your eyes. Everyone, keep your eyes closed and reach out and move your card around slightly."
+    },
+    {
+      "utterance_id": "WW07.row.002",
+      "source_line": 2,
+      "timestamp_as_supplied": "01:37",
+      "raw_line": "Katie (01:37): That's my hand."
+    },
+    {
+      "utterance_id": "WW07.row.003",
+      "source_line": 3,
+      "timestamp_as_supplied": "01:38",
+      "raw_line": "Audrey (01:38): I can't find."
+    },
+    {
+      "utterance_id": "WW07.row.004",
+      "source_line": 4,
+      "timestamp_as_supplied": "01:39",
+      "raw_line": "Dan (01:39): I don't know where mine is."
+    },
+    {
+      "utterance_id": "WW07.row.005",
+      "source_line": 5,
+      "timestamp_as_supplied": "01:39",
+      "raw_line": "Katie (01:39): I don't know, I'm moving all the cards, so it's fine."
+    },
+    {
+      "utterance_id": "WW07.row.006",
+      "source_line": 6,
+      "timestamp_as_supplied": "01:47",
+      "raw_line": "Ed (01:47): My hand is good to mine."
+    },
+    {
+      "utterance_id": "WW07.row.007",
+      "source_line": 7,
+      "timestamp_as_supplied": "01:47",
+      "raw_line": "Audio (01:47): Everyone, wake up."
+    },
+    {
+      "utterance_id": "WW07.row.008",
+      "source_line": 8,
+      "timestamp_as_supplied": "01:47",
+      "raw_line": "Katie (01:47): I think I was doing this one then this one."
+    },
+    {
+      "utterance_id": "WW07.row.009",
+      "source_line": 9,
+      "timestamp_as_supplied": "01:47",
+      "raw_line": "Dan (01:47): I had the worst dream."
+    },
+    {
+      "utterance_id": "WW07.row.010",
+      "source_line": 10,
+      "timestamp_as_supplied": "01:49",
+      "raw_line": "Dylan (01:49): You were in it."
+    },
+    {
+      "utterance_id": "WW07.row.011",
+      "source_line": 11,
+      "timestamp_as_supplied": "01:50",
+      "raw_line": "Brett (01:50): Dude, I am burning up. I'm hot."
+    },
+    {
+      "utterance_id": "WW07.row.012",
+      "source_line": 12,
+      "timestamp_as_supplied": "01:53",
+      "raw_line": "Ed (01:53): Yeah, you are."
+    },
+    {
+      "utterance_id": "WW07.row.013",
+      "source_line": 13,
+      "timestamp_as_supplied": "01:53",
+      "raw_line": "Katie (01:53): Well."
+    },
+    {
+      "utterance_id": "WW07.row.014",
+      "source_line": 14,
+      "timestamp_as_supplied": "01:55",
+      "raw_line": "Dylan (01:55): You got a fever?"
+    },
+    {
+      "utterance_id": "WW07.row.015",
+      "source_line": 15,
+      "timestamp_as_supplied": "01:55",
+      "raw_line": "Brett (01:55): All right, so no-one announced the roles so everyone failed on that point so let's recap-"
+    },
+    {
+      "utterance_id": "WW07.row.016",
+      "source_line": 16,
+      "timestamp_as_supplied": "02:00",
+      "raw_line": "Katie (02:00): Yeah because we have to figure it out."
+    },
+    {
+      "utterance_id": "WW07.row.017",
+      "source_line": 17,
+      "timestamp_as_supplied": "02:00",
+      "raw_line": "Brett (02:00): ... yeah who is the Werewolf and what do they do?"
+    },
+    {
+      "utterance_id": "WW07.row.018",
+      "source_line": 18,
+      "timestamp_as_supplied": "02:02",
+      "raw_line": "Ed (02:02): Who's the Werewolf?"
+    },
+    {
+      "utterance_id": "WW07.row.019",
+      "source_line": 19,
+      "timestamp_as_supplied": "02:03",
+      "raw_line": "Brett (02:03): Yeah, Werewolves."
+    },
+    {
+      "utterance_id": "WW07.row.020",
+      "source_line": 20,
+      "timestamp_as_supplied": "02:04",
+      "raw_line": "Ed (02:04): Oh. Well there could be one, we don't know."
+    },
+    {
+      "utterance_id": "WW07.row.021",
+      "source_line": 21,
+      "timestamp_as_supplied": "02:06",
+      "raw_line": "Audrey (02:06): I'm going to say that Katie was a Werewolf."
+    },
+    {
+      "utterance_id": "WW07.row.022",
+      "source_line": 22,
+      "timestamp_as_supplied": "02:10",
+      "raw_line": "Dan (02:10): That's crazy."
+    },
+    {
+      "utterance_id": "WW07.row.023",
+      "source_line": 23,
+      "timestamp_as_supplied": "02:10",
+      "raw_line": "Ed (02:10): The drag."
+    },
+    {
+      "utterance_id": "WW07.row.024",
+      "source_line": 24,
+      "timestamp_as_supplied": "02:10",
+      "raw_line": "Audrey (02:10): I just..."
+    },
+    {
+      "utterance_id": "WW07.row.025",
+      "source_line": 25,
+      "timestamp_as_supplied": "02:13",
+      "raw_line": "Katie (02:13): Are you just feeling that?"
+    },
+    {
+      "utterance_id": "WW07.row.026",
+      "source_line": 26,
+      "timestamp_as_supplied": "02:14",
+      "raw_line": "Audrey (02:14): I'm just feeling that."
+    },
+    {
+      "utterance_id": "WW07.row.027",
+      "source_line": 27,
+      "timestamp_as_supplied": "02:16",
+      "raw_line": "Katie (02:16): Are you vibing it?"
+    },
+    {
+      "utterance_id": "WW07.row.028",
+      "source_line": 28,
+      "timestamp_as_supplied": "02:16",
+      "raw_line": "Audrey (02:16): She's giving me them hairy vibes."
+    },
+    {
+      "utterance_id": "WW07.row.029",
+      "source_line": 29,
+      "timestamp_as_supplied": "02:18",
+      "raw_line": "Katie (02:18): Well that's outrageous because I don't even have a [inaudible 00:02:21]."
+    },
+    {
+      "utterance_id": "WW07.row.030",
+      "source_line": 30,
+      "timestamp_as_supplied": "02:18",
+      "raw_line": "Audrey (02:18): What are you then?"
+    },
+    {
+      "utterance_id": "WW07.row.031",
+      "source_line": 31,
+      "timestamp_as_supplied": "02:21",
+      "raw_line": "Brett (02:21): What did you do? What did you do?"
+    },
+    {
+      "utterance_id": "WW07.row.032",
+      "source_line": 32,
+      "timestamp_as_supplied": "02:23",
+      "raw_line": "Katie (02:23): I was just an innocent little Villager."
+    },
+    {
+      "utterance_id": "WW07.row.033",
+      "source_line": 33,
+      "timestamp_as_supplied": "02:24",
+      "raw_line": "Audrey (02:24): Oh really, because I was a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.034",
+      "source_line": 34,
+      "timestamp_as_supplied": "02:24",
+      "raw_line": "Katie (02:24): Well there's two in play, so."
+    },
+    {
+      "utterance_id": "WW07.row.035",
+      "source_line": 35,
+      "timestamp_as_supplied": "02:28",
+      "raw_line": "Audrey (02:28): I think I would have known. I think I would have known."
+    },
+    {
+      "utterance_id": "WW07.row.036",
+      "source_line": 36,
+      "timestamp_as_supplied": "02:29",
+      "raw_line": "Katie (02:29): We never opened our eyes, Villagers don't do anything."
+    },
+    {
+      "utterance_id": "WW07.row.037",
+      "source_line": 37,
+      "timestamp_as_supplied": "02:30",
+      "raw_line": "Audrey (02:30): I have a sense, I would have known."
+    },
+    {
+      "utterance_id": "WW07.row.038",
+      "source_line": 38,
+      "timestamp_as_supplied": "02:32",
+      "raw_line": "Katie (02:32): Well."
+    },
+    {
+      "utterance_id": "WW07.row.039",
+      "source_line": 39,
+      "timestamp_as_supplied": "02:33",
+      "raw_line": "Dan (02:33): I want to know who was the Robber or the Troublemaker and what they did."
+    },
+    {
+      "utterance_id": "WW07.row.040",
+      "source_line": 40,
+      "timestamp_as_supplied": "02:37",
+      "raw_line": "Brett (02:37): I have something to say."
+    },
+    {
+      "utterance_id": "WW07.row.041",
+      "source_line": 41,
+      "timestamp_as_supplied": "02:37",
+      "raw_line": "Katie (02:37): Yes please."
+    },
+    {
+      "utterance_id": "WW07.row.042",
+      "source_line": 42,
+      "timestamp_as_supplied": "02:39",
+      "raw_line": "Brett (02:39): And I don't know how to say this without starting controversy."
+    },
+    {
+      "utterance_id": "WW07.row.043",
+      "source_line": 43,
+      "timestamp_as_supplied": "02:42",
+      "raw_line": "Katie (02:42): Ooh."
+    },
+    {
+      "utterance_id": "WW07.row.044",
+      "source_line": 44,
+      "timestamp_as_supplied": "02:43",
+      "raw_line": "Brett (02:43): 100% I was the Villager. I was the-"
+    },
+    {
+      "utterance_id": "WW07.row.045",
+      "source_line": 45,
+      "timestamp_as_supplied": "02:48",
+      "raw_line": "Audrey (02:48): Wait, no because I was the Villager."
+    },
+    {
+      "utterance_id": "WW07.row.046",
+      "source_line": 46,
+      "timestamp_as_supplied": "02:48",
+      "raw_line": "Brett (02:48): No I was the Villager."
+    },
+    {
+      "utterance_id": "WW07.row.047",
+      "source_line": 47,
+      "timestamp_as_supplied": "02:48",
+      "raw_line": "Audrey (02:48): No way."
+    },
+    {
+      "utterance_id": "WW07.row.048",
+      "source_line": 48,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "Ed (02:51): Already called into question it's either Katie or Audrey is the Werewolf."
+    },
+    {
+      "utterance_id": "WW07.row.049",
+      "source_line": 49,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "Audrey (02:51): No, I'm a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.050",
+      "source_line": 50,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "Katie (02:51): Or Brett, we said we were first."
+    },
+    {
+      "utterance_id": "WW07.row.051",
+      "source_line": 51,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "Brett (02:51): But I said 100%."
+    },
+    {
+      "utterance_id": "WW07.row.052",
+      "source_line": 52,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "Ed (02:51): He did say 100%."
+    },
+    {
+      "utterance_id": "WW07.row.053",
+      "source_line": 53,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "Brett (02:51): I said 100%."
+    },
+    {
+      "utterance_id": "WW07.row.054",
+      "source_line": 54,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "Katie (02:51): Okay, 101% I was a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.055",
+      "source_line": 55,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "Brett (02:51): Shit."
+    },
+    {
+      "utterance_id": "WW07.row.056",
+      "source_line": 56,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "Dan (02:51): No, no, that doesn't work out."
+    },
+    {
+      "utterance_id": "WW07.row.057",
+      "source_line": 57,
+      "timestamp_as_supplied": "02:51",
+      "raw_line": "Katie (02:51): Step back."
+    },
+    {
+      "utterance_id": "WW07.row.058",
+      "source_line": 58,
+      "timestamp_as_supplied": "03:03",
+      "raw_line": "Ed (03:03): You exceeded the limit, that doesn't make sense Katie."
+    },
+    {
+      "utterance_id": "WW07.row.059",
+      "source_line": 59,
+      "timestamp_as_supplied": "03:05",
+      "raw_line": "Dan (03:05): Yeah that's not even math."
+    },
+    {
+      "utterance_id": "WW07.row.060",
+      "source_line": 60,
+      "timestamp_as_supplied": "03:05",
+      "raw_line": "Ed (03:05): You're looking kind of Werewolfy right now."
+    },
+    {
+      "utterance_id": "WW07.row.061",
+      "source_line": 61,
+      "timestamp_as_supplied": "03:05",
+      "raw_line": "Katie (03:05): I'm an English teacher, obviously not me."
+    },
+    {
+      "utterance_id": "WW07.row.062",
+      "source_line": 62,
+      "timestamp_as_supplied": "03:05",
+      "raw_line": "Dan (03:05): Here's-"
+    },
+    {
+      "utterance_id": "WW07.row.063",
+      "source_line": 63,
+      "timestamp_as_supplied": "03:08",
+      "raw_line": "Brett (03:08): All right, so who robbed?"
+    },
+    {
+      "utterance_id": "WW07.row.064",
+      "source_line": 64,
+      "timestamp_as_supplied": "03:09",
+      "raw_line": "Dan (03:09): Here's the thing. Well, yeah, who robbed and who troublemaked?"
+    },
+    {
+      "utterance_id": "WW07.row.065",
+      "source_line": 65,
+      "timestamp_as_supplied": "03:09",
+      "raw_line": "Audrey (03:09): Okay-"
+    },
+    {
+      "utterance_id": "WW07.row.066",
+      "source_line": 66,
+      "timestamp_as_supplied": "03:10",
+      "raw_line": "Ed (03:10): I think Dylan's the Robber."
+    },
+    {
+      "utterance_id": "WW07.row.067",
+      "source_line": 67,
+      "timestamp_as_supplied": "03:12",
+      "raw_line": "Brett (03:12): Who made trouble?"
+    },
+    {
+      "utterance_id": "WW07.row.068",
+      "source_line": 68,
+      "timestamp_as_supplied": "03:13",
+      "raw_line": "Ed (03:13): I believe that."
+    },
+    {
+      "utterance_id": "WW07.row.069",
+      "source_line": 69,
+      "timestamp_as_supplied": "03:14",
+      "raw_line": "Dylan (03:14): Who did make trouble?"
+    },
+    {
+      "utterance_id": "WW07.row.070",
+      "source_line": 70,
+      "timestamp_as_supplied": "03:15",
+      "raw_line": "Dan (03:15): I mean, it's possible no-one did."
+    },
+    {
+      "utterance_id": "WW07.row.071",
+      "source_line": 71,
+      "timestamp_as_supplied": "03:18",
+      "raw_line": "Katie (03:18): What did you do Dylan?"
+    },
+    {
+      "utterance_id": "WW07.row.072",
+      "source_line": 72,
+      "timestamp_as_supplied": "03:18",
+      "raw_line": "Dylan (03:18): What did you guys do?"
+    },
+    {
+      "utterance_id": "WW07.row.073",
+      "source_line": 73,
+      "timestamp_as_supplied": "03:18",
+      "raw_line": "Brett (03:18): Do we have any Seers?"
+    },
+    {
+      "utterance_id": "WW07.row.074",
+      "source_line": 74,
+      "timestamp_as_supplied": "03:19",
+      "raw_line": "Katie (03:19): Dylan, what did you do?"
+    },
+    {
+      "utterance_id": "WW07.row.075",
+      "source_line": 75,
+      "timestamp_as_supplied": "03:20",
+      "raw_line": "Dan (03:20): We do have a Seer if I can interrupt."
+    },
+    {
+      "utterance_id": "WW07.row.076",
+      "source_line": 76,
+      "timestamp_as_supplied": "03:21",
+      "raw_line": "Audrey (03:21): Why can't you just play along? Why can't you be cool for a second?"
+    },
+    {
+      "utterance_id": "WW07.row.077",
+      "source_line": 77,
+      "timestamp_as_supplied": "03:24",
+      "raw_line": "Dylan (03:24): This is how you play."
+    },
+    {
+      "utterance_id": "WW07.row.078",
+      "source_line": 78,
+      "timestamp_as_supplied": "03:24",
+      "raw_line": "Dan (03:24): I apologize."
+    },
+    {
+      "utterance_id": "WW07.row.079",
+      "source_line": 79,
+      "timestamp_as_supplied": "03:24",
+      "raw_line": "Brett (03:24): Dan wants to speak."
+    },
+    {
+      "utterance_id": "WW07.row.080",
+      "source_line": 80,
+      "timestamp_as_supplied": "03:25",
+      "raw_line": "Dan (03:25): I want to speak. I'm the Seer and I looked at your card and you're a Werewolf and you're 100% lying."
+    },
+    {
+      "utterance_id": "WW07.row.081",
+      "source_line": 81,
+      "timestamp_as_supplied": "03:31",
+      "raw_line": "Katie (03:31): Oh."
+    },
+    {
+      "utterance_id": "WW07.row.082",
+      "source_line": 82,
+      "timestamp_as_supplied": "03:31",
+      "raw_line": "Audrey (03:31): What?"
+    },
+    {
+      "utterance_id": "WW07.row.083",
+      "source_line": 83,
+      "timestamp_as_supplied": "03:31",
+      "raw_line": "Brett (03:31): Okay."
+    },
+    {
+      "utterance_id": "WW07.row.084",
+      "source_line": 84,
+      "timestamp_as_supplied": "03:36",
+      "raw_line": "Audrey (03:36): Dan."
+    },
+    {
+      "utterance_id": "WW07.row.085",
+      "source_line": 85,
+      "timestamp_as_supplied": "03:36",
+      "raw_line": "Brett (03:36): Tell us something else. I just want to tell something out here."
+    },
+    {
+      "utterance_id": "WW07.row.086",
+      "source_line": 86,
+      "timestamp_as_supplied": "03:38",
+      "raw_line": "Katie (03:38): Oh you're not a Villager any more?"
+    },
+    {
+      "utterance_id": "WW07.row.087",
+      "source_line": 87,
+      "timestamp_as_supplied": "03:39",
+      "raw_line": "Brett (03:39): I'm 100% a Villager which makes me think he was the Werewolf and he saw Seer in the middle."
+    },
+    {
+      "utterance_id": "WW07.row.088",
+      "source_line": 88,
+      "timestamp_as_supplied": "03:44",
+      "raw_line": "Audrey (03:44): No I think Brett's a Werewolf now. I'm sorry Katie-"
+    },
+    {
+      "utterance_id": "WW07.row.089",
+      "source_line": 89,
+      "timestamp_as_supplied": "03:47",
+      "raw_line": "Brett (03:47): What the fuck happened here? Why is everyone turning on me?"
+    },
+    {
+      "utterance_id": "WW07.row.090",
+      "source_line": 90,
+      "timestamp_as_supplied": "03:49",
+      "raw_line": "Katie (03:49): Thank you Audrey."
+    },
+    {
+      "utterance_id": "WW07.row.091",
+      "source_line": 91,
+      "timestamp_as_supplied": "03:49",
+      "raw_line": "Ed (03:49): Well-"
+    },
+    {
+      "utterance_id": "WW07.row.092",
+      "source_line": 92,
+      "timestamp_as_supplied": "03:49",
+      "raw_line": "Brett (03:49): I'm just a stupid Villager."
+    },
+    {
+      "utterance_id": "WW07.row.093",
+      "source_line": 93,
+      "timestamp_as_supplied": "03:49",
+      "raw_line": "Audrey (03:49): I'm a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.094",
+      "source_line": 94,
+      "timestamp_as_supplied": "03:52",
+      "raw_line": "Katie (03:52): I'm a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.095",
+      "source_line": 95,
+      "timestamp_as_supplied": "03:53",
+      "raw_line": "Dan (03:53): Listen-"
+    },
+    {
+      "utterance_id": "WW07.row.096",
+      "source_line": 96,
+      "timestamp_as_supplied": "03:53",
+      "raw_line": "Brett (03:53): Why are you helping the Werewolves out?"
+    },
+    {
+      "utterance_id": "WW07.row.097",
+      "source_line": 97,
+      "timestamp_as_supplied": "03:56",
+      "raw_line": "Dan (03:56): Wait, what? I'm not helping the Werewolves out."
+    },
+    {
+      "utterance_id": "WW07.row.098",
+      "source_line": 98,
+      "timestamp_as_supplied": "03:57",
+      "raw_line": "Dylan (03:57): If you were actually a Seer, that means Ed's now a Seer because I was making some trouble last night."
+    },
+    {
+      "utterance_id": "WW07.row.099",
+      "source_line": 99,
+      "timestamp_as_supplied": "04:02",
+      "raw_line": "Dan (04:02): All right."
+    },
+    {
+      "utterance_id": "WW07.row.100",
+      "source_line": 100,
+      "timestamp_as_supplied": "04:03",
+      "raw_line": "Audrey (04:03): Who'd you- what's her name? Get out of my house."
+    },
+    {
+      "utterance_id": "WW07.row.101",
+      "source_line": 101,
+      "timestamp_as_supplied": "04:03",
+      "raw_line": "Ed (04:03): I was a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.102",
+      "source_line": 102,
+      "timestamp_as_supplied": "04:03",
+      "raw_line": "Brett (04:03): You were a Villager?"
+    },
+    {
+      "utterance_id": "WW07.row.103",
+      "source_line": 103,
+      "timestamp_as_supplied": "04:03",
+      "raw_line": "Ed (04:03): I was a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.104",
+      "source_line": 104,
+      "timestamp_as_supplied": "04:03",
+      "raw_line": "Brett (04:03): So we're Villager bros."
+    },
+    {
+      "utterance_id": "WW07.row.105",
+      "source_line": 105,
+      "timestamp_as_supplied": "04:03",
+      "raw_line": "Katie (04:03): No you are not."
+    },
+    {
+      "utterance_id": "WW07.row.106",
+      "source_line": 106,
+      "timestamp_as_supplied": "04:03",
+      "raw_line": "Brett (04:03): We just shook hands."
+    },
+    {
+      "utterance_id": "WW07.row.107",
+      "source_line": 107,
+      "timestamp_as_supplied": "04:03",
+      "raw_line": "Audrey (04:03): What?"
+    },
+    {
+      "utterance_id": "WW07.row.108",
+      "source_line": 108,
+      "timestamp_as_supplied": "04:03",
+      "raw_line": "Katie (04:03): No, we're Villagers."
+    },
+    {
+      "utterance_id": "WW07.row.109",
+      "source_line": 109,
+      "timestamp_as_supplied": "04:16",
+      "raw_line": "Audrey (04:16): I'm a Vill- I think you two are both Werewolves."
+    },
+    {
+      "utterance_id": "WW07.row.110",
+      "source_line": 110,
+      "timestamp_as_supplied": "04:18",
+      "raw_line": "Brett (04:18): Wait, no. But if you switched Dan what were you?"
+    },
+    {
+      "utterance_id": "WW07.row.111",
+      "source_line": 111,
+      "timestamp_as_supplied": "04:20",
+      "raw_line": "Dan (04:20): I was the Seer, I saw your Werewolf, which you still are."
+    },
+    {
+      "utterance_id": "WW07.row.112",
+      "source_line": 112,
+      "timestamp_as_supplied": "04:20",
+      "raw_line": "Brett (04:20): But I'm a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.113",
+      "source_line": 113,
+      "timestamp_as_supplied": "04:23",
+      "raw_line": "Dan (04:23): Well-"
+    },
+    {
+      "utterance_id": "WW07.row.114",
+      "source_line": 114,
+      "timestamp_as_supplied": "04:25",
+      "raw_line": "Brett (04:25): That's what I don't get your play, because if were a Werewolf, that means he's a Werewolf now."
+    },
+    {
+      "utterance_id": "WW07.row.115",
+      "source_line": 115,
+      "timestamp_as_supplied": "04:28",
+      "raw_line": "Ed (04:28): But then if Brett was a Werewolf, he would already have known that I was a Werewolf."
+    },
+    {
+      "utterance_id": "WW07.row.116",
+      "source_line": 116,
+      "timestamp_as_supplied": "04:28",
+      "raw_line": "Dylan (04:28): Well that means he's not a Werewolf. That means he's not a Werewolf."
+    },
+    {
+      "utterance_id": "WW07.row.117",
+      "source_line": 117,
+      "timestamp_as_supplied": "04:28",
+      "raw_line": "Dan (04:28): I'm now a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.118",
+      "source_line": 118,
+      "timestamp_as_supplied": "04:30",
+      "raw_line": "Dylan (04:30): That means he's now a Werewolf. Why wouldn't he claim that?"
+    },
+    {
+      "utterance_id": "WW07.row.119",
+      "source_line": 119,
+      "timestamp_as_supplied": "04:37",
+      "raw_line": "Brett (04:37): Because my card was a Villager unless someone swapped my card."
+    },
+    {
+      "utterance_id": "WW07.row.120",
+      "source_line": 120,
+      "timestamp_as_supplied": "04:37",
+      "raw_line": "Katie (04:37): Says you. Says you."
+    },
+    {
+      "utterance_id": "WW07.row.121",
+      "source_line": 121,
+      "timestamp_as_supplied": "04:37",
+      "raw_line": "Brett (04:37): But I said 100%."
+    },
+    {
+      "utterance_id": "WW07.row.122",
+      "source_line": 122,
+      "timestamp_as_supplied": "04:37",
+      "raw_line": "Katie (04:37): Dylan that's not proving anything."
+    },
+    {
+      "utterance_id": "WW07.row.123",
+      "source_line": 123,
+      "timestamp_as_supplied": "04:37",
+      "raw_line": "Audrey (04:37): Who's cards did you switch?"
+    },
+    {
+      "utterance_id": "WW07.row.124",
+      "source_line": 124,
+      "timestamp_as_supplied": "04:37",
+      "raw_line": "Ed (04:37): 100%."
+    },
+    {
+      "utterance_id": "WW07.row.125",
+      "source_line": 125,
+      "timestamp_as_supplied": "04:37",
+      "raw_line": "Dylan (04:37): Them two, Ed and Dan's."
+    },
+    {
+      "utterance_id": "WW07.row.126",
+      "source_line": 126,
+      "timestamp_as_supplied": "04:44",
+      "raw_line": "Audrey (04:44): Okay so Ed and Dan switched, you were the Seer so that means you're the Seer so you could be a Werewolf if you have his card."
+    },
+    {
+      "utterance_id": "WW07.row.127",
+      "source_line": 127,
+      "timestamp_as_supplied": "04:51",
+      "raw_line": "Brett (04:51): But he wasn't- but he's-"
+    },
+    {
+      "utterance_id": "WW07.row.128",
+      "source_line": 128,
+      "timestamp_as_supplied": "04:52",
+      "raw_line": "Dan (04:52): Yeah if he was lying about being a Villager originally."
+    },
+    {
+      "utterance_id": "WW07.row.129",
+      "source_line": 129,
+      "timestamp_as_supplied": "04:54",
+      "raw_line": "Katie (04:54): Who was the robber?"
+    },
+    {
+      "utterance_id": "WW07.row.130",
+      "source_line": 130,
+      "timestamp_as_supplied": "04:54",
+      "raw_line": "Brett (04:54): But he's saying he saw my Werewolf and I'm a Villager so I don't know why we trust him."
+    },
+    {
+      "utterance_id": "WW07.row.131",
+      "source_line": 131,
+      "timestamp_as_supplied": "04:58",
+      "raw_line": "Katie (04:58): You were the Troublemaker, who was the Robber?"
+    },
+    {
+      "utterance_id": "WW07.row.132",
+      "source_line": 132,
+      "timestamp_as_supplied": "04:58",
+      "raw_line": "Audrey (04:58): Because I trust Dan implicitly."
+    },
+    {
+      "utterance_id": "WW07.row.133",
+      "source_line": 133,
+      "timestamp_as_supplied": "05:02",
+      "raw_line": "Dan (05:02): Thank you."
+    },
+    {
+      "utterance_id": "WW07.row.134",
+      "source_line": 134,
+      "timestamp_as_supplied": "05:02",
+      "raw_line": "Brett (05:02): The YouTube fans are laughing at you because you're getting played."
+    },
+    {
+      "utterance_id": "WW07.row.135",
+      "source_line": 135,
+      "timestamp_as_supplied": "05:08",
+      "raw_line": "Audrey (05:08): I'm a Villager, they know I'm a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.136",
+      "source_line": 136,
+      "timestamp_as_supplied": "05:10",
+      "raw_line": "Dan (05:10): I think the audience knows from all the videos I've been in, that I'm very trustworthy."
+    },
+    {
+      "utterance_id": "WW07.row.137",
+      "source_line": 137,
+      "timestamp_as_supplied": "05:13",
+      "raw_line": "Dylan (05:13): They got four people claiming Villager."
+    },
+    {
+      "utterance_id": "WW07.row.138",
+      "source_line": 138,
+      "timestamp_as_supplied": "05:14",
+      "raw_line": "Audrey (05:14): But I'm a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.139",
+      "source_line": 139,
+      "timestamp_as_supplied": "05:15",
+      "raw_line": "Katie (05:15): And a minute and a half left."
+    },
+    {
+      "utterance_id": "WW07.row.140",
+      "source_line": 140,
+      "timestamp_as_supplied": "05:16",
+      "raw_line": "Ed (05:16): We've got four claims for Villager, there's only two Villagers."
+    },
+    {
+      "utterance_id": "WW07.row.141",
+      "source_line": 141,
+      "timestamp_as_supplied": "05:16",
+      "raw_line": "Katie (05:16): Yeah."
+    },
+    {
+      "utterance_id": "WW07.row.142",
+      "source_line": 142,
+      "timestamp_as_supplied": "05:19",
+      "raw_line": "Brett (05:19): So who's the Robber, do we not have one?"
+    },
+    {
+      "utterance_id": "WW07.row.143",
+      "source_line": 143,
+      "timestamp_as_supplied": "05:20",
+      "raw_line": "Katie (05:20): That's why I asked two minutes ago, I guess we don't have one."
+    },
+    {
+      "utterance_id": "WW07.row.144",
+      "source_line": 144,
+      "timestamp_as_supplied": "05:20",
+      "raw_line": "Dan (05:20): It's in the middle."
+    },
+    {
+      "utterance_id": "WW07.row.145",
+      "source_line": 145,
+      "timestamp_as_supplied": "05:22",
+      "raw_line": "Brett (05:22): So what were you guys? What are you guys?"
+    },
+    {
+      "utterance_id": "WW07.row.146",
+      "source_line": 146,
+      "timestamp_as_supplied": "05:22",
+      "raw_line": "Dylan (05:22): I told you I was the Troublemaker."
+    },
+    {
+      "utterance_id": "WW07.row.147",
+      "source_line": 147,
+      "timestamp_as_supplied": "05:22",
+      "raw_line": "Ed (05:22): I said-"
+    },
+    {
+      "utterance_id": "WW07.row.148",
+      "source_line": 148,
+      "timestamp_as_supplied": "05:22",
+      "raw_line": "Audrey (05:22): I'm Villager."
+    },
+    {
+      "utterance_id": "WW07.row.149",
+      "source_line": 149,
+      "timestamp_as_supplied": "05:26",
+      "raw_line": "Katie (05:26): I was a Villager, he was the Troublemaker, I was a Villager. Audrey and I are Villagers. I don't believe you for a second."
+    },
+    {
+      "utterance_id": "WW07.row.150",
+      "source_line": 150,
+      "timestamp_as_supplied": "05:28",
+      "raw_line": "Audrey (05:28): You know."
+    },
+    {
+      "utterance_id": "WW07.row.151",
+      "source_line": 151,
+      "timestamp_as_supplied": "05:28",
+      "raw_line": "Katie (05:28): And I don't think Ed is a Werewolf."
+    },
+    {
+      "utterance_id": "WW07.row.152",
+      "source_line": 152,
+      "timestamp_as_supplied": "05:28",
+      "raw_line": "Audrey (05:28): You were set to be a Werewolf."
+    },
+    {
+      "utterance_id": "WW07.row.153",
+      "source_line": 153,
+      "timestamp_as_supplied": "05:29",
+      "raw_line": "Brett (05:29): Because I'm a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.154",
+      "source_line": 154,
+      "timestamp_as_supplied": "05:32",
+      "raw_line": "Audrey (05:32): You're too animated to not be a Werewolf."
+    },
+    {
+      "utterance_id": "WW07.row.155",
+      "source_line": 155,
+      "timestamp_as_supplied": "05:34",
+      "raw_line": "Brett (05:34): I feel like I'd be more upset if I really was a Villager and you guys keep yelling at me."
+    },
+    {
+      "utterance_id": "WW07.row.156",
+      "source_line": 156,
+      "timestamp_as_supplied": "05:34",
+      "raw_line": "Dan (05:34): You seem pretty upset."
+    },
+    {
+      "utterance_id": "WW07.row.157",
+      "source_line": 157,
+      "timestamp_as_supplied": "05:38",
+      "raw_line": "Katie (05:38): Wait you think, \"If I really was.\" So you're not actually a Villager, what are you?"
+    },
+    {
+      "utterance_id": "WW07.row.158",
+      "source_line": 158,
+      "timestamp_as_supplied": "05:40",
+      "raw_line": "Brett (05:40): I'm a Villager, are you twisting my words around."
+    },
+    {
+      "utterance_id": "WW07.row.159",
+      "source_line": 159,
+      "timestamp_as_supplied": "05:42",
+      "raw_line": "Dylan (05:42): All right, all right, so Dan is 100% not a Werewolf."
+    },
+    {
+      "utterance_id": "WW07.row.160",
+      "source_line": 160,
+      "timestamp_as_supplied": "05:46",
+      "raw_line": "Brett (05:46): That's not true."
+    },
+    {
+      "utterance_id": "WW07.row.161",
+      "source_line": 161,
+      "timestamp_as_supplied": "05:46",
+      "raw_line": "Ed (05:46): Dan is 100% a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.162",
+      "source_line": 162,
+      "timestamp_as_supplied": "05:46",
+      "raw_line": "Dylan (05:46): Because if he was a Werewolf but I switched then he can be like, \"All right, Ed's the Werewolf now.\""
+    },
+    {
+      "utterance_id": "WW07.row.163",
+      "source_line": 163,
+      "timestamp_as_supplied": "05:50",
+      "raw_line": "Brett (05:50): But he's waiting for you to say, \"Oh I didn't really switch you guys.\""
+    },
+    {
+      "utterance_id": "WW07.row.164",
+      "source_line": 164,
+      "timestamp_as_supplied": "05:50",
+      "raw_line": "Dylan (05:50): All right."
+    },
+    {
+      "utterance_id": "WW07.row.165",
+      "source_line": 165,
+      "timestamp_as_supplied": "05:50",
+      "raw_line": "Audrey (05:50): I'm having a really hard time following."
+    },
+    {
+      "utterance_id": "WW07.row.166",
+      "source_line": 166,
+      "timestamp_as_supplied": "05:50",
+      "raw_line": "Dylan (05:50): All right I lied, I didn't really switch you guys."
+    },
+    {
+      "utterance_id": "WW07.row.167",
+      "source_line": 167,
+      "timestamp_as_supplied": "05:50",
+      "raw_line": "Ed (05:50): Well now see that's just disingenuous."
+    },
+    {
+      "utterance_id": "WW07.row.168",
+      "source_line": 168,
+      "timestamp_as_supplied": "05:52",
+      "raw_line": "Dan (05:52): This doesn't matter, I'm not the Seer."
+    },
+    {
+      "utterance_id": "WW07.row.169",
+      "source_line": 169,
+      "timestamp_as_supplied": "05:52",
+      "raw_line": "Katie (05:52): Wait, what?"
+    },
+    {
+      "utterance_id": "WW07.row.170",
+      "source_line": 170,
+      "timestamp_as_supplied": "05:52",
+      "raw_line": "Audrey (05:52): Wait, you're lying?"
+    },
+    {
+      "utterance_id": "WW07.row.171",
+      "source_line": 171,
+      "timestamp_as_supplied": "05:52",
+      "raw_line": "Katie (05:52): You didn't switch? Were you the Troublemaker?"
+    },
+    {
+      "utterance_id": "WW07.row.172",
+      "source_line": 172,
+      "timestamp_as_supplied": "05:52",
+      "raw_line": "Audrey (05:52): Why were you lying?"
+    },
+    {
+      "utterance_id": "WW07.row.173",
+      "source_line": 173,
+      "timestamp_as_supplied": "05:52",
+      "raw_line": "Dylan (05:52): I was the Troublemaker."
+    },
+    {
+      "utterance_id": "WW07.row.174",
+      "source_line": 174,
+      "timestamp_as_supplied": "05:52",
+      "raw_line": "Dan (05:52): You're just causing trouble."
+    },
+    {
+      "utterance_id": "WW07.row.175",
+      "source_line": 175,
+      "timestamp_as_supplied": "06:02",
+      "raw_line": "Katie (06:02): But you didn't switch? But you didn't switch?"
+    },
+    {
+      "utterance_id": "WW07.row.176",
+      "source_line": 176,
+      "timestamp_as_supplied": "06:02",
+      "raw_line": "Audrey (06:02): You were only supposed to cause trouble last night not right now."
+    },
+    {
+      "utterance_id": "WW07.row.177",
+      "source_line": 177,
+      "timestamp_as_supplied": "06:03",
+      "raw_line": "Dylan (06:03): Them two."
+    },
+    {
+      "utterance_id": "WW07.row.178",
+      "source_line": 178,
+      "timestamp_as_supplied": "06:06",
+      "raw_line": "Katie (06:06): Wait, did you switch or did you not switch?"
+    },
+    {
+      "utterance_id": "WW07.row.179",
+      "source_line": 179,
+      "timestamp_as_supplied": "06:06",
+      "raw_line": "Dylan (06:06): I switched them."
+    },
+    {
+      "utterance_id": "WW07.row.180",
+      "source_line": 180,
+      "timestamp_as_supplied": "06:06",
+      "raw_line": "Dan (06:06): You're a night time Troublemaker."
+    },
+    {
+      "utterance_id": "WW07.row.181",
+      "source_line": 181,
+      "timestamp_as_supplied": "06:08",
+      "raw_line": "Brett (06:08): What a first game for this."
+    },
+    {
+      "utterance_id": "WW07.row.182",
+      "source_line": 182,
+      "timestamp_as_supplied": "06:09",
+      "raw_line": "Audrey (06:09): Yeah, Not day time."
+    },
+    {
+      "utterance_id": "WW07.row.183",
+      "source_line": 183,
+      "timestamp_as_supplied": "06:10",
+      "raw_line": "Katie (06:10): I'm so confused."
+    },
+    {
+      "utterance_id": "WW07.row.184",
+      "source_line": 184,
+      "timestamp_as_supplied": "06:11",
+      "raw_line": "Ed (06:11): Okay, he switched us so now I'm the Seer."
+    },
+    {
+      "utterance_id": "WW07.row.185",
+      "source_line": 185,
+      "timestamp_as_supplied": "06:11",
+      "raw_line": "Dylan (06:11): Okay, bomb squad, I may have switched-"
+    },
+    {
+      "utterance_id": "WW07.row.186",
+      "source_line": 186,
+      "timestamp_as_supplied": "06:12",
+      "raw_line": "Katie (06:12): Oh you can't bomb squad."
+    },
+    {
+      "utterance_id": "WW07.row.187",
+      "source_line": 187,
+      "timestamp_as_supplied": "06:14",
+      "raw_line": "Brett (06:14): Can't use the word bomb squad. We don't allow bomb squad in this game."
+    },
+    {
+      "utterance_id": "WW07.row.188",
+      "source_line": 188,
+      "timestamp_as_supplied": "06:14",
+      "raw_line": "Katie (06:14): You can't bomb squad."
+    },
+    {
+      "utterance_id": "WW07.row.189",
+      "source_line": 189,
+      "timestamp_as_supplied": "06:18",
+      "raw_line": "Brett (06:18): What did Dylan just say? Bomb squad? What does that mean? It'll all be explained on today's All About Dylan. Welcome to All About Dylan, the only show that's 100% All About Dylan. Now today's episode is brought to you by buyaboat.com. Need a boat? Then go to buyaboat.com. Boats.com is better than buyaboat.com. Now Dylan said the word bomb squad. What does bomb squad mean exactly? Well I'm about to explain it to you. Basically, in our household, sometimes we say stuff a little ironically or sarcastically and we can't tell if the other person is serious. We'll be like, \"Are you serious, you really do like Green Day? Or are you goofing me?\". That's what we'll be like, we'll be like, \"Are you goofing me, or what?\" So we developed a safe word in our house that we can never break. So if we say the word bomb squad, it means that we are being 100% honest, no lie, no joke, no irony. So I could be like, \"I don't like chicken, bomb squad, I swear, I don't like chicken.\" That means 100% I don't like chicken and I'm not just goofing and gagging you around. So Dylan used the word bomb squad in the middle of our One Night Werewolf game which beforehand we banned because this whole game is about telling who's lying and who's telling the truth. So if you bring out our safe word, it kind of destroys the game because you could be like, \"Are you the Werewolf, tell me, bomb squad.\" And you would have to be like, \"Oh, bomb squad, I am the Werewolf.\" It's a thing that can't be broken in our household so it cannot be used in the game. And that's what bomb squad means so thanks for watching All About Dylan, we'll see you next time. Bye."
+    },
+    {
+      "utterance_id": "WW07.row.190",
+      "source_line": 190,
+      "timestamp_as_supplied": "08:13",
+      "raw_line": "Katie (08:13): I'm so confused."
+    },
+    {
+      "utterance_id": "WW07.row.191",
+      "source_line": 191,
+      "timestamp_as_supplied": "08:14",
+      "raw_line": "Ed (08:14): Okay, he switched us so now I'm the Seer."
+    },
+    {
+      "utterance_id": "WW07.row.192",
+      "source_line": 192,
+      "timestamp_as_supplied": "08:15",
+      "raw_line": "Dylan (08:15): Okay, bomb squad, I am the-"
+    },
+    {
+      "utterance_id": "WW07.row.193",
+      "source_line": 193,
+      "timestamp_as_supplied": "08:17",
+      "raw_line": "Katie (08:17): Oh you can't bomb squad."
+    },
+    {
+      "utterance_id": "WW07.row.194",
+      "source_line": 194,
+      "timestamp_as_supplied": "08:17",
+      "raw_line": "Brett (08:17): Can't use the word bomb squad."
+    },
+    {
+      "utterance_id": "WW07.row.195",
+      "source_line": 195,
+      "timestamp_as_supplied": "08:17",
+      "raw_line": "Katie (08:17): You can't bomb squad."
+    },
+    {
+      "utterance_id": "WW07.row.196",
+      "source_line": 196,
+      "timestamp_as_supplied": "08:18",
+      "raw_line": "Brett (08:18): We don't allow bomb squad in this game."
+    },
+    {
+      "utterance_id": "WW07.row.197",
+      "source_line": 197,
+      "timestamp_as_supplied": "08:19",
+      "raw_line": "Audio (08:19): 30 seconds left."
+    },
+    {
+      "utterance_id": "WW07.row.198",
+      "source_line": 198,
+      "timestamp_as_supplied": "08:19",
+      "raw_line": "Katie (08:19): 30 seconds."
+    },
+    {
+      "utterance_id": "WW07.row.199",
+      "source_line": 199,
+      "timestamp_as_supplied": "08:21",
+      "raw_line": "Ed (08:21): Okay, so now I'm a Seer, Dan is a Villager 100%."
+    },
+    {
+      "utterance_id": "WW07.row.200",
+      "source_line": 200,
+      "timestamp_as_supplied": "08:25",
+      "raw_line": "Audrey (08:25): Did you switch them?"
+    },
+    {
+      "utterance_id": "WW07.row.201",
+      "source_line": 201,
+      "timestamp_as_supplied": "08:25",
+      "raw_line": "Dylan (08:25): I 1000% did."
+    },
+    {
+      "utterance_id": "WW07.row.202",
+      "source_line": 202,
+      "timestamp_as_supplied": "08:27",
+      "raw_line": "Brett (08:27): We're being so played and there's nothing-"
+    },
+    {
+      "utterance_id": "WW07.row.203",
+      "source_line": 203,
+      "timestamp_as_supplied": "08:28",
+      "raw_line": "Katie (08:28): Stop saying 100% though. Audrey and I are the Villagers."
+    },
+    {
+      "utterance_id": "WW07.row.204",
+      "source_line": 204,
+      "timestamp_as_supplied": "08:28",
+      "raw_line": "Ed (08:28): No."
+    },
+    {
+      "utterance_id": "WW07.row.205",
+      "source_line": 205,
+      "timestamp_as_supplied": "08:28",
+      "raw_line": "Katie (08:28): Yes."
+    },
+    {
+      "utterance_id": "WW07.row.206",
+      "source_line": 206,
+      "timestamp_as_supplied": "08:35",
+      "raw_line": "Brett (08:35): Oh my god."
+    },
+    {
+      "utterance_id": "WW07.row.207",
+      "source_line": 207,
+      "timestamp_as_supplied": "08:35",
+      "raw_line": "Dylan (08:35): Katie what did you do?"
+    },
+    {
+      "utterance_id": "WW07.row.208",
+      "source_line": 208,
+      "timestamp_as_supplied": "08:35",
+      "raw_line": "Dan (08:35): Were there three Villagers or two?"
+    },
+    {
+      "utterance_id": "WW07.row.209",
+      "source_line": 209,
+      "timestamp_as_supplied": "08:35",
+      "raw_line": "Katie (08:35): I was a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.210",
+      "source_line": 210,
+      "timestamp_as_supplied": "08:35",
+      "raw_line": "Audrey (08:35): I'm a Villager."
+    },
+    {
+      "utterance_id": "WW07.row.211",
+      "source_line": 211,
+      "timestamp_as_supplied": "08:35",
+      "raw_line": "Brett (08:35): But Ed you got to be on my side, they're claiming Villagers."
+    },
+    {
+      "utterance_id": "WW07.row.212",
+      "source_line": 212,
+      "timestamp_as_supplied": "08:36",
+      "raw_line": "Dan (08:36): One of these three is a Werewolf and you're a Werewolf."
+    },
+    {
+      "utterance_id": "WW07.row.213",
+      "source_line": 213,
+      "timestamp_as_supplied": "08:40",
+      "raw_line": "Katie (08:40): And you are, well we should definitely vote for Brett in seven seconds."
+    },
+    {
+      "utterance_id": "WW07.row.214",
+      "source_line": 214,
+      "timestamp_as_supplied": "08:43",
+      "raw_line": "Brett (08:43): Because-"
+    },
+    {
+      "utterance_id": "WW07.row.215",
+      "source_line": 215,
+      "timestamp_as_supplied": "08:43",
+      "raw_line": "Dylan (08:43): I think Audrey and Katie are the Werewolves."
+    },
+    {
+      "utterance_id": "WW07.row.216",
+      "source_line": 216,
+      "timestamp_as_supplied": "08:44",
+      "raw_line": "Audrey (08:44): I think you're dumb."
+    },
+    {
+      "utterance_id": "WW07.row.217",
+      "source_line": 217,
+      "timestamp_as_supplied": "08:44",
+      "raw_line": "Brett (08:44): Yeah, exactly."
+    },
+    {
+      "utterance_id": "WW07.row.218",
+      "source_line": 218,
+      "timestamp_as_supplied": "08:46",
+      "raw_line": "Audrey (08:46): No, okay, what, it doesn't matter try and- That's not enough time."
+    },
+    {
+      "utterance_id": "WW07.row.219",
+      "source_line": 219,
+      "timestamp_as_supplied": "08:50",
+      "raw_line": "Katie (08:50): Oh."
+    },
+    {
+      "utterance_id": "WW07.row.220",
+      "source_line": 220,
+      "timestamp_as_supplied": "08:50",
+      "raw_line": "Brett (08:50): Wait, do we have any-"
+    },
+    {
+      "utterance_id": "WW07.row.221",
+      "source_line": 221,
+      "timestamp_as_supplied": "08:51",
+      "raw_line": "Dan (08:51): If we point it-"
+    }
+  ],
+  "non_utterance_lines": [],
+  "timestamp_reversals": []
+}

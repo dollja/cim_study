@@ -1,0 +1,646 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tier S human reviews — original form field keys",
+  "description": "Case-keyed human review records using the original offline form field labels as JSON keys. Controlled values and source evidence are unchanged. Decode with review_key_codec.py before canonical review/snapshot hashing. Structural checks do not certify semantics or independence. Legacy keys use reviews_technical.schema.json.",
+  "type": "object",
+  "patternProperties": {
+    "^[A-Za-z0-9_]+$": {
+      "$ref": "#/$defs/review"
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "meaning": {
+      "type": "object",
+      "required": [
+        "Participant",
+        "Interpretation",
+        "Evidence quotes",
+        "Evidence support"
+      ],
+      "properties": {
+        "Participant": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Interpretation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Evidence quotes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence_quote"
+          }
+        },
+        "Evidence support": {
+          "enum": [
+            "supported",
+            "possible",
+            "unsupported",
+            null
+          ],
+          "description": "Human assessment. Possible readings are not adopted readings. An exact quote alone does not prove support."
+        },
+        "Support note": {}
+      },
+      "additionalProperties": true,
+      "propertyNames": {
+        "not": {
+          "enum": [
+            "participant_id",
+            "meaning",
+            "support",
+            "source_quotes",
+            "support_note"
+          ]
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "Schema version",
+        "Evidence tier",
+        "Observer input SHA-256",
+        "What had you seen before your first judgment?",
+        "First prefix review completed",
+        "Separate later-evidence review completed",
+        "Draft wording fields",
+        "I checked the content now entered against the available evidence."
+      ],
+      "properties": {
+        "Schema version": {
+          "const": "1.0"
+        },
+        "Evidence tier": {
+          "const": "S"
+        },
+        "Observer input SHA-256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$",
+          "description": "SHA256 of the raw four-field observer_inputs JSON file, not the observer_cases wrapper."
+        },
+        "What had you seen before your first judgment?": {
+          "type": "object",
+          "required": [
+            "Assistant drafts",
+            "System predictions",
+            "Released / other labels",
+            "Later dialogue or outcomes",
+            "Exposure notes"
+          ],
+          "properties": {
+            "Assistant drafts": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "System predictions": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "Released / other labels": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "Later dialogue or outcomes": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "Exposure notes": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true,
+          "propertyNames": {
+            "not": {
+              "enum": [
+                "assistant_draft",
+                "system_outputs",
+                "released_labels",
+                "later_evidence",
+                "notes"
+              ]
+            }
+          }
+        },
+        "First prefix review completed": {
+          "type": "boolean"
+        },
+        "Separate later-evidence review completed": {
+          "type": "boolean"
+        },
+        "Draft wording fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "I checked the content now entered against the available evidence.": {
+          "type": "boolean",
+          "description": "True only after a human checks the current content; importing wording does not confirm it."
+        },
+        "Saved first judgment": {
+          "$ref": "#/$defs/review_snapshot",
+          "description": "Optional first-pass substantive record. Decode all contextual keys to the technical convention before checking its existing SHA-256."
+        },
+        "Saved first judgment SHA-256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$",
+          "description": "SHA-256 of the technical-key snapshot after contextual decoding, recursively key-sorted compact JSON encoded as UTF-8. A key-only human-label conversion preserves this hash."
+        },
+        "Wording consultation history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Before first prefix judgment": {
+                "type": "boolean"
+              },
+              "Time UTC": {},
+              "Source file": {},
+              "Action": {},
+              "Fields": {}
+            },
+            "additionalProperties": true,
+            "propertyNames": {
+              "not": {
+                "enum": [
+                  "at_utc",
+                  "source_filename",
+                  "action",
+                  "before_prefix_first_review",
+                  "fields"
+                ]
+              }
+            }
+          },
+          "description": "Append-only suggestion viewing/copy history. Later viewing requires an unchanged frozen first-pass snapshot to retain strict reference eligibility."
+        },
+        "Reference condition": {},
+        "Preparation history record": {},
+        "First judgment saved at UTC": {}
+      },
+      "additionalProperties": true,
+      "propertyNames": {
+        "not": {
+          "enum": [
+            "schema_version",
+            "evidence_tier",
+            "observer_input_sha256",
+            "prior_exposure",
+            "prefix_first_review_completed",
+            "later_evidence_review_completed",
+            "assistant_wording_fields",
+            "human_content_confirmed",
+            "reference_condition",
+            "provenance_record",
+            "first_pass_judgment_snapshot",
+            "first_pass_judgment_sha256",
+            "first_pass_recorded_at_utc",
+            "wording_exposure_events"
+          ]
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "Review status",
+        "Reviewer",
+        "Reviewer and exposure",
+        "Participants being compared",
+        "Local task question",
+        "Selected dialogue turns",
+        "Selected expressions",
+        "Each participant’s reading",
+        "Task consequences",
+        "Could uncertainty change the conclusion?",
+        "Review judgment",
+        "Why this judgment? Prefix evidence only",
+        "Evidence checked?",
+        "Include in pilot?",
+        "Selection / exclusion reason"
+      ],
+      "properties": {
+        "Review status": {
+          "enum": [
+            "unreviewed",
+            "in_progress",
+            "reviewed",
+            "completed"
+          ]
+        },
+        "Reviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Reviewer and exposure": {
+          "$ref": "#/$defs/metadata"
+        },
+        "Participants being compared": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "uniqueItems": true,
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "Local task question": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Selected dialogue turns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "Selected expressions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/focus_quote"
+          }
+        },
+        "Each participant’s reading": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/meaning"
+          }
+        },
+        "Task consequences": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "Evidence tier": {
+                  "const": "S"
+                },
+                "Supported consequences JSON": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "additionalProperties": {
+                    "type": "array"
+                  },
+                  "description": "Optional canonical F6 values keyed by actual participant IDs, for the same task/event. The checker never infers these sets from prose."
+                },
+                "Same task / event scope": {},
+                "Consequences by participant": {},
+                "Comparison in words": {},
+                "What is still unknown? One reason per line": {},
+                "Evidence check notes": {},
+                "Consequence format notes": {},
+                "Implementation limits": {},
+                "Computation status": {},
+                "Preparation notes": {}
+              },
+              "additionalProperties": true,
+              "propertyNames": {
+                "not": {
+                  "enum": [
+                    "evidence_tier",
+                    "scope",
+                    "participant_outputs",
+                    "comparison",
+                    "blocking_reasons",
+                    "supported_consequences",
+                    "verification_note",
+                    "consequence_encoding_note",
+                    "implementation_limits",
+                    "computation_status",
+                    "authorship"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "Could uncertainty change the conclusion?": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "Review judgment": {
+          "enum": [
+            "ALIGNED",
+            "POTENTIAL_MISMATCH",
+            "UNRESOLVED",
+            null
+          ]
+        },
+        "Why this judgment? Prefix evidence only": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Evidence checked?": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "Include in pilot?": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "Selection / exclusion reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "propertyNames": {
+        "not": {
+          "enum": [
+            "review_status",
+            "reviewer_id",
+            "review_metadata",
+            "focal_pair",
+            "local_question",
+            "focus_source_ids",
+            "focus_quotes",
+            "participant_meanings_with_source_quotes",
+            "task_outputs",
+            "blocking_uncertainty",
+            "provisional_label",
+            "prefix_only_rationale",
+            "evidence_verified",
+            "include_in_pilot",
+            "inclusion_or_exclusion_reason"
+          ]
+        }
+      }
+    },
+    "focus_quote": {
+      "type": "object",
+      "required": [
+        "Source turn",
+        "Exact expression"
+      ],
+      "properties": {
+        "Source turn": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Speaker": {
+          "type": "string"
+        },
+        "Exact expression": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true,
+      "propertyNames": {
+        "not": {
+          "enum": [
+            "source_id",
+            "speaker",
+            "quote"
+          ]
+        }
+      }
+    },
+    "evidence_quote": {
+      "type": "object",
+      "required": [
+        "Evidence source",
+        "Exact evidence"
+      ],
+      "properties": {
+        "Evidence source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Speaker": {
+          "type": "string"
+        },
+        "Exact evidence": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true,
+      "propertyNames": {
+        "not": {
+          "enum": [
+            "source_id",
+            "speaker",
+            "quote"
+          ]
+        }
+      }
+    },
+    "review_snapshot": {
+      "type": "object",
+      "properties": {
+        "Review status": {
+          "enum": [
+            "unreviewed",
+            "in_progress",
+            "reviewed",
+            "completed"
+          ]
+        },
+        "Reviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Reviewer and exposure": {
+          "$ref": "#/$defs/metadata"
+        },
+        "Participants being compared": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "uniqueItems": true,
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "Local task question": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Selected dialogue turns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "Selected expressions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/focus_quote"
+          }
+        },
+        "Each participant’s reading": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/meaning"
+          }
+        },
+        "Task consequences": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "Evidence tier": {
+                  "const": "S"
+                },
+                "Supported consequences JSON": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "additionalProperties": {
+                    "type": "array"
+                  },
+                  "description": "Optional canonical F6 values keyed by actual participant IDs, for the same task/event. The checker never infers these sets from prose."
+                },
+                "Same task / event scope": {},
+                "Consequences by participant": {},
+                "Comparison in words": {},
+                "What is still unknown? One reason per line": {},
+                "Evidence check notes": {},
+                "Consequence format notes": {},
+                "Implementation limits": {},
+                "Computation status": {},
+                "Preparation notes": {}
+              },
+              "additionalProperties": true,
+              "propertyNames": {
+                "not": {
+                  "enum": [
+                    "evidence_tier",
+                    "scope",
+                    "participant_outputs",
+                    "comparison",
+                    "blocking_reasons",
+                    "supported_consequences",
+                    "verification_note",
+                    "consequence_encoding_note",
+                    "implementation_limits",
+                    "computation_status",
+                    "authorship"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "Could uncertainty change the conclusion?": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "Review judgment": {
+          "enum": [
+            "ALIGNED",
+            "POTENTIAL_MISMATCH",
+            "UNRESOLVED",
+            null
+          ]
+        },
+        "Why this judgment? Prefix evidence only": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "Evidence checked?": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "Include in pilot?": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "Selection / exclusion reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true,
+      "propertyNames": {
+        "not": {
+          "enum": [
+            "review_status",
+            "reviewer_id",
+            "review_metadata",
+            "focal_pair",
+            "local_question",
+            "focus_source_ids",
+            "focus_quotes",
+            "participant_meanings_with_source_quotes",
+            "task_outputs",
+            "blocking_uncertainty",
+            "provisional_label",
+            "prefix_only_rationale",
+            "evidence_verified",
+            "include_in_pilot",
+            "inclusion_or_exclusion_reason"
+          ]
+        }
+      }
+    }
+  },
+  "minProperties": 1,
+  "$comment": "Field-name authority: schemas/review_key_map.json, format CIM_FORM_LABEL_KEYS_V1. Review-key conversion never renames observer inputs, participant IDs or opaque consequences.",
+  "x-review-key-format": "CIM_FORM_LABEL_KEYS_V1"
+}

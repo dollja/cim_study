@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Keep every file byte-identical: frozen inputs and saved evidence are verified by hash.
+* -text

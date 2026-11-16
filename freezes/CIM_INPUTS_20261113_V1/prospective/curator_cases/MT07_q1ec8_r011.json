@@ -1,0 +1,1129 @@
+{
+  "sample_id": "MT07_q1ec8_r011",
+  "dataset": "MapTask/GMMT",
+  "study_role": "pilot",
+  "source": {
+    "source_id": "q1ec8",
+    "revision": "75814e7c5898e3b1f35f823c90e5f4582b24e140",
+    "url": "https://github.com/dollja/gmmt-datasets/blob/75814e7c5898e3b1f35f823c90e5f4582b24e140/prepared/curator/extracted/hcrc/Transcripts/q1ec8.txt",
+    "local_path": "source_transcripts/q1ec8.txt",
+    "sha256": "f4dc2314b97e54715183e22a56175c3720435920469c48d0ad72607ed2ce4c60",
+    "git_blob_sha1": "9215fdb122371a3a07ba1e18ec58e16d827d9ae6",
+    "bytes": 3886,
+    "dialogue_id": "q1ec8",
+    "ids_are_generated": true,
+    "crosswalk_file": "crosswalks/q1ec8.json"
+  },
+  "selection_metadata": {
+    "focal_episode_start_id": "q1ec8.row.010",
+    "focus_utterance_id": "q1ec8.row.010",
+    "first_relevant_response_id": "q1ec8.row.011",
+    "observation_cutoff_id": "q1ec8.row.011",
+    "cutoff_reason": "The next source utterance by follower responds to the focal contribution; no intervening response is skipped.",
+    "prefix_utterance_count": 11,
+    "prefix_word_count": 49,
+    "prefix_token_count": null,
+    "focus_position_normalized": 0.9090909090909091,
+    "focus_to_cutoff_utterances": 1,
+    "paired_delayed_prefix_id": null,
+    "selection_status": "human_confirmed_for_current_pilot",
+    "confirmed_as_original_selection": false,
+    "confirmed_for_current_pilot": true,
+    "selection_record": "selection_records/ACCEPTED_SELECTION_20261113.json"
+  },
+  "observer_input": {
+    "overall_task": "One participant describes a route, and another attempts to reproduce it on their own map. Their maps may differ, and neither participant can see the other's map.",
+    "participants": [
+      {
+        "participant_id": "giver",
+        "known_role": "giver"
+      },
+      {
+        "participant_id": "follower",
+        "known_role": "follower"
+      }
+    ],
+    "context_sources": [
+      {
+        "source_id": "m9_giver_inventory",
+        "text": "m9_giver_01: lake; upper part; correspondence m9_lake\nm9_giver_02: roman baths; below lake; correspondence m9_roman_baths\nm9_giver_03: site of plane crash; upper right; correspondence m9_plane_upper\nm9_giver_04: white mountain; left of antelope; correspondence m9_white_mountain\nm9_giver_05: antelope; central upper part; correspondence m9_antelope\nm9_giver_06: hot wells; left of slate mountain; correspondence m9_springs\nm9_giver_07: slate mountain; central part; correspondence m9_slate_mountain\nm9_giver_08: savannah; right lower part; correspondence m9_savannah\nm9_giver_09: collapsed shelter; lower part; correspondence m9_shelter\nm9_giver_10: site of plane crash; lower left; correspondence m9_plane_lower\nm9_giver_11: stony desert; lower right; correspondence m9_desert",
+        "accessible_to_participants": [
+          "giver"
+        ],
+        "adapter": {
+          "kind": "map_inventory",
+          "review_status": "verified",
+          "entities": [
+            {
+              "id": "m9_giver_01",
+              "label": "lake",
+              "class_id": "m9_lake",
+              "description": "upper part"
+            },
+            {
+              "id": "m9_giver_02",
+              "label": "roman baths",
+              "class_id": "m9_roman_baths",
+              "description": "below lake"
+            },
+            {
+              "id": "m9_giver_03",
+              "label": "site of plane crash",
+              "class_id": "m9_plane_upper",
+              "description": "upper right"
+            },
+            {
+              "id": "m9_giver_04",
+              "label": "white mountain",
+              "class_id": "m9_white_mountain",
+              "description": "left of antelope"
+            },
+            {
+              "id": "m9_giver_05",
+              "label": "antelope",
+              "class_id": "m9_antelope",
+              "description": "central upper part"
+            },
+            {
+              "id": "m9_giver_06",
+              "label": "hot wells",
+              "class_id": "m9_springs",
+              "description": "left of slate mountain"
+            },
+            {
+              "id": "m9_giver_07",
+              "label": "slate mountain",
+              "class_id": "m9_slate_mountain",
+              "description": "central part"
+            },
+            {
+              "id": "m9_giver_08",
+              "label": "savannah",
+              "class_id": "m9_savannah",
+              "description": "right lower part"
+            },
+            {
+              "id": "m9_giver_09",
+              "label": "collapsed shelter",
+              "class_id": "m9_shelter",
+              "description": "lower part"
+            },
+            {
+              "id": "m9_giver_10",
+              "label": "site of plane crash",
+              "class_id": "m9_plane_lower",
+              "description": "lower left"
+            },
+            {
+              "id": "m9_giver_11",
+              "label": "stony desert",
+              "class_id": "m9_desert",
+              "description": "lower right"
+            }
+          ]
+        }
+      },
+      {
+        "source_id": "m9_follower_inventory",
+        "text": "m9_follower_01: lake; upper part; correspondence m9_lake\nm9_follower_02: round rocks; upper left; correspondence m9_round_rocks\nm9_follower_03: site of plane crash; upper right; correspondence m9_plane_upper\nm9_follower_04: white mountain; left of antelope; correspondence m9_white_mountain\nm9_follower_05: antelope; central upper part; correspondence m9_antelope\nm9_follower_06: hot springs; central left; correspondence m9_springs\nm9_follower_07: elephants; left lower part; correspondence m9_elephants\nm9_follower_08: savannah; right lower part; correspondence m9_savannah\nm9_follower_09: collapsed shelter; lower part; correspondence m9_shelter\nm9_follower_10: waterhole; lower middle; correspondence m9_waterhole\nm9_follower_11: stony desert; lower right; correspondence m9_desert",
+        "accessible_to_participants": [
+          "follower"
+        ],
+        "adapter": {
+          "kind": "map_inventory",
+          "review_status": "verified",
+          "entities": [
+            {
+              "id": "m9_follower_01",
+              "label": "lake",
+              "class_id": "m9_lake",
+              "description": "upper part"
+            },
+            {
+              "id": "m9_follower_02",
+              "label": "round rocks",
+              "class_id": "m9_round_rocks",
+              "description": "upper left"
+            },
+            {
+              "id": "m9_follower_03",
+              "label": "site of plane crash",
+              "class_id": "m9_plane_upper",
+              "description": "upper right"
+            },
+            {
+              "id": "m9_follower_04",
+              "label": "white mountain",
+              "class_id": "m9_white_mountain",
+              "description": "left of antelope"
+            },
+            {
+              "id": "m9_follower_05",
+              "label": "antelope",
+              "class_id": "m9_antelope",
+              "description": "central upper part"
+            },
+            {
+              "id": "m9_follower_06",
+              "label": "hot springs",
+              "class_id": "m9_springs",
+              "description": "central left"
+            },
+            {
+              "id": "m9_follower_07",
+              "label": "elephants",
+              "class_id": "m9_elephants",
+              "description": "left lower part"
+            },
+            {
+              "id": "m9_follower_08",
+              "label": "savannah",
+              "class_id": "m9_savannah",
+              "description": "right lower part"
+            },
+            {
+              "id": "m9_follower_09",
+              "label": "collapsed shelter",
+              "class_id": "m9_shelter",
+              "description": "lower part"
+            },
+            {
+              "id": "m9_follower_10",
+              "label": "waterhole",
+              "class_id": "m9_waterhole",
+              "description": "lower middle"
+            },
+            {
+              "id": "m9_follower_11",
+              "label": "stony desert",
+              "class_id": "m9_desert",
+              "description": "lower right"
+            }
+          ]
+        }
+      }
+    ],
+    "dialogue_prefix": [
+      {
+        "utterance_id": "q1ec8.row.001",
+        "speaker": "giver",
+        "text": "right starts above the stony desert"
+      },
+      {
+        "utterance_id": "q1ec8.row.002",
+        "speaker": "follower",
+        "text": "alright okay"
+      },
+      {
+        "utterance_id": "q1ec8.row.003",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.004",
+        "speaker": "giver",
+        "text": "now"
+      },
+      {
+        "utterance_id": "q1ec8.row.005",
+        "speaker": "giver",
+        "text": "turn to the west"
+      },
+      {
+        "utterance_id": "q1ec8.row.006",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.007",
+        "speaker": "giver",
+        "text": "er go forward and then kind of down south"
+      },
+      {
+        "utterance_id": "q1ec8.row.008",
+        "speaker": "follower",
+        "text": "west and then down south"
+      },
+      {
+        "utterance_id": "q1ec8.row.009",
+        "speaker": "giver",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.010",
+        "speaker": "giver",
+        "text": "until you're like at the bottom of the kind of level with the bottom of the desert"
+      },
+      {
+        "utterance_id": "q1ec8.row.011",
+        "speaker": "follower",
+        "text": "the map"
+      }
+    ]
+  },
+  "manual_annotation": null,
+  "assistant_annotation_draft": {
+    "author": "assistant",
+    "is_human_reference": false,
+    "is_model_prediction": false,
+    "evidence_tier": "S",
+    "scope": "Proposed focal comparison only; no assigned research label.",
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "local_question": "What stopping level is intended for the current southward segment?",
+    "focus_source_ids": [
+      "q1ec8.row.010",
+      "q1ec8.row.011"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "q1ec8.row.010",
+        "speaker": "giver",
+        "quote": "until you're like at the bottom of the kind of level with the bottom of the desert"
+      },
+      {
+        "source_id": "q1ec8.row.011",
+        "speaker": "follower",
+        "quote": "the map"
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "giver",
+        "meaning": "At q1ec8.row.010 the giver states a stopping level with the bottom of the desert. The earlier stony-desert introduction at .001 supplies the candidate antecedent, subject to verified binding.",
+        "source_quotes": [
+          {
+            "source_id": "q1ec8.row.001",
+            "quote": "right starts above the stony desert"
+          },
+          {
+            "source_id": "q1ec8.row.005",
+            "quote": "turn to the west"
+          },
+          {
+            "source_id": "q1ec8.row.007",
+            "quote": "er go forward and then kind of down south"
+          },
+          {
+            "source_id": "q1ec8.row.010",
+            "quote": "until you're like at the bottom of the kind of level with the bottom of the desert"
+          }
+        ],
+        "support": null
+      },
+      {
+        "participant_id": "follower",
+        "meaning": "The follower previously repeats west and then down south at q1ec8.row.008, which supports the movement directions. The final the map at .011 is elliptical and does not establish whether the follower adopts a map-bottom endpoint, asks a question or attempts a repair.",
+        "source_quotes": [
+          {
+            "source_id": "q1ec8.row.002",
+            "quote": "alright okay"
+          },
+          {
+            "source_id": "q1ec8.row.006",
+            "quote": "mmhmm"
+          },
+          {
+            "source_id": "q1ec8.row.008",
+            "quote": "west and then down south"
+          },
+          {
+            "source_id": "q1ec8.row.011",
+            "quote": "the map"
+          }
+        ],
+        "support": null
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "scope": "What stopping level is intended for the current southward segment?",
+      "participant_outputs": {
+        "giver": "Proposed giver consequence: stop at the bottom level of the intended desert, conditional on verified reference and an appropriate checkpoint function.",
+        "follower": "Follower stopping consequence: unknown; page-bottom is a candidate reading, not an established choice."
+      },
+      "comparison": "Desert-bottom and page-bottom would be different endpoint descriptions if both were adopted, but the follower’s fragment does not establish adoption of the latter.",
+      "blocking_reasons": [
+        "The follower’s fragment may be a question, repair or asserted alternative; its force is unresolved.",
+        "Earlier direction agreement does not establish the stopping boundary.",
+        "The relevant m9 map context is draft and a page-edge endpoint requires an explicitly supported task representation."
+      ],
+      "verification_note": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": null,
+    "human_content_confirmed": false,
+    "current_review_path": "../../REVIEWS.json",
+    "evidence_scope": "Current Tier S wording aid. Human support review and selection remain pending; all research annotations stay outside observer input."
+  },
+  "later_evidence": {
+    "dialogue": [
+      {
+        "utterance_id": "q1ec8.row.012",
+        "speaker": "follower",
+        "text": "all right"
+      },
+      {
+        "utterance_id": "q1ec8.row.013",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.014",
+        "speaker": "giver",
+        "text": "then travel west again"
+      },
+      {
+        "utterance_id": "q1ec8.row.015",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.016",
+        "speaker": "giver",
+        "text": "right to the very end of paper"
+      },
+      {
+        "utterance_id": "q1ec8.row.017",
+        "speaker": "follower",
+        "text": "the very end of the map"
+      },
+      {
+        "utterance_id": "q1ec8.row.018",
+        "speaker": "giver",
+        "text": "map right"
+      },
+      {
+        "utterance_id": "q1ec8.row.019",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.020",
+        "speaker": "giver",
+        "text": "and then up north"
+      },
+      {
+        "utterance_id": "q1ec8.row.021",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.022",
+        "speaker": "giver",
+        "text": "now"
+      },
+      {
+        "utterance_id": "q1ec8.row.023",
+        "speaker": "giver",
+        "text": "have you got anything down that side"
+      },
+      {
+        "utterance_id": "q1ec8.row.024",
+        "speaker": "follower",
+        "text": "not in that corner"
+      },
+      {
+        "utterance_id": "q1ec8.row.025",
+        "speaker": "giver",
+        "text": "no well"
+      },
+      {
+        "utterance_id": "q1ec8.row.026",
+        "speaker": "giver",
+        "text": "have you got a collapsed shelter"
+      },
+      {
+        "utterance_id": "q1ec8.row.027",
+        "speaker": "follower",
+        "text": "fssss over a bit"
+      },
+      {
+        "utterance_id": "q1ec8.row.028",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.029",
+        "speaker": "giver",
+        "text": "go straight up north"
+      },
+      {
+        "utterance_id": "q1ec8.row.030",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.031",
+        "speaker": "giver",
+        "text": "until you get to a kind of level above the shelter"
+      },
+      {
+        "utterance_id": "q1ec8.row.032",
+        "speaker": "follower",
+        "text": "alright"
+      },
+      {
+        "utterance_id": "q1ec8.row.033",
+        "speaker": "giver",
+        "text": "and turn east to r-- and travel right along"
+      },
+      {
+        "utterance_id": "q1ec8.row.034",
+        "speaker": "follower",
+        "text": "alright"
+      },
+      {
+        "utterance_id": "q1ec8.row.035",
+        "speaker": "giver",
+        "text": "past the shel-- the shelter that's over the top"
+      },
+      {
+        "utterance_id": "q1ec8.row.036",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1ec8.row.037",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.038",
+        "speaker": "giver",
+        "text": "then south"
+      },
+      {
+        "utterance_id": "q1ec8.row.039",
+        "speaker": "follower",
+        "text": "then south"
+      },
+      {
+        "utterance_id": "q1ec8.row.040",
+        "speaker": "giver",
+        "text": "just to below the shelter below the level of the shelter"
+      },
+      {
+        "utterance_id": "q1ec8.row.041",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.042",
+        "speaker": "giver",
+        "text": "in a kind of east"
+      },
+      {
+        "utterance_id": "q1ec8.row.043",
+        "speaker": "giver",
+        "text": "and have you got a savannah"
+      },
+      {
+        "utterance_id": "q1ec8.row.044",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.045",
+        "speaker": "giver",
+        "text": "there's a savannah"
+      },
+      {
+        "utterance_id": "q1ec8.row.046",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.047",
+        "speaker": "giver",
+        "text": "you want to travel east until you get to before the savannah"
+      },
+      {
+        "utterance_id": "q1ec8.row.048",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.049",
+        "speaker": "giver",
+        "text": "then tau-- turn north up"
+      },
+      {
+        "utterance_id": "q1ec8.row.050",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.051",
+        "speaker": "giver",
+        "text": "don't go round about it just go up before it"
+      },
+      {
+        "utterance_id": "q1ec8.row.052",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.053",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.054",
+        "speaker": "giver",
+        "text": "on my map there's a slate mountain"
+      },
+      {
+        "utterance_id": "q1ec8.row.055",
+        "speaker": "giver",
+        "text": "you're traveling north"
+      },
+      {
+        "utterance_id": "q1ec8.row.056",
+        "speaker": "follower",
+        "text": "i'm going north"
+      },
+      {
+        "utterance_id": "q1ec8.row.057",
+        "speaker": "giver",
+        "text": "right now"
+      },
+      {
+        "utterance_id": "q1ec8.row.058",
+        "speaker": "giver",
+        "text": "have you got the hot wells"
+      },
+      {
+        "utterance_id": "q1ec8.row.059",
+        "speaker": "follower",
+        "text": "they're over a bit"
+      },
+      {
+        "utterance_id": "q1ec8.row.060",
+        "speaker": "giver",
+        "text": "or hot springs"
+      },
+      {
+        "utterance_id": "q1ec8.row.061",
+        "speaker": "follower",
+        "text": "they're over to the west a bit"
+      },
+      {
+        "utterance_id": "q1ec8.row.062",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.063",
+        "speaker": "giver",
+        "text": "travel straight up north 'til you get just above the hot wells make sure you've cleared the the height of it"
+      },
+      {
+        "utterance_id": "q1ec8.row.064",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.065",
+        "speaker": "giver",
+        "text": "and turn to your the west"
+      },
+      {
+        "utterance_id": "q1ec8.row.066",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.067",
+        "speaker": "follower",
+        "text": "so i'm going above them"
+      },
+      {
+        "utterance_id": "q1ec8.row.068",
+        "speaker": "giver",
+        "text": "until you get to the hot wells"
+      },
+      {
+        "utterance_id": "q1ec8.row.069",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.070",
+        "speaker": "giver",
+        "text": "no don't go over the top of them"
+      },
+      {
+        "utterance_id": "q1ec8.row.071",
+        "speaker": "follower",
+        "text": "right i'll go up to them"
+      },
+      {
+        "utterance_id": "q1ec8.row.072",
+        "speaker": "giver",
+        "text": "alright now"
+      },
+      {
+        "utterance_id": "q1ec8.row.073",
+        "speaker": "giver",
+        "text": "and come down below them"
+      },
+      {
+        "utterance_id": "q1ec8.row.074",
+        "speaker": "follower",
+        "text": "underneath them"
+      },
+      {
+        "utterance_id": "q1ec8.row.075",
+        "speaker": "giver",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.076",
+        "speaker": "giver",
+        "text": "until you just get past them"
+      },
+      {
+        "utterance_id": "q1ec8.row.077",
+        "speaker": "giver",
+        "text": "then come down to them south"
+      },
+      {
+        "utterance_id": "q1ec8.row.078",
+        "speaker": "follower",
+        "text": "south"
+      },
+      {
+        "utterance_id": "q1ec8.row.079",
+        "speaker": "giver",
+        "text": "just a a couple of inches"
+      },
+      {
+        "utterance_id": "q1ec8.row.080",
+        "speaker": "giver",
+        "text": "and then west"
+      },
+      {
+        "utterance_id": "q1ec8.row.081",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.082",
+        "speaker": "follower",
+        "text": "underneath the elephants"
+      },
+      {
+        "utterance_id": "q1ec8.row.083",
+        "speaker": "giver",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.084",
+        "speaker": "giver",
+        "text": "and then north"
+      },
+      {
+        "utterance_id": "q1ec8.row.085",
+        "speaker": "giver",
+        "text": "now"
+      },
+      {
+        "utterance_id": "q1ec8.row.086",
+        "speaker": "giver",
+        "text": "have you got big white mountain"
+      },
+      {
+        "utterance_id": "q1ec8.row.087",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.088",
+        "speaker": "follower",
+        "text": "it's up a bit"
+      },
+      {
+        "utterance_id": "q1ec8.row.089",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.090",
+        "speaker": "giver",
+        "text": "you want to go right up north"
+      },
+      {
+        "utterance_id": "q1ec8.row.091",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.092",
+        "speaker": "giver",
+        "text": "past it"
+      },
+      {
+        "utterance_id": "q1ec8.row.093",
+        "speaker": "follower",
+        "text": "past the top of it"
+      },
+      {
+        "utterance_id": "q1ec8.row.094",
+        "speaker": "giver",
+        "text": "right up above it"
+      },
+      {
+        "utterance_id": "q1ec8.row.095",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.096",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.097",
+        "speaker": "giver",
+        "text": "have you got the lake"
+      },
+      {
+        "utterance_id": "q1ec8.row.098",
+        "speaker": "follower",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1ec8.row.099",
+        "speaker": "giver",
+        "text": "mm-mm"
+      },
+      {
+        "utterance_id": "q1ec8.row.100",
+        "speaker": "follower",
+        "text": "to the f-- no"
+      },
+      {
+        "utterance_id": "q1ec8.row.101",
+        "speaker": "giver",
+        "text": "the roman baths"
+      },
+      {
+        "utterance_id": "q1ec8.row.102",
+        "speaker": "follower",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1ec8.row.103",
+        "speaker": "giver",
+        "text": "hmm antelopes"
+      },
+      {
+        "utterance_id": "q1ec8.row.104",
+        "speaker": "follower",
+        "text": "mm they're over to the east of the mountain"
+      },
+      {
+        "utterance_id": "q1ec8.row.105",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.106",
+        "speaker": "giver",
+        "text": "you want to go"
+      },
+      {
+        "utterance_id": "q1ec8.row.107",
+        "speaker": "giver",
+        "text": "sure you don't have a lake"
+      },
+      {
+        "utterance_id": "q1ec8.row.108",
+        "speaker": "follower",
+        "text": "no beside this no"
+      },
+      {
+        "utterance_id": "q1ec8.row.109",
+        "speaker": "giver",
+        "text": "no but right the way over"
+      },
+      {
+        "utterance_id": "q1ec8.row.110",
+        "speaker": "follower",
+        "text": "right over to the east again"
+      },
+      {
+        "utterance_id": "q1ec8.row.111",
+        "speaker": "giver",
+        "text": "aye right"
+      },
+      {
+        "utterance_id": "q1ec8.row.112",
+        "speaker": "giver",
+        "text": "go up to about the l-- the level with the bottom of the lake"
+      },
+      {
+        "utterance_id": "q1ec8.row.113",
+        "speaker": "follower",
+        "text": "level with the bottom of the lake"
+      },
+      {
+        "utterance_id": "q1ec8.row.114",
+        "speaker": "giver",
+        "text": "straight north to up to the l-- level with the bottom of the lake"
+      },
+      {
+        "utterance_id": "q1ec8.row.115",
+        "speaker": "follower",
+        "text": "alright"
+      },
+      {
+        "utterance_id": "q1ec8.row.116",
+        "speaker": "giver",
+        "text": "and then east 'til you get to the front of the lake"
+      },
+      {
+        "utterance_id": "q1ec8.row.117",
+        "speaker": "follower",
+        "text": "i'm go-- i'm going to hit the round rocks"
+      },
+      {
+        "utterance_id": "q1ec8.row.118",
+        "speaker": "follower",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1ec8.row.119",
+        "speaker": "giver",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1ec8.row.120",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.121",
+        "speaker": "giver",
+        "text": "and you want to go right round about the lake"
+      },
+      {
+        "utterance_id": "q1ec8.row.122",
+        "speaker": "follower",
+        "text": "up above it"
+      },
+      {
+        "utterance_id": "q1ec8.row.123",
+        "speaker": "giver",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.124",
+        "speaker": "giver",
+        "text": "and come back round on yourself 'til you get to"
+      },
+      {
+        "utterance_id": "q1ec8.row.125",
+        "speaker": "follower",
+        "text": "something like circle right round it"
+      },
+      {
+        "utterance_id": "q1ec8.row.126",
+        "speaker": "giver",
+        "text": "mmhmm right"
+      },
+      {
+        "utterance_id": "q1ec8.row.127",
+        "speaker": "giver",
+        "text": "got your antelopes"
+      },
+      {
+        "utterance_id": "q1ec8.row.128",
+        "speaker": "follower",
+        "text": "uh-huh"
+      },
+      {
+        "utterance_id": "q1ec8.row.129",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.130",
+        "speaker": "giver",
+        "text": "just go round enough so you're like in a above them"
+      },
+      {
+        "utterance_id": "q1ec8.row.131",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.132",
+        "speaker": "follower",
+        "text": "up so i'm sitting just above the antelopes"
+      },
+      {
+        "utterance_id": "q1ec8.row.133",
+        "speaker": "giver",
+        "text": "no"
+      },
+      {
+        "utterance_id": "q1ec8.row.134",
+        "speaker": "giver",
+        "text": "the height above them but just below the lake but above the antelope"
+      },
+      {
+        "utterance_id": "q1ec8.row.135",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.136",
+        "speaker": "giver",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.137",
+        "speaker": "giver",
+        "text": "should be a roman baths below the lake"
+      },
+      {
+        "utterance_id": "q1ec8.row.138",
+        "speaker": "follower",
+        "text": "well i havenae"
+      },
+      {
+        "utterance_id": "q1ec8.row.139",
+        "speaker": "giver",
+        "text": "well"
+      },
+      {
+        "utterance_id": "q1ec8.row.140",
+        "speaker": "giver",
+        "text": "on mines there is"
+      },
+      {
+        "utterance_id": "q1ec8.row.141",
+        "speaker": "giver",
+        "text": "and you come between the lake and the roman baths so you'll have to avoid them"
+      },
+      {
+        "utterance_id": "q1ec8.row.142",
+        "speaker": "follower",
+        "text": "right okay"
+      },
+      {
+        "utterance_id": "q1ec8.row.143",
+        "speaker": "giver",
+        "text": "and you want to come south and round the antelopes"
+      },
+      {
+        "utterance_id": "q1ec8.row.144",
+        "speaker": "follower",
+        "text": "to the east or the west"
+      },
+      {
+        "utterance_id": "q1ec8.row.145",
+        "speaker": "giver",
+        "text": "to the west of the antelopes"
+      },
+      {
+        "utterance_id": "q1ec8.row.146",
+        "speaker": "follower",
+        "text": "right"
+      },
+      {
+        "utterance_id": "q1ec8.row.147",
+        "speaker": "giver",
+        "text": "ehm and go right underneath them"
+      },
+      {
+        "utterance_id": "q1ec8.row.148",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.149",
+        "speaker": "giver",
+        "text": "then travel to the east just past the antelopes"
+      },
+      {
+        "utterance_id": "q1ec8.row.150",
+        "speaker": "follower",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.151",
+        "speaker": "giver",
+        "text": "that's it finished"
+      },
+      {
+        "utterance_id": "q1ec8.row.152",
+        "speaker": "follower",
+        "text": "just past the antelopes it's finished"
+      },
+      {
+        "utterance_id": "q1ec8.row.153",
+        "speaker": "giver",
+        "text": "mmhmm"
+      },
+      {
+        "utterance_id": "q1ec8.row.154",
+        "speaker": "follower",
+        "text": "okay"
+      },
+      {
+        "utterance_id": "q1ec8.row.155",
+        "speaker": "giver",
+        "text": "that's it"
+      }
+    ],
+    "observed_action_or_outcome": null,
+    "event_type": null,
+    "what_it_supports": "Retained for a separate later-evidence review; no suffix inference is used as prefix support in this draft."
+  },
+  "annotation_review": {
+    "review_status": "unreviewed",
+    "independent_coder_1": null,
+    "independent_coder_2": null,
+    "adjudicated_label": null
+  },
+  "sampling_and_reference_protocol": {
+    "map_pair_id": "m9",
+    "provisional_source_group": "m9",
+    "merged_cluster_id": null,
+    "partition": "development_candidate_only",
+    "full_dev_test_split_drawn": false,
+    "evidence_tier": "S",
+    "exposure": "Assistant curation and preliminary interpretation; not a blind test set."
+  },
+  "archived_pre_tier_s_annotation_draft": {
+    "title": "Desert versus map: an elliptical first response",
+    "subtask": "Determine the southward stopping level",
+    "draft_status": "UNRESOLVED",
+    "supported_A": "The giver states a level with the bottom of the desert.",
+    "supported_B": "The follower says the map. It may be a query, repair or proposed interpretation, but adoption is not established.",
+    "consequence": "Desert-bottom and page-bottom would give different checkpoints if both were adopted; the prefix does not establish that.",
+    "reason": "Potentially consequential wording with insufficient stance evidence at the required first-response cutoff.",
+    "uncertainty": "The transcript lacks punctuation or prosody sufficient to distinguish a question from commitment. The starter has no page-edge/level adapter.",
+    "timing": "tentative_alternative",
+    "adapter": "outside_checkpoint_level_inventory",
+    "media_priority": "Check the map utterance against audio; do not use the later all right to strengthen this cutoff.",
+    "author": "assistant",
+    "is_human_reference": false,
+    "is_model_prediction": false,
+    "scope": "focal exchange only; not a full-prefix label",
+    "focal_pair": [
+      "giver",
+      "follower"
+    ],
+    "focus_quote": "until you're like at the bottom of the kind of level with the bottom of the desert",
+    "response_quote": "the map",
+    "evidence_scope": "Justification must be checked using prefix only. The assistant screened longer transcript passages, so this draft is not a blinded independent annotation.",
+    "archive_note": "Earlier assistant screening draft. Superseded by the current Tier S wording; no human reference status."
+  }
+}

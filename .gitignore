@@ -1,0 +1,14 @@
+# Generated or local-only
+__pycache__/
+*.pyc
+*.lock
+*.tmp
+*.pending_*
+tests/transport_mock_records/
+
+# Provider status snapshots saved while waiting (large, no model output)
+runs/**/*.poll_*.json
+
+# Never commit credentials
+.env
+.env.*

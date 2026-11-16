@@ -1,0 +1,84 @@
+RUNNING THE SELECTED CIM PILOT
+
+Quickest next step
+
+Open this extracted project in Codex and paste CODEX_RUN_PROMPT.txt. All 20 cases, including MT07, are now selected. Their 30 context records are verified on the user's confirmation of the supplied source facts and game rules. The remaining execution work is to configure the actual model/provider, connect a genuine transport and save the staged runs. This package update did not execute a model.
+
+Use freezes/CIM_INPUTS_20261113_V1 for execution. The frozen snapshot includes the prospective input tree, selection register and manifest. The active human review is REVIEWS.json, identical to REVIEWS_r1_v4_context_confirmed.json. Preserve any newer local edits. Historical v2/v3 reviews belong to history/pre_context_confirmation_20261113/prospective/observer_inputs and are versions of the same reader, not additional readers.
+
+Two separate gates
+
+1. Model execution: all 20 cases now meet the context/selection gate. Once the actual runtime and configuration are ready, run one real smoke case and then the remaining eligible cases. Reader 2 and final adjudication do not independently block these runs.
+
+2. Final evaluation: the active r1 has 14 mechanically complete records. MT01, MT02, MT04 and WW08 remain in_progress; MT07 is included but still has "Evidence checked?"=false; WW03 still lacks human content confirmation. Reader 2 and adjudication remain pending. A provisional model-versus-r1 comparison may use completed, matching-input records; it is not final adjudicated accuracy.
+
+The source-context check was performed by the user/r1 with prior exposure. This is the disclosed assisted-development pilot. A blind independent map check is not claimed and is not an additional requirement for executing this condition. Preserve the existing true draft-exposure flag and first-pass history.
+
+What changed in MT10
+
+MT10 retains ALIGNED and "Could uncertainty change the conclusion?"=false, now with reviewed status. Both Route consequences use the existing shared identifier m3_start from the confirmed inventories. The giver says beneath the start at .041; the follower says under the start at .043. The final yeah is not the sole evidence. This supports the narrow below-start comparison, not whole-route agreement. It follows clarification and cannot establish an earlier warning.
+
+Where the confirmation is recorded
+
+  context_reviews/CONTEXT_REVIEW_20261113.json
+  selection_records/ACCEPTED_SELECTION_20261113.json
+  review_provenance/INPUT_TRANSITION_20261113.json
+  validation/selection_context_20261113/FREEZE_VALIDATION.json
+  validation/selection_context_20261113/candidate_validation.json
+
+Only adapter review_status changed in observer evidence; facts, text, IDs and correspondence values stayed the same. The transition record preserves old/new raw-file and canonical hashes and verifies that status-only equivalence. Existing r1 judgments were explicitly carried forward without claiming a new human review. MT10's substantive consequence/prose update is recorded separately. Future changes to actual evidence need a new freeze and consideration of affected judgments.
+
+Review format
+
+The saved JSON uses the original form labels as actual keys, including "Local task question", "Review judgment" and "Task consequences". The original form layout is unchanged. Controlled values, source quotes, participant IDs and arrays retain their meanings. The review scripts accept this format and older technical keys through review_key_codec.py; observer/model and adjudication formats stay technical.
+
+If an old review needs a separate key-only copy:
+
+  python review_tools.py convert-keys OLD_REVIEWS.json --to human --out NEW_REVIEWS.json
+
+This creates a new file without changing evidence or judgments. It does not bind an old review to a different input version. Import active v4 into REVIEW.html and download after editing; the page does not save to the repository automatically.
+
+Current validation and execution commands
+
+Run from the project root with Python 3.10+. Replace RUN_ID, CASE_ID and EXACT_MODEL_ID with actual values. Use new output filenames.
+
+  python prospective/validate_candidates.py --root freezes/CIM_INPUTS_20261113_V1/prospective --out validation/frozen_NEW.json
+  python review_tools.py validate REVIEWS.json --observer-dir freezes/CIM_INPUTS_20261113_V1/prospective/observer_inputs
+  python review_tools.py validate REVIEWS.json --observer-dir freezes/CIM_INPUTS_20261113_V1/prospective/observer_inputs --complete
+
+Ordinary r1 validation should pass; --complete reports six unfinished reviews. Do not use --baseline as a readiness test: it expects the original unselected/draft state.
+
+Create runs/RUN_ID/CASE_ID/run_configuration.json from RUN_CONFIG.example.json with the actual model/provider/settings. Then the underlying harness command is:
+
+  python pilot.py freezes/CIM_INPUTS_20261113_V1/prospective/observer_cases/CASE_ID.json runs/RUN_ID/CASE_ID --model-id EXACT_MODEL_ID --origin external_model
+
+This alone writes the next request; it makes no model call. The Codex task must build or use a genuine isolated connection, send only the generated messages, save each untouched reply and advance again. No human review, selected focus, reference label or later dialogue enters those requests. Tier S still requires expressed support from each participant; map presence and bare acknowledgements are insufficient.
+
+The harness uses F1/F2 discovery, F3 shared readings, participant F4 attribution and separate CHECK calls, then deterministic F5-F7 retention/consequences/comparison. One candidate with one hypothesis usually uses six calls. The fixed budget is at most 46 stage calls per case, 920 for all 20, plus at most 20 extra transient transport retries. Keep malformed responses and unfavorable outcomes; do not repair or retry them for better labels. Save actual provider records, failures and resume identities. A new model, code, evidence or configuration requires a new run directory.
+
+Two-human review and final reporting
+
+After two real submissions, compare and create a pending adjudication ledger:
+
+  python review_tools.py compare REVIEWS.json reviews/reader_2/REVIEWS.json --observer-dir freezes/CIM_INPUTS_20261113_V1/prospective/observer_inputs --out reviews/differences_RUN_ID.json
+  python review_tools.py adjudication-template REVIEWS.json reviews/reader_2/REVIEWS.json --observer-dir freezes/CIM_INPUTS_20261113_V1/prospective/observer_inputs --out reviews/ADJUDICATION_RUN_ID.json
+
+The ledger creates no judgments. Humans must resolve the cases and verify the relevant model evidence chains. Versioned r1 files cannot substitute for two reviewers. After actual adjudication:
+
+  python review_tools.py export-adjudicated REVIEWS.json reviews/reader_2/REVIEWS.json --ledger reviews/ADJUDICATION_RUN_ID.json --observer-dir freezes/CIM_INPUTS_20261113_V1/prospective/observer_inputs --out reviews/ADJUDICATED_RUN_ID.json --allow-assisted
+
+--allow-assisted preserves the disclosed reference condition and does not waive human evidence or completion checks. The detailed Codex prompt handles pending reviews and provisional model-versus-r1 diagnostics separately.
+
+Without final references:
+
+  python report_results.py runs/RUN_ID --out results/RUN_ID/execution_only.json
+
+With genuine adjudicated references:
+
+  python report_results.py runs/RUN_ID --references reviews/ADJUDICATED_RUN_ID.json --out results/RUN_ID/pilot_results.json
+
+Chapter 5
+
+The Codex prompt requests source-driven chapter5_tables.tex and chapter5_results.tex with selected/eligible/attempted/completed counts, exclusions, failures, coverage denominators and source dependence. Keep execution, provisional single-reader comparison and final adjudicated evaluation separate. Constructed replays and any engineering fixture run are software/engineering records, never empirical cases.
+
+With no positive mismatch references, mismatch recall is undefined. Warnings against UNRESOLVED references are not false warnings against ALIGNED references. Baseline, component-test and warning-timing claims require those specific tests to be performed. Final accuracy is unavailable until genuine model outputs and the necessary references exist.

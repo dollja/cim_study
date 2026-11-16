@@ -1,0 +1,12 @@
+{
+  "form_fields_layout_style_and_code_unchanged": true,
+  "only_embedded_observer_data_and_hashes_updated": true,
+  "context_records_verified_from_user_attestation": 30,
+  "source_evidence_unchanged_except_adapter_review_status": 20,
+  "substantive_judgments_unchanged": 19,
+  "MT10_substantive_encoding_update_recorded": true,
+  "all_existing_controlled_labels_preserved": true,
+  "all_prior_exposure_and_first_pass_declarations_preserved": true,
+  "legacy_versions_preserved_byte_for_byte": true,
+  "actual_model_calls": 0
+}

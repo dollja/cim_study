@@ -1,0 +1,822 @@
+{
+  "MT01_q1ec1_r049": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "e7310d3079f695652bf02d47f2f037be95d3ebd5e924acd2dcbd34cfa9d42110",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "MT02_q1ec3_r012": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "9fd4df42105b813659a877f62cc48f6481cc703277295c2627a88ad325b8f87b",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "MT03_q1ec4_r019": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "77289383d3107fd51b97ceafedcf5fe064a340c6596bb62db05e6ba66f734d7f",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "MT04_q1ec5_r031": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "361839b05724ddc43c3801685bceb4810d78847649493cb4488a3733978fc0d2",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "MT05_q1ec6_r053": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "ba7339a5a7c356cdbc17ab123316c8679f50dabb363fd9bf57595f3cabfffe90",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "MT06_q1ec7_r022": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "70475c828beb568e5508ab32483a84fdb76b070b60c538a6183b5ff0b314b4d7",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "MT07_q1ec8_r011": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "f0f72d138022be851e27b7d611e3fd0b374d0101d449c5072fbc25fab2f1f62e",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "MT08_q1nc2_r052": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "2d946a009b8384429b3cebec71726ec988ced499dc36d314017435c0c16ec3b7",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "MT09_q1nc3_r054": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "a4d5df50f7f8658462b08121af99dedc049c005b9bb12d7dbc57198a803e2e03",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "MT10_q1nc4_r044": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "f336b66fa5c85d7eb1a31aadfbd5e4c3a6323c62da781af2bd4c5ec530400e5a",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "WW01_WW01_r028": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "66d17a53c3ed0abff8c3f9d2377ba205fb42a96d8c09bb85d23ca9583a4bc2b0",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "WW02_WW02_r040": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "3c688b718ec2d9e3afb81a8c7f6f10c7f5318199233610466a967aa1f98f7ec1",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "WW03_WW03_r078": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "05a28d6888862f27c0d31eaa155d3edaf7fe470dbd7493f1697f1241ba3bf339",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "WW04_WW04_r009": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "e115870978d87b73715a67882e5ed352eda74326446175d584bf9da3f10fffb8",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "WW05_WW05_r039": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "c46568533ab7d023f158b2ad5528269f5d7f1df3f342513be1c660043be03447",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "WW06_WW06_r040": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "f7176fcd6db843868e89ebf243541b44deabc67416be3e98579e880cd097bfb9",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "WW07_WW07_r099": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "da0cdef0aa48765c123e72fd367b07f97cc7bb42d0e6408e720906a764449714",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "WW08_WW08_r005": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "9529eacb37fd4389d5c2081f6ad4306ce561ad1adf629016aa4833b97e237114",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "WW09_WW09_r059": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "f6f4992f8c540d59f47baea7282c825234648d476438a0ba7671e9098ba69305",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  },
+  "WW10_WW10_r067": {
+    "Review status": "unreviewed",
+    "Reviewer": "r2",
+    "Reviewer and exposure": {
+      "Schema version": "1.0",
+      "Evidence tier": "S",
+      "Observer input SHA-256": "e259cc517e9742605db59f791966b69273488278125d7f66c27e40c55e60afbb",
+      "What had you seen before your first judgment?": {
+        "Assistant drafts": null,
+        "System predictions": null,
+        "Released / other labels": null,
+        "Later dialogue or outcomes": null,
+        "Exposure notes": ""
+      },
+      "First prefix review completed": false,
+      "Separate later-evidence review completed": false,
+      "Draft wording fields": [],
+      "I checked the content now entered against the available evidence.": false
+    },
+    "Participants being compared": null,
+    "Could uncertainty change the conclusion?": null,
+    "Review judgment": null,
+    "Evidence checked?": null,
+    "Include in pilot?": null,
+    "participant_interpretations": [],
+    "consequence_analysis": null,
+    "rationale": null,
+    "selection_reason": null,
+    "subtask_hypotheses": [
+      {
+        "description": null
+      }
+    ],
+    "focus": {
+      "utterance_id": null,
+      "quote": null,
+      "why_selected": null,
+      "additional_quotes": [],
+      "selected_utterance_ids": []
+    }
+  }
+}

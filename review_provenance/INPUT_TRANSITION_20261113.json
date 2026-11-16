@@ -1,0 +1,506 @@
+{
+  "record_type": "explicit_review_and_input_version_transition",
+  "date": "2026-11-13",
+  "source_confirmation": "context_reviews/USER_CONFIRMATION_20261113.json",
+  "previous_review_file_sha256": "c46a60be583153bcd03a733095bbe798e50defee24da1a2e600ddd1c22b876e5",
+  "current_review_file": "REVIEWS_r1_v4_context_confirmed.json",
+  "current_review_file_sha256": "6d4a608dfd0612ab0de0f6f7fe11fbc18483a67912ba3a2e4ec1f016e1a6e2b8",
+  "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+  "scope": "Observer changes are verification status only. Nineteen substantive judgments are carried forward unchanged; MT10 records the user-confirmed known anchor and retained judgment. Selection is separately confirmed for all 20.",
+  "no_fresh_twenty_case_human_judgment_claimed": true,
+  "prior_exposure_completion_flags_and_first_pass_snapshots_preserved": true,
+  "blank_reader_2_regenerated_without_human_declarations": true,
+  "cases": {
+    "MT01_q1ec1_r049": {
+      "previous_raw_observer_sha256": "1f505822d2ecf50ac0763abed90f9d9e98236242e593f72cb5d3fce54fd4a133",
+      "current_raw_observer_sha256": "e7310d3079f695652bf02d47f2f037be95d3ebd5e924acd2dcbd34cfa9d42110",
+      "previous_canonical_observer_sha256": "9cc56fc57cb4e0aef6590bf224eaba544381aa7a1cd1f0a0e67ec686e4715ca6",
+      "current_canonical_observer_sha256": "b29193c4058089580c8e9a6be952f6cf42cf4c48fb13bf14f069938fe771c61f",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status",
+        "/context_sources/1/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/MT01_q1ec1_r049",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/MT01_q1ec1_r049.json",
+      "previous_review_record_sha256": "a8b865f2b8ad77fcf9cd6cf95459d0c004e0bb9c63565330caeffd282857567e",
+      "current_review_record_sha256": "51c740b8af0ca9c290fb910d2ac5280612a875f41eca216bafd889d210712f37",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "MT02_q1ec3_r012": {
+      "previous_raw_observer_sha256": "310038582e03540731b852567c129c638c10086952b4873a10ee945492dc8746",
+      "current_raw_observer_sha256": "9fd4df42105b813659a877f62cc48f6481cc703277295c2627a88ad325b8f87b",
+      "previous_canonical_observer_sha256": "252e4f2268902194adfd4ae502e8f1455f6f73f24ab48d92ee77a2d4b7f0fe0f",
+      "current_canonical_observer_sha256": "08b15f4d0307ec9be84016712251866850e7978c6f6969c72002ea860115b414",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status",
+        "/context_sources/1/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/MT02_q1ec3_r012",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/MT02_q1ec3_r012.json",
+      "previous_review_record_sha256": "2a6c11698656852ab7d3b0c9bd8b960207d197418f9ae74b5c8ccacab14c4d70",
+      "current_review_record_sha256": "61a8bffa7bdf99fb653dfbf93f325dab1674647dad9851b3fd4f14a17497f487",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "MT03_q1ec4_r019": {
+      "previous_raw_observer_sha256": "355686b4c795d03984f6c634c8dbd01ad0567ef1ccc28e01322ddf4e6c652709",
+      "current_raw_observer_sha256": "77289383d3107fd51b97ceafedcf5fe064a340c6596bb62db05e6ba66f734d7f",
+      "previous_canonical_observer_sha256": "ff00ecc3f7caa90e97e6c369931471c452c859c786ca1d156b473bc87f44ad9e",
+      "current_canonical_observer_sha256": "aea19ff895e98cdb295d171447ed55089ca677773a50ea069da557fcacc472ae",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status",
+        "/context_sources/1/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/MT03_q1ec4_r019",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/MT03_q1ec4_r019.json",
+      "previous_review_record_sha256": "6cbfca221725b9aa75c4458991c15938c743d4852be0e3e66363917a131185c3",
+      "current_review_record_sha256": "b020a645980e62304dff06c89edeec0a29044ccd41c0d7599e0699a8ce5df3ee",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "MT04_q1ec5_r031": {
+      "previous_raw_observer_sha256": "55b7c0130c3057487a52ff5c0e92a6a8ea6b0d161f3adb5cb3423a27799bc0b1",
+      "current_raw_observer_sha256": "361839b05724ddc43c3801685bceb4810d78847649493cb4488a3733978fc0d2",
+      "previous_canonical_observer_sha256": "eb79c04941b668d57df673e41c0263e536349c47c11030ba2fc939662c6bcdb3",
+      "current_canonical_observer_sha256": "2cbc3ec19d2c1f6d6e940bc5a42c08a13cac4af13c6ca09ae5e913d2e5ccf251",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status",
+        "/context_sources/1/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/MT04_q1ec5_r031",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/MT04_q1ec5_r031.json",
+      "previous_review_record_sha256": "857ef2ccdab4f0640ea395ef54dee4df85424a92d482c320aba9d706d523abc1",
+      "current_review_record_sha256": "15ebcf7639de3899f36563952dad21f5b3efd8504673260d31f5182ac65ae18a",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "MT05_q1ec6_r053": {
+      "previous_raw_observer_sha256": "abb1d4bc902cd86fd1419bec8357fc11f4325359ca5cd59c01599cd95e8b0e12",
+      "current_raw_observer_sha256": "ba7339a5a7c356cdbc17ab123316c8679f50dabb363fd9bf57595f3cabfffe90",
+      "previous_canonical_observer_sha256": "c5937e41f32f9df9b73f6236bf4023ed5e77274493c4f536dc097a2601bbaec1",
+      "current_canonical_observer_sha256": "4865bb1b0bc067cb8460cc905427b38c801980eb6e2958b637fd45820ee347e7",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status",
+        "/context_sources/1/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/MT05_q1ec6_r053",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/MT05_q1ec6_r053.json",
+      "previous_review_record_sha256": "434ede146cd3295b192ff7735b1daaf75874b225b130722b13820db62f678aba",
+      "current_review_record_sha256": "c7caf3b60220a78326242cf9336397216d010cffe45b8b4b0a689f2282b5a03d",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "MT06_q1ec7_r022": {
+      "previous_raw_observer_sha256": "8c22bef2e4c4b8606fc27f154c7b56cf658b8bf9863f191c2a6d4aa0c06074cd",
+      "current_raw_observer_sha256": "70475c828beb568e5508ab32483a84fdb76b070b60c538a6183b5ff0b314b4d7",
+      "previous_canonical_observer_sha256": "e618f99476913ca444765e3e549352d4f7ad212a1f569dd0fc962a501293e909",
+      "current_canonical_observer_sha256": "bc50b6fc1e65936941b7ef5e2f6f9ccda61ea21b33e8bb4ef956483c4d54162e",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status",
+        "/context_sources/1/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/MT06_q1ec7_r022",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/MT06_q1ec7_r022.json",
+      "previous_review_record_sha256": "d4f7e6e7c6c3a1aef8aac527d0ad82c5d15e723cfb7b3669059fe46458f78903",
+      "current_review_record_sha256": "30b694581609832a403b7853668366726bf2afe4663bc9a13feef9555e7c3664",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "MT07_q1ec8_r011": {
+      "previous_raw_observer_sha256": "a0943bb4a1d7005bc05255610c8256f025539bb2dc8b7b6a0209160924df19c2",
+      "current_raw_observer_sha256": "f0f72d138022be851e27b7d611e3fd0b374d0101d449c5072fbc25fab2f1f62e",
+      "previous_canonical_observer_sha256": "4b96bd9281e6ca95c18596957e85b081e118f213b06431e9fedaa07133cf85af",
+      "current_canonical_observer_sha256": "26b593b59b78af9e618663d6e5fc9f3e87d3b4bc01b3d09789388c699ad6c24a",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status",
+        "/context_sources/1/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/MT07_q1ec8_r011",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/MT07_q1ec8_r011.json",
+      "previous_review_record_sha256": "6496d59d854619ba99c0948c16e8452be9f7086fd00bcf7bb943a8c448e2d414",
+      "current_review_record_sha256": "db499b2ded29134fb8131bd58a0a523705d79a1fb4949ccfc33035731b4244d5",
+      "review_changed_paths": [
+        "/Include in pilot?",
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "MT08_q1nc2_r052": {
+      "previous_raw_observer_sha256": "5632de3debb8e9645cd3f4fe9bd878a50ee5b1216016360ff44d62c26f9f8f66",
+      "current_raw_observer_sha256": "2d946a009b8384429b3cebec71726ec988ced499dc36d314017435c0c16ec3b7",
+      "previous_canonical_observer_sha256": "d7d68a6dc704e261463c3905ad69068f911168f0fff35f7e213ce6640f79a205",
+      "current_canonical_observer_sha256": "3c8f959c703669fbf439bc924922a66f316da8745dc962abf17122762545caf4",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status",
+        "/context_sources/1/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/MT08_q1nc2_r052",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/MT08_q1nc2_r052.json",
+      "previous_review_record_sha256": "f1cc0f7700728fffece37c101ac24f302ce3243e477e2a8796849bcca934fbe7",
+      "current_review_record_sha256": "9299c883ae79e7c9358d120723d16b6c69b4a77c43a2188d8aea98b12f20526e",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "MT09_q1nc3_r054": {
+      "previous_raw_observer_sha256": "51fb37f4c1845fdc9585f36bd6d9a0bdc1e92eb03f250eb5c3cbfb21de0dadd5",
+      "current_raw_observer_sha256": "a4d5df50f7f8658462b08121af99dedc049c005b9bb12d7dbc57198a803e2e03",
+      "previous_canonical_observer_sha256": "98c2e993eae570e784cb15a9cce2f8be15a66d14aec667c6d222d6144a2b0a44",
+      "current_canonical_observer_sha256": "c73c3b571e3e8c4371dfa2b191038837d829254ec680a35e115360072a2b3efe",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status",
+        "/context_sources/1/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/MT09_q1nc3_r054",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/MT09_q1nc3_r054.json",
+      "previous_review_record_sha256": "05e0ef8c2da7d044bdb76bda059c728d1f62d590cf4b8bd36f9b87fb57f79858",
+      "current_review_record_sha256": "fa788ebe823cfe7e3316d04f8d341cd210986f5346ab6d88383767cf7cbd3772",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "MT10_q1nc4_r044": {
+      "previous_raw_observer_sha256": "dffa045e2257f1c33a29ad8abc72640452a5faa95cd9598dacf2b1bca0130788",
+      "current_raw_observer_sha256": "f336b66fa5c85d7eb1a31aadfbd5e4c3a6323c62da781af2bd4c5ec530400e5a",
+      "previous_canonical_observer_sha256": "23b3299a8a804a4dbd4e3b4b63bc5eade27d2fe9971428b37f6d66a3cc413d50",
+      "current_canonical_observer_sha256": "3ea4148f4e0172935ff085791531ad15ba31568a73fe98b49d22a827a79f7163",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status",
+        "/context_sources/1/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "user_reconfirmed_judgment_with_verified_anchor_encoding",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/MT10_q1nc4_r044",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/MT10_q1nc4_r044.json",
+      "user_reconfirmed_existing_label": true,
+      "substantive_encoding_update": "Replace the two required null START arguments with the existing, now source-confirmed m3_start; synchronize uncertainty prose.",
+      "source_support": [
+        "q1nc4.row.041",
+        "q1nc4.row.043",
+        "m3_giver_inventory:m3_giver_01",
+        "m3_follower_inventory:m3_follower_01"
+      ],
+      "local_scope_unchanged": true,
+      "algorithm_or_decision_rule_changed": false,
+      "previous_review_record_sha256": "a67d14cbe1830d17a8e23cea7385634a3680dfebeced0273d303aaea0df18eee",
+      "current_review_record_sha256": "4fa2d5744d64e4153be2b89b996a0e1a1c34723cd2e9e7f72302baf6d1f42b57",
+      "review_changed_paths": [
+        "/Review status",
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason",
+        "/Task consequences/Comparison in words",
+        "/Task consequences/Consequence format notes",
+        "/Task consequences/Consequences by participant/follower",
+        "/Task consequences/Consequences by participant/giver",
+        "/Task consequences/Evidence check notes",
+        "/Task consequences/Supported consequences JSON/follower/0/3",
+        "/Task consequences/Supported consequences JSON/giver/0/3",
+        "/Task consequences/What is still unknown? One reason per line",
+        "/Why this judgment? Prefix evidence only"
+      ],
+      "substantive_judgment_unchanged": false
+    },
+    "WW01_WW01_r028": {
+      "previous_raw_observer_sha256": "407a9a27ba60d631217b021efeae68476557bff062c1b89d8bcbe285cab7b300",
+      "current_raw_observer_sha256": "66d17a53c3ed0abff8c3f9d2377ba205fb42a96d8c09bb85d23ca9583a4bc2b0",
+      "previous_canonical_observer_sha256": "2bc7e5ad29fcc2f28681bd59e4710a5712064a55aaf7a2f56f9647c34c5f5e3e",
+      "current_canonical_observer_sha256": "b1b5c24fcde1731f570255f6c2fbe29db20f113f7eb4b987a6a2d52560c1c6b3",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/WW01_WW01_r028",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/WW01_WW01_r028.json",
+      "previous_review_record_sha256": "2d082e491d73db8e415928126047df31fae40ec15024b90538250fc42490b7d4",
+      "current_review_record_sha256": "31ca6b3b9bf10340d6b432217ee68ddc8fe12facc0055cdce745e09074f70ed4",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "WW02_WW02_r040": {
+      "previous_raw_observer_sha256": "a8a0fbd0c7ea78ebc933ef107f4855ee72fc9be0ea03a393fe0fb7e5138e3b79",
+      "current_raw_observer_sha256": "3c688b718ec2d9e3afb81a8c7f6f10c7f5318199233610466a967aa1f98f7ec1",
+      "previous_canonical_observer_sha256": "41981c41399e3680acfa14748426b4ad5c4354fd1066ecd91865d440824325df",
+      "current_canonical_observer_sha256": "2295503e62350503f756d85b4d57a223babe5951e9d87d2f56c4248b5b808b87",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/WW02_WW02_r040",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/WW02_WW02_r040.json",
+      "previous_review_record_sha256": "4f0971df0793215a683f39b28de40a1d85d831132c0b9748cba323ecf9e7bc56",
+      "current_review_record_sha256": "55cb14f0515dc2db94a5aded577094e9d77a9bbe6a02ea803412b740febcca53",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "WW03_WW03_r078": {
+      "previous_raw_observer_sha256": "37b9a3ad5ead5976eb5c11fc7dfbf6da357e402bdb6ae09d137e542d58a8956a",
+      "current_raw_observer_sha256": "05a28d6888862f27c0d31eaa155d3edaf7fe470dbd7493f1697f1241ba3bf339",
+      "previous_canonical_observer_sha256": "f33a76b562c5ace2ab766b83cfd588c76ebc0d1b57fe95d8aec61a86a175ef06",
+      "current_canonical_observer_sha256": "d3cd41e0035277cf6a92c5d88a3f28528c3e55994dea62bf826ffe3694271597",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/WW03_WW03_r078",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/WW03_WW03_r078.json",
+      "previous_review_record_sha256": "70c2d9941eb5cca5bd4af56bf90bce991752ccd4e702c48d17aa6b82906e322d",
+      "current_review_record_sha256": "3b557a7f1bdc97d1f3f589c187dd67aa7b21bdf69158f95453ad53bc1d2790f3",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "WW04_WW04_r009": {
+      "previous_raw_observer_sha256": "6196411ccbb2cac6ffdfd29d5d39466d4a199624e3e0f3b01db7b4088b948702",
+      "current_raw_observer_sha256": "e115870978d87b73715a67882e5ed352eda74326446175d584bf9da3f10fffb8",
+      "previous_canonical_observer_sha256": "037ad85b92ec20b80528f84bbfd141bc67e5e7ff2611fee8e4d38860d2f100d3",
+      "current_canonical_observer_sha256": "bdbe19460b1c34af026f0c2574e52e92e53de8af9f6722da2ac6085d8e619d44",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/WW04_WW04_r009",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/WW04_WW04_r009.json",
+      "previous_review_record_sha256": "d4d9766e4733d7f8e5120b32ad4ef73a080610ec82d707b66d6832c984e32ce8",
+      "current_review_record_sha256": "6aa96389205105d2fc9e7197caa679b39612448a5aafaec75b84504f4f1ac55e",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "WW05_WW05_r039": {
+      "previous_raw_observer_sha256": "1ff2a02921953666189bb71604e8fb3d9feb12d8daab103e77bf0c1656eed0e8",
+      "current_raw_observer_sha256": "c46568533ab7d023f158b2ad5528269f5d7f1df3f342513be1c660043be03447",
+      "previous_canonical_observer_sha256": "17b3d8003c3271cedcdac201adb4297f2912067f82ad354a7142984b540cd431",
+      "current_canonical_observer_sha256": "fb19133f6ce232a9c72207c60b88fb576f95cb69f461d69870c44ef119ded2fc",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/WW05_WW05_r039",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/WW05_WW05_r039.json",
+      "previous_review_record_sha256": "ac619a1b3500e2cbe05691e29068c71be01078380be4ebe5df5390b703eaa4ba",
+      "current_review_record_sha256": "a82bd3f2b0f8bfc673a738b245e1957efe93021996eacc77e5801cf7beb15bda",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "WW06_WW06_r040": {
+      "previous_raw_observer_sha256": "80d8746e32f51717dd236ac0ae24222df931e8cbc3308a2c52f0672c0c642154",
+      "current_raw_observer_sha256": "f7176fcd6db843868e89ebf243541b44deabc67416be3e98579e880cd097bfb9",
+      "previous_canonical_observer_sha256": "97ee105a7a96f69e71aaee276f559317c7bc3c3947148d5b77fedf47c6091173",
+      "current_canonical_observer_sha256": "c52877e65fd1a5183a19af93d1da704b05a7752d423a008fd9a5933474035951",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/WW06_WW06_r040",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/WW06_WW06_r040.json",
+      "previous_review_record_sha256": "3f17e9f9ae085b18e426898a1583ae8a88205ccc033531ee332f2a4431185d95",
+      "current_review_record_sha256": "8ea6728a9df535efe7b463d59d8fb0aad74bbdc238adbdc07c8dba26035d65d8",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "WW07_WW07_r099": {
+      "previous_raw_observer_sha256": "2dc31497bdb243ea408422900507c758c5305dae7abcd5a1cc60901ff37a901a",
+      "current_raw_observer_sha256": "da0cdef0aa48765c123e72fd367b07f97cc7bb42d0e6408e720906a764449714",
+      "previous_canonical_observer_sha256": "b4b0251d46e75566e6e3f180929900a06725ada5c6002558e5270d5f90e9fc12",
+      "current_canonical_observer_sha256": "043cf8f219623af0ba12fd1627c077eb6bcfa68be82c885b93c3291be5099ad9",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/WW07_WW07_r099",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/WW07_WW07_r099.json",
+      "previous_review_record_sha256": "e509a36b87a88897c3a0d0bee9b641cc3e73e97cd1dfc4a7f6d8835cbdaf366c",
+      "current_review_record_sha256": "55d20d40d2369bf0fcaa8516397ffc0a8de178dece2123436701c8750b5868fa",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "WW08_WW08_r005": {
+      "previous_raw_observer_sha256": "2834d22f105aea3881fd602aec3be91f1d901789b406e9424a268d3b96e5259a",
+      "current_raw_observer_sha256": "9529eacb37fd4389d5c2081f6ad4306ce561ad1adf629016aa4833b97e237114",
+      "previous_canonical_observer_sha256": "3d1c10964c7b945f1071e502786ce4212f65fe83394728531587783b98f222d3",
+      "current_canonical_observer_sha256": "e21dc9457c90d48f770bf5fa9ef149f074f5a8c5e0d4066f5f62898d75f45e01",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/WW08_WW08_r005",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/WW08_WW08_r005.json",
+      "previous_review_record_sha256": "85b75eb453259915a6adfb74bcdd6f1ec3857ed00a723a79be58f9bfa50bb2c9",
+      "current_review_record_sha256": "3d6be28419691f4307fc03d0c11c8d4d1fc196d917af39b4a1425f35db56bc17",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "WW09_WW09_r059": {
+      "previous_raw_observer_sha256": "9f5acb25ec1e096facb52bb25326b35e2b7c1617660032d12556dd1cd72d0dda",
+      "current_raw_observer_sha256": "f6f4992f8c540d59f47baea7282c825234648d476438a0ba7671e9098ba69305",
+      "previous_canonical_observer_sha256": "77aa366ce6fe3f78fd409dfb3be699347cea87abc180c5f1b2e09fcb4591d2c6",
+      "current_canonical_observer_sha256": "de34c88c0a6a8f02e4901ef70176408c61f3bc24fea95618aab81ad0ddeaa4fc",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/WW09_WW09_r059",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/WW09_WW09_r059.json",
+      "previous_review_record_sha256": "781c59f98e7caf75976accc91ffd15f37bc6e227fc69d1de324a474071744057",
+      "current_review_record_sha256": "490443401468fe5f8bb37d6de6b6d551285abd71a0ea8fdaf04071f7a83e8c31",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    },
+    "WW10_WW10_r067": {
+      "previous_raw_observer_sha256": "9d88a9cb479d1ae683d980f58fc2b72a59915d389b27446889855aba61e3556e",
+      "current_raw_observer_sha256": "e259cc517e9742605db59f791966b69273488278125d7f66c27e40c55e60afbb",
+      "previous_canonical_observer_sha256": "28977ed1c77d917fe2451d3f4ec7623000d2825053ccc08e3a34cdd01434bae1",
+      "current_canonical_observer_sha256": "d1bd30abc34f05965db33ab8ee65e5475134fc734f65553c8e12dd4c645624b1",
+      "observer_changed_paths": [
+        "/context_sources/0/adapter/review_status"
+      ],
+      "all_evidence_facts_text_ids_access_and_cutoff_unchanged": true,
+      "binding_action": "explicit_administrative_carry_forward_after_user_context_confirmation",
+      "new_whole_case_human_review_claimed": false,
+      "previous_preparation_history_record": "review_provenance/R1_PREPARATION_HISTORY.json#/versions/r1_v3/cases/WW10_WW10_r067",
+      "previous_review_file": "history/pre_context_confirmation_20261113/REVIEWS.json",
+      "previous_observer_file": "history/pre_context_confirmation_20261113/prospective/observer_inputs/WW10_WW10_r067.json",
+      "previous_review_record_sha256": "b8b2b58c54b4da6dd1e5afae692770eb80d3f819c6cb9d57f399a7a2f8868382",
+      "current_review_record_sha256": "97972b790103a58d55c61898da17ad67704132718e2a4870013e28a20f21b726",
+      "review_changed_paths": [
+        "/Reviewer and exposure/Observer input SHA-256",
+        "/Reviewer and exposure/Preparation history record",
+        "/Selection / exclusion reason"
+      ],
+      "substantive_judgment_unchanged": true
+    }
+  }
+}

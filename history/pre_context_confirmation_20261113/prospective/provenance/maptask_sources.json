@@ -1,0 +1,92 @@
+[
+  {
+    "source_id": "q1ec1",
+    "revision": "75814e7c5898e3b1f35f823c90e5f4582b24e140",
+    "url": "https://github.com/dollja/gmmt-datasets/blob/75814e7c5898e3b1f35f823c90e5f4582b24e140/prepared/curator/extracted/hcrc/Transcripts/q1ec1.txt",
+    "local_path": "source_transcripts/q1ec1.txt",
+    "sha256": "a2be4fb0a7aa84dbeac3e41338f1a7332fd51ec147cc3942d9e90d95a620c148",
+    "git_blob_sha1": "0cb0b22e693565c848210270cab15457e9aff794",
+    "bytes": 3177
+  },
+  {
+    "source_id": "q1ec3",
+    "revision": "75814e7c5898e3b1f35f823c90e5f4582b24e140",
+    "url": "https://github.com/dollja/gmmt-datasets/blob/75814e7c5898e3b1f35f823c90e5f4582b24e140/prepared/curator/extracted/hcrc/Transcripts/q1ec3.txt",
+    "local_path": "source_transcripts/q1ec3.txt",
+    "sha256": "e62f975d275558b0c63da10971e99c967f9fcbd553cc9c367e238e3b080a3f5b",
+    "git_blob_sha1": "07b70046bd0ead7d2a14f0131cd3c9b7aeb419f7",
+    "bytes": 8470
+  },
+  {
+    "source_id": "q1ec4",
+    "revision": "75814e7c5898e3b1f35f823c90e5f4582b24e140",
+    "url": "https://github.com/dollja/gmmt-datasets/blob/75814e7c5898e3b1f35f823c90e5f4582b24e140/prepared/curator/extracted/hcrc/Transcripts/q1ec4.txt",
+    "local_path": "source_transcripts/q1ec4.txt",
+    "sha256": "9b22e88ece0e11531f3c72746d123edd1e29888b9a33869be076009792d84ea8",
+    "git_blob_sha1": "9c969b2a963806532eafb6a930a9be070ec20e8e",
+    "bytes": 2719
+  },
+  {
+    "source_id": "q1ec5",
+    "revision": "75814e7c5898e3b1f35f823c90e5f4582b24e140",
+    "url": "https://github.com/dollja/gmmt-datasets/blob/75814e7c5898e3b1f35f823c90e5f4582b24e140/prepared/curator/extracted/hcrc/Transcripts/q1ec5.txt",
+    "local_path": "source_transcripts/q1ec5.txt",
+    "sha256": "47c0b7cc053e72ecacece3ad52a6eee80879c28c3ead0cc1d9d56f5709025848",
+    "git_blob_sha1": "9a4d25d405dbe10083d245de16808e375beb9aca",
+    "bytes": 5242
+  },
+  {
+    "source_id": "q1ec6",
+    "revision": "75814e7c5898e3b1f35f823c90e5f4582b24e140",
+    "url": "https://github.com/dollja/gmmt-datasets/blob/75814e7c5898e3b1f35f823c90e5f4582b24e140/prepared/curator/extracted/hcrc/Transcripts/q1ec6.txt",
+    "local_path": "source_transcripts/q1ec6.txt",
+    "sha256": "3aae681b77428746cec3fecd5bd9f5a02799efe53cc8f807b6721243e8241efc",
+    "git_blob_sha1": "1fa39a83d39fecaba54d14a8261d8dbc4c67c033",
+    "bytes": 2647
+  },
+  {
+    "source_id": "q1ec7",
+    "revision": "75814e7c5898e3b1f35f823c90e5f4582b24e140",
+    "url": "https://github.com/dollja/gmmt-datasets/blob/75814e7c5898e3b1f35f823c90e5f4582b24e140/prepared/curator/extracted/hcrc/Transcripts/q1ec7.txt",
+    "local_path": "source_transcripts/q1ec7.txt",
+    "sha256": "6e12b1fb2fa0ac5c761f26989b3fe1fcd72493191b54c25bd9385cc08f341d20",
+    "git_blob_sha1": "b4ebb7cd4df31b1e0161e3b350270deafc4a8ce1",
+    "bytes": 8068
+  },
+  {
+    "source_id": "q1ec8",
+    "revision": "75814e7c5898e3b1f35f823c90e5f4582b24e140",
+    "url": "https://github.com/dollja/gmmt-datasets/blob/75814e7c5898e3b1f35f823c90e5f4582b24e140/prepared/curator/extracted/hcrc/Transcripts/q1ec8.txt",
+    "local_path": "source_transcripts/q1ec8.txt",
+    "sha256": "f4dc2314b97e54715183e22a56175c3720435920469c48d0ad72607ed2ce4c60",
+    "git_blob_sha1": "9215fdb122371a3a07ba1e18ec58e16d827d9ae6",
+    "bytes": 3886
+  },
+  {
+    "source_id": "q1nc2",
+    "revision": "75814e7c5898e3b1f35f823c90e5f4582b24e140",
+    "url": "https://github.com/dollja/gmmt-datasets/blob/75814e7c5898e3b1f35f823c90e5f4582b24e140/prepared/curator/extracted/hcrc/Transcripts/q1nc2.txt",
+    "local_path": "source_transcripts/q1nc2.txt",
+    "sha256": "405f183db988641eec33ef343492f7443e4dd701a3c83f7f9646ccfd3f1e5270",
+    "git_blob_sha1": "509f355640c1ea0ac266c20ee3c5873d960474e0",
+    "bytes": 13170
+  },
+  {
+    "source_id": "q1nc3",
+    "revision": "75814e7c5898e3b1f35f823c90e5f4582b24e140",
+    "url": "https://github.com/dollja/gmmt-datasets/blob/75814e7c5898e3b1f35f823c90e5f4582b24e140/prepared/curator/extracted/hcrc/Transcripts/q1nc3.txt",
+    "local_path": "source_transcripts/q1nc3.txt",
+    "sha256": "335fd9eea6d80f2ce097011307fc8d96da0581373117a9b24c0ce26d62a78a5b",
+    "git_blob_sha1": "a49897d445e5ed33d37606700b34f00b70cf179c",
+    "bytes": 12092
+  },
+  {
+    "source_id": "q1nc4",
+    "revision": "75814e7c5898e3b1f35f823c90e5f4582b24e140",
+    "url": "https://github.com/dollja/gmmt-datasets/blob/75814e7c5898e3b1f35f823c90e5f4582b24e140/prepared/curator/extracted/hcrc/Transcripts/q1nc4.txt",
+    "local_path": "source_transcripts/q1nc4.txt",
+    "sha256": "e1221771f732231250284695021559339c9ae8cc54bf4a386ecd92140540afca",
+    "git_blob_sha1": "e4bed15e3e023865c7ec89a65e7c8d9d4233f3be",
+    "bytes": 8119
+  }
+]
