@@ -51,22 +51,22 @@ class ReviewHtmlBuildTests(unittest.TestCase):
             self.assertEqual(len(data["cases"]), 1)
             case = data["cases"][0]
             self.assertEqual(set(case), {"case_id", "observer_input_sha256", "observer_input"})
-            self.assertEqual(case["observer_input"], json.loads(source.read_text()))
+            self.assertEqual(case["observer_input"], json.loads(source.read_text(encoding='utf-8')))
             self.assertEqual(set(case["observer_input"]),
                              {"overall_task", "participants", "context_sources", "dialogue_prefix"})
             self.assertEqual(case["observer_input_sha256"], hashlib.sha256(source.read_bytes()).hexdigest())
             mapping = payload(html, "review-key-map-data")
             self.assertEqual(set(mapping), {"format_id", "maps", "children", "field_reference_lists"})
-            expected = json.loads((root / "schemas/review_key_map.json").read_text())
+            expected = json.loads((root / "schemas/review_key_map.json").read_text(encoding='utf-8'))
             self.assertEqual(mapping, {key: expected[key] for key in mapping})
             self.assertNotIn('id="field-map-data"', html)
-            self.assertIn((root / "web/review_keys.js").read_text(), html)
+            self.assertIn((root / "web/review_keys.js").read_text(encoding='utf-8'), html)
 
     def test_key_map_data_cannot_close_its_json_script(self):
         with tempfile.TemporaryDirectory() as td:
             root, _ = self.minimal_package(td)
             path = root / "schemas/review_key_map.json"
-            mapping = json.loads(path.read_text())
+            mapping = json.loads(path.read_text(encoding='utf-8'))
             special = '</script><script>KEY_FIXTURE</script>\u2028\u2029'
             mapping["maps"]["review"]["reviewer_id"] = special
             path.write_text(json.dumps(mapping), encoding="utf-8")
@@ -78,7 +78,7 @@ class ReviewHtmlBuildTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as td:
             root, _ = self.minimal_package(td)
             path = root / "schemas/review_key_map.json"
-            mapping = json.loads(path.read_text())
+            mapping = json.loads(path.read_text(encoding='utf-8'))
             mapping["maps"]["review"]["reviewer_id"] = mapping["maps"]["review"]["review_status"]
             path.write_text(json.dumps(mapping), encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "Ambiguous human review key"):

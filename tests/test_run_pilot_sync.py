@@ -226,6 +226,20 @@ class SyncRunnerTests(unittest.TestCase):
         self.assertEqual(report['predictions'], 1)
         self.assertFalse((out / 'run.lock').exists())
 
+    def test_runner_resolves_hosts_to_ipv4_only(self):
+        seen = []
+
+        def fake(host, port, family=0, *args, **kwargs):
+            seen.append(family)
+            return []
+
+        with patch.object(sync.socket, 'getaddrinfo', fake):
+            sync.use_ipv4_only()
+            sync.use_ipv4_only()
+            sync.socket.getaddrinfo('example.invalid', 443)
+            sync.socket.getaddrinfo('example.invalid', 443, sync.socket.AF_INET6)
+        self.assertEqual(seen, [sync.socket.AF_INET, sync.socket.AF_INET])
+
 
 if __name__ == '__main__':
     unittest.main()

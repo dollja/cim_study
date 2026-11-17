@@ -117,7 +117,7 @@ class IntegratedRuleTests(unittest.TestCase):
             raw = b'\xef\xbb\xbf{\r\n  "candidates": [],\r\n  "overflow": false\r\n}\r\n'
             (p/'run/01_discovery.response.txt').write_bytes(raw)
             result = advance(p/'case.json', p/'run', 'manual-fixture', 'manual_replay')
-            saved_hash = json.loads((p/'run/01_discovery.response_hash.json').read_text())['sha256']
+            saved_hash = json.loads((p/'run/01_discovery.response_hash.json').read_text(encoding='utf-8'))['sha256']
             self.assertEqual(saved_hash, hashlib.sha256(raw).hexdigest())
             self.assertEqual((p/'run/01_discovery.response.txt').read_bytes(), raw)
             self.assertEqual(result['evidence_tier'], 'S')

@@ -19,6 +19,7 @@ import json
 import os
 from pathlib import Path
 import re
+import socket
 import time
 import urllib.error
 import urllib.request
@@ -43,6 +44,24 @@ class StopRun(Exception):
 
 class CaseStopped(Exception):
     """This case cannot continue now; other cases still run."""
+
+
+def use_ipv4_only():
+    """Resolve hosts to IPv4 addresses only for this process.
+
+    On the study machine, responses that arrive after a pause were lost on about one IPv6
+    connection in ten and on no IPv4 connection (2026-11-16 measurements against public echo
+    services). The request content is unaffected.
+    """
+    original = socket.getaddrinfo
+    if getattr(original, 'ipv4_only', False):
+        return
+
+    def getaddrinfo(host, port, family=0, *args, **kwargs):
+        return original(host, port, socket.AF_INET, *args, **kwargs)
+
+    getaddrinfo.ipv4_only = True
+    socket.getaddrinfo = getaddrinfo
 
 
 def now():
@@ -414,6 +433,7 @@ def prepare(all_cases=False):
                sync_timeout_seconds=180, sync_recover_seconds=300, sync_poll_seconds=5,
                sync_attempts_per_stage_per_launch=6, sync_attempts_per_stage_total=18,
                sync_backoff_seconds=20, sync_backoff_max_seconds=300, sync_consecutive_failure_limit=8,
+               network_address_family='ipv4',
                budget_rule='Measured token cost of saved completions plus full upper-bound reservation of every attempt without a completion, across all runs, must stay within total_authorized_ceiling_usd.',
                measured_usd_before_this_run=round(measured, 4),
                open_reservations_usd_before_this_run=round(unsettled, 4),
@@ -497,6 +517,7 @@ def execute(run_id, cfg, max_cases=None):
         lock.unlink()
     lock.write_text(json.dumps({'pid': os.getpid(), 'started_utc': now()}), encoding='utf-8')
     state = {'consecutive_failures': 0, 'completions': 0}
+    use_ipv4_only()
     try:
         if not verify()['valid']:
             raise ValueError('Frozen inputs changed; execution stopped.')

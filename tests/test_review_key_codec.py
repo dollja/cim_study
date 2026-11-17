@@ -189,8 +189,8 @@ class ReviewKeyCodecTests(unittest.TestCase):
         except ImportError:
             self.skipTest('jsonschema is optional; runtime CLI validation has no dependency on it.')
         base = Path(__file__).resolve().parents[1]/'schemas'
-        human_schema = json.loads((base/'reviews_form_labels.schema.json').read_text())
-        technical_schema = json.loads((base/'reviews_technical.schema.json').read_text())
+        human_schema = json.loads((base/'reviews_form_labels.schema.json').read_text(encoding='utf-8'))
+        technical_schema = json.loads((base/'reviews_technical.schema.json').read_text(encoding='utf-8'))
         jsonschema.Draft202012Validator.check_schema(human_schema)
         jsonschema.Draft202012Validator.check_schema(technical_schema)
         data = self.fixture.complete()

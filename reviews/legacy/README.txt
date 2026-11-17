@@ -1,1 +1,0 @@
-Archived attachment-era files for provenance only. Do not edit these as the active review. Use the root REVIEWS.json and REVIEW.html. Earlier draft interpretations may be superseded by the current Tier S wording. Relative links in archived HTML refer to its earlier layout and may no longer resolve. No archived draft is a human reference.

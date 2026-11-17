@@ -55,8 +55,11 @@ class ReferenceReviewWorkflowTests(unittest.TestCase):
                          rt.export_adjudicated(a, b, ledger, self.fixture.observer_dir))
 
     def test_current_reference_schema_rejects_silent_hypothesis_or_focus_loss(self):
-        import jsonschema
-        schema = json.loads((Path(__file__).resolve().parents[1] / 'schemas/reviews.schema.json').read_text())
+        try:
+            import jsonschema
+        except ImportError:
+            self.skipTest('jsonschema is not installed (pip install -r requirements-dev.txt)')
+        schema = json.loads((Path(__file__).resolve().parents[1] / 'schemas/reviews.schema.json').read_text(encoding='utf-8'))
         original = codec.to_reference_reviews(self.fixture.complete())
         jsonschema.Draft202012Validator.check_schema(schema)
         jsonschema.validate(original, schema)

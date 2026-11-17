@@ -83,7 +83,7 @@ class SafeRegenerationTests(unittest.TestCase):
             root = package / 'prospective'
             sid = 'MT03_q1ec4_r019'
             record_path = root / 'curator_cases' / (sid + '.json')
-            record = json.loads(record_path.read_text())
+            record = json.loads(record_path.read_text(encoding='utf-8'))
             record['study_role'] = 'pilot'
             record['selection_metadata']['selection_status'] = 'human_selected'
             record['manual_annotation'] = {'fixture_only': True}
