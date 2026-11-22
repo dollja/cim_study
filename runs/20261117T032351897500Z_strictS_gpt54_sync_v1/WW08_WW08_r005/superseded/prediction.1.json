@@ -1,0 +1,15 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "WW08_WW08_r005",
+  "observer_hash": "e21dc9457c90d48f770bf5fa9ef149f074f5a8c5e0d4066f5f62898d75f45e01",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618",
+  "prefix_status": "PROCESSING_FAILURE",
+  "error": "cannot use 'tuple' as a set element (unhashable type: 'list')",
+  "is_measured_model_run": true,
+  "timestamp_utc": "2026-11-17T20:26:54.338821+00:00"
+}

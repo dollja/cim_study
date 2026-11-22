@@ -1,0 +1,544 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "MT08_q1nc2_r052",
+  "observer_hash": "3c8f959c703669fbf439bc924922a66f316da8745dc962abf17122762545caf4",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "q1nc2.row.007",
+          "quote": "see the have you got a stony desert down at the bottom right-hand corner"
+        },
+        {
+          "source_id": "q1nc2.row.010",
+          "quote": "the start is just just above that"
+        },
+        {
+          "source_id": "q1nc2.row.013",
+          "quote": "th-- that's marked on my map as well"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "anchor",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc2.row.007",
+                "quote": "see the have you got a stony desert down at the bottom right-hand corner"
+              },
+              {
+                "source_id": "q1nc2.row.010",
+                "quote": "the start is just just above that"
+              },
+              {
+                "source_id": "m9_giver_inventory",
+                "quote": "m9_giver_11: stony desert; lower right; correspondence m9_desert"
+              },
+              {
+                "source_id": "m9_follower_inventory",
+                "quote": "m9_follower_11: stony desert; lower right; correspondence m9_desert"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m9_desert"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m9_desert"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "checkpoint",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc2.row.007",
+                "quote": "see the have you got a stony desert down at the bottom right-hand corner"
+              },
+              {
+                "source_id": "q1nc2.row.008",
+                "quote": "yes"
+              },
+              {
+                "source_id": "q1nc2.row.011",
+                "quote": "it's just above that"
+              },
+              {
+                "source_id": "q1nc2.row.013",
+                "quote": "th-- that's marked on my map as well"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e1",
+                  "m9_desert"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "x1"
+              ],
+              "Q": [],
+              "excluded": [
+                "x2"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2",
+                "path3"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e1",
+                  "m9_desert"
+                ]
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "q1nc2.row.023",
+          "quote": "and we're going left from that and kind of round round left past the stony desert and down until you're kind of level with the bottom of the stony desert"
+        },
+        {
+          "source_id": "q1nc2.row.028",
+          "quote": "left from the start and y-- just just kind of round the outside of the desert you know right round the outline and then keep going down until you're kind of level with the stony desert"
+        },
+        {
+          "source_id": "q1nc2.row.029",
+          "quote": "but just round the outline of the desert"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc2.row.023",
+                "quote": "and we're going left from that and kind of round round left past the stony desert and down until you're kind of level with the bottom of the stony desert"
+              },
+              {
+                "source_id": "q1nc2.row.028",
+                "quote": "left from the start and y-- just just kind of round the outside of the desert you know right round the outline and then keep going down until you're kind of level with the stony desert"
+              },
+              {
+                "source_id": "q1nc2.row.033",
+                "quote": "and you're down to the level of the bottom if you run your finger along the bottom of the stony desert"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [
+                "r3"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2",
+                "path3"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "outside",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc2.row.028",
+                "quote": "left from the start and y-- just just kind of round the outside of the desert you know right round the outline and then keep going down until you're kind of level with the stony desert"
+              },
+              {
+                "source_id": "q1nc2.row.029",
+                "quote": "but just round the outline of the desert"
+              },
+              {
+                "source_id": "q1nc2.row.030",
+                "quote": "yeah"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1",
+                "x2"
+              ],
+              "Q": [
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_x3_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path_x3_2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_x1_1",
+                "path_x2_1",
+                "path_x2_2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "q1nc2.row.046",
+          "quote": "and then we start going up"
+        },
+        {
+          "source_id": "q1nc2.row.049",
+          "quote": "about three inches maybe"
+        },
+        {
+          "source_id": "q1nc2.row.051",
+          "quote": "erm and there's a the site of a plane crash"
+        },
+        {
+          "source_id": "q1nc2.row.052",
+          "quote": "i don't have that my plane crash is away up in the top right"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "checkpoint",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc2.row.046",
+                "quote": "and then we start going up"
+              },
+              {
+                "source_id": "q1nc2.row.049",
+                "quote": "about three inches maybe"
+              },
+              {
+                "source_id": "q1nc2.row.051",
+                "quote": "erm and there's a the site of a plane crash"
+              },
+              {
+                "source_id": "q1nc2.row.052",
+                "quote": "i don't have that my plane crash is away up in the top right"
+              },
+              {
+                "source_id": "m9_giver_inventory",
+                "quote": "m9_giver_10: site of plane crash; lower left; correspondence m9_plane_lower"
+              },
+              {
+                "source_id": "m9_follower_inventory",
+                "quote": "m9_follower_03: site of plane crash; upper right; correspondence m9_plane_upper"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1"
+              ],
+              "Q": [],
+              "excluded": [
+                "r2"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path_r2_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path_r2_2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r1_1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m9_plane_lower"
+                ]
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [
+                "r2"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path_r1_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r2_1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "route",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc2.row.046",
+                "quote": "and then we start going up"
+              },
+              {
+                "source_id": "q1nc2.row.049",
+                "quote": "about three inches maybe"
+              },
+              {
+                "source_id": "q1nc2.row.051",
+                "quote": "erm and there's a the site of a plane crash"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path3",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e3",
+                  "toward",
+                  "m9_plane_lower"
+                ],
+                [
+                  "Route",
+                  "e3",
+                  "toward",
+                  "m9_plane_upper"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x3"
+              ],
+              "excluded": [
+                "x2"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path2"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": true,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T05:49:29.705468+00:00"
+}

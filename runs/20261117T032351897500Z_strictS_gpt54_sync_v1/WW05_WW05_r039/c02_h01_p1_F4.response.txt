@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"undetermined","paths":[]},{"reading_id":"r2","judgment":"contradicted","paths":[{"id":"path1","root_type":"SAYS","root":{"source_id":"WW05.row.037","quote":"Mitchell is one of the werewolves"},"scope_id":"e2a","links":[]}]}],"updates":[],"unresolved_scope":false}

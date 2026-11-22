@@ -1,0 +1,481 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "MT02_q1ec3_r012",
+  "observer_hash": "08b15f4d0307ec9be84016712251866850e7978c6f6969c72002ea860115b414",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "q1ec3.row.002",
+          "quote": "start off above the diamond mine"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "anchor",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec3.row.002",
+                "quote": "start off above the diamond mine"
+              },
+              {
+                "source_id": "m6_giver_inventory",
+                "quote": "m6_giver_01: START; top left above diamond mine; correspondence m6_start"
+              },
+              {
+                "source_id": "m6_follower_inventory",
+                "quote": "m6_follower_01: START; top left above diamond mine; correspondence m6_start"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m6_diamond_mine"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m6_start"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m6_diamond_mine"
+                ],
+                [
+                  "Anchor",
+                  "e1",
+                  "m6_start"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "q1ec3.row.006",
+          "quote": "go south from the diamond mine until you are just above the desert"
+        },
+        {
+          "source_id": "q1ec3.row.007",
+          "quote": "so that's with the diamond mine on on your right"
+        },
+        {
+          "source_id": "q1ec3.row.008",
+          "quote": "that's that's correct uh-huh"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "route",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec3.row.006",
+                "quote": "go south from the diamond mine until you are just above the desert"
+              },
+              {
+                "source_id": "q1ec3.row.007",
+                "quote": "diamond mine on on your right"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1",
+                "x2"
+              ],
+              "Q": [
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "x3_path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "x1_path1",
+                "x2_path1"
+              ],
+              "G": [
+                [
+                  "Route",
+                  "e2",
+                  "above",
+                  "m6_desert"
+                ],
+                [
+                  "Route",
+                  "e2",
+                  "below",
+                  "m6_diamond_mine"
+                ]
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "x3"
+              ],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_x3_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e2",
+                  "above",
+                  "m6_desert"
+                ],
+                [
+                  "Route",
+                  "e2",
+                  "below",
+                  "m6_diamond_mine"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "target",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec3.row.006",
+                "quote": "just above the desert"
+              },
+              {
+                "source_id": "m6_giver_inventory",
+                "quote": "m6_giver_05: desert; left below diamond mine; correspondence m6_desert"
+              },
+              {
+                "source_id": "m6_follower_inventory",
+                "quote": "m6_follower_05: desert; left below diamond mine; correspondence m6_desert"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1",
+                "path_r2_1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path_r3_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "q1ec3.row.011",
+          "quote": "and below the graveyard below the graveyard but above the carved wooden pole"
+        },
+        {
+          "source_id": "q1ec3.row.012",
+          "quote": "oh hang on i don't have a graveyard"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "checkpoint",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec3.row.011",
+                "quote": "below the graveyard"
+              },
+              {
+                "source_id": "m6_giver_inventory",
+                "quote": "m6_giver_03: graveyard; right of diamond mine; correspondence m6_graveyard"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1",
+                "path_r2_1",
+                "path_r3_1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m6_graveyard"
+                ]
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [],
+              "Q": [],
+              "excluded": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1",
+                "path_r2_1",
+                "path_r3_1"
+              ],
+              "G": [],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h5",
+            "subtask": "target",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec3.row.011",
+                "quote": "above the carved wooden pole"
+              },
+              {
+                "source_id": "m6_giver_inventory",
+                "quote": "m6_giver_06: carved wooden pole; middle above walled city; correspondence m6_pole_upper"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h6",
+            "subtask": "outside",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec3.row.012",
+                "quote": "i don't have a graveyard"
+              },
+              {
+                "source_id": "q1ec3.row.011",
+                "quote": "below the graveyard"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T03:59:38.788578+00:00"
+}

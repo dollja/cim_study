@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"undetermined","paths":[]},{"reading_id":"r2","judgment":"undetermined","paths":[]},{"reading_id":"r3","judgment":"supported","paths":[{"id":"path1","root_type":"SAYS","root":{"source_id":"q1nc4.row.004","quote":"do you have cliffs just to to the right"},"scope_id":"e1","links":[]}]}],"updates":[],"unresolved_scope":false}

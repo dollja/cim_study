@@ -1,0 +1,567 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "WW02_WW02_r040",
+  "observer_hash": "2295503e62350503f756d85b4d57a223babe5951e9d87d2f56c4248b5b808b87",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "WW02.row.020",
+          "quote": "Dan, did you switch anyone's cards around?"
+        },
+        {
+          "source_id": "WW02.row.021",
+          "quote": "Yes."
+        },
+        {
+          "source_id": "WW02.row.036",
+          "quote": "I switched Caitlynn and Justin."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "WW02.row.036",
+                "quote": "I switched Caitlynn and Justin."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Dan": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1",
+                "path_r2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "target",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "WW02.row.036",
+                "quote": "Justin"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Dan": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "p1",
+                "p2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "holder",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "WW02.row.027",
+                "quote": "I'm still the Robber."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Dan": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "WW02.row.020",
+          "quote": "Caitlynn's saying she's a Villager?"
+        },
+        {
+          "source_id": "WW02.row.036",
+          "quote": "I switched Caitlynn and Justin."
+        },
+        {
+          "source_id": "WW02.row.039",
+          "quote": "Caitlynn's a Werewolf."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "anchor",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "WW02.row.020",
+                "quote": "Caitlynn's saying she's a Villager?"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "h1_r3"
+              ],
+              "Q": [
+                "h1_r1",
+                "h1_r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Caitlynn": {
+              "X": [],
+              "Q": [
+                "h1_r1",
+                "h1_r2",
+                "h1_r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "route",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "WW02.row.036",
+                "quote": "I switched Caitlynn and Justin."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Caitlynn": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "holder",
+            "event_id": "e4",
+            "scope_evidence": [
+              {
+                "source_id": "WW02.row.039",
+                "quote": "Caitlynn's a Werewolf."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r3"
+              ],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r3_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Caitlynn": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "WW02.row.015",
+          "quote": "I'm going to say I was the Robber."
+        },
+        {
+          "source_id": "WW02.row.027",
+          "quote": "I did not switch with anybody. I'm still the Robber."
+        },
+        {
+          "source_id": "WW02.row.028",
+          "quote": "It's possible, he switched with someone, looked at the card, and it turns out to be a Werewolf. And now, he's trying to play innocent."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "anchor",
+            "event_id": "e5",
+            "scope_evidence": [
+              {
+                "source_id": "WW02.row.015",
+                "quote": "I'm going to say I was the Robber."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "x1",
+                "x2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Mitchell": {
+              "X": [
+                "x1",
+                "x2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": false
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "route",
+            "event_id": "e6",
+            "scope_evidence": [
+              {
+                "source_id": "WW02.row.027",
+                "quote": "I did not switch with anybody."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [
+                "r3"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1",
+                "path_r2",
+                "path_r3"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "route",
+            "event_id": "e7",
+            "scope_evidence": [
+              {
+                "source_id": "WW02.row.028",
+                "quote": "he switched with someone, looked at the card, and it turns out to be a Werewolf."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "r1_p1",
+                "r2_p1",
+                "r3_p1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T23:03:55.540455+00:00"
+}

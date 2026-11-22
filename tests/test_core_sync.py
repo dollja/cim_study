@@ -8,7 +8,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from pilot import advance, alternatives_block, check_view, compare, evaluate_hypothesis
+from pilot import advance, alternatives_block, check_view, compare, evaluate_hypothesis, task
 from tests.test_pilot import fixture
 
 
@@ -50,6 +50,31 @@ class IntegratedRuleTests(unittest.TestCase):
         self.assertEqual(result['participants']['F']['Q'], ['upper'])
         self.assertFalse(result['participants']['F']['blocking_alternatives'])
         self.assertEqual(result['status'], 'ALIGNED')
+
+    def test_wrongly_typed_reading_arguments_give_unknown_consequence_not_a_crash(self):
+        v = {'participants': [{'participant_id': 'A'}, {'participant_id': 'B'}],
+             'context_sources': [{'source_id': 'rules', 'text': 'r', 'accessible_to_participants': ['A', 'B'],
+                                  'adapter': {'kind': 'game_rules', 'review_status': 'verified',
+                                              'roles': ['Robber', 'Seer']}}]}
+        good = {'event_id': 'e1', 'mode': 'reported', 'role': 'Robber', 'holder': 'A',
+                'phase': 'night', 'premise_branch': 'as stated'}
+        holder = {'subtask': 'holder', 'event_id': 'e1'}
+        self.assertEqual(task(v, 'A', holder, {'arguments': good}),
+                         ('Holder', 'e1', 'Robber', 'A', 'night', 'as stated'))
+        bad = [dict(good, premise_branch=['quote one', 'quote two']), dict(good, holder={'participant_id': 'A'}),
+               dict(good, role=['Robber']), dict(good, phase={'name': 'night'}),
+               dict(good, mode='swap', order_resolved=True, no_later_movement=True, initial_state=['A']),
+               dict(good, mode='swap', order_resolved=True, no_later_movement=True, initial_state={'A': 'Robber'},
+                    moves=[{'operation': 'swap', 'a': ['A'], 'b': 'B'}])]
+        for arguments in bad:
+            with self.subTest(arguments=arguments):
+                self.assertIsNone(task(v, 'A', holder, {'arguments': arguments}))
+        target = {'subtask': 'target', 'event_id': 'e1'}
+        self.assertIsNone(task(v, 'A', target, {'arguments': {'event_id': 'e1', 'target': ['B'], 'act': 'vote'}}))
+        route = {'subtask': 'route', 'event_id': 'e1'}
+        for arguments in ({'event_id': 'e1', 'anchor_ids': ['x'], 'relation': 'above'},
+                          {'event_id': 'e1', 'anchor_ids': {'A': ['x']}, 'relation': ['above']}):
+            self.assertIsNone(task(v, 'A', route, {'arguments': arguments}))
 
     def test_final_ack_does_not_erase_prior_expressed_grounding(self):
         v, c, h, readings, records, checks = fixture()

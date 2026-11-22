@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"undetermined","paths":[]},{"reading_id":"r2","judgment":"supported","paths":[{"id":"path1","root_type":"SAYS","root":{"source_id":"WW08.row.004","quote":"I saw that Dan was a mason."},"scope_id":"e2","links":[]}]}],"updates":[],"unresolved_scope":false}

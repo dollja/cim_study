@@ -1,8 +1,0 @@
-{
-  "configuration_hash": "8958a86dad967bd3215f352f7020d65092da06f6da2b5187e7c8e373b15f7d4c",
-  "runner_sha256": "2db92cc4b2251c3c13daf7f16757eca08948a8163e173d176d1766f06d40dcac",
-  "background_transport_sha256": "84aac7a5fda35a8f44edc80b727ac8269e1800ca31dad5427311567f4330ffaa",
-  "openai_project_id": "proj_D1V5mR4ljnlYIEDSt2nNan4B",
-  "case_root": "C:\\github\\cim_study\\runs\\20261115T155043661048Z_strictS_gpt54_v05_MT04_smoke",
-  "ledger": "C:\\github\\cim_study\\results\\20261115T155043661048Z_strictS_gpt54_v05_MT04_smoke\\attempt_ledger.jsonl"
-}

@@ -1,0 +1,449 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "MT06_q1ec7_r022",
+  "observer_hash": "bc50b6fc1e65936941b7ef5e2f6f9ccda61ea21b33e8bb4ef956483c4d54162e",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "q1ec7.row.002",
+          "quote": "i'm starting off from a-- above the caravan park"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "anchor",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.row.002",
+                "quote": "i'm starting off from a-- above the caravan park"
+              },
+              {
+                "source_id": "m12_giver_inventory",
+                "quote": "m12_giver_10: START; lower left above caravan park; correspondence m12_start"
+              },
+              {
+                "source_id": "m12_follower_inventory",
+                "quote": "m12_follower_08: START; lower left above caravan park; correspondence m12_start"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m12_caravan_park"
+                ],
+                [
+                  "Anchor",
+                  "e1",
+                  "m12_start"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m12_caravan_park"
+                ],
+                [
+                  "Anchor",
+                  "e1",
+                  "m12_start"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "q1ec7.row.007",
+          "quote": "and we're going to go and straight down south with the caravan park on your right-hand side"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "route",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.row.002",
+                "quote": "i'm starting off from a-- above the caravan park"
+              },
+              {
+                "source_id": "q1ec7.row.007",
+                "quote": "and we're going to go and straight down south with the caravan park on your right-hand side"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "holder",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.row.007",
+                "quote": "and we're going to go and straight down south with the caravan park on your right-hand side"
+              },
+              {
+                "source_id": "m12_giver_inventory",
+                "quote": "m12_giver_11: caravan park; lower left; correspondence m12_caravan_park"
+              },
+              {
+                "source_id": "m12_follower_inventory",
+                "quote": "m12_follower_09: caravan park; lower left; correspondence m12_caravan_park"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1"
+              ],
+              "Q": [],
+              "excluded": [
+                "x2",
+                "x3"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path3",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "q1ec7.row.013",
+          "quote": "eh-- ehm are we just going are we going to go below the picket fence"
+        },
+        {
+          "source_id": "q1ec7.row.021",
+          "quote": "you want to have the old mill on your right-hand side so if that fence is below the old mill you want to keep that on your right-hand side"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "outside",
+            "event_id": "e4",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.row.017",
+                "quote": "i don't have one so i would say"
+              },
+              {
+                "source_id": "q1ec7.row.018",
+                "quote": "whereabouts is the picket fence"
+              },
+              {
+                "source_id": "m12_follower_inventory",
+                "quote": "m12_follower_11: picket fence; bottom left; correspondence m12_picket_fence"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h5",
+            "subtask": "holder",
+            "event_id": "e5",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.row.021",
+                "quote": "you want to have the old mill on your right-hand side so if that fence is below the old mill you want to keep that on your right-hand side"
+              },
+              {
+                "source_id": "m12_giver_inventory",
+                "quote": "m12_giver_12: old mill; below/right of caravan park; correspondence m12_mill"
+              },
+              {
+                "source_id": "m12_follower_inventory",
+                "quote": "m12_follower_10: mill wheel; below/right of caravan park; correspondence m12_mill"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h6",
+            "subtask": "route",
+            "event_id": "e6",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.row.013",
+                "quote": "eh-- ehm are we just going are we going to go below the picket fence"
+              },
+              {
+                "source_id": "q1ec7.row.019",
+                "quote": "picket fence is below the mill wheel which is below the caravan park"
+              },
+              {
+                "source_id": "q1ec7.row.021",
+                "quote": "you want to have the old mill on your right-hand side so if that fence is below the old mill you want to keep that on your right-hand side"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r2",
+                "r3"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r2_1",
+                "path_r3_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e6",
+                  "below",
+                  "m12_picket_fence"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T05:26:04.452517+00:00"
+}

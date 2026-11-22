@@ -1,0 +1,469 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "WW01_WW01_r028",
+  "observer_hash": "b1b5c24fcde1731f570255f6c2fbe29db20f113f7eb4b987a6a2d52560c1c6b3",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "WW01.row.021",
+          "quote": "I started as a Villager. That's what I was."
+        },
+        {
+          "source_id": "WW01.row.022",
+          "quote": "That's what I was too. I did nothing."
+        },
+        {
+          "source_id": "WW01.row.027",
+          "quote": "It's funny you say that because as the Troublemaker, I switched your guys' cards."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e_james_mitchell_swap_claim",
+            "scope_evidence": [
+              {
+                "source_id": "WW01.row.027",
+                "quote": "It's funny you say that because as the Troublemaker, I switched your guys' cards."
+              },
+              {
+                "source_id": "WW01_public_instructions",
+                "quote": "Troublemaker, wake up. You may exchange cards between two other players."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "James": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "anchor",
+            "event_id": "e_mitchell_initial_villager_claim",
+            "scope_evidence": [
+              {
+                "source_id": "WW01.row.021",
+                "quote": "I started as a Villager. That's what I was."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "James": {
+              "X": [
+                "r1"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "anchor",
+            "event_id": "e_james_initial_villager_claim",
+            "scope_evidence": [
+              {
+                "source_id": "WW01.row.022",
+                "quote": "That's what I was too. I did nothing."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "James": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "p_r1_1",
+                "p_r2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Mitchell": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "WW01.row.022",
+          "quote": "That's what I was too. I did nothing."
+        },
+        {
+          "source_id": "WW01.row.027",
+          "quote": "It's funny you say that because as the Troublemaker, I switched your guys' cards."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "target",
+            "event_id": "e_james_possible_target_of_justin_claim",
+            "scope_evidence": [
+              {
+                "source_id": "WW01.row.022",
+                "quote": "That's what I was too. I did nothing."
+              },
+              {
+                "source_id": "WW01.row.027",
+                "quote": "It's funny you say that because as the Troublemaker, I switched your guys' cards."
+              },
+              {
+                "source_id": "WW01_public_instructions",
+                "quote": "Troublemaker, wake up. You may exchange cards between two other players."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "x2"
+              ],
+              "Q": [
+                "x1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "James": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "anchor",
+            "event_id": "e_james_initial_villager_claim_repeat",
+            "scope_evidence": [
+              {
+                "source_id": "WW01.row.022",
+                "quote": "That's what I was too. I did nothing."
+              },
+              {
+                "source_id": "WW01.row.024",
+                "quote": "I kept my eyes closed the whole time."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "James": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "r1_p1",
+                "r2_p1",
+                "r2_p2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "WW01.row.021",
+          "quote": "I started as a Villager. That's what I was."
+        },
+        {
+          "source_id": "WW01.row.027",
+          "quote": "It's funny you say that because as the Troublemaker, I switched your guys' cards."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "target",
+            "event_id": "e_mitchell_possible_target_of_justin_claim",
+            "scope_evidence": [
+              {
+                "source_id": "WW01.row.021",
+                "quote": "I started as a Villager. That's what I was."
+              },
+              {
+                "source_id": "WW01.row.027",
+                "quote": "It's funny you say that because as the Troublemaker, I switched your guys' cards."
+              },
+              {
+                "source_id": "WW01_public_instructions",
+                "quote": "Troublemaker, wake up. You may exchange cards between two other players."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r1_path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "r2_path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "anchor",
+            "event_id": "e_mitchell_initial_villager_claim_repeat",
+            "scope_evidence": [
+              {
+                "source_id": "WW01.row.021",
+                "quote": "I started as a Villager. That's what I was."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T06:54:46.612990+00:00"
+}

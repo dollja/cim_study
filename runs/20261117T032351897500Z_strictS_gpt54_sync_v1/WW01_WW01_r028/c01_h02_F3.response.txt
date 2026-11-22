@@ -1,0 +1,1 @@
+{"readings":[{"id":"r1","paraphrase":"Reference to the Villager role in an initial or starting-role sense, without committing to any current post-night role.","arguments":{"event_id":"e_mitchell_initial_villager_claim","anchor_class":"role","anchor_ids":{"James":"Villager","Mitchell":"Villager"},"relation":null}}],"incomplete":false}

@@ -1,0 +1,287 @@
+{
+  "sample_id": "APC06_t041",
+  "dataset": "Werewolf_Among_Us_Youtube",
+  "study_role": "pilot",
+  "source": {
+    "package_id": "PC-06",
+    "source_conversation": "ONE NIGHT ULTIMATE WEREWOLF 4  July 14th 2016__Game2",
+    "group": "Game2",
+    "cutoff": {
+      "unit": "turn_index",
+      "value": 41
+    }
+  },
+  "observer_input": {
+    "overall_task": "Participants discuss a One Night Ultimate Werewolf game after its night actions and decide whom to accuse or vote for. Statements about roles and actions are reports that may be disputed or strategic. Preserve the distinction between a reported initial role, a role after a reported exchange, and a current role. Use the publicly spoken instructions in this prefix for the variant; do not infer hidden cards or final votes.",
+    "participants": [
+      {
+        "participant_id": "Justin",
+        "known_role": null
+      },
+      {
+        "participant_id": "Paul",
+        "known_role": null
+      },
+      {
+        "participant_id": "Mitchell",
+        "known_role": null
+      },
+      {
+        "participant_id": "Mike",
+        "known_role": null
+      }
+    ],
+    "context_sources": [
+      {
+        "source_id": "APC06_public_instructions",
+        "text": "No recorded game instructions precede this discussion. Roles that may be in play: Werewolf, Villager, Seer, Robber, Troublemaker, Mason, Drunk, Insomniac, Minion, Tanner.",
+        "accessible_to_participants": [
+          "Justin",
+          "Paul",
+          "Mitchell",
+          "Mike"
+        ],
+        "adapter": {
+          "kind": "game_rules",
+          "review_status": "verified",
+          "roles": [
+            "Werewolf",
+            "Villager",
+            "Seer",
+            "Robber",
+            "Troublemaker",
+            "Mason",
+            "Drunk",
+            "Insomniac",
+            "Minion",
+            "Tanner"
+          ]
+        }
+      }
+    ],
+    "dialogue_prefix": [
+      {
+        "utterance_id": "APC06.turn.000",
+        "speaker": "Mike",
+        "text": "Oh, exchange record."
+      },
+      {
+        "utterance_id": "APC06.turn.001",
+        "speaker": "Justin",
+        "text": "Nicer tempo. All right, so I need to know..."
+      },
+      {
+        "utterance_id": "APC06.turn.002",
+        "speaker": "Justin",
+        "text": "If there was a seer that looked at two cards in the center."
+      },
+      {
+        "utterance_id": "APC06.turn.003",
+        "speaker": "Paul",
+        "text": "There was a seer. I know who it is."
+      },
+      {
+        "utterance_id": "APC06.turn.004",
+        "speaker": "Mitchell",
+        "text": "Who it is. Who is it?"
+      },
+      {
+        "utterance_id": "APC06.turn.005",
+        "speaker": "Mike",
+        "text": "I was the seer."
+      },
+      {
+        "utterance_id": "APC06.turn.006",
+        "speaker": "Paul",
+        "text": "Yep."
+      },
+      {
+        "utterance_id": "APC06.turn.007",
+        "speaker": "Mitchell",
+        "text": "Who is it mister seer?"
+      },
+      {
+        "utterance_id": "APC06.turn.008",
+        "speaker": "Justin",
+        "text": "Did you look at two in the center?"
+      },
+      {
+        "utterance_id": "APC06.turn.009",
+        "speaker": "Mike",
+        "text": "I did look at two in the center."
+      },
+      {
+        "utterance_id": "APC06.turn.010",
+        "speaker": "Justin",
+        "text": "Okay. I'm not the drunk. I was just wondering."
+      },
+      {
+        "utterance_id": "APC06.turn.011",
+        "speaker": "Mike",
+        "text": "Okay. I do have bad news though."
+      },
+      {
+        "utterance_id": "APC06.turn.012",
+        "speaker": "Justin",
+        "text": "Did you see two good?"
+      },
+      {
+        "utterance_id": "APC06.turn.013",
+        "speaker": "Mike",
+        "text": "I saw two good."
+      },
+      {
+        "utterance_id": "APC06.turn.014",
+        "speaker": "Mitchell",
+        "text": "So that means there could only be one bad, right? Three. Ok, two's bad. Yeah."
+      },
+      {
+        "utterance_id": "APC06.turn.015",
+        "speaker": "Justin",
+        "text": "Okay. Good news actually was the drunk."
+      },
+      {
+        "utterance_id": "APC06.turn.016",
+        "speaker": "Mitchell",
+        "text": "That is the good news."
+      },
+      {
+        "utterance_id": "APC06.turn.017",
+        "speaker": "Justin",
+        "text": "That's a double lie."
+      },
+      {
+        "utterance_id": "APC06.turn.018",
+        "speaker": "Mitchell",
+        "text": "Uh-huh."
+      },
+      {
+        "utterance_id": "APC06.turn.019",
+        "speaker": "Justin",
+        "text": "Got there."
+      },
+      {
+        "utterance_id": "APC06.turn.020",
+        "speaker": "Mitchell",
+        "text": "Don't believe him."
+      },
+      {
+        "utterance_id": "APC06.turn.021",
+        "speaker": "Mike",
+        "text": "Yeah, me either."
+      },
+      {
+        "utterance_id": "APC06.turn.022",
+        "speaker": "Justin",
+        "text": "Okay, guys."
+      },
+      {
+        "utterance_id": "APC06.turn.023",
+        "speaker": "Mitchell",
+        "text": "Because, I was the drunk."
+      },
+      {
+        "utterance_id": "APC06.turn.024",
+        "speaker": "Mike",
+        "text": "Not this again, because I saw a drunk."
+      },
+      {
+        "utterance_id": "APC06.turn.025",
+        "speaker": "Paul",
+        "text": "That would literally be the same as last round."
+      },
+      {
+        "utterance_id": "APC06.turn.026",
+        "speaker": "Mike",
+        "text": "I saw drunk. You neither of you are drunk."
+      },
+      {
+        "utterance_id": "APC06.turn.027",
+        "speaker": "Justin",
+        "text": "That is true. Neither of us are the drunk."
+      },
+      {
+        "utterance_id": "APC06.turn.028",
+        "speaker": "Mitchell",
+        "text": "I was just kidding."
+      },
+      {
+        "utterance_id": "APC06.turn.029",
+        "speaker": "Justin",
+        "text": "Yeah, no, I was just... Also just..."
+      },
+      {
+        "utterance_id": "APC06.turn.030",
+        "speaker": "Mitchell",
+        "text": "What are you though?"
+      },
+      {
+        "utterance_id": "APC06.turn.031",
+        "speaker": "Justin",
+        "text": "What am I? Did you switch me with someone?"
+      },
+      {
+        "utterance_id": "APC06.turn.032",
+        "speaker": "Paul",
+        "text": "Oh shit."
+      },
+      {
+        "utterance_id": "APC06.turn.033",
+        "speaker": "Mitchell",
+        "text": "Possibly."
+      },
+      {
+        "utterance_id": "APC06.turn.034",
+        "speaker": "Justin",
+        "text": "Okay. I was the tanner."
+      },
+      {
+        "utterance_id": "APC06.turn.035",
+        "speaker": "Mike",
+        "text": "You robbed me."
+      },
+      {
+        "utterance_id": "APC06.turn.036",
+        "speaker": "Mitchell",
+        "text": "I switched Justin with Paul."
+      },
+      {
+        "utterance_id": "APC06.turn.037",
+        "speaker": "Paul",
+        "text": "Yeah."
+      },
+      {
+        "utterance_id": "APC06.turn.038",
+        "speaker": "Paul",
+        "text": "Now I'm the werewolf, aren't I?"
+      },
+      {
+        "utterance_id": "APC06.turn.039",
+        "speaker": "Justin",
+        "text": "No, you're a tanner. I was a tanner. Cause I feel like Mitch wouldn't lie about who he switched with. He doesn't pull Paul's like Paul does."
+      },
+      {
+        "utterance_id": "APC06.turn.040",
+        "speaker": "Paul",
+        "text": "I totally think he would."
+      },
+      {
+        "utterance_id": "APC06.turn.041",
+        "speaker": "Mike",
+        "text": "Well, I think Mitch lied about switching."
+      }
+    ]
+  },
+  "package_record_not_sent_to_model": {
+    "parent_case_id": "WW-02",
+    "original_cutoff": {
+      "unit": "turn_index",
+      "value": 39
+    },
+    "extended_cutoff": {
+      "unit": "turn_index",
+      "value": 41
+    },
+    "added_responses_count": 2
+  }
+}

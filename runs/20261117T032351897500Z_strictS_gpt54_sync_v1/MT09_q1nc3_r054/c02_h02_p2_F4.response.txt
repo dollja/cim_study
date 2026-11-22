@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"x1","judgment":"undetermined","paths":[]},{"reading_id":"x2","judgment":"undetermined","paths":[]},{"reading_id":"x3","judgment":"undetermined","paths":[]},{"reading_id":"x4","judgment":"undetermined","paths":[]}],"updates":[],"unresolved_scope":false}

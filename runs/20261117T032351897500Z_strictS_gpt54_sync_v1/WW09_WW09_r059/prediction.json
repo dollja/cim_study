@@ -1,0 +1,493 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "WW09_WW09_r059",
+  "observer_hash": "de34c88c0a6a8f02e4901ef70176408c61f3bc24fea95618aab81ad0ddeaa4fc",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "WW09.row.021",
+          "quote": "So I was the Robber, and I took Dylan's card."
+        },
+        {
+          "source_id": "WW09.row.021",
+          "quote": "And Dylan was the Seer"
+        },
+        {
+          "source_id": "WW09.row.021",
+          "quote": "I switched our cards, so he's now a Robber."
+        },
+        {
+          "source_id": "WW09.row.027",
+          "quote": "I saw you're a Robber."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "holder",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "WW09.row.021",
+                "quote": "So I was the Robber"
+              },
+              {
+                "source_id": "WW09.row.021",
+                "quote": "And Dylan was the Seer"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Audrey": {
+              "X": [
+                "r1",
+                "r2",
+                "r3",
+                "r4"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2",
+                "path3",
+                "path4"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Dylan": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [
+                "r3",
+                "r4"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1",
+                "path_r2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "target",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "WW09.row.021",
+                "quote": "I took Dylan's card."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Audrey": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Dylan": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "route",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "WW09.row.021",
+                "quote": "I switched our cards, so he's now a Robber."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Audrey": {
+              "X": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1",
+                "path_r2_1",
+                "path_r3_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Dylan": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "WW09.row.034",
+          "quote": "What did you do?"
+        },
+        {
+          "source_id": "WW09.row.036",
+          "quote": "Switched two cards."
+        },
+        {
+          "source_id": "WW09.row.038",
+          "quote": "Please say their cards, because that would be hilarious."
+        },
+        {
+          "source_id": "WW09.row.039",
+          "quote": "Not their cards."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "route",
+            "event_id": "e4",
+            "scope_evidence": [
+              {
+                "source_id": "WW09.row.036",
+                "quote": "Switched two cards."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Dan": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Katie": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h5",
+            "subtask": "outside",
+            "event_id": "e5",
+            "scope_evidence": [
+              {
+                "source_id": "WW09.row.039",
+                "quote": "Not their cards."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Dan": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Katie": {
+              "X": [],
+              "Q": [
+                "x1"
+              ],
+              "excluded": [
+                "x2"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "WW09.row.056",
+          "quote": "There was only one Mason. So there's another Mason card in the middle. I was all by myself."
+        },
+        {
+          "source_id": "WW09.row.057",
+          "quote": "Wait, so are you a Mason?"
+        },
+        {
+          "source_id": "WW09.row.058",
+          "quote": "I was all by myself."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h6",
+            "subtask": "holder",
+            "event_id": "e6",
+            "scope_evidence": [
+              {
+                "source_id": "WW09.row.056",
+                "quote": "There was only one Mason. So there's another Mason card in the middle. I was all by myself."
+              },
+              {
+                "source_id": "WW09.row.058",
+                "quote": "I was all by myself."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Katie": {
+              "X": [
+                "x2"
+              ],
+              "Q": [
+                "x1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Brett": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h7",
+            "subtask": "anchor",
+            "event_id": "e7",
+            "scope_evidence": [
+              {
+                "source_id": "WW09.row.056",
+                "quote": "So there's another Mason card in the middle."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Katie": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Brett": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": true,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T20:56:09.442210+00:00"
+}

@@ -1,0 +1,486 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "WW07_WW07_r099",
+  "observer_hash": "043cf8f219623af0ba12fd1627c077eb6bcfa68be82c885b93c3291be5099ad9",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "WW07.row.080",
+          "quote": "I'm the Seer and I looked at your card and you're a Werewolf and you're 100% lying."
+        },
+        {
+          "source_id": "WW07.row.094",
+          "quote": "I'm a Villager."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "target",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "WW07.row.080",
+                "quote": "I looked at your card"
+              }
+            ]
+          },
+          "status": "ALIGNED",
+          "participants": {
+            "Dan": {
+              "X": [
+                "x1"
+              ],
+              "Q": [],
+              "excluded": [
+                "x2",
+                "x3"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Target",
+                  "e1",
+                  "accuse",
+                  "Brett"
+                ]
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Katie": {
+              "X": [
+                "x1"
+              ],
+              "Q": [],
+              "excluded": [
+                "x2",
+                "x3"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path3",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Target",
+                  "e1",
+                  "accuse",
+                  "Brett"
+                ]
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": false
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "holder",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "WW07.row.080",
+                "quote": "you're a Werewolf"
+              },
+              {
+                "source_id": "WW07.row.094",
+                "quote": "I'm a Villager."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Dan": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Katie": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r3_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r1_1",
+                "path_r2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "WW07.row.080",
+          "quote": "I'm the Seer and I looked at your card and you're a Werewolf and you're 100% lying."
+        },
+        {
+          "source_id": "WW07.row.098",
+          "quote": "If you were actually a Seer, that means Ed's now a Seer because I was making some trouble last night."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "route",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "WW07.row.098",
+                "quote": "Ed's now a Seer because I was making some trouble last night."
+              },
+              {
+                "source_id": "WW07_public_instructions",
+                "quote": "Troublemaker, wake up. You may exchange cards between two other players."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Dan": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Ed": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "holder",
+            "event_id": "e4",
+            "scope_evidence": [
+              {
+                "source_id": "WW07.row.080",
+                "quote": "I'm the Seer"
+              },
+              {
+                "source_id": "WW07.row.098",
+                "quote": "Ed's now a Seer"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Dan": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path3",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e4",
+                  "Seer",
+                  "Ed",
+                  "current",
+                  "If you were actually a Seer"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Ed": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e4",
+                  "Seer",
+                  "Ed",
+                  "current",
+                  "If you were actually a Seer"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "WW07.row.080",
+          "quote": "I'm the Seer and I looked at your card and you're a Werewolf and you're 100% lying."
+        },
+        {
+          "source_id": "WW07.row.087",
+          "quote": "I'm 100% a Villager which makes me think he was the Werewolf and he saw Seer in the middle."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h5",
+            "subtask": "holder",
+            "event_id": "e5",
+            "scope_evidence": [
+              {
+                "source_id": "WW07.row.087",
+                "quote": "he was the Werewolf"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Brett": {
+              "X": [
+                "x1",
+                "x2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "x1_path1",
+                "x2_path1"
+              ],
+              "G": [
+                [
+                  "Holder",
+                  "e5",
+                  "Werewolf",
+                  "Dan",
+                  "initial_state",
+                  "I'm 100% a Villager"
+                ],
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Dan": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e5",
+                  "Werewolf",
+                  "Dan",
+                  "initial_state",
+                  "I'm 100% a Villager"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h6",
+            "subtask": "outside",
+            "event_id": "e6",
+            "scope_evidence": [
+              {
+                "source_id": "WW07.row.087",
+                "quote": "he saw Seer in the middle."
+              },
+              {
+                "source_id": "WW07_public_instructions",
+                "quote": "If there is only one Werewolf, you may look at a card from the center."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Brett": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1",
+                "path_r2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Dan": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T20:09:59.705855+00:00"
+}

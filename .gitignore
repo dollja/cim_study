@@ -9,6 +9,15 @@ tests/transport_mock_records/
 # Provider status snapshots saved while waiting (large, no model output)
 runs/**/*.poll_*.json
 
+# Raw network stream captures (large); the complete reply of each call is in its .provider.json
+runs/**/*.sse
+
 # Never commit credentials
 .env
 .env.*
+
+# Working notes and advisor packages kept out of the repository
+audit/
+
+# downloaded third-party corpora and code (not redistributed)
+external_sources/

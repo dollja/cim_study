@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"supported","paths":[{"id":"path1","root_type":"SAYS","root":{"source_id":"q1ec6.row.052","quote":"i'm going east underneath the bakery"},"scope_id":"e3","links":[]}]},{"reading_id":"r2","judgment":"undetermined","paths":[]}],"updates":[],"unresolved_scope":false}

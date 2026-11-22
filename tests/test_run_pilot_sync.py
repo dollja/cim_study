@@ -226,6 +226,47 @@ class SyncRunnerTests(unittest.TestCase):
         self.assertEqual(report['predictions'], 1)
         self.assertFalse((out / 'run.lock').exists())
 
+    def test_reply_cut_off_empty_at_output_limit_is_sent_again(self):
+        cut = response('resp_A', 'incomplete')
+        cut['incomplete_details'] = {'reason': 'max_output_tokens'}
+        empty = Stream(sse(('response.created', response('resp_A', 'in_progress')), ('response.incomplete', cut)))
+        mock = Provider([empty, good('resp_B')])
+        self.assertEqual(self.go(mock)['prefix_status'], 'NO_SUPPORTED_CANDIDATE')
+        self.assertEqual(mock.post_bodies[0], mock.post_bodies[1])
+        self.assertEqual((self.count('attempt_started'), self.count('attempt_failed'), self.count('completion_saved')),
+                         (2, 1, 1))
+        self.assertEqual(sync.records(self.ledger)[1]['failure'], 'empty_reply_at_output_limit')
+        self.assertTrue((self.run_dir / 'attempts' / '01_discovery.attempt1.empty_cutoff.json').exists())
+
+    def test_failed_prediction_is_set_aside_and_case_evaluated_again(self):
+        # An earlier runner saved an empty cut-off reply as an answer, which fails to parse.
+        cut = response('resp_A', 'incomplete')
+        with patch.object(sync, 'empty_cutoff', return_value=False):
+            first = self.go(Provider([Stream(sse(('response.incomplete', cut)))]))
+        self.assertEqual(first['prefix_status'], 'PROCESSING_FAILURE')
+        self.assertEqual(sync.reopen_failures('SYNC'), ['MOCK_ONLY'])
+        kept = self.run_dir / 'superseded'
+        self.assertEqual(pilot.read(kept / 'prediction.1.json'), first)
+        self.assertTrue((kept / '01_discovery.1.provider.json').exists())
+        self.assertFalse((self.run_dir / '01_discovery.response.txt').exists())
+        self.assertEqual(self.go(Provider([good('resp_B')]))['prefix_status'], 'NO_SUPPORTED_CANDIDATE')
+        self.assertEqual(self.count('completion_saved'), 2)
+        self.assertEqual(sync.reopen_failures('SYNC'), [])
+
+    def test_another_input_set_gets_its_own_run_pointer(self):
+        folder = self.root / 'data' / 'inputs' / 'SET_B'
+        folder.mkdir(parents=True)
+        (folder / 'manifest.json').write_text('{}', encoding='utf-8')
+        with patch.object(sync, 'FREEZE', sync.FREEZE), patch.object(sync, 'POINTER', sync.POINTER):
+            first = sync.POINTER
+            sync.use_input_set('SET_B')
+            self.assertEqual(sync.FREEZE, Path('data/inputs/SET_B'))
+            self.assertEqual(sync.POINTER, Path('results/current_run_SET_B.json'))
+            self.assertNotEqual(sync.POINTER, first)
+            for bad in ('MISSING', '../SET_B'):
+                with self.assertRaises(ValueError):
+                    sync.use_input_set(bad)
+
     def test_runner_resolves_hosts_to_ipv4_only(self):
         seen = []
 

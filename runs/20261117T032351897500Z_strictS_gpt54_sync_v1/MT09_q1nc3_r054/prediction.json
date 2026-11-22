@@ -1,0 +1,623 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "MT09_q1nc3_r054",
+  "observer_hash": "c73c3b571e3e8c4371dfa2b191038837d829254ec680a35e115360072a2b3efe",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "q1nc3.row.038",
+          "quote": "you're going vertically downwards past the diamond mine"
+        },
+        {
+          "source_id": "q1nc3.row.040",
+          "quote": "you know just c-- you're curving just curving round the diamond"
+        },
+        {
+          "source_id": "q1nc3.row.045",
+          "quote": "to your right"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc3.row.038",
+                "quote": "you're going vertically downwards past the diamond mine"
+              },
+              {
+                "source_id": "q1nc3.row.040",
+                "quote": "you know just c-- you're curving just curving round the diamond"
+              },
+              {
+                "source_id": "q1nc3.row.045",
+                "quote": "to your right"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "follower": {
+              "X": [
+                "x3"
+              ],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_x3_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "giver": {
+              "X": [
+                "x3"
+              ],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "anchor",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc3.row.007",
+                "quote": "the diamond mine"
+              },
+              {
+                "source_id": "q1nc3.row.030",
+                "quote": "underneath the diamond mine"
+              },
+              {
+                "source_id": "q1nc3.row.047",
+                "quote": "right right underneath the diamond mine"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m6_diamond_mine"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "giver": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m6_diamond_mine"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "q1nc3.row.048",
+          "quote": "where do i stop"
+        },
+        {
+          "source_id": "q1nc3.row.050",
+          "quote": "have you got a graveyard sort of in the middle of the page on a level to the c-- er diamond mine"
+        },
+        {
+          "source_id": "q1nc3.row.052",
+          "quote": "i've got a fast running creek"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "checkpoint",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc3.row.048",
+                "quote": "where do i stop"
+              },
+              {
+                "source_id": "q1nc3.row.050",
+                "quote": "have you got a graveyard sort of in the middle of the page on a level to the c-- er diamond mine"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "follower": {
+              "X": [],
+              "Q": [
+                "x2",
+                "x3"
+              ],
+              "excluded": [
+                "x1"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "p_x1_1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m6_diamond_mine"
+                ],
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m6_watercourse"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "giver": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m6_diamond_mine"
+                ],
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m6_graveyard"
+                ],
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m6_watercourse"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "target",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc3.row.012",
+                "quote": "where are we going to first"
+              },
+              {
+                "source_id": "q1nc3.row.017",
+                "quote": "where where have we to go by"
+              },
+              {
+                "source_id": "m6_giver_inventory",
+                "quote": "m6_giver_03: graveyard; right of diamond mine; correspondence m6_graveyard"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "follower": {
+              "X": [
+                "x4"
+              ],
+              "Q": [
+                "x1"
+              ],
+              "excluded": [
+                "x2",
+                "x3"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path2",
+                "path3",
+                "path4"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "giver": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3",
+                "x4"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "anchor",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc3.row.050",
+                "quote": "have you got a graveyard sort of in the middle of the page on a level to the c-- er diamond mine"
+              },
+              {
+                "source_id": "q1nc3.row.053",
+                "quote": "a fast flowing river eh"
+              },
+              {
+                "source_id": "m6_follower_inventory",
+                "quote": "m6_follower_03: fast running creek; upper right; correspondence m6_watercourse"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "follower": {
+              "X": [
+                "x3"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [
+                "x1"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_x1_1",
+                "path_x1_2",
+                "path_x3_1",
+                "path_x3_2",
+                "path_x3_3"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "giver": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e2",
+                  "m6_graveyard"
+                ],
+                [
+                  "Anchor",
+                  "e2",
+                  "m6_watercourse"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "q1nc3.row.024",
+          "quote": "ehm have you got a desert have you got a desert on the right-hand side"
+        },
+        {
+          "source_id": "q1nc3.row.027",
+          "quote": "the left-hand side i mean"
+        },
+        {
+          "source_id": "q1nc3.row.034",
+          "quote": "so do you go by a desert"
+        },
+        {
+          "source_id": "q1nc3.row.035",
+          "quote": "no"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "anchor",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc3.row.027",
+                "quote": "the left-hand side i mean"
+              },
+              {
+                "source_id": "q1nc3.row.030",
+                "quote": "underneath the diamond mine"
+              },
+              {
+                "source_id": "m6_giver_inventory",
+                "quote": "m6_giver_05: desert; left below diamond mine; correspondence m6_desert"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e3",
+                  "m6_desert"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "giver": {
+              "X": [
+                "x2",
+                "x3"
+              ],
+              "Q": [
+                "x1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_x1_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "update_id": "u1",
+                  "reason": "unresolved_correction_scope_or_target"
+                }
+              ],
+              "active_paths": [
+                "path_x2_1",
+                "path_x3_1"
+              ],
+              "G": [
+                [
+                  "Anchor",
+                  "e3",
+                  "m6_desert"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e3",
+                  "m6_desert"
+                ]
+              ],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "outside",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc3.row.034",
+                "quote": "so do you go by a desert"
+              },
+              {
+                "source_id": "q1nc3.row.035",
+                "quote": "no"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "follower": {
+              "X": [
+                "r1",
+                "r3"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "p1",
+                "p2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "giver": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r1_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path_r2_2",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path_r2_3",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T06:15:03.008665+00:00"
+}

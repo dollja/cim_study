@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"undetermined","paths":[]},{"reading_id":"r2","judgment":"supported","paths":[{"id":"path1","root_type":"INSTRUCTS","root":{"source_id":"q1ec3.row.002","quote":"start off above the diamond mine"},"scope_id":"e1","links":[]}]}],"updates":[],"unresolved_scope":false}

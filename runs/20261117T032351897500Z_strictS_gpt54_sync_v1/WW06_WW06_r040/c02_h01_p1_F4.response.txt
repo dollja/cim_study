@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"undetermined","paths":[]},{"reading_id":"r2","judgment":"supported","paths":[{"id":"path_r2_1","root_type":"ENDORSES","root":{"source_id":"WW06.row.026","quote":"Well, I can confirm James's story that he was the Robber."},"scope_id":"e2a","links":[]}]}],"updates":[],"unresolved_scope":false}

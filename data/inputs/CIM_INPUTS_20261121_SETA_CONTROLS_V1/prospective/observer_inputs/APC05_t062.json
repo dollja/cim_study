@@ -1,0 +1,376 @@
+{
+  "overall_task": "Participants discuss a One Night Ultimate Werewolf game after its night actions and decide whom to accuse or vote for. Statements about roles and actions are reports that may be disputed or strategic. Preserve the distinction between a reported initial role, a role after a reported exchange, and a current role. Use the publicly spoken instructions in this prefix for the variant; do not infer hidden cards or final votes.",
+  "participants": [
+    {
+      "participant_id": "Pete",
+      "known_role": null
+    },
+    {
+      "participant_id": "Katie",
+      "known_role": null
+    },
+    {
+      "participant_id": "Brett",
+      "known_role": null
+    },
+    {
+      "participant_id": "George",
+      "known_role": null
+    },
+    {
+      "participant_id": "Kelsey",
+      "known_role": null
+    },
+    {
+      "participant_id": "Dylan",
+      "known_role": null
+    }
+  ],
+  "context_sources": [
+    {
+      "source_id": "APC05_public_instructions",
+      "text": "No recorded game instructions precede this discussion. Roles that may be in play: Werewolf, Villager, Seer, Robber, Troublemaker, Mason, Drunk, Insomniac, Minion, Tanner.",
+      "accessible_to_participants": [
+        "Pete",
+        "Katie",
+        "Brett",
+        "George",
+        "Kelsey",
+        "Dylan"
+      ],
+      "adapter": {
+        "kind": "game_rules",
+        "review_status": "verified",
+        "roles": [
+          "Werewolf",
+          "Villager",
+          "Seer",
+          "Robber",
+          "Troublemaker",
+          "Mason",
+          "Drunk",
+          "Insomniac",
+          "Minion",
+          "Tanner"
+        ]
+      }
+    }
+  ],
+  "dialogue_prefix": [
+    {
+      "utterance_id": "APC05.turn.000",
+      "speaker": "Pete",
+      "text": "I've been outvoted again."
+    },
+    {
+      "utterance_id": "APC05.turn.001",
+      "speaker": "Dylan",
+      "text": "Oh that's"
+    },
+    {
+      "utterance_id": "APC05.turn.002",
+      "speaker": "Kelsey",
+      "text": "Oh."
+    },
+    {
+      "utterance_id": "APC05.turn.003",
+      "speaker": "Pete",
+      "text": "Sounds like Western music."
+    },
+    {
+      "utterance_id": "APC05.turn.004",
+      "speaker": "George",
+      "text": "Yeah."
+    },
+    {
+      "utterance_id": "APC05.turn.005",
+      "speaker": "Brett",
+      "text": "Spaghetti."
+    },
+    {
+      "utterance_id": "APC05.turn.006",
+      "speaker": "Pete",
+      "text": "Who just woke up?"
+    },
+    {
+      "utterance_id": "APC05.turn.007",
+      "speaker": "Brett",
+      "text": "The Werewolves."
+    },
+    {
+      "utterance_id": "APC05.turn.008",
+      "speaker": "Pete",
+      "text": "Oh, okay."
+    },
+    {
+      "utterance_id": "APC05.turn.009",
+      "speaker": "George",
+      "text": "Ravioli."
+    },
+    {
+      "utterance_id": "APC05.turn.010",
+      "speaker": "Pete",
+      "text": "I should wake up then."
+    },
+    {
+      "utterance_id": "APC05.turn.011",
+      "speaker": "George",
+      "text": "Linguine."
+    },
+    {
+      "utterance_id": "APC05.turn.012",
+      "speaker": "Katie",
+      "text": "Linguine."
+    },
+    {
+      "utterance_id": "APC05.turn.013",
+      "speaker": "Pete",
+      "text": "Okay. Closing my eyes."
+    },
+    {
+      "utterance_id": "APC05.turn.014",
+      "speaker": "Katie",
+      "text": "Done."
+    },
+    {
+      "utterance_id": "APC05.turn.015",
+      "speaker": "Pete",
+      "text": "I'm awake."
+    },
+    {
+      "utterance_id": "APC05.turn.016",
+      "speaker": "Pete",
+      "text": "I've forgot who I am, again."
+    },
+    {
+      "utterance_id": "APC05.turn.017",
+      "speaker": "Brett",
+      "text": "We don't need a play-by-play."
+    },
+    {
+      "utterance_id": "APC05.turn.018",
+      "speaker": "Katie",
+      "text": "You scare me."
+    },
+    {
+      "utterance_id": "APC05.turn.019",
+      "speaker": "Katie",
+      "text": "Where is the spaghetti?"
+    },
+    {
+      "utterance_id": "APC05.turn.020",
+      "speaker": "Dylan",
+      "text": "Spaghetti, where's that?"
+    },
+    {
+      "utterance_id": "APC05.turn.021",
+      "speaker": "Brett",
+      "text": "Cool."
+    },
+    {
+      "utterance_id": "APC05.turn.022",
+      "speaker": "Brett",
+      "text": "Wait."
+    },
+    {
+      "utterance_id": "APC05.turn.023",
+      "speaker": "Katie",
+      "text": "That's fine."
+    },
+    {
+      "utterance_id": "APC05.turn.024",
+      "speaker": "Brett",
+      "text": "a Mason."
+    },
+    {
+      "utterance_id": "APC05.turn.025",
+      "speaker": "Pete",
+      "text": "Brett, you so much made me want to open my eyes again."
+    },
+    {
+      "utterance_id": "APC05.turn.026",
+      "speaker": "Katie",
+      "text": "No one is."
+    },
+    {
+      "utterance_id": "APC05.turn.027",
+      "speaker": "Brett",
+      "text": "Who's Robber?"
+    },
+    {
+      "utterance_id": "APC05.turn.028",
+      "speaker": "Brett",
+      "text": "Not a fan of spaghetti."
+    },
+    {
+      "utterance_id": "APC05.turn.029",
+      "speaker": "Katie",
+      "text": "Yeah, me either."
+    },
+    {
+      "utterance_id": "APC05.turn.030",
+      "speaker": "Pete",
+      "text": "Would that be me?"
+    },
+    {
+      "utterance_id": "APC05.turn.031",
+      "speaker": "Katie",
+      "text": "I don't know, is it?"
+    },
+    {
+      "utterance_id": "APC05.turn.032",
+      "speaker": "Pete",
+      "text": "Not my card."
+    },
+    {
+      "utterance_id": "APC05.turn.033",
+      "speaker": "Katie",
+      "text": "Dad."
+    },
+    {
+      "utterance_id": "APC05.turn.034",
+      "speaker": "Pete",
+      "text": "The Drunk has to."
+    },
+    {
+      "utterance_id": "APC05.turn.035",
+      "speaker": "Katie",
+      "text": "Yep."
+    },
+    {
+      "utterance_id": "APC05.turn.036",
+      "speaker": "Brett",
+      "text": "The Drunk has to do it."
+    },
+    {
+      "utterance_id": "APC05.turn.037",
+      "speaker": "Katie",
+      "text": "Yeah."
+    },
+    {
+      "utterance_id": "APC05.turn.038",
+      "speaker": "Pete",
+      "text": "I just want to make sure, while I was Drunk."
+    },
+    {
+      "utterance_id": "APC05.turn.039",
+      "speaker": "George",
+      "text": "Whoa."
+    },
+    {
+      "utterance_id": "APC05.turn.040",
+      "speaker": "Brett",
+      "text": "Whoa. Okay, I don't want to sound like a broken record."
+    },
+    {
+      "utterance_id": "APC05.turn.041",
+      "speaker": "Katie",
+      "text": "Oh my gosh, are you Troublemaker, again?"
+    },
+    {
+      "utterance_id": "APC05.turn.042",
+      "speaker": "Brett",
+      "text": "Yeah, I switched George and Kelsey."
+    },
+    {
+      "utterance_id": "APC05.turn.043",
+      "speaker": "Pete",
+      "text": "Oh my god."
+    },
+    {
+      "utterance_id": "APC05.turn.044",
+      "speaker": "Brett",
+      "text": "That's what I did."
+    },
+    {
+      "utterance_id": "APC05.turn.045",
+      "speaker": "Kelsey",
+      "text": "This is always your game."
+    },
+    {
+      "utterance_id": "APC05.turn.046",
+      "speaker": "Brett",
+      "text": "It's not a game if it's real life."
+    },
+    {
+      "utterance_id": "APC05.turn.047",
+      "speaker": "Dylan",
+      "text": "He knows the feeling of the Troublemaker,"
+    },
+    {
+      "utterance_id": "APC05.turn.048",
+      "speaker": "Katie",
+      "text": "Yeah."
+    },
+    {
+      "utterance_id": "APC05.turn.049",
+      "speaker": "Pete",
+      "text": "Yeah."
+    },
+    {
+      "utterance_id": "APC05.turn.050",
+      "speaker": "Dylan",
+      "text": "That's why he always do, feeling it."
+    },
+    {
+      "utterance_id": "APC05.turn.051",
+      "speaker": "Pete",
+      "text": "Somebody touched my card, though. I can tell."
+    },
+    {
+      "utterance_id": "APC05.turn.052",
+      "speaker": "Katie",
+      "text": "Oh."
+    },
+    {
+      "utterance_id": "APC05.turn.053",
+      "speaker": "George",
+      "text": "Oh."
+    },
+    {
+      "utterance_id": "APC05.turn.054",
+      "speaker": "Brett",
+      "text": "Oh."
+    },
+    {
+      "utterance_id": "APC05.turn.055",
+      "speaker": "Pete",
+      "text": "Ah."
+    },
+    {
+      "utterance_id": "APC05.turn.056",
+      "speaker": "Katie",
+      "text": "Oh."
+    },
+    {
+      "utterance_id": "APC05.turn.057",
+      "speaker": "Pete",
+      "text": "It might have been me, though."
+    },
+    {
+      "utterance_id": "APC05.turn.058",
+      "speaker": "George",
+      "text": "The audience is listening."
+    },
+    {
+      "utterance_id": "APC05.turn.059",
+      "speaker": "Katie",
+      "text": "Yeah. That's probably it. You were probably fidgeting with it."
+    },
+    {
+      "utterance_id": "APC05.turn.060",
+      "speaker": "Brett",
+      "text": "So what were you, George and Dylan? Now that you're swapped."
+    },
+    {
+      "utterance_id": "APC05.turn.061",
+      "speaker": "George",
+      "text": "I was."
+    },
+    {
+      "utterance_id": "APC05.turn.062",
+      "speaker": "Dylan",
+      "text": "Oh, you said George and Kelsey."
+    }
+  ]
+}
