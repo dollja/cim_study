@@ -1,0 +1,95 @@
+{
+  "overall_task": "Participants discuss a One Night Ultimate Werewolf game after its night actions and decide whom to accuse or vote for. Statements about roles and actions are reports that may be disputed or strategic. Preserve the distinction between a reported initial role, a role after a reported exchange, and a current role. Use the publicly spoken instructions in this prefix for the variant; do not infer hidden cards or final votes.",
+  "participants": [
+    {
+      "participant_id": "Audio",
+      "known_role": "recorded_audio_not_player"
+    },
+    {
+      "participant_id": "James",
+      "known_role": null
+    },
+    {
+      "participant_id": "Justin",
+      "known_role": null
+    },
+    {
+      "participant_id": "Mitchell",
+      "known_role": null
+    }
+  ],
+  "context_sources": [
+    {
+      "source_id": "WW04_public_instructions",
+      "text": "Everyone, close your eyes. Werewolves, wake up and look for other werewolves\nIf there are no other werewolves, pick a card from the center.\nWerewolves close your eyes. Minion, wake up. Werewolves, stick out your thumb so the minion can see who you are. Werewolves, put your thumb away. Minion, close your eyes. Seer, wake up. You may look at another player's card or two of the center cards.\nSeer close your eyes. Robber, wake up. You may exchange your card with another player's card and then view your new card. Robber, close your eyes. Troublemaker, wake up. You may exchange cards between two other players. Troublemaker, close your eyes. Drunk, wake up and exchange your card with a card from the center. Drunk, close your eyes. Insomniac, wake up and look at your card. Insomniac, close your eyes. Everyone, keep your eyes closed and reach out and move your card around slightly. Everyone wake up.",
+      "accessible_to_participants": [
+        "James",
+        "Justin",
+        "Mitchell"
+      ],
+      "adapter": {
+        "kind": "game_rules",
+        "review_status": "verified",
+        "roles": [
+          "Werewolf",
+          "Villager",
+          "Seer",
+          "Robber",
+          "Troublemaker",
+          "Mason",
+          "Drunk",
+          "Insomniac",
+          "Minion",
+          "Tanner"
+        ]
+      }
+    }
+  ],
+  "dialogue_prefix": [
+    {
+      "utterance_id": "WW04.row.001",
+      "speaker": "Audio",
+      "text": "Everyone, close your eyes. Werewolves, wake up and look for other werewolves"
+    },
+    {
+      "utterance_id": "WW04.row.002",
+      "speaker": "James",
+      "text": "What in the world is going on in this game?"
+    },
+    {
+      "utterance_id": "WW04.row.003",
+      "speaker": "Audio",
+      "text": "If there are no other werewolves, pick a card from the center."
+    },
+    {
+      "utterance_id": "WW04.row.004",
+      "speaker": "Justin",
+      "text": "I was thinking the exact same thing."
+    },
+    {
+      "utterance_id": "WW04.row.005",
+      "speaker": "Audio",
+      "text": "Werewolves close your eyes. Minion, wake up. Werewolves, stick out your thumb so the minion can see who you are. Werewolves, put your thumb away. Minion, close your eyes. Seer, wake up. You may look at another player's card or two of the center cards."
+    },
+    {
+      "utterance_id": "WW04.row.006",
+      "speaker": "James",
+      "text": "So many choices."
+    },
+    {
+      "utterance_id": "WW04.row.007",
+      "speaker": "Audio",
+      "text": "Seer close your eyes. Robber, wake up. You may exchange your card with another player's card and then view your new card. Robber, close your eyes. Troublemaker, wake up. You may exchange cards between two other players. Troublemaker, close your eyes. Drunk, wake up and exchange your card with a card from the center. Drunk, close your eyes. Insomniac, wake up and look at your card. Insomniac, close your eyes. Everyone, keep your eyes closed and reach out and move your card around slightly. Everyone wake up."
+    },
+    {
+      "utterance_id": "WW04.row.008",
+      "speaker": "James",
+      "text": "Okay. We're going to open with Justin and say I was the insomniac, but I woke up as a seer."
+    },
+    {
+      "utterance_id": "WW04.row.009",
+      "speaker": "Mitchell",
+      "text": "That makes no sense. I looked at two in the middle because I was the seer and I saw those two."
+    }
+  ]
+}

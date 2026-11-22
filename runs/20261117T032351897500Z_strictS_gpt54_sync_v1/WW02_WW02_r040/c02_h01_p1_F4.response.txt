@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"h1_r1","judgment":"undetermined","paths":[]},{"reading_id":"h1_r2","judgment":"undetermined","paths":[]},{"reading_id":"h1_r3","judgment":"supported","paths":[{"id":"path1","root_type":"SAYS","root":{"source_id":"WW02.row.020","quote":"Caitlynn's saying she's a Villager?"},"scope_id":"e3","links":[]}]}],"updates":[],"unresolved_scope":false}

@@ -1,0 +1,1087 @@
+{
+  "record_type": "context_confirmation_record",
+  "recorded_date": "2026-11-13",
+  "verification_basis": "user_attestation",
+  "attestation": "context_reviews/USER_CONFIRMATION_20261113.json",
+  "records": [
+    {
+      "case_id": "MT01_q1ec1_r049",
+      "source_id": "m12_giver_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map12g.gif",
+          "sha256": "782d7a2054596fc248f6d98b6764204283b2c0b7a18048fafe9906f377083674"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec1.txt",
+          "sha256": "a2be4fb0a7aa84dbeac3e41338f1a7332fd51ec147cc3942d9e90d95a620c148"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "ea312e9d8ac69a4b26565c166926bd3a952fafdb16b5ab89aa02c153e94cae47",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "6eef4f6f3c9cb20fa169aa5fc3d67fed0be22bde78a2ec5c7b93becc0e9f78d1"
+    },
+    {
+      "case_id": "MT01_q1ec1_r049",
+      "source_id": "m12_follower_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map12f.gif",
+          "sha256": "8d5a38928910e640a479efddd909ac3cf7ecfff16ecd3f1b1014570b37167f17"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec1.txt",
+          "sha256": "a2be4fb0a7aa84dbeac3e41338f1a7332fd51ec147cc3942d9e90d95a620c148"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "32d7677a0d02dd973cbe3fce25821a6316d91117ac6364195831d4157f5d4ef8",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "c74d3a579bb2a48a8ba0173a89fc677cb90dd27efa4f165d867c6e8b49b658fd"
+    },
+    {
+      "case_id": "MT02_q1ec3_r012",
+      "source_id": "m6_giver_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map6g.gif",
+          "sha256": "b06dc2ee251ec0b8211f11663f9cf1c7f6467b5db7dd47c93bb8783fe23088ab"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec3.txt",
+          "sha256": "e62f975d275558b0c63da10971e99c967f9fcbd553cc9c367e238e3b080a3f5b"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "73dcd661e6153025a35fa52c2470f875d033d5e86e73e989cbbee0be3677a149",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "ba6ae6b90b3fcae99f4b20c9046796acb5aa25e6739c1b27a2dd03f0514240aa"
+    },
+    {
+      "case_id": "MT02_q1ec3_r012",
+      "source_id": "m6_follower_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map6f.gif",
+          "sha256": "2de31bae83d9cd63fe5ea22c0931f2d20a553f6537baf9fcd3345c14212b1fb1"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec3.txt",
+          "sha256": "e62f975d275558b0c63da10971e99c967f9fcbd553cc9c367e238e3b080a3f5b"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "fab6fb701e5944fee0a88764683ffb2b83cf6d86d2035ee8c66bc5138f281ddd",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "c85d549b31d8a54152a2880f139da7c40f45c306ff08046234ee7bb6592db77e"
+    },
+    {
+      "case_id": "MT03_q1ec4_r019",
+      "source_id": "m3_giver_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map3g.gif",
+          "sha256": "3cdd9e2184f6c2cdad3dc19dcbb556e61b9cc343e1557c3d7e52ac5e4e648b1c"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec4.txt",
+          "sha256": "9b22e88ece0e11531f3c72746d123edd1e29888b9a33869be076009792d84ea8"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "c5c264e3525cbe95d877097a81a799541ce2ca5fce6f46c2bac0367de24f83c5",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "07837f12254d63961aa9371f27ff9910fd8b44ec32e24a2740c696de94c2a937"
+    },
+    {
+      "case_id": "MT03_q1ec4_r019",
+      "source_id": "m3_follower_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map3f.gif",
+          "sha256": "e6fb36ad98f5e09220958329b38024082a83b5dc69b7f0942d71efdbd7e9b0ea"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec4.txt",
+          "sha256": "9b22e88ece0e11531f3c72746d123edd1e29888b9a33869be076009792d84ea8"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "3f1997a6cb87dc88ba465d2fb7424ca5c08cf2180a754104ea08b6662e5e5828",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "903cd29ddd1ffc8125b26e62e3e5140411ff984d3bd95cc19875c9258c0e12f1"
+    },
+    {
+      "case_id": "MT04_q1ec5_r031",
+      "source_id": "m6_giver_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map6g.gif",
+          "sha256": "b06dc2ee251ec0b8211f11663f9cf1c7f6467b5db7dd47c93bb8783fe23088ab"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec5.txt",
+          "sha256": "47c0b7cc053e72ecacece3ad52a6eee80879c28c3ead0cc1d9d56f5709025848"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "73dcd661e6153025a35fa52c2470f875d033d5e86e73e989cbbee0be3677a149",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "ba6ae6b90b3fcae99f4b20c9046796acb5aa25e6739c1b27a2dd03f0514240aa"
+    },
+    {
+      "case_id": "MT04_q1ec5_r031",
+      "source_id": "m6_follower_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map6f.gif",
+          "sha256": "2de31bae83d9cd63fe5ea22c0931f2d20a553f6537baf9fcd3345c14212b1fb1"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec5.txt",
+          "sha256": "47c0b7cc053e72ecacece3ad52a6eee80879c28c3ead0cc1d9d56f5709025848"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "fab6fb701e5944fee0a88764683ffb2b83cf6d86d2035ee8c66bc5138f281ddd",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "c85d549b31d8a54152a2880f139da7c40f45c306ff08046234ee7bb6592db77e"
+    },
+    {
+      "case_id": "MT05_q1ec6_r053",
+      "source_id": "m3_giver_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map3g.gif",
+          "sha256": "3cdd9e2184f6c2cdad3dc19dcbb556e61b9cc343e1557c3d7e52ac5e4e648b1c"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec6.txt",
+          "sha256": "3aae681b77428746cec3fecd5bd9f5a02799efe53cc8f807b6721243e8241efc"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "c5c264e3525cbe95d877097a81a799541ce2ca5fce6f46c2bac0367de24f83c5",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "07837f12254d63961aa9371f27ff9910fd8b44ec32e24a2740c696de94c2a937"
+    },
+    {
+      "case_id": "MT05_q1ec6_r053",
+      "source_id": "m3_follower_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map3f.gif",
+          "sha256": "e6fb36ad98f5e09220958329b38024082a83b5dc69b7f0942d71efdbd7e9b0ea"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec6.txt",
+          "sha256": "3aae681b77428746cec3fecd5bd9f5a02799efe53cc8f807b6721243e8241efc"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "3f1997a6cb87dc88ba465d2fb7424ca5c08cf2180a754104ea08b6662e5e5828",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "903cd29ddd1ffc8125b26e62e3e5140411ff984d3bd95cc19875c9258c0e12f1"
+    },
+    {
+      "case_id": "MT06_q1ec7_r022",
+      "source_id": "m12_giver_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map12g.gif",
+          "sha256": "782d7a2054596fc248f6d98b6764204283b2c0b7a18048fafe9906f377083674"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec7.txt",
+          "sha256": "6e12b1fb2fa0ac5c761f26989b3fe1fcd72493191b54c25bd9385cc08f341d20"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "ea312e9d8ac69a4b26565c166926bd3a952fafdb16b5ab89aa02c153e94cae47",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "6eef4f6f3c9cb20fa169aa5fc3d67fed0be22bde78a2ec5c7b93becc0e9f78d1"
+    },
+    {
+      "case_id": "MT06_q1ec7_r022",
+      "source_id": "m12_follower_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map12f.gif",
+          "sha256": "8d5a38928910e640a479efddd909ac3cf7ecfff16ecd3f1b1014570b37167f17"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec7.txt",
+          "sha256": "6e12b1fb2fa0ac5c761f26989b3fe1fcd72493191b54c25bd9385cc08f341d20"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "32d7677a0d02dd973cbe3fce25821a6316d91117ac6364195831d4157f5d4ef8",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "c74d3a579bb2a48a8ba0173a89fc677cb90dd27efa4f165d867c6e8b49b658fd"
+    },
+    {
+      "case_id": "MT07_q1ec8_r011",
+      "source_id": "m9_giver_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map9g.gif",
+          "sha256": "b94a6877e42a95b7192e33e739d5a7e366fd0bf6562f329d4c9fefebbfc45e4f"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec8.txt",
+          "sha256": "f4dc2314b97e54715183e22a56175c3720435920469c48d0ad72607ed2ce4c60"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "fbceecc2f89cf3442ec71c23a4c81d874ab194c1c434818fd18acf7dc0f48ffe",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "db0129883964547f080a45db6a1530c002188a42938a110027f8e8809655d458"
+    },
+    {
+      "case_id": "MT07_q1ec8_r011",
+      "source_id": "m9_follower_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map9f.gif",
+          "sha256": "a420867e32ca353c57d0dc0bb68f49c610de017845044094a5c5b6278ac6c5a4"
+        },
+        {
+          "file": "prospective/source_transcripts/q1ec8.txt",
+          "sha256": "f4dc2314b97e54715183e22a56175c3720435920469c48d0ad72607ed2ce4c60"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "a40160d0c79e1639e7a5ef651798255ccba62923833532c449e50fe52e0bd4b8",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "0c5069f906b62cfd48dccb5ca47635568a924dfd98f5762790f9ea881acc2af3"
+    },
+    {
+      "case_id": "MT08_q1nc2_r052",
+      "source_id": "m9_giver_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map9g.gif",
+          "sha256": "b94a6877e42a95b7192e33e739d5a7e366fd0bf6562f329d4c9fefebbfc45e4f"
+        },
+        {
+          "file": "prospective/source_transcripts/q1nc2.txt",
+          "sha256": "405f183db988641eec33ef343492f7443e4dd701a3c83f7f9646ccfd3f1e5270"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "fbceecc2f89cf3442ec71c23a4c81d874ab194c1c434818fd18acf7dc0f48ffe",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "db0129883964547f080a45db6a1530c002188a42938a110027f8e8809655d458"
+    },
+    {
+      "case_id": "MT08_q1nc2_r052",
+      "source_id": "m9_follower_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map9f.gif",
+          "sha256": "a420867e32ca353c57d0dc0bb68f49c610de017845044094a5c5b6278ac6c5a4"
+        },
+        {
+          "file": "prospective/source_transcripts/q1nc2.txt",
+          "sha256": "405f183db988641eec33ef343492f7443e4dd701a3c83f7f9646ccfd3f1e5270"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "a40160d0c79e1639e7a5ef651798255ccba62923833532c449e50fe52e0bd4b8",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "0c5069f906b62cfd48dccb5ca47635568a924dfd98f5762790f9ea881acc2af3"
+    },
+    {
+      "case_id": "MT09_q1nc3_r054",
+      "source_id": "m6_giver_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map6g.gif",
+          "sha256": "b06dc2ee251ec0b8211f11663f9cf1c7f6467b5db7dd47c93bb8783fe23088ab"
+        },
+        {
+          "file": "prospective/source_transcripts/q1nc3.txt",
+          "sha256": "335fd9eea6d80f2ce097011307fc8d96da0581373117a9b24c0ce26d62a78a5b"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "73dcd661e6153025a35fa52c2470f875d033d5e86e73e989cbbee0be3677a149",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "ba6ae6b90b3fcae99f4b20c9046796acb5aa25e6739c1b27a2dd03f0514240aa"
+    },
+    {
+      "case_id": "MT09_q1nc3_r054",
+      "source_id": "m6_follower_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map6f.gif",
+          "sha256": "2de31bae83d9cd63fe5ea22c0931f2d20a553f6537baf9fcd3345c14212b1fb1"
+        },
+        {
+          "file": "prospective/source_transcripts/q1nc3.txt",
+          "sha256": "335fd9eea6d80f2ce097011307fc8d96da0581373117a9b24c0ce26d62a78a5b"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "fab6fb701e5944fee0a88764683ffb2b83cf6d86d2035ee8c66bc5138f281ddd",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "c85d549b31d8a54152a2880f139da7c40f45c306ff08046234ee7bb6592db77e"
+    },
+    {
+      "case_id": "MT10_q1nc4_r044",
+      "source_id": "m3_giver_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map3g.gif",
+          "sha256": "3cdd9e2184f6c2cdad3dc19dcbb556e61b9cc343e1557c3d7e52ac5e4e648b1c"
+        },
+        {
+          "file": "prospective/source_transcripts/q1nc4.txt",
+          "sha256": "e1221771f732231250284695021559339c9ae8cc54bf4a386ecd92140540afca"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "c5c264e3525cbe95d877097a81a799541ce2ca5fce6f46c2bac0367de24f83c5",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "07837f12254d63961aa9371f27ff9910fd8b44ec32e24a2740c696de94c2a937"
+    },
+    {
+      "case_id": "MT10_q1nc4_r044",
+      "source_id": "m3_follower_inventory",
+      "context_kind": "map_inventory",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_maps/map3f.gif",
+          "sha256": "e6fb36ad98f5e09220958329b38024082a83b5dc69b7f0942d71efdbd7e9b0ea"
+        },
+        {
+          "file": "prospective/source_transcripts/q1nc4.txt",
+          "sha256": "e1221771f732231250284695021559339c9ae8cc54bf4a386ecd92140540afca"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": true,
+      "public_game_rules_checked": null,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "3f1997a6cb87dc88ba465d2fb7424ca5c08cf2180a754104ea08b6662e5e5828",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "903cd29ddd1ffc8125b26e62e3e5140411ff984d3bd95cc19875c9258c0e12f1"
+    },
+    {
+      "case_id": "WW01_WW01_r028",
+      "source_id": "WW01_public_instructions",
+      "context_kind": "game_rules",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_transcripts/WW01.txt",
+          "sha256": "542654f03128417cbfa7a31452637bba70b8394b45112f6489a0a19cacbbaa20"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": null,
+      "public_game_rules_checked": true,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "5a96979e9ef489530f8961f1c092fb42bc2e4b37771831555e9f774e5dbc1494",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "53895c8862a19f9a8da51f52139b625a47dc406eff3e3fec78d6b9f85e1cd1b2"
+    },
+    {
+      "case_id": "WW02_WW02_r040",
+      "source_id": "WW02_public_instructions",
+      "context_kind": "game_rules",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_transcripts/WW02.txt",
+          "sha256": "a54cbf5b9632c0357fa80dbfb926e9ce5712b73519334c99cee721fb69004cda"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": null,
+      "public_game_rules_checked": true,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "bd75807a00b6e9ff4f7078d700aff6ad6da8d3dc0a9eb4f589a4f38206c8c921",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "3ca9f339dc8adca98304064028884083d8dd01f321a7968e3fde8ba59a55432b"
+    },
+    {
+      "case_id": "WW03_WW03_r078",
+      "source_id": "WW03_public_instructions",
+      "context_kind": "game_rules",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_transcripts/WW03.txt",
+          "sha256": "9656701c5f0e5eba10abe23441b34d0f61fbb5c36adc62d4ced8bf4faf1f53b9"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": null,
+      "public_game_rules_checked": true,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "83338613e29c084b4711e2a908bb27d41d9d50c958846bb74d9554acc1d27068",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "3dcc4633776ec1fe171c04342c6d72f01abcc91dbd57786d5095886c182205ca"
+    },
+    {
+      "case_id": "WW04_WW04_r009",
+      "source_id": "WW04_public_instructions",
+      "context_kind": "game_rules",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_transcripts/WW04.txt",
+          "sha256": "ba761ec6fc5c0b1066521f1ad7c415f5ca56e14ba315f4282094ed4326a21e62"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": null,
+      "public_game_rules_checked": true,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "3af7e4532bbaf13f86ff4ecbba4e424442c37974333bf8086e0d37a1576c7da0",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "5a7bcbb012d476aba06b50ad5259d69a1dd1dc19f2c3e91372969036eb4206c3"
+    },
+    {
+      "case_id": "WW05_WW05_r039",
+      "source_id": "WW05_public_instructions",
+      "context_kind": "game_rules",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_transcripts/WW05.txt",
+          "sha256": "8ca8b2064c0229698bc7f6753a605e4df815a052466da2abbbe3b8a0c8750876"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": null,
+      "public_game_rules_checked": true,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "95902ab0666edf51763ad3e91ec71fa33caa88afd22a48bccec94fb43de4729b",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "fdbf6ddaaa58dde7b0526065e3d480ff63387183bb5c49a702d4fa31ae38edcc"
+    },
+    {
+      "case_id": "WW06_WW06_r040",
+      "source_id": "WW06_public_instructions",
+      "context_kind": "game_rules",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_transcripts/WW06.txt",
+          "sha256": "1b56f2d2a2adfb656015fe8065a03c39d474089a93e7506f34806a4e2690bd30"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": null,
+      "public_game_rules_checked": true,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "2a5435c7cf6f2c145e096c9c293e3fdb8eb14bf99c20c64a12c5a4d2e21bd1e0",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "b8edf14767c27081e1c42af798dfb701f9c912c79e9d64a4803e49b50e36849d"
+    },
+    {
+      "case_id": "WW07_WW07_r099",
+      "source_id": "WW07_public_instructions",
+      "context_kind": "game_rules",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_transcripts/WW07.txt",
+          "sha256": "18a64c3268e746f02620050e0b4e1776cd013aa710825481fd76967c443b6158"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": null,
+      "public_game_rules_checked": true,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "6baa1d70ce38638092ed04023a88dffb15e35b86565718897d24906afd90c9b9",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "87e5cee4e67713cb13bc7c22b52a19b04efb5b6938524fb65bad873665f4e48e"
+    },
+    {
+      "case_id": "WW08_WW08_r005",
+      "source_id": "WW08_public_instructions",
+      "context_kind": "game_rules",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_transcripts/WW08.txt",
+          "sha256": "6ec84cea5dcdf889903921bd1c0ca0ae80ca06e47f29b6b3797a365cb7cf0f94"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": null,
+      "public_game_rules_checked": true,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "50da6aba0c38fd86d671d0d079e5118bf5e5c863a35a28c13cd0b9301d02bbb5",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "659410bf7c560b9c63d8d091733ca6c746be97f8c822f38da35a20354d4f807b"
+    },
+    {
+      "case_id": "WW09_WW09_r059",
+      "source_id": "WW09_public_instructions",
+      "context_kind": "game_rules",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_transcripts/WW09.txt",
+          "sha256": "fda7b555f44adbddd67095fa1c616427420fcb9cd0080a21557fc1ff7a3fd030"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": null,
+      "public_game_rules_checked": true,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "b1cefe69f7e5c56ae8835e982841ae30a7275e9b37b3f2f45b06c26e3c532f38",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "0503e88b8a2d00dee45802237133766a2523f492c94cecfa3f8fe57c30b884d0"
+    },
+    {
+      "case_id": "WW10_WW10_r067",
+      "source_id": "WW10_public_instructions",
+      "context_kind": "game_rules",
+      "reviewer_id": "r1",
+      "recorded_date": "2026-11-13",
+      "reviewed_at": null,
+      "review_status": "verified",
+      "verification_basis": "user_attestation",
+      "attestation_record": "context_reviews/USER_CONFIRMATION_20261113.json",
+      "source_files_and_sha256": [
+        {
+          "file": "prospective/source_transcripts/WW10.txt",
+          "sha256": "e9ed56a2b2701d111292470eed660444c357271ccb6a33c28e6d2c74b47b8de1"
+        }
+      ],
+      "prior_exposure": {
+        "dialogue_screening": true,
+        "assistant_inventory": true,
+        "case_labels": true,
+        "notes": "The existing review and prepared context had been seen; no unexposed-reader condition is asserted."
+      },
+      "supplied_facts_confirmed": true,
+      "inventory_complete": null,
+      "correspondences_checked": null,
+      "public_game_rules_checked": true,
+      "additional_hidden_role_or_phase_facts_added": false,
+      "corrections_supplied": [],
+      "unresolved_facts_supplied": [],
+      "before_context_sha256": "59baf320f7483d333c3d2d04117f96c4d371b23c3688bf22501ba51e569dd659",
+      "new_frozen_input_version": "CIM_INPUTS_20261113_V1",
+      "after_context_sha256": "c44a90083b00ec5513c514b5e18d7271e9297dce36d4c8ea2565a4353fdcac16"
+    }
+  ],
+  "independent_unexposed_review_claimed": false,
+  "observer_content_changes": "Only adapter.review_status: draft to verified.",
+  "limits": [
+    "This records the user statement; it is not a newly performed independent human review.",
+    "Verification of supplied context facts does not establish a participant interpretation or adoption.",
+    "Inventory completeness beyond the supplied facts is not asserted.",
+    "Selection now does not establish recovery of an earlier historical selection manifest.",
+    "No second-reader review, adjudication or model result is created."
+  ]
+}

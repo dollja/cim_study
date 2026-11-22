@@ -1,0 +1,731 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "MT10_q1nc4_r044",
+  "observer_hash": "3ea4148f4e0172935ff085791531ad15ba31568a73fe98b49d22a827a79f7163",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "q1nc4.row.002",
+          "quote": "the start is at the top left-hand side of the page"
+        },
+        {
+          "source_id": "q1nc4.row.004",
+          "quote": "do you have cliffs just to to the right"
+        },
+        {
+          "source_id": "q1nc4.row.006",
+          "quote": "sandstone cliffs"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "anchor",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc4.row.002",
+                "quote": "the start is at the top left-hand side of the page"
+              },
+              {
+                "source_id": "q1nc4.row.004",
+                "quote": "do you have cliffs just to to the right"
+              },
+              {
+                "source_id": "q1nc4.row.006",
+                "quote": "sandstone cliffs"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m3_cliffs"
+                ],
+                [
+                  "Anchor",
+                  "e1",
+                  "m3_start"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m3_start"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m3_cliffs"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "checkpoint",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc4.row.004",
+                "quote": "do you have cliffs just to to the right"
+              },
+              {
+                "source_id": "q1nc4.row.005",
+                "quote": "to the right uh-huh"
+              },
+              {
+                "source_id": "q1nc4.row.006",
+                "quote": "sandstone cliffs"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e1",
+                  "m3_cliffs"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [
+                "r3"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r2_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r1_1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e1",
+                  "m3_cliffs"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e1",
+                  "m3_cliffs"
+                ]
+              ],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "q1nc4.row.008",
+          "quote": "do you have a forge below the cliffs about you know an inch or so down two inches maybe"
+        },
+        {
+          "source_id": "q1nc4.row.014",
+          "quote": "so you go from the start slightly to your right down the way right a curve"
+        },
+        {
+          "source_id": "q1nc4.row.019",
+          "quote": "and then you start to go left go about half an inch out to the left and d-- and down about you know two and a half inches three inches"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc4.row.014",
+                "quote": "so you go from the start slightly to your right down the way right a curve"
+              },
+              {
+                "source_id": "q1nc4.row.017",
+                "quote": "to the bottom of the cliffs"
+              },
+              {
+                "source_id": "q1nc4.row.019",
+                "quote": "and then you start to go left go about half an inch out to the left and d-- and down about you know two and a half inches three inches"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1",
+                "path_r2_1",
+                "path_r3_1"
+              ],
+              "G": [
+                [
+                  "Route",
+                  "e2",
+                  "left_of",
+                  "m3_forge"
+                ],
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "checkpoint",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc4.row.008",
+                "quote": "do you have a forge below the cliffs about you know an inch or so down two inches maybe"
+              },
+              {
+                "source_id": "q1nc4.row.009",
+                "quote": "er no"
+              },
+              {
+                "source_id": "q1nc4.row.022",
+                "quote": "if you draw that line down you'll be on the left-hand side of the forge you don't have a forge but there is one there"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r3"
+              ],
+              "excluded": [
+                "r1"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m3_forge"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m3_cliffs"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m3_cliffs"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "outside",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc4.row.010",
+                "quote": "you don't have a forge"
+              },
+              {
+                "source_id": "q1nc4.row.012",
+                "quote": "the forge is eh below the c-- the cliffs say about two inches down"
+              },
+              {
+                "source_id": "q1nc4.row.022",
+                "quote": "you don't have a forge but there is one there"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "q1nc4.row.030",
+          "quote": "am i right under the sandstone cliffs"
+        },
+        {
+          "source_id": "q1nc4.row.036",
+          "quote": "it doesn't go as far right as the cliffs"
+        },
+        {
+          "source_id": "q1nc4.row.043",
+          "quote": "straight down under the start"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "checkpoint",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc4.row.030",
+                "quote": "am i right under the sandstone cliffs"
+              },
+              {
+                "source_id": "q1nc4.row.031",
+                "quote": "no no"
+              },
+              {
+                "source_id": "q1nc4.row.036",
+                "quote": "it doesn't go as far right as the cliffs"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r3"
+              ],
+              "excluded": [
+                "r1"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r2_1",
+                "path_r2_2"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m3_cliffs"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m3_cliffs"
+                ]
+              ],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m3_start"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m3_cliffs"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "route",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc4.row.034",
+                "quote": "the initial line from th-- the cross"
+              },
+              {
+                "source_id": "q1nc4.row.038",
+                "quote": "it goes down to where it says cliffs"
+              },
+              {
+                "source_id": "q1nc4.row.041",
+                "quote": "about a centimetre from where it says cliffs to the left-hand side of it okay then you go back left slightly until you're beneath the the start and down you know two or three inches until you're ab--"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r2",
+                "r3"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path_r1_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path_r2_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r2_2",
+                "path_r3_1"
+              ],
+              "G": [
+                [
+                  "Route",
+                  "e3",
+                  "below",
+                  "m3_start"
+                ],
+                [
+                  "Route",
+                  "e3",
+                  "left_of",
+                  "m3_forge"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e3",
+                  "left_of",
+                  "m3_cliffs"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r2_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e3",
+                  "below",
+                  "m3_start"
+                ],
+                [
+                  "Route",
+                  "e3",
+                  "left_of",
+                  "m3_cliffs"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "target",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc4.row.041",
+                "quote": "until you're beneath the the start"
+              },
+              {
+                "source_id": "q1nc4.row.043",
+                "quote": "straight down under the start"
+              },
+              {
+                "source_id": "q1nc4.row.044",
+                "quote": "yeah"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r2_p1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "r2_p2",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "update_id": "u1",
+                  "reason": "unresolved_correction_scope_or_target"
+                }
+              ],
+              "active_paths": [
+                "r1_p1",
+                "r1_p2",
+                "r3_p1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T22:43:15.407537+00:00"
+}

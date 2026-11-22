@@ -1,0 +1,800 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "MT05_q1ec6_r053",
+  "observer_hash": "4865bb1b0bc067cb8460cc905427b38c801980eb6e2958b637fd45820ee347e7",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "q1ec6.row.012",
+          "quote": "and then loop towards the east"
+        },
+        {
+          "source_id": "q1ec6.row.013",
+          "quote": "underneath what wheatfields"
+        },
+        {
+          "source_id": "q1ec6.row.015",
+          "quote": "not as far down as that"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec6.row.002",
+                "quote": "go south and you'll pass some cliffs on your right"
+              },
+              {
+                "source_id": "q1ec6.row.005",
+                "quote": "and keep going down south"
+              },
+              {
+                "source_id": "q1ec6.row.007",
+                "quote": "past a forge on your right"
+              },
+              {
+                "source_id": "q1ec6.row.010",
+                "quote": "well keep going down"
+              },
+              {
+                "source_id": "q1ec6.row.012",
+                "quote": "and then loop towards the east"
+              },
+              {
+                "source_id": "q1ec6.row.021",
+                "quote": "and then start going back up again you're going kind of northeast"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x2"
+              ],
+              "Q": [
+                "x1",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e1",
+                  "above",
+                  "m3_wheatfields_lower"
+                ],
+                [
+                  "Route",
+                  "e1",
+                  "above",
+                  "m3_wheatfields_upper"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e1",
+                  "above",
+                  "m3_wheatfields_upper"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "checkpoint",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec6.row.002",
+                "quote": "pass some cliffs on your right"
+              },
+              {
+                "source_id": "q1ec6.row.007",
+                "quote": "past a forge on your right"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e1",
+                  "m3_cliffs"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e1",
+                  "m3_forge"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e1",
+                  "m3_cliffs"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "anchor",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec6.row.013",
+                "quote": "underneath what wheatfields"
+              },
+              {
+                "source_id": "q1ec6.row.015",
+                "quote": "not as far down as that"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r3"
+              ],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m3_wheatfields_lower"
+                ],
+                [
+                  "Anchor",
+                  "e1",
+                  "m3_wheatfields_upper"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r3"
+              ],
+              "excluded": [
+                "r2"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "p_r1_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "p_r2_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "p_r3_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "update_id": "u1",
+                  "reason": "unresolved_correction_scope_or_target"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m3_wheatfields_upper"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "q1ec6.row.025",
+          "quote": "and am i going to come like between these cliffs and pine or"
+        },
+        {
+          "source_id": "q1ec6.row.026",
+          "quote": "oh you go up past the pine pine's on your right"
+        },
+        {
+          "source_id": "q1ec6.row.028",
+          "quote": "and go up past it 'til you're just above the top of the pine"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec6.row.026",
+                "quote": "oh you go up past the pine pine's on your right"
+              },
+              {
+                "source_id": "q1ec6.row.028",
+                "quote": "and go up past it 'til you're just above the top of the pine"
+              },
+              {
+                "source_id": "q1ec6.row.030",
+                "quote": "and then east again"
+              },
+              {
+                "source_id": "q1ec6.row.037",
+                "quote": "east sort of for a wee bit"
+              },
+              {
+                "source_id": "q1ec6.row.039",
+                "quote": "and then start going southeast"
+              },
+              {
+                "source_id": "q1ec6.row.045",
+                "quote": "'til you get to just underneath the pine forest"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1"
+              ],
+              "Q": [],
+              "excluded": [
+                "r2"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "r2_p1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "r1_p1",
+                "r1_p2",
+                "r1_p3",
+                "r2_p2",
+                "r2_p3"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "checkpoint",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec6.row.026",
+                "quote": "pine's on your right"
+              },
+              {
+                "source_id": "q1ec6.row.041",
+                "quote": "there's a pine forest on your way"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1",
+                "x2"
+              ],
+              "Q": [
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "x1_path1",
+                "x2_path1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m3_old_pine"
+                ],
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m3_pine_forest"
+                ]
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "x2"
+              ],
+              "Q": [
+                "x1",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m3_pine_forest"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m3_old_pine"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "target",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec6.row.028",
+                "quote": "'til you're just above the top of the pine"
+              },
+              {
+                "source_id": "q1ec6.row.045",
+                "quote": "'til you get to just underneath the pine forest"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x2"
+              ],
+              "Q": [
+                "x1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "q1ec6.row.047",
+          "quote": "and then start going south"
+        },
+        {
+          "source_id": "q1ec6.row.049",
+          "quote": "and then go east again and you loop round about a bakery"
+        },
+        {
+          "source_id": "q1ec6.row.052",
+          "quote": "i'm going east underneath the bakery"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec6.row.047",
+                "quote": "and then start going south"
+              },
+              {
+                "source_id": "q1ec6.row.049",
+                "quote": "and then go east again and you loop round about a bakery"
+              },
+              {
+                "source_id": "q1ec6.row.053",
+                "quote": "underneath the bakery"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e3",
+                  "around",
+                  "m3_bakery"
+                ],
+                [
+                  "Route",
+                  "e3",
+                  "below",
+                  "m3_bakery"
+                ],
+                [
+                  "Route",
+                  "e3",
+                  "below",
+                  "m3_pine_forest"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e3",
+                  "around",
+                  "m3_bakery"
+                ],
+                [
+                  "Route",
+                  "e3",
+                  "below",
+                  "m3_bakery"
+                ],
+                [
+                  "Route",
+                  "e3",
+                  "below",
+                  "m3_pine_forest"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "checkpoint",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec6.row.049",
+                "quote": "a bakery"
+              },
+              {
+                "source_id": "q1ec6.row.053",
+                "quote": "underneath the bakery"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r3"
+              ],
+              "excluded": [
+                "r1"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1",
+                "path_r1_2",
+                "path_r2_1",
+                "path_r3_1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m3_bakery"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m3_bakery"
+                ]
+              ],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r3"
+              ],
+              "excluded": [
+                "r1"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1",
+                "path_r2_1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m3_bakery"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m3_bakery"
+                ]
+              ],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "target",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec6.row.053",
+                "quote": "underneath the bakery"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1",
+                "path_r2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T05:06:25.958592+00:00"
+}

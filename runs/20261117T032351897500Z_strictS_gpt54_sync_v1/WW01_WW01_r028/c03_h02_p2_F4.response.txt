@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"supported","paths":[{"id":"path1","root_type":"SAYS","root":{"source_id":"WW01.row.021","quote":"I started as a Villager."},"scope_id":"e_mitchell_initial_villager_claim_repeat","links":[]}]}],"updates":[],"unresolved_scope":false}

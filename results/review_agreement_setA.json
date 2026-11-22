@@ -1,0 +1,86 @@
+{
+  "first": "setA_reviewer_1.csv",
+  "second": "setA_reviewer_2.csv",
+  "cases": 20,
+  "agreeing_cases": 8,
+  "observed_agreement": 0.4,
+  "chance_agreement": 0.412,
+  "cohen_kappa": -0.021,
+  "cross_table_rows_first_columns_second": {
+    "potential_consequential_mismatch": {
+      "potential_consequential_mismatch": 0,
+      "aligned_or_consequence_equivalent": 1,
+      "unresolved": 2
+    },
+    "aligned_or_consequence_equivalent": {
+      "potential_consequential_mismatch": 0,
+      "aligned_or_consequence_equivalent": 1,
+      "unresolved": 0
+    },
+    "unresolved": {
+      "potential_consequential_mismatch": 5,
+      "aligned_or_consequence_equivalent": 4,
+      "unresolved": 7
+    }
+  },
+  "agreed_labels": {
+    "MT-04": "unresolved",
+    "MT-07": "aligned_or_consequence_equivalent",
+    "MT-08": "unresolved",
+    "WW-01": "unresolved",
+    "WW-04": "unresolved",
+    "WW-06": "unresolved",
+    "WW-07": "unresolved",
+    "WW-08": "unresolved"
+  },
+  "needs_adjudication": {
+    "MT-01": [
+      "unresolved",
+      "potential_consequential_mismatch"
+    ],
+    "MT-02": [
+      "potential_consequential_mismatch",
+      "unresolved"
+    ],
+    "MT-03": [
+      "potential_consequential_mismatch",
+      "aligned_or_consequence_equivalent"
+    ],
+    "MT-05": [
+      "unresolved",
+      "aligned_or_consequence_equivalent"
+    ],
+    "MT-06": [
+      "unresolved",
+      "aligned_or_consequence_equivalent"
+    ],
+    "MT-09": [
+      "unresolved",
+      "aligned_or_consequence_equivalent"
+    ],
+    "MT-10": [
+      "potential_consequential_mismatch",
+      "unresolved"
+    ],
+    "WW-02": [
+      "unresolved",
+      "potential_consequential_mismatch"
+    ],
+    "WW-03": [
+      "unresolved",
+      "potential_consequential_mismatch"
+    ],
+    "WW-05": [
+      "unresolved",
+      "aligned_or_consequence_equivalent"
+    ],
+    "WW-09": [
+      "unresolved",
+      "potential_consequential_mismatch"
+    ],
+    "WW-10": [
+      "unresolved",
+      "potential_consequential_mismatch"
+    ]
+  }
+}

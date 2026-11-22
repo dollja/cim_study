@@ -1,0 +1,22 @@
+{
+  "model_id": "gpt-5.4-2026-03-05",
+  "context_limit": 1050000,
+  "max_output_tokens": 8192,
+  "decoding": {
+    "reasoning_effort": "medium",
+    "json_mode": false,
+    "temperature": "provider_default"
+  },
+  "prompt_revision": "cim-current-pilot-0.5",
+  "evidence_tier": "S",
+  "openai_project_id": "proj_D1V5mR4ljnlYIEDSt2nNan4B",
+  "service_tier": "default",
+  "provider_response_storage": true,
+  "context_limit_source": "official GPT-5.4 model documentation",
+  "total_authorized_ceiling_usd": 100.0,
+  "token_accounting": "UTF-8 byte upper bound plus 512 framing tokens per message and 512 fixed; never a measured count",
+  "price_input_usd_per_million": 2.5,
+  "price_output_usd_per_million": 15.0,
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-5.4",
+  "operator": "study operator"
+}

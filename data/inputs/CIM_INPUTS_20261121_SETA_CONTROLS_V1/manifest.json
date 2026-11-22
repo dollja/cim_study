@@ -1,0 +1,82 @@
+{
+  "freeze_id": "CIM_INPUTS_20261121_SETA_CONTROLS_V1",
+  "date": "2026-11-22",
+  "record_type": "observer_input_freeze",
+  "verification_basis": "Landmark lists and role list reused unchanged from CIM_INPUTS_20261113_V1 (user attestation). Dialogue text taken from the case package; it was compared with the source corpora and matched.",
+  "accepted_case_count": 7,
+  "canonical_hash_function": "pilot.digest",
+  "source_package": {
+    "file": "consequential-mismatch-study-handoff.zip",
+    "sha256": "1ea91003ff17c0e99ca5040491cc456a70c1ebd632638522f87f90577015f859"
+  },
+  "built_by": "src/build_set_a.py",
+  "not_built": {
+    "PC-04": "no verified landmark list for map pair m2"
+  },
+  "hashes": {
+    "pilot_selection.csv": "66c27c31db06e4d6ce0a69f88847d9104f4355cf873fc2c25c4cf9ebd070b58c",
+    "prospective/curator_cases/APC01_q5nc2_l080.json": "1c68e43d39820d7189a31a70f5b92b25029d945b3e420e1c7c56f4b473b54b72",
+    "prospective/curator_cases/APC02_q5ec2_l085.json": "41625dc9b6028dcb6cea6e6fe47651d3f3f3814753f0c4832b0422502da426cb",
+    "prospective/curator_cases/APC03_q1nc7_l046.json": "79925c0d1ac2fec7cc464c4b65767b4ff9f8f6d265e2491d741ce9ed539f6d6e",
+    "prospective/curator_cases/APC05_t062.json": "aa22d820e1dbf9c39b88206bc20cd42e85be011ee95a41a1e959eeb7ed286a6e",
+    "prospective/curator_cases/APC06_t041.json": "4eec2c1a310a664762b267f5ad6f430b369e9300df2f746c12bb861d00b15372",
+    "prospective/curator_cases/APC07_t086.json": "b904afa155bd0565f37e9c4e4e137db6f77b518b21a9e4425beb2de4daab5be0",
+    "prospective/curator_cases/APC08_t046.json": "38f3e990da6e440440fc8a756da17535b87155cc19c673955c75ca49a52ae71f",
+    "prospective/observer_cases/APC01_q5nc2_l080.json": "3a55aef4ecad8ec22b6956a162973f1abbf1e527333fd4b55bd13de42d596f9e",
+    "prospective/observer_cases/APC02_q5ec2_l085.json": "cd5475a1c32c440f4be516fd05e1496b2916ea90dc1b4a2eb400488a68cee10d",
+    "prospective/observer_cases/APC03_q1nc7_l046.json": "43395668a9d0738bb24f11b535b05058356285e9414654b06b295646e568c643",
+    "prospective/observer_cases/APC05_t062.json": "8f34621fe705b41ce9c8a6b21f219480bbe4d4d34c5b5aebebd30d3803d2da84",
+    "prospective/observer_cases/APC06_t041.json": "467d66ed85c42cfb4c9ad8226b096747e6e718ef6b9cd6d09ec90d51e8da003d",
+    "prospective/observer_cases/APC07_t086.json": "2807fdc069783a317cd0005b476011727c6cbcf0dc68f7c5bdcb9078c52ad75a",
+    "prospective/observer_cases/APC08_t046.json": "aaa3952bf2f7d077f9e30c3d352764d3ad0012b3bf44c84102c6419319168880",
+    "prospective/observer_inputs/APC01_q5nc2_l080.json": "3aa6638bb8116f83c680fe7842dc7e78b6fef9e3c8c30848b5c267fb8ce40ca5",
+    "prospective/observer_inputs/APC02_q5ec2_l085.json": "559018591036395cc9c64dabdf58a32ca860c6bf2c95d5b526e26e73754c1146",
+    "prospective/observer_inputs/APC03_q1nc7_l046.json": "fb2d2ebf7c0836b38c0a5feb71da343570565ae9c677dc269dab019a0f7ef481",
+    "prospective/observer_inputs/APC05_t062.json": "b5b17f1173712f7a43a026017f991b1df1f74f209d40e6893979fec4c753f29b",
+    "prospective/observer_inputs/APC06_t041.json": "e1022438c59171d86874bb3c1003be5337da3f40246d0f902bd0d2dce0a3a223",
+    "prospective/observer_inputs/APC07_t086.json": "4d59eb989b2dd94d6d62bf1b17782df1c7df874973272c77e4b00f5085e3cf10",
+    "prospective/observer_inputs/APC08_t046.json": "fc094374e76e11c204da9a8af9d41367270f09b4c0b68538f1204292917f71ff",
+    "source/paired_controls.jsonl": "8896764d46d950a7678b3a4a2fae5a58689f9fbf669472ef0a12c80cfd39230b",
+    "source/screening_log.csv": "df0c6af216f6bbf3ec4668cc15b61cb93ea29db78d4d2a155346265afd95ebab",
+    "source/selection_summary.md": "16b056ebd5ea91849637e3392d28d852e0003e52d480f96306de91809051dda0"
+  },
+  "observer_files": {
+    "APC01_q5nc2_l080": {
+      "file": "prospective/observer_inputs/APC01_q5nc2_l080.json",
+      "raw_sha256": "3aa6638bb8116f83c680fe7842dc7e78b6fef9e3c8c30848b5c267fb8ce40ca5",
+      "canonical_sha256": "e39aa3e921672452f24e99e4e6465d62fa4871f0947b66ee2aa09eeb57b2c51c"
+    },
+    "APC02_q5ec2_l085": {
+      "file": "prospective/observer_inputs/APC02_q5ec2_l085.json",
+      "raw_sha256": "559018591036395cc9c64dabdf58a32ca860c6bf2c95d5b526e26e73754c1146",
+      "canonical_sha256": "716ad7719e07ff29867c4a548aefea73736a47d7f9c04372822990b52000a9e4"
+    },
+    "APC03_q1nc7_l046": {
+      "file": "prospective/observer_inputs/APC03_q1nc7_l046.json",
+      "raw_sha256": "fb2d2ebf7c0836b38c0a5feb71da343570565ae9c677dc269dab019a0f7ef481",
+      "canonical_sha256": "cf8e9ffebe23582a86d90674ac3dda25b8caec306751ce7153713a3a7184ef35"
+    },
+    "APC05_t062": {
+      "file": "prospective/observer_inputs/APC05_t062.json",
+      "raw_sha256": "b5b17f1173712f7a43a026017f991b1df1f74f209d40e6893979fec4c753f29b",
+      "canonical_sha256": "0ddb1b0f4b49ddb28d2f579ca76e64cdcb7c3151e87fe3091cb396d414677f3f"
+    },
+    "APC06_t041": {
+      "file": "prospective/observer_inputs/APC06_t041.json",
+      "raw_sha256": "e1022438c59171d86874bb3c1003be5337da3f40246d0f902bd0d2dce0a3a223",
+      "canonical_sha256": "7f84faba12a3b46918f204621b57acbf1ca368fc2ddd6f2ebfb4d854bd67adf9"
+    },
+    "APC07_t086": {
+      "file": "prospective/observer_inputs/APC07_t086.json",
+      "raw_sha256": "4d59eb989b2dd94d6d62bf1b17782df1c7df874973272c77e4b00f5085e3cf10",
+      "canonical_sha256": "a3894866a0a3ed640a7607c6ade42874d14f7d97617af1e079d8fd895c24b82a"
+    },
+    "APC08_t046": {
+      "file": "prospective/observer_inputs/APC08_t046.json",
+      "raw_sha256": "fc094374e76e11c204da9a8af9d41367270f09b4c0b68538f1204292917f71ff",
+      "canonical_sha256": "1ad5ff310aa8e9c6e705120573b666a3c39cf74f48446afbb5cee0e838bbb62f"
+    }
+  },
+  "model_visibility": "Only observer_input in generated request messages; curator files, package annotations and later evidence must not be sent to the evaluated model.",
+  "measured_model_runs": 0
+}

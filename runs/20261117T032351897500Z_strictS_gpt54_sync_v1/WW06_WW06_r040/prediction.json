@@ -1,0 +1,482 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "WW06_WW06_r040",
+  "observer_hash": "c52877e65fd1a5183a19af93d1da704b05a7752d423a008fd9a5933474035951",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "WW06.row.022",
+          "quote": "So you were the Robber."
+        },
+        {
+          "source_id": "WW06.row.024",
+          "quote": "And you stole from him."
+        },
+        {
+          "source_id": "WW06.row.027",
+          "quote": "All right. I woke up as myself."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "target",
+            "event_id": "e1a",
+            "scope_evidence": [
+              {
+                "source_id": "WW06.row.022",
+                "quote": "So you were the Robber."
+              },
+              {
+                "source_id": "WW06.row.024",
+                "quote": "And you stole from him."
+              },
+              {
+                "source_id": "WW06.row.025",
+                "quote": "I did."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "James": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r3_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r2_1",
+                "path_r2_2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r1_path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "holder",
+            "event_id": "e1b",
+            "scope_evidence": [
+              {
+                "source_id": "WW06.row.012",
+                "quote": "I was insomniac."
+              },
+              {
+                "source_id": "WW06.row.027",
+                "quote": "All right. I woke up as myself."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "James": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [
+                "x1",
+                "x2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "WW06.row.018",
+          "quote": "So James and I, what did you, did you wake up? We'll wait to see what James and I say."
+        },
+        {
+          "source_id": "WW06.row.026",
+          "quote": "Well, I can confirm James's story that he was the Robber."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "target",
+            "event_id": "e2a",
+            "scope_evidence": [
+              {
+                "source_id": "WW06_public_instructions",
+                "quote": "You may look at another player's card"
+              },
+              {
+                "source_id": "WW06.row.026",
+                "quote": "Well, I can confirm James's story that he was the Robber."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "James": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "holder",
+            "event_id": "e2b",
+            "scope_evidence": [
+              {
+                "source_id": "WW06_public_instructions",
+                "quote": "Werewolves, wake up and look for other Werewolves."
+              },
+              {
+                "source_id": "WW06.row.018",
+                "quote": "So James and I, what did you, did you wake up? We'll wait to see what James and I say."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r3"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [
+                "r2"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "James": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r3"
+              ],
+              "excluded": [
+                "r2"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r2_1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "WW06.row.038",
+          "quote": "Is there anyone who has an alibi?"
+        },
+        {
+          "source_id": "WW06.row.039",
+          "quote": "I'm the only one who was definitely villager."
+        },
+        {
+          "source_id": "WW06.row.040",
+          "quote": "Oh yeah, he is."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h5",
+            "subtask": "anchor",
+            "event_id": "e3a",
+            "scope_evidence": [
+              {
+                "source_id": "WW06.row.011",
+                "quote": "I was the villager. I have no information."
+              },
+              {
+                "source_id": "WW06.row.039",
+                "quote": "I'm the only one who was definitely villager."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Mitchell": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Paul": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [
+                "r3"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2",
+                "path3"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h6",
+            "subtask": "holder",
+            "event_id": "e3b",
+            "scope_evidence": [
+              {
+                "source_id": "WW06.row.039",
+                "quote": "I'm the only one who was definitely villager."
+              },
+              {
+                "source_id": "WW06.row.040",
+                "quote": "Oh yeah, he is."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Mitchell": {
+              "X": [
+                "r3"
+              ],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r3a",
+                "path_r3b"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e3b",
+                  "Villager",
+                  "Paul",
+                  "initial_state",
+                  "assuming the earlier Robber account about Paul is accurate"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Paul": {
+              "X": [
+                "r3"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [
+                "r2"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r2p2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "r2p1",
+                "r3p1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e3b",
+                  "Villager",
+                  "Paul",
+                  "initial_state",
+                  "assuming the earlier Robber account about Paul is accurate"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T19:40:30.164014+00:00"
+}

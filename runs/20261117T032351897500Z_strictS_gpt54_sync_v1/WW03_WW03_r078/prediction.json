@@ -1,0 +1,684 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "WW03_WW03_r078",
+  "observer_hash": "d3cd41e0035277cf6a92c5d88a3f28528c3e55994dea62bf826ffe3694271597",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "WW03.row.040",
+          "quote": "Did you steal from somebody?"
+        },
+        {
+          "source_id": "WW03.row.066",
+          "quote": "Yes."
+        },
+        {
+          "source_id": "WW03.row.069",
+          "quote": "I think Justin's the werewolf."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "target",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "WW03_public_instructions",
+                "quote": "You may exchange your card with another players' card and then view your new card."
+              },
+              {
+                "source_id": "WW03.row.041",
+                "quote": "Someone boring."
+              },
+              {
+                "source_id": "WW03.row.065",
+                "quote": "Did he steal from you?"
+              },
+              {
+                "source_id": "WW03.row.066",
+                "quote": "Yes."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "James": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3",
+                "r4"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r4_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Justin": {
+              "X": [
+                "r1"
+              ],
+              "Q": [],
+              "excluded": [
+                "r2",
+                "r3",
+                "r4"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2",
+                "path3",
+                "path4"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "holder",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "WW03.row.032",
+                "quote": "I was a villager."
+              },
+              {
+                "source_id": "WW03.row.061",
+                "quote": "He stole something very boring and I think I know what that means."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "James": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e2",
+                  "Villager",
+                  "Justin",
+                  "current",
+                  "if no earlier exchange changed Justin's card"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Justin": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e2",
+                  "Villager",
+                  "Justin",
+                  "current",
+                  "if no earlier exchange changed Justin's card"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "anchor",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "WW03.row.040",
+                "quote": "Did you steal from somebody?"
+              },
+              {
+                "source_id": "WW03.row.041",
+                "quote": "Someone boring."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "James": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2",
+                "r3",
+                "r4",
+                "r5"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3",
+                "r4",
+                "r5"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "WW03.row.057",
+          "quote": "I think Mike might be a werewolf."
+        },
+        {
+          "source_id": "WW03.row.058",
+          "quote": "I am not a werewolf."
+        },
+        {
+          "source_id": "WW03.row.069",
+          "quote": "I think Justin's the werewolf."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "holder",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "WW03.row.057",
+                "quote": "I think Mike might be a werewolf."
+              },
+              {
+                "source_id": "WW03.row.058",
+                "quote": "I am not a werewolf."
+              },
+              {
+                "source_id": "WW03.row.069",
+                "quote": "I think Justin's the werewolf."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Mike": {
+              "X": [],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [
+                "x1"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Justin": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "anchor",
+            "event_id": "e4",
+            "scope_evidence": [
+              {
+                "source_id": "WW03.row.053",
+                "quote": "So why did you say, \"Insomniac\"?"
+              },
+              {
+                "source_id": "WW03.row.054",
+                "quote": "To see if anyone else would say it."
+              },
+              {
+                "source_id": "WW03.row.057",
+                "quote": "I think Mike might be a werewolf."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Mike": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r1_p1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "r1_p2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "r2_p1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r1_path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "holder",
+            "event_id": "e5",
+            "scope_evidence": [
+              {
+                "source_id": "WW03.row.052",
+                "quote": "I was actually villager the whole time."
+              },
+              {
+                "source_id": "WW03.row.058",
+                "quote": "I am not a werewolf."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Mike": {
+              "X": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1",
+                "path_r2_1",
+                "path_r3_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [
+                "r2",
+                "r3"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r2_1",
+                "path_r3_1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "WW03.row.075",
+          "quote": "Well, I didn't steal the Seer."
+        },
+        {
+          "source_id": "WW03.row.077",
+          "quote": "Did you steal a villager?"
+        },
+        {
+          "source_id": "WW03.row.078",
+          "quote": "I stole a villager."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "anchor",
+            "event_id": "e6",
+            "scope_evidence": [
+              {
+                "source_id": "WW03_public_instructions",
+                "quote": "You may exchange your card with another players' card and then view your new card."
+              },
+              {
+                "source_id": "WW03.row.075",
+                "quote": "Well, I didn't steal the Seer."
+              },
+              {
+                "source_id": "WW03.row.078",
+                "quote": "I stole a villager."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Mitchell": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r2_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r1_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "holder",
+            "event_id": "e7",
+            "scope_evidence": [
+              {
+                "source_id": "WW03_public_instructions",
+                "quote": "You may exchange your card with another players' card and then view your new card."
+              },
+              {
+                "source_id": "WW03.row.078",
+                "quote": "I stole a villager."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Mitchell": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "target",
+            "event_id": "e6",
+            "scope_evidence": [
+              {
+                "source_id": "WW03.row.077",
+                "quote": "Did you steal a villager?"
+              },
+              {
+                "source_id": "WW03.row.078",
+                "quote": "I stole a villager."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Mitchell": {
+              "X": [
+                "x2"
+              ],
+              "Q": [
+                "x1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Justin": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T07:31:56.905005+00:00"
+}

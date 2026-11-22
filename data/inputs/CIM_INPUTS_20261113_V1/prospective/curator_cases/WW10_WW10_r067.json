@@ -1,0 +1,798 @@
+{
+  "sample_id": "WW10_WW10_r067",
+  "dataset": "Werewolf Among Us",
+  "study_role": "pilot",
+  "source": {
+    "source_id": "WW10",
+    "original_path": "Youtube/transcripts/One#Night#Ultimate#Werewolf#531#Classic#ONUW_Game1.txt",
+    "revision": "4bca742d186b788aba9f252e967e97665b23f8d7",
+    "url": "https://huggingface.co/datasets/bolinlai/Werewolf-Among-Us/resolve/4bca742d186b788aba9f252e967e97665b23f8d7/Youtube/transcripts/One%23Night%23Ultimate%23Werewolf%23531%23Classic%23ONUW_Game1.txt",
+    "local_path": "source_transcripts/WW10.txt",
+    "sha256": "e9ed56a2b2701d111292470eed660444c357271ccb6a33c28e6d2c74b47b8de1",
+    "git_blob_sha1": "a2231e33cebfaeec6347f4ddf6ebd804b1a81afc",
+    "bytes": 6861,
+    "dialogue_id": "WW10",
+    "ids_are_generated": true,
+    "crosswalk_file": "crosswalks/WW10.json"
+  },
+  "selection_metadata": {
+    "focal_episode_start_id": "WW10.row.066",
+    "focus_utterance_id": "WW10.row.066",
+    "first_relevant_response_id": "WW10.row.067",
+    "observation_cutoff_id": "WW10.row.067",
+    "cutoff_reason": "The next source utterance by Brett responds to the focal contribution; no intervening response is skipped.",
+    "prefix_utterance_count": 67,
+    "prefix_word_count": 621,
+    "prefix_token_count": null,
+    "focus_position_normalized": 0.9850746268656716,
+    "focus_to_cutoff_utterances": 1,
+    "paired_delayed_prefix_id": null,
+    "selection_status": "human_confirmed_for_current_pilot",
+    "confirmed_as_original_selection": false,
+    "confirmed_for_current_pilot": true,
+    "selection_record": "selection_records/ACCEPTED_SELECTION_20261113.json"
+  },
+  "observer_input": {
+    "overall_task": "Participants discuss a One Night Ultimate Werewolf game after its night actions and decide whom to accuse or vote for. Statements about roles and actions are reports that may be disputed or strategic. Preserve the distinction between a reported initial role, a role after a reported exchange, and a current role. Use the publicly spoken instructions in this prefix for the variant; do not infer hidden cards or final votes.",
+    "participants": [
+      {
+        "participant_id": "Brett",
+        "known_role": null
+      },
+      {
+        "participant_id": "Audio",
+        "known_role": "recorded_audio_not_player"
+      },
+      {
+        "participant_id": "Katie",
+        "known_role": null
+      },
+      {
+        "participant_id": "DeAndre",
+        "known_role": null
+      },
+      {
+        "participant_id": "Ryan",
+        "known_role": null
+      }
+    ],
+    "context_sources": [
+      {
+        "source_id": "WW10_public_instructions",
+        "text": "Everyone, close your eyes. Werewolves, wake up and look for other werewolves. If there is only one werewolf, you may look at a card from the center. Werewolves, close your eyes.\nMinion, wake up. Werewolves, stick out your thumb, so the minion can see who you are. Werewolves, put your thumb away. Minion, close your eyes.\nRobber, wake up. You may exchange your card with another player's card, and then view your new card. Robber, close your eyes.\nTroublemaker, wake up. You may exchange cards between two other players. Troublemaker, close your eyes.\nDrunk, wake up. Exchange your card with a card from the center. Drunk, close your eyes.\nEveryone, wake up.",
+        "accessible_to_participants": [
+          "Brett",
+          "Katie",
+          "DeAndre",
+          "Ryan"
+        ],
+        "adapter": {
+          "kind": "game_rules",
+          "review_status": "verified",
+          "roles": [
+            "Werewolf",
+            "Villager",
+            "Seer",
+            "Robber",
+            "Troublemaker",
+            "Mason",
+            "Drunk",
+            "Insomniac",
+            "Minion",
+            "Tanner"
+          ]
+        }
+      }
+    ],
+    "dialogue_prefix": [
+      {
+        "utterance_id": "WW10.row.001",
+        "speaker": "Brett",
+        "text": "Take a nap."
+      },
+      {
+        "utterance_id": "WW10.row.002",
+        "speaker": "Audio",
+        "text": "Everyone, close your eyes. Werewolves, wake up and look for other werewolves. If there is only one werewolf, you may look at a card from the center. Werewolves, close your eyes."
+      },
+      {
+        "utterance_id": "WW10.row.003",
+        "speaker": "Audio",
+        "text": "Minion, wake up. Werewolves, stick out your thumb, so the minion can see who you are. Werewolves, put your thumb away. Minion, close your eyes."
+      },
+      {
+        "utterance_id": "WW10.row.004",
+        "speaker": "Audio",
+        "text": "Robber, wake up. You may exchange your card with another player's card, and then view your new card. Robber, close your eyes."
+      },
+      {
+        "utterance_id": "WW10.row.005",
+        "speaker": "Audio",
+        "text": "Troublemaker, wake up. You may exchange cards between two other players. Troublemaker, close your eyes."
+      },
+      {
+        "utterance_id": "WW10.row.006",
+        "speaker": "Audio",
+        "text": "Drunk, wake up. Exchange your card with a card from the center. Drunk, close your eyes."
+      },
+      {
+        "utterance_id": "WW10.row.007",
+        "speaker": "Audio",
+        "text": "Everyone, wake up."
+      },
+      {
+        "utterance_id": "WW10.row.008",
+        "speaker": "Brett",
+        "text": "Being a CEO makes me hungry for some Nerd Rope."
+      },
+      {
+        "utterance_id": "WW10.row.009",
+        "speaker": "Katie",
+        "text": "I was going to say. What are you eating there, boss?"
+      },
+      {
+        "utterance_id": "WW10.row.010",
+        "speaker": "Brett",
+        "text": "It's uh, I'm on a diet. My wife put me on this diet. Ooowhee I don't like them, but I'll eat it if I have to."
+      },
+      {
+        "utterance_id": "WW10.row.011",
+        "speaker": "Katie",
+        "text": "You can only really thin Twizzler-like things covered in sugary candy? Nailed it."
+      },
+      {
+        "utterance_id": "WW10.row.012",
+        "speaker": "DeAndre",
+        "text": "Nailed it."
+      },
+      {
+        "utterance_id": "WW10.row.013",
+        "speaker": "Brett",
+        "text": "What did you do last night?"
+      },
+      {
+        "utterance_id": "WW10.row.014",
+        "speaker": "Katie",
+        "text": "So, I just took a little snooze-fest, and then I woke up and I might have taken something that didn't belong to me. But you know what? I earned it because I've worked here the longest, by tarnation."
+      },
+      {
+        "utterance_id": "WW10.row.015",
+        "speaker": "Brett",
+        "text": "When did we become so southern?"
+      },
+      {
+        "utterance_id": "WW10.row.016",
+        "speaker": "Katie",
+        "text": "You started off saying-"
+      },
+      {
+        "utterance_id": "WW10.row.017",
+        "speaker": "DeAndre",
+        "text": "By tarnation."
+      },
+      {
+        "utterance_id": "WW10.row.018",
+        "speaker": "Katie",
+        "text": "By tarnation, I earned it."
+      },
+      {
+        "utterance_id": "WW10.row.019",
+        "speaker": "DeAndre",
+        "text": "But what you do last night?"
+      },
+      {
+        "utterance_id": "WW10.row.020",
+        "speaker": "Brett",
+        "text": "I did nothing, but you know me in my drinking habits. So, I might have sleepwalked, and exchange something from the center."
+      },
+      {
+        "utterance_id": "WW10.row.021",
+        "speaker": "Katie",
+        "text": "From the center?"
+      },
+      {
+        "utterance_id": "WW10.row.022",
+        "speaker": "Brett",
+        "text": "From the center."
+      },
+      {
+        "utterance_id": "WW10.row.023",
+        "speaker": "Katie",
+        "text": "You are so southern."
+      },
+      {
+        "utterance_id": "WW10.row.024",
+        "speaker": "Brett",
+        "text": "I was drunk."
+      },
+      {
+        "utterance_id": "WW10.row.025",
+        "speaker": "Katie",
+        "text": "Interesting."
+      },
+      {
+        "utterance_id": "WW10.row.026",
+        "speaker": "Brett",
+        "text": "I maybe a CEO, but I have my flaws, okay?"
+      },
+      {
+        "utterance_id": "WW10.row.027",
+        "speaker": "Katie",
+        "text": "Yeah, you're just an alcoholic. That's fine."
+      },
+      {
+        "utterance_id": "WW10.row.028",
+        "speaker": "Brett",
+        "text": "I'm on my diet, and my diet's getting... Okay. What'd you do last night?"
+      },
+      {
+        "utterance_id": "WW10.row.029",
+        "speaker": "DeAndre",
+        "text": "Well, I woke up. It's interesting you say that because I woke up, and I also exchanged a card from the center."
+      },
+      {
+        "utterance_id": "WW10.row.030",
+        "speaker": "Katie",
+        "text": "Interesting. So, we have two people claiming to be drunk. Drunk!"
+      },
+      {
+        "utterance_id": "WW10.row.031",
+        "speaker": "Brett",
+        "text": "Ryan, what'd you do?"
+      },
+      {
+        "utterance_id": "WW10.row.032",
+        "speaker": "Ryan",
+        "text": "I'm a say it loud, and say proud. I'm a drunk."
+      },
+      {
+        "utterance_id": "WW10.row.033",
+        "speaker": "Katie",
+        "text": "Oh, what?"
+      },
+      {
+        "utterance_id": "WW10.row.034",
+        "speaker": "DeAndre",
+        "text": "Oh, the fun."
+      },
+      {
+        "utterance_id": "WW10.row.035",
+        "speaker": "Katie",
+        "text": "This is a great company. We're all bunch alcoholics."
+      },
+      {
+        "utterance_id": "WW10.row.036",
+        "speaker": "DeAndre",
+        "text": "All are alcoholics."
+      },
+      {
+        "utterance_id": "WW10.row.037",
+        "speaker": "Ryan",
+        "text": "Like I said, I really need this win, guys. So um. But yeah, I exchanged my card from this with a card from the center."
+      },
+      {
+        "utterance_id": "WW10.row.038",
+        "speaker": "Katie",
+        "text": "Interesting."
+      },
+      {
+        "utterance_id": "WW10.row.039",
+        "speaker": "Brett",
+        "text": "Three drunks."
+      },
+      {
+        "utterance_id": "WW10.row.040",
+        "speaker": "Katie",
+        "text": "Yeah. All right."
+      },
+      {
+        "utterance_id": "WW10.row.041",
+        "speaker": "Ryan",
+        "text": "Production is very low."
+      },
+      {
+        "utterance_id": "WW10.row.042",
+        "speaker": "DeAndre",
+        "text": "Yeah."
+      },
+      {
+        "utterance_id": "WW10.row.043",
+        "speaker": "Brett",
+        "text": "So, you stole a card."
+      },
+      {
+        "utterance_id": "WW10.row.044",
+        "speaker": "Katie",
+        "text": "I did steal a card, and my card that I stole was not a drunk card. So..."
+      },
+      {
+        "utterance_id": "WW10.row.045",
+        "speaker": "Brett",
+        "text": "Who'd you steal from?"
+      },
+      {
+        "utterance_id": "WW10.row.046",
+        "speaker": "Katie",
+        "text": "I'll disclose that information at a later time. But I will say the person that I stole from... I don't know why they're claiming to be a drunk right now because their card isn't dangerous at all, or anything."
+      },
+      {
+        "utterance_id": "WW10.row.047",
+        "speaker": "Brett",
+        "text": "Someone doesn't have a dangerous card, huh? Who's got a safety card out here?"
+      },
+      {
+        "utterance_id": "WW10.row.048",
+        "speaker": "Brett",
+        "text": "No, my card was so dangerous. No way she would say that about me."
+      },
+      {
+        "utterance_id": "WW10.row.049",
+        "speaker": "Katie",
+        "text": "Your drunk, dangerous card? Your drunk, dangerous drunk card?"
+      },
+      {
+        "utterance_id": "WW10.row.050",
+        "speaker": "Brett",
+        "text": "Well, my real card was pretty dangerous."
+      },
+      {
+        "utterance_id": "WW10.row.051",
+        "speaker": "Katie",
+        "text": "What was your real card?"
+      },
+      {
+        "utterance_id": "WW10.row.052",
+        "speaker": "Brett",
+        "text": "I don't want to get into it."
+      },
+      {
+        "utterance_id": "WW10.row.053",
+        "speaker": "Katie",
+        "text": "What was your real card?"
+      },
+      {
+        "utterance_id": "WW10.row.054",
+        "speaker": "DeAndre",
+        "text": "Tell us."
+      },
+      {
+        "utterance_id": "WW10.row.055",
+        "speaker": "Brett",
+        "text": "I don't want to."
+      },
+      {
+        "utterance_id": "WW10.row.056",
+        "speaker": "Katie",
+        "text": "Tell us, or you get the tongue."
+      },
+      {
+        "utterance_id": "WW10.row.057",
+        "speaker": "DeAndre",
+        "text": "He actually, he's the actual werewolf."
+      },
+      {
+        "utterance_id": "WW10.row.058",
+        "speaker": "Katie",
+        "text": "He is pretty hairy."
+      },
+      {
+        "utterance_id": "WW10.row.059",
+        "speaker": "Brett",
+        "text": "I was the robber, and I took his drunk. That's why I said I was drunk."
+      },
+      {
+        "utterance_id": "WW10.row.060",
+        "speaker": "Ryan",
+        "text": "Okay."
+      },
+      {
+        "utterance_id": "WW10.row.061",
+        "speaker": "DeAndre",
+        "text": "How are you the robber if she just said that she was the robber?"
+      },
+      {
+        "utterance_id": "WW10.row.062",
+        "speaker": "Brett",
+        "text": "Because you're the liar."
+      },
+      {
+        "utterance_id": "WW10.row.063",
+        "speaker": "Katie",
+        "text": "But you also claimed to be drunk, so."
+      },
+      {
+        "utterance_id": "WW10.row.064",
+        "speaker": "Brett",
+        "text": "Because I became the drunk."
+      },
+      {
+        "utterance_id": "WW10.row.065",
+        "speaker": "Ryan",
+        "text": "Yeah."
+      },
+      {
+        "utterance_id": "WW10.row.066",
+        "speaker": "Katie",
+        "text": "You don't get to know that."
+      },
+      {
+        "utterance_id": "WW10.row.067",
+        "speaker": "Brett",
+        "text": "A robber? Yeah, I do."
+      }
+    ]
+  },
+  "manual_annotation": null,
+  "assistant_annotation_draft": {
+    "author": "assistant",
+    "is_human_reference": false,
+    "is_model_prediction": false,
+    "evidence_tier": "S",
+    "scope": "Proposed focal comparison only; no assigned research label.",
+    "focal_pair": [
+      "Katie",
+      "Brett"
+    ],
+    "local_question": "Does Brett’s reported Robber action entitle him to know the received card, and is that the same issue Katie is challenging?",
+    "focus_source_ids": [
+      "WW10.row.066",
+      "WW10.row.067"
+    ],
+    "focus_quotes": [
+      {
+        "source_id": "WW10.row.066",
+        "speaker": "Katie",
+        "quote": "You don't get to know that."
+      },
+      {
+        "source_id": "WW10.row.067",
+        "speaker": "Brett",
+        "quote": "A robber? Yeah, I do."
+      }
+    ],
+    "participant_meanings_with_source_quotes": [
+      {
+        "participant_id": "Katie",
+        "meaning": "Katie points to Brett’s earlier Drunk claim, then says You don’t get to know that. She challenges his asserted knowledge, but the text does not fix whether she denies a Robber’s inspection right, invokes a Drunk-related limitation, or challenges his changing story.",
+        "source_quotes": [
+          {
+            "source_id": "WW10.row.063",
+            "quote": "But you also claimed to be drunk, so."
+          },
+          {
+            "source_id": "WW10.row.066",
+            "quote": "You don't get to know that."
+          }
+        ],
+        "support": null
+      },
+      {
+        "participant_id": "Brett",
+        "meaning": "Brett reports having been Robber and receiving a Drunk card, then defends his knowledge by asking A robber? and asserting Yeah, I do. This expresses an inspection/knowledge claim grounded in his reported Robber action, without verifying the story or his hidden card.",
+        "source_quotes": [
+          {
+            "source_id": "WW10.row.059",
+            "quote": "I was the robber, and I took his drunk. That's why I said I was drunk."
+          },
+          {
+            "source_id": "WW10.row.064",
+            "quote": "Because I became the drunk."
+          },
+          {
+            "source_id": "WW10.row.067",
+            "quote": "A robber? Yeah, I do."
+          }
+        ],
+        "support": null
+      }
+    ],
+    "task_outputs": {
+      "evidence_tier": "S",
+      "authorship": "Assistant wording draft for human consideration; not a completed independent review or adjudicated reference.",
+      "scope": "Does Brett’s reported Robber action entitle him to know the received card, and is that the same issue Katie is challenging?",
+      "participant_outputs": {
+        "Katie": "Unknown: a denial of knowledge is expressed, but its precise card, operation and premise branch are not fixed well enough to compute the same rule consequence as Brett’s.",
+        "Brett": "Conditional on his Robber-exchange report, Brett claims he can know the received card. The prefix’s public Robber instruction permits viewing a new card, but the present adapter does not compute an information-access output."
+      },
+      "comparison": "The exchange may concern different operation or story-consistency questions. Brett expresses a Robber-based knowledge claim, while Katie’s challenge is not uniquely scoped. The current information-access consequence is also outside the starter adapter.",
+      "blocking_reasons": [
+        "Katie’s that and the intended scope of her challenge are not uniquely established: rule interpretation, received role, or credibility of the story are live alternatives.",
+        "The same reported operation and premise branch must be established before comparing knowledge claims.",
+        "The starter does not implement information-access or rule-validity consequences for this question."
+      ],
+      "verification_note": "Exact quoted text and source IDs were checked against the retained observer prefix. Human semantic support review, necessary map/media/context verification, and inclusion decisions remain pending. No later turns or hidden roles were used to complete these suggestions."
+    },
+    "blocking_uncertainty": true,
+    "provisional_label": null,
+    "human_content_confirmed": false,
+    "current_review_path": "../../REVIEWS.json",
+    "evidence_scope": "Current Tier S wording aid. Human support review and selection remain pending; all research annotations stay outside observer input."
+  },
+  "later_evidence": {
+    "dialogue": [
+      {
+        "utterance_id": "WW10.row.068",
+        "speaker": "Katie",
+        "text": "No, but you claimed drunk."
+      },
+      {
+        "utterance_id": "WW10.row.069",
+        "speaker": "Brett",
+        "text": "No, because I ended up as the drunk."
+      },
+      {
+        "utterance_id": "WW10.row.070",
+        "speaker": "Katie",
+        "text": "No, but that wasn't your story. You said you woke up."
+      },
+      {
+        "utterance_id": "WW10.row.071",
+        "speaker": "Brett",
+        "text": "To see if someone came out with it."
+      },
+      {
+        "utterance_id": "WW10.row.072",
+        "speaker": "Katie",
+        "text": "Uh-huh. So, you've already been caught in a lie. Yeah. Keep eating Nerds."
+      },
+      {
+        "utterance_id": "WW10.row.073",
+        "speaker": "Brett",
+        "text": "All right, vote from me then."
+      },
+      {
+        "utterance_id": "WW10.row.074",
+        "speaker": "Katie",
+        "text": "Maybe I will."
+      },
+      {
+        "utterance_id": "WW10.row.075",
+        "speaker": "DeAndre",
+        "text": "So Brett, what if I tell you that I was actually the troublemaker?"
+      },
+      {
+        "utterance_id": "WW10.row.076",
+        "speaker": "Katie",
+        "text": "Oh!"
+      },
+      {
+        "utterance_id": "WW10.row.077",
+        "speaker": "DeAndre",
+        "text": "And I switched your card to somebody else's card?"
+      },
+      {
+        "utterance_id": "WW10.row.078",
+        "speaker": "Brett",
+        "text": "It depends if she gave it-"
+      },
+      {
+        "utterance_id": "WW10.row.079",
+        "speaker": "Katie",
+        "text": "That would probably make him feel better."
+      },
+      {
+        "utterance_id": "WW10.row.080",
+        "speaker": "Brett",
+        "text": "It depends if she gave it back to me or not."
+      },
+      {
+        "utterance_id": "WW10.row.081",
+        "speaker": "Katie",
+        "text": "How would I give it back to you?"
+      },
+      {
+        "utterance_id": "WW10.row.082",
+        "speaker": "Brett",
+        "text": "Because you're the robber!"
+      },
+      {
+        "utterance_id": "WW10.row.083",
+        "speaker": "DeAndre",
+        "text": "And you just said you were the robber. Either way I went, I go after the robber."
+      },
+      {
+        "utterance_id": "WW10.row.084",
+        "speaker": "Brett",
+        "text": "No, she could've robbed me, and then you, and then you can give me my card right back to me. So, who'd you trump me?"
+      },
+      {
+        "utterance_id": "WW10.row.085",
+        "speaker": "Katie",
+        "text": "So, what were you? Were you the drunk?"
+      },
+      {
+        "utterance_id": "WW10.row.086",
+        "speaker": "Ryan",
+        "text": "I was the drunk."
+      },
+      {
+        "utterance_id": "WW10.row.087",
+        "speaker": "Katie",
+        "text": "Sounds like we don't have any werewolves."
+      },
+      {
+        "utterance_id": "WW10.row.088",
+        "speaker": "Audio",
+        "text": "One minute remaining."
+      },
+      {
+        "utterance_id": "WW10.row.089",
+        "speaker": "Katie",
+        "text": "Real uneventful."
+      },
+      {
+        "utterance_id": "WW10.row.090",
+        "speaker": "Brett",
+        "text": "I think it may be in our interest to vote for Ryan if it's your story the truth."
+      },
+      {
+        "utterance_id": "WW10.row.091",
+        "speaker": "Katie",
+        "text": "Oh, were you the werewolf? At the beginning?"
+      },
+      {
+        "utterance_id": "WW10.row.092",
+        "speaker": "Brett",
+        "text": "Yes, I was the werewolf."
+      },
+      {
+        "utterance_id": "WW10.row.093",
+        "speaker": "Katie",
+        "text": "Oh."
+      },
+      {
+        "utterance_id": "WW10.row.094",
+        "speaker": "Brett",
+        "text": "Is your story not true?"
+      },
+      {
+        "utterance_id": "WW10.row.095",
+        "speaker": "Katie",
+        "text": "So..."
+      },
+      {
+        "utterance_id": "WW10.row.096",
+        "speaker": "Katie",
+        "text": "Katie, who did you switch with?"
+      },
+      {
+        "utterance_id": "WW10.row.097",
+        "speaker": "Brett",
+        "text": "Wait, wait, hold up. Is your story not true?"
+      },
+      {
+        "utterance_id": "WW10.row.098",
+        "speaker": "Katie",
+        "text": "So, I was not the robber. So, Brett's still a werewolf."
+      },
+      {
+        "utterance_id": "WW10.row.099",
+        "speaker": "Brett",
+        "text": "Are you tanning?"
+      },
+      {
+        "utterance_id": "WW10.row.100",
+        "speaker": "Katie",
+        "text": "Am I tanning? Am I tanning?"
+      },
+      {
+        "utterance_id": "WW10.row.101",
+        "speaker": "DeAndre",
+        "text": "No, he said he was the troublemaker. He's saying he swapped me and Ryan."
+      },
+      {
+        "utterance_id": "WW10.row.102",
+        "speaker": "Katie",
+        "text": "Yeah, but I claimed the robber in the beginning."
+      },
+      {
+        "utterance_id": "WW10.row.103",
+        "speaker": "Audio",
+        "text": "Only 30 seconds left."
+      },
+      {
+        "utterance_id": "WW10.row.104",
+        "speaker": "DeAndre",
+        "text": "Wait, so you were really a werewolf? Well, then I gave Katie a werewolf."
+      },
+      {
+        "utterance_id": "WW10.row.105",
+        "speaker": "Brett",
+        "text": "What were you in the beginning?"
+      },
+      {
+        "utterance_id": "WW10.row.106",
+        "speaker": "Katie",
+        "text": "A tanner. So, don't vote for Brett."
+      },
+      {
+        "utterance_id": "WW10.row.107",
+        "speaker": "DeAndre",
+        "text": "This is too funny."
+      },
+      {
+        "utterance_id": "WW10.row.108",
+        "speaker": "Brett",
+        "text": "Then we can't vote for Katie, either. Because I wasn't the winner."
+      },
+      {
+        "utterance_id": "WW10.row.109",
+        "speaker": "Katie",
+        "text": "What were you?"
+      },
+      {
+        "utterance_id": "WW10.row.110",
+        "speaker": "DeAndre",
+        "text": "I'm not saying."
+      },
+      {
+        "utterance_id": "WW10.row.111",
+        "speaker": "Katie",
+        "text": "Were you the minion?"
+      },
+      {
+        "utterance_id": "WW10.row.112",
+        "speaker": "Brett",
+        "text": "No, we got to vote for Ryan. If we want to win, we got to vote for Ryan."
+      },
+      {
+        "utterance_id": "WW10.row.113",
+        "speaker": "Katie",
+        "text": "Why would we vote for Ryan?"
+      },
+      {
+        "utterance_id": "WW10.row.114",
+        "speaker": "Brett",
+        "text": "Do you want to win?"
+      },
+      {
+        "utterance_id": "WW10.row.115",
+        "speaker": "Katie",
+        "text": "Ryan's a drunk."
+      }
+    ],
+    "observed_action_or_outcome": null,
+    "event_type": null,
+    "what_it_supports": "Retained for a separate later-evidence review; no suffix inference is used as prefix support in this draft."
+  },
+  "annotation_review": {
+    "review_status": "unreviewed",
+    "independent_coder_1": null,
+    "independent_coder_2": null,
+    "adjudicated_label": null
+  },
+  "sampling_and_reference_protocol": {
+    "map_pair_id": null,
+    "provisional_source_group": "One#Night#Ultimate#Werewolf#531#Classic#ONUW",
+    "merged_cluster_id": null,
+    "partition": "development_candidate_only",
+    "full_dev_test_split_drawn": false,
+    "evidence_tier": "S",
+    "exposure": "Assistant curation and preliminary interpretation; not a blind test set."
+  },
+  "archived_pre_tier_s_annotation_draft": {
+    "title": "Does the Robber see the received card?",
+    "subtask": "Interpret whether the reported Robber action permits inspecting the received card",
+    "draft_status": "UNRESOLVED_OUTSIDE_STARTER_ADAPTER",
+    "supported_A": "Katie says Brett does not get to know that after his claimed transition to Drunk.",
+    "supported_B": "Brett responds A robber? Yeah, I do, explicitly defending a Robber's inspection ability.",
+    "consequence": "This may be an exposed rule/operation-interpretation difference. The starter lacks an information-access or rule-validity output for this question.",
+    "reason": "Tests a consequential rule disagreement without treating deception or hidden roles as established.",
+    "uncertainty": "Katie may be challenging his inconsistent story rather than misinterpreting the Robber rule. The same local question must be established.",
+    "timing": "possible_exposed_rule_difference",
+    "adapter": "outside_knowledge_effect_inventory",
+    "media_priority": "High priority: check that and turn-level stance against audio; the later explanation is withheld.",
+    "author": "assistant",
+    "is_human_reference": false,
+    "is_model_prediction": false,
+    "scope": "focal exchange only; not a full-prefix label",
+    "focal_pair": [
+      "Katie",
+      "Brett"
+    ],
+    "focus_quote": "You don't get to know that.",
+    "response_quote": "A robber? Yeah, I do.",
+    "evidence_scope": "Justification must be checked using prefix only. The assistant screened longer transcript passages, so this draft is not a blinded independent annotation.",
+    "archive_note": "Earlier assistant screening draft. Superseded by the current Tier S wording; no human reference status."
+  }
+}

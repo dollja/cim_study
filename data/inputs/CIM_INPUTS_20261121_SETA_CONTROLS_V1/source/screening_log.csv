@@ -1,0 +1,53 @@
+dataset,source_id,group_id,candidate_chain_id,cutoff,eligibility,status,reason,missing_assets
+HCRC_MapTask_v2.1,q1ec1,m12,MT-08,utt:56,eligible,included,Selected for unresolved quota; transcript and map PNGs verified.,none
+HCRC_MapTask_v2.1,q1ec2,m9,MT-06,utt:50,eligible,included,Selected for aligned_or_consequence_equivalent quota; transcript and map PNGs verified.,none
+HCRC_MapTask_v2.1,q1ec3,m6,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q1ec5,m6,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q1ec7,m12,MT-04,utt:88,eligible,included,Selected for potential_consequential_mismatch quota; transcript and map PNGs verified.,none
+HCRC_MapTask_v2.1,q1ec8,m9,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q1nc1,m12,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q1nc2,m9,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q1nc3,m6,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q1nc5,m6,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q1nc7,m12,MT-05,utt:31,eligible,included,Selected for aligned_or_consequence_equivalent quota; transcript and map PNGs verified.,none
+HCRC_MapTask_v2.1,q1nc8,m9,MT-10,utt:52,eligible,included,Selected for unresolved quota; transcript and map PNGs verified.,none
+HCRC_MapTask_v2.1,q2ec4,m2,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q2ec6,m2,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q2nc4,m2,MT-03,utt:48,eligible,included,Selected for potential_consequential_mismatch quota; transcript and map PNGs verified.,none
+HCRC_MapTask_v2.1,q2nc6,m2,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q5ec1,m12,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q5ec2,m9,MT-02,utt:68,eligible,included,Selected for potential_consequential_mismatch quota; transcript and map PNGs verified.,none
+HCRC_MapTask_v2.1,q5ec3,m6,MT-09,utt:98,eligible,included,Selected for unresolved quota; transcript and map PNGs verified.,none
+HCRC_MapTask_v2.1,q5ec5,m6,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q5ec7,m12,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q5ec8,m9,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q5nc1,m12,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q5nc2,m9,MT-01,utt:72,eligible,included,Selected for potential_consequential_mismatch quota; transcript and map PNGs verified.,none
+HCRC_MapTask_v2.1,q5nc3,m6,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q5nc5,m6,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q5nc7,m12,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q5nc8,m9,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q6ec4,m2,MT-07,utt:50,eligible,included,Selected for aligned_or_consequence_equivalent quota; transcript and map PNGs verified.,none
+HCRC_MapTask_v2.1,q6ec6,m2,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q6nc4,m2,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+HCRC_MapTask_v2.1,q6nc6,m2,,,eligible,not_selected,Pilot quota (10 MapTask episodes) filled with stronger/cleaner exemplars.,none
+Werewolf_Among_Us_Ego4D,0a6ef9dc-a2dc-452b-a907-d6fa2ed4cae0__Game1,Game1,WW-08,turn:72,eligible,included,Selected for unresolved quota; Ego4D _2.mp4 verified via read_file.,none
+Werewolf_Among_Us_Ego4D,2ba4023c-a8bf-43ad-ad5a-80ba222ce990__Game8,Game8,,,eligible,not_selected,Screened in dev split; Werewolf quota (10 episodes) filled with media-verified exemplars.,none
+Werewolf_Among_Us_Ego4D,324bccd2-adff-4e9a-8ff4-03491e144ac3__Game5,Game5,WW-04,turn:55,eligible,included,Selected for potential_consequential_mismatch quota; Ego4D _1.mp4 and _2.mp4 verified via read_file.,none
+Werewolf_Among_Us_Ego4D,64076f60-f3fc-4ee6-93e1-3489d8ec7b12__Game3,Game3,WW-07,turn:44,eligible,included,Selected for aligned_or_consequence_equivalent quota; Verified via trimmed Ego4D clip 64076f60_Game3_1_clip.mp4 (avconvert --start 270 --duration 90).,none
+Werewolf_Among_Us_Youtube,ONE NIGHT ULTIMATE WEREWOLF  Retro 1__Game3,Game3,,,eligible,not_selected,Screened in dev split; Werewolf quota (10 episodes) filled with media-verified exemplars.,none
+Werewolf_Among_Us_Youtube,ONE NIGHT ULTIMATE WEREWOLF  Retro 1__Game6,Game6,WW-10,turn:56,eligible,included,Selected for unresolved quota; Full Retro 1_Game6.mp4 verified via read_file.,none
+Werewolf_Among_Us_Youtube,ONE NIGHT ULTIMATE WEREWOLF  Retro 2__Game2,Game2,WW-09,turn:42,eligible,included,Selected for unresolved quota; Video verified via read_file.,none
+Werewolf_Among_Us_Youtube,ONE NIGHT ULTIMATE WEREWOLF  Retro 2__Game8,Game8,,,eligible,not_selected,Screened in dev split; Werewolf quota (10 episodes) filled with media-verified exemplars.,none
+Werewolf_Among_Us_Youtube,ONE NIGHT ULTIMATE WEREWOLF  Retro 5__Game2,Game2,WW-03,turn:47,eligible,included,Selected for potential_consequential_mismatch quota; Video verified: turn 45 ASR has 'swatched' for 'swapped'; turn 46-47 dialogue matches audio.,none
+Werewolf_Among_Us_Youtube,ONE NIGHT ULTIMATE WEREWOLF 30  February 17th 2018__Game4,Game4,WW-EXCL-FEB17-G4,turn:26,ineligible,excluded,"Media-based exclusion: video shows both Caitlynn and Justin claim to rob Mike (conflicting role claim, not interpretation mismatch); minor ASR 'for' vs 'from' at turn 26.",none
+Werewolf_Among_Us_Youtube,ONE NIGHT ULTIMATE WEREWOLF 34  March 24th 2018__Game2,Game2,,,eligible,not_selected,Screened in dev split; Werewolf quota (10 episodes) filled with media-verified exemplars.,none
+Werewolf_Among_Us_Youtube,ONE NIGHT ULTIMATE WEREWOLF 34  March 24th 2018__Game3,Game3,,,eligible,not_selected,Screened in dev split; Werewolf quota (10 episodes) filled with media-verified exemplars.,none
+Werewolf_Among_Us_Youtube,ONE NIGHT ULTIMATE WEREWOLF 4  July 14th 2016__Game2,Game2,WW-02,turn:39,eligible,included,Selected for potential_consequential_mismatch quota; Video verified: Paul asks if he is Werewolf; Justin says Tanner; later Mitchell admits he lied.,none
+Werewolf_Among_Us_Youtube,ONE NIGHT ULTIMATE WEREWOLF 64  March 23rd 2019__Game4,Game4,,,eligible,not_selected,Screened in dev split; Werewolf quota (10 episodes) filled with media-verified exemplars.,none
+Werewolf_Among_Us_Youtube,ONE NIGHT ULTIMATE WEREWOLF 9  November 6th 2016__Game4,Game4,WW-06,turn:43,eligible,included,Selected for aligned_or_consequence_equivalent quota; Video verified; note ASR garble at turn 41 ('claim all the inside').,none
+Werewolf_Among_Us_Youtube,One Night Ultimate Werewolf 362 More Classic Werewolf__Game1,Game1,WW-05,turn:84,eligible,included,Selected for aligned_or_consequence_equivalent quota; Video verified via read_file.,none
+Werewolf_Among_Us_Youtube,One Night Ultimate Werewolf 363 Even More Classic Werewolf__Game1,Game1,WW-01,turn:60,eligible,included,Selected for potential_consequential_mismatch quota; Video verified: Brett says George and Dylan at turn 60; Dylan & Katie correct to George and Kelsey.,none
+Werewolf_Among_Us_Youtube,One Night Ultimate Werewolf 491 Classic Werewolf__Game1,Game1,,,eligible,not_selected,Screened in dev split; Werewolf quota (10 episodes) filled with media-verified exemplars.,none
+Werewolf_Among_Us_Youtube,Retrovision  ONE NIGHT ULTIMATE WEREWOLF  Retro 7__Game5,Game5,,,eligible,not_selected,Screened in dev split; Werewolf quota (10 episodes) filled with media-verified exemplars.,none
+Werewolf_Among_Us_Youtube,Way Way Back  ONE NIGHT ULTIMATE WEREWOLF  Retro 10__Game5,Game5,,,eligible,not_selected,Screened in dev split; Werewolf quota (10 episodes) filled with media-verified exemplars.,none

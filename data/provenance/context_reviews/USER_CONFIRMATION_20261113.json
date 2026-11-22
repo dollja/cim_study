@@ -1,0 +1,22 @@
+{
+  "record_type": "user_reported_source_verification_and_selection",
+  "recorded_date": "2026-11-13",
+  "reviewer_id": "r1",
+  "reviewer_identity_basis": "The user who confirmed the existing r1 review in this conversation.",
+  "source": "User message in this conversation on 2026-11-13",
+  "source_verification_quote": "I have checked the source facts and game rules.",
+  "selection_confirmation": "User explicitly confirms all 20 episodes, including MT07, for this pilot.",
+  "mt10_confirmation": "User confirms ALIGNED, uncertainty false, and checking the source evidence for that judgment.",
+  "scope_applied": "The existing source facts, map correspondence IDs and public game-rule contexts in the supplied 20-case package; no source-fact corrections were supplied.",
+  "verification_basis": "user_attestation",
+  "independent_unexposed_inventory_review_claimed": false,
+  "actual_source_review_date": null,
+  "recording_date_is_not_an_invented_review_timestamp": true,
+  "limits": [
+    "This records the user statement; it is not a newly performed independent human review.",
+    "Verification of supplied context facts does not establish a participant interpretation or adoption.",
+    "Inventory completeness beyond the supplied facts is not asserted.",
+    "Selection now does not establish recovery of an earlier historical selection manifest.",
+    "No second-reader review, adjudication or model result is created."
+  ]
+}

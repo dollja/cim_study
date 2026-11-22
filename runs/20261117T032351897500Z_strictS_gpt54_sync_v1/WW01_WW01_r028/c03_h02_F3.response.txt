@@ -1,0 +1,1 @@
+{"readings":[{"id":"r1","paraphrase":"the claim refers to the Villager role, specifically as a reported starting role before any night exchanges","arguments":{"event_id":"e_mitchell_initial_villager_claim_repeat","anchor_class":"role","anchor_ids":{"Justin":"Villager","Mitchell":"Villager"},"relation":null}}],"incomplete":false}

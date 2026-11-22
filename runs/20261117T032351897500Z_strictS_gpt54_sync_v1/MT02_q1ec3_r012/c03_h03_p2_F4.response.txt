@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"supported","paths":[{"id":"path1","root_type":"SAYS","root":{"source_id":"q1ec3.row.012","quote":"i don't have a graveyard"},"scope_id":"e3","links":[{"relation":"COREF","source_id":"q1ec3.row.011","quote":"below the graveyard"}]}]},{"reading_id":"r2","judgment":"undetermined","paths":[]}],"updates":[],"unresolved_scope":false}

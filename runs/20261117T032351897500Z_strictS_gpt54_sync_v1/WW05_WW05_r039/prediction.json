@@ -1,0 +1,536 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "WW05_WW05_r039",
+  "observer_hash": "fb19133f6ce232a9c72207c60b88fb576f95cb69f461d69870c44ef119ded2fc",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "c41fdc0a28fd4d93e0a9b803f192cf552691f8bb84e7f24cc82310ee9e64d618",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "WW05.row.019",
+          "quote": "if I was a troublemaker and I switched you and Paul?"
+        },
+        {
+          "source_id": "WW05.row.020",
+          "quote": "Did you switch us?"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "WW05_public_instructions",
+                "quote": "Troublemaker, wake up. You may exchange cards between two other players."
+              },
+              {
+                "source_id": "WW05.row.019",
+                "quote": "I switched you and Paul"
+              },
+              {
+                "source_id": "WW05.row.038",
+                "quote": "I switched you two"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "target",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "WW05.row.019",
+                "quote": "you and Paul"
+              },
+              {
+                "source_id": "WW05.row.039",
+                "quote": "You switched us?"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r1"
+              ],
+              "Q": [],
+              "excluded": [
+                "r2"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1",
+                "path_r2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Mitchell": {
+              "X": [
+                "r1"
+              ],
+              "Q": [],
+              "excluded": [
+                "r2"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": false
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "WW05.row.011",
+          "quote": "I am the seer and I saw two werewolves"
+        },
+        {
+          "source_id": "WW05.row.037",
+          "quote": "Mitchell is one of the werewolves"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "holder",
+            "event_id": "e2a",
+            "scope_evidence": [
+              {
+                "source_id": "WW05.row.011",
+                "quote": "I am the seer"
+              },
+              {
+                "source_id": "WW05_public_instructions",
+                "quote": "Seer, wake up. You may look at another player's card."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Paul": {
+              "X": [],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [
+                "r2"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r1_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "holder",
+            "event_id": "e2b",
+            "scope_evidence": [
+              {
+                "source_id": "WW05.row.011",
+                "quote": "I saw two werewolves"
+              },
+              {
+                "source_id": "WW05.row.037",
+                "quote": "Mitchell is one of the werewolves"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Paul": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [
+                "r3",
+                "r4"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r4_2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r2_1",
+                "path_r3_1",
+                "path_r4_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3",
+                "r4"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r1_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path_r1_2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r2_1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "WW05.row.032",
+          "quote": "vote to kill Mitchell"
+        },
+        {
+          "source_id": "WW05.row.034",
+          "quote": "But if he's the seer..."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "target",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "WW05.row.032",
+                "quote": "vote to kill Mitchell"
+              },
+              {
+                "source_id": "WW05.row.035",
+                "quote": "I want to see him defend himself."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2",
+                "path3"
+              ],
+              "G": [
+                [
+                  "Target",
+                  "e3",
+                  "accuse",
+                  "Mitchell"
+                ],
+                [
+                  "Target",
+                  "e3",
+                  "vote",
+                  "Mitchell"
+                ]
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Target",
+                  "e3",
+                  "accuse",
+                  "Mitchell"
+                ],
+                [
+                  "Target",
+                  "e3",
+                  "vote",
+                  "Mitchell"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "holder",
+            "event_id": "e3a",
+            "scope_evidence": [
+              {
+                "source_id": "WW05.row.034",
+                "quote": "he's the seer"
+              },
+              {
+                "source_id": "WW05.row.036",
+                "quote": "we still have two werewolves"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r3"
+              ],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r3_1"
+              ],
+              "G": [
+                [
+                  "Holder",
+                  "e3a",
+                  "Werewolf",
+                  "Mitchell",
+                  "current",
+                  "alternative"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e3a",
+                  "Seer",
+                  "Mitchell",
+                  "current",
+                  "conditional"
+                ],
+                [
+                  "Holder",
+                  "e3a",
+                  "Seer",
+                  "Mitchell",
+                  "initial",
+                  "conditional"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "p2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "p1"
+              ],
+              "G": [
+                [
+                  "Holder",
+                  "e3a",
+                  "Seer",
+                  "Mitchell",
+                  "initial",
+                  "conditional"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e3a",
+                  "Seer",
+                  "Mitchell",
+                  "current",
+                  "conditional"
+                ],
+                [
+                  "Holder",
+                  "e3a",
+                  "Werewolf",
+                  "Mitchell",
+                  "current",
+                  "alternative"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": true,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T08:13:18.132922+00:00"
+}

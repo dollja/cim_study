@@ -1,0 +1,330 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "WW08_WW08_r005",
+  "observer_hash": "e21dc9457c90d48f770bf5fa9ef149f074f5a8c5e0d4066f5f62898d75f45e01",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "WW08.row.004",
+          "quote": "I saw that Dan was a mason."
+        },
+        {
+          "source_id": "WW08.row.005",
+          "quote": "That is accurate."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "target",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "WW08_public_instructions",
+                "quote": "Seer, wake up. You may look at another player's card or two of the center cards."
+              },
+              {
+                "source_id": "WW08.row.004",
+                "quote": "I saw that Dan was a mason."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Ed": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Dan": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "holder",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "WW08.row.004",
+                "quote": "Dan was a mason."
+              },
+              {
+                "source_id": "WW08.row.005",
+                "quote": "That is accurate."
+              },
+              {
+                "source_id": "WW08_public_instructions",
+                "quote": "Robber, wake up. You may exchange your card with another player's card and then view your new card."
+              },
+              {
+                "source_id": "WW08_public_instructions",
+                "quote": "Troublemaker, wake up. You may exchange cards between two other players."
+              },
+              {
+                "source_id": "WW08_public_instructions",
+                "quote": "Drunk, wake up and exchange your card with a card from the center."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Ed": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Dan": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "WW08.row.002",
+          "quote": "Seer, what did you see?"
+        },
+        {
+          "source_id": "WW08.row.004",
+          "quote": "I saw that Dan was a mason."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "holder",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "WW08.row.002",
+                "quote": "Seer, what did you see?"
+              },
+              {
+                "source_id": "WW08.row.004",
+                "quote": "I saw that Dan was a mason."
+              },
+              {
+                "source_id": "WW08_public_instructions",
+                "quote": "Seer, wake up. You may look at another player's card or two of the center cards."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Dylan": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Ed": {
+              "X": [
+                "r3"
+              ],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r3_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "WW08.row.003",
+          "quote": "Seer, what did you see?"
+        },
+        {
+          "source_id": "WW08.row.004",
+          "quote": "I saw that Dan was a mason."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "holder",
+            "event_id": "e4",
+            "scope_evidence": [
+              {
+                "source_id": "WW08.row.003",
+                "quote": "Seer, what did you see?"
+              },
+              {
+                "source_id": "WW08.row.004",
+                "quote": "I saw that Dan was a mason."
+              },
+              {
+                "source_id": "WW08_public_instructions",
+                "quote": "Seer, wake up. You may look at another player's card or two of the center cards."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Brett": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Ed": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T23:03:55.580981+00:00"
+}

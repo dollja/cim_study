@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"supported","paths":[{"id":"r1_path1","root_type":"SAYS","root":{"source_id":"WW03.row.057","quote":"I think Mike might be a werewolf."},"scope_id":"e4","links":[]}]},{"reading_id":"r2","judgment":"undetermined","paths":[]}],"updates":[],"unresolved_scope":false}

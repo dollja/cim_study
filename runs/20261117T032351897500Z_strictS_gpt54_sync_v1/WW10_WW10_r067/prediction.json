@@ -1,0 +1,580 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "WW10_WW10_r067",
+  "observer_hash": "d1bd30abc34f05965db33ab8ee65e5475134fc734f65553c8e12dd4c645624b1",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "996f1e3e00caf5e517f58d62549c59e5faeabb378b2fefa2dc53a225e4494b69",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "WW10.row.044",
+          "quote": "I did steal a card"
+        },
+        {
+          "source_id": "WW10.row.059",
+          "quote": "I was the robber, and I took his drunk."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "holder",
+            "event_id": "e1_katie_robber_phase",
+            "scope_evidence": [
+              {
+                "source_id": "WW10_public_instructions",
+                "quote": "Robber, wake up. You may exchange your card with another player's card, and then view your new card."
+              },
+              {
+                "source_id": "WW10.row.014",
+                "quote": "I might have taken something that didn't belong to me."
+              },
+              {
+                "source_id": "WW10.row.044",
+                "quote": "I did steal a card"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Katie": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Brett": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r1_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path_r3_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r2_1",
+                "path_r2_2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "holder",
+            "event_id": "e1_brett_robber_phase",
+            "scope_evidence": [
+              {
+                "source_id": "WW10_public_instructions",
+                "quote": "Robber, wake up. You may exchange your card with another player's card, and then view your new card."
+              },
+              {
+                "source_id": "WW10.row.059",
+                "quote": "I was the robber, and I took his drunk."
+              },
+              {
+                "source_id": "WW10.row.064",
+                "quote": "Because I became the drunk."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Katie": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path3",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Brett": {
+              "X": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "p3",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "p1",
+                "p2",
+                "p4"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "WW10.row.059",
+          "quote": "I was the robber, and I took his drunk. That's why I said I was drunk."
+        },
+        {
+          "source_id": "WW10.row.037",
+          "quote": "I exchanged my card from this with a card from the center."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "target",
+            "event_id": "e2_brett_targets_ryan",
+            "scope_evidence": [
+              {
+                "source_id": "WW10_public_instructions",
+                "quote": "Robber, wake up. You may exchange your card with another player's card, and then view your new card."
+              },
+              {
+                "source_id": "WW10.row.059",
+                "quote": "I took his drunk."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Brett": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Ryan": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "holder",
+            "event_id": "e2_ryan_initial_drunk_claim",
+            "scope_evidence": [
+              {
+                "source_id": "WW10_public_instructions",
+                "quote": "Drunk, wake up. Exchange your card with a card from the center."
+              },
+              {
+                "source_id": "WW10.row.032",
+                "quote": "I'm a say it loud, and say proud. I'm a drunk."
+              },
+              {
+                "source_id": "WW10.row.037",
+                "quote": "I exchanged my card from this with a card from the center."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Brett": {
+              "X": [
+                "r3"
+              ],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Ryan": {
+              "X": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r1_path1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "r2_path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "r1_path2",
+                "r2_path2",
+                "r3_path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "holder",
+            "event_id": "e2_brett_post_robber_drunk_claim",
+            "scope_evidence": [
+              {
+                "source_id": "WW10.row.059",
+                "quote": "That's why I said I was drunk."
+              },
+              {
+                "source_id": "WW10.row.064",
+                "quote": "Because I became the drunk."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Brett": {
+              "X": [
+                "r1",
+                "r3"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1",
+                "path_r3_1"
+              ],
+              "G": [
+                [
+                  "Holder",
+                  "e2_brett_post_robber_drunk_claim",
+                  "Drunk",
+                  "Brett",
+                  "current-discussion",
+                  "This reads the utterance as a present-role claim for conversational purposes, even though the night-action sequence could leave later movement unresolved."
+                ],
+                [
+                  "Holder",
+                  "e2_brett_post_robber_drunk_claim",
+                  "Drunk",
+                  "Brett",
+                  "post-robber",
+                  "This reads \"Because I became the drunk.\" as a claim about the role Brett had immediately after taking Ryan's card, not necessarily about the final end-of-night holder."
+                ]
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Ryan": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e2_brett_post_robber_drunk_claim",
+                  "Drunk",
+                  "Brett",
+                  "current-discussion",
+                  "This reads the utterance as a present-role claim for conversational purposes, even though the night-action sequence could leave later movement unresolved."
+                ],
+                [
+                  "Holder",
+                  "e2_brett_post_robber_drunk_claim",
+                  "Drunk",
+                  "Brett",
+                  "post-robber",
+                  "This reads \"Because I became the drunk.\" as a claim about the role Brett had immediately after taking Ryan's card, not necessarily about the final end-of-night holder."
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "WW10.row.029",
+          "quote": "I also exchanged a card from the center."
+        },
+        {
+          "source_id": "WW10.row.032",
+          "quote": "I'm a say it loud, and say proud. I'm a drunk."
+        },
+        {
+          "source_id": "WW10.row.037",
+          "quote": "I exchanged my card from this with a card from the center."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "holder",
+            "event_id": "e3_deandre_drunk_claim",
+            "scope_evidence": [
+              {
+                "source_id": "WW10_public_instructions",
+                "quote": "Drunk, wake up. Exchange your card with a card from the center."
+              },
+              {
+                "source_id": "WW10.row.029",
+                "quote": "I also exchanged a card from the center."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "DeAndre": {
+              "X": [
+                "x1",
+                "x3"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_x1_1",
+                "path_x3_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Ryan": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "holder",
+            "event_id": "e3_ryan_drunk_claim",
+            "scope_evidence": [
+              {
+                "source_id": "WW10_public_instructions",
+                "quote": "Drunk, wake up. Exchange your card with a card from the center."
+              },
+              {
+                "source_id": "WW10.row.032",
+                "quote": "I'm a say it loud, and say proud. I'm a drunk."
+              },
+              {
+                "source_id": "WW10.row.037",
+                "quote": "I exchanged my card from this with a card from the center."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "DeAndre": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Ryan": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-17T23:15:46.124398+00:00"
+}

@@ -1,0 +1,28 @@
+{"case_id": "MT01_q1ec1_r049", "timestamp_utc": "2026-11-17T03:23:57.982705+00:00", "status": "UNRESOLVED"}
+{"case_id": "MT02_q1ec3_r012", "timestamp_utc": "2026-11-17T03:44:41.698084+00:00", "status": "UNRESOLVED"}
+{"case_id": "MT03_q1ec4_r019", "timestamp_utc": "2026-11-17T03:59:38.796782+00:00", "status": "UNRESOLVED"}
+{"case_id": "MT05_q1ec6_r053", "timestamp_utc": "2026-11-17T04:33:37.946313+00:00", "status": "UNRESOLVED"}
+{"case_id": "MT06_q1ec7_r022", "timestamp_utc": "2026-11-17T05:06:25.969220+00:00", "status": "UNRESOLVED"}
+{"case_id": "MT08_q1nc2_r052", "timestamp_utc": "2026-11-17T05:26:04.463199+00:00", "status": "UNRESOLVED"}
+{"case_id": "MT09_q1nc3_r054", "timestamp_utc": "2026-11-17T05:49:29.722274+00:00", "status": "UNRESOLVED"}
+{"case_id": "MT10_q1nc4_r044", "timestamp_utc": "2026-11-17T06:15:03.021843+00:00", "status": "PROCESSING_FAILURE"}
+{"case_id": "WW01_WW01_r028", "timestamp_utc": "2026-11-17T06:42:02.013672+00:00", "status": "UNRESOLVED"}
+{"case_id": "WW02_WW02_r040", "timestamp_utc": "2026-11-17T06:54:46.627553+00:00", "status": "PROCESSING_FAILURE"}
+{"case_id": "WW03_WW03_r078", "timestamp_utc": "2026-11-17T07:00:23.975018+00:00", "status": "UNRESOLVED"}
+{"case_id": "WW04_WW04_r009", "timestamp_utc": "2026-11-17T07:31:56.927500+00:00", "status": "UNRESOLVED"}
+{"case_id": "WW05_WW05_r039", "timestamp_utc": "2026-11-17T07:48:30.014552+00:00", "status": "UNRESOLVED"}
+{"case_id": "WW06_WW06_r040", "timestamp_utc": "2026-11-17T19:33:18.760910+00:00", "status": "UNRESOLVED"}
+{"case_id": "WW07_WW07_r099", "timestamp_utc": "2026-11-17T19:40:30.187018+00:00", "status": "UNRESOLVED"}
+{"case_id": "WW08_WW08_r005", "timestamp_utc": "2026-11-17T20:09:59.728071+00:00", "status": "PROCESSING_FAILURE"}
+{"case_id": "WW09_WW09_r059", "timestamp_utc": "2026-11-17T20:26:54.357567+00:00", "status": "UNRESOLVED"}
+{"case_id": "WW10_WW10_r067", "timestamp_utc": "2026-11-17T20:56:09.462538+00:00", "status": "PROCESSING_FAILURE"}
+{"case_id": "MT04_q1ec5_r031", "timestamp_utc": "2026-11-17T21:21:08.360271+00:00", "status": "UNRESOLVED"}
+{"case_id": "MT07_q1ec8_r011", "timestamp_utc": "2026-11-17T21:46:16.829375+00:00", "status": "UNRESOLVED"}
+{"case_id": "MT10_q1nc4_r044", "timestamp_utc": "2026-11-17T22:39:09.574939+00:00", "status": "REOPENED_AFTER_PROCESSING_FAILURE", "earlier_error": "Expecting value: line 1 column 1 (char 0)", "empty_replies_set_aside": ["c03_h03_p1_check"], "pilot_sha256": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b", "runner_sha256": "768d3ae924c130ed0b5f8416dbd4193a06a9b869661bf8f170cccdcf24ec47b7"}
+{"case_id": "WW02_WW02_r040", "timestamp_utc": "2026-11-17T22:39:09.582426+00:00", "status": "REOPENED_AFTER_PROCESSING_FAILURE", "earlier_error": "cannot use 'tuple' as a set element (unhashable type: 'list')", "empty_replies_set_aside": [], "pilot_sha256": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b", "runner_sha256": "768d3ae924c130ed0b5f8416dbd4193a06a9b869661bf8f170cccdcf24ec47b7"}
+{"case_id": "WW08_WW08_r005", "timestamp_utc": "2026-11-17T22:39:09.589633+00:00", "status": "REOPENED_AFTER_PROCESSING_FAILURE", "earlier_error": "cannot use 'tuple' as a set element (unhashable type: 'list')", "empty_replies_set_aside": [], "pilot_sha256": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b", "runner_sha256": "768d3ae924c130ed0b5f8416dbd4193a06a9b869661bf8f170cccdcf24ec47b7"}
+{"case_id": "WW10_WW10_r067", "timestamp_utc": "2026-11-17T22:39:09.609538+00:00", "status": "REOPENED_AFTER_PROCESSING_FAILURE", "earlier_error": "dictionary update sequence element #0 has length 1; 2 is required", "empty_replies_set_aside": [], "pilot_sha256": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b", "runner_sha256": "768d3ae924c130ed0b5f8416dbd4193a06a9b869661bf8f170cccdcf24ec47b7"}
+{"case_id": "MT10_q1nc4_r044", "timestamp_utc": "2026-11-17T22:39:09.647091+00:00", "status": "UNRESOLVED"}
+{"case_id": "WW02_WW02_r040", "timestamp_utc": "2026-11-17T22:43:15.429712+00:00", "status": "UNRESOLVED"}
+{"case_id": "WW08_WW08_r005", "timestamp_utc": "2026-11-17T23:03:55.562995+00:00", "status": "UNRESOLVED"}
+{"case_id": "WW10_WW10_r067", "timestamp_utc": "2026-11-17T23:03:55.602448+00:00", "status": "UNRESOLVED"}
