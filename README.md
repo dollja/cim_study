@@ -1,4 +1,4 @@
-# Consequential Interpretation Mismatch (CIM): pilot study
+# Consequential interpretation mismatch pilot study
 
 Code, input data, human reviews and model outputs for a computational pilot study of
 *consequential interpretation mismatch* (CIM) in task-oriented dialogue. A CIM is a point in a
