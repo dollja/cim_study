@@ -1,0 +1,1 @@
+{"case_id": "AMT01_q5nc2_l078", "timestamp_utc": "2026-11-23T05:49:13.167254+00:00", "status": "LOCAL_ERROR", "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'runs\\\\20261123T054612481481Z_strictS_gpt54_sync_v1\\\\AMT01_q5nc2_l078\\\\c01_h01_p2_F4.request.json'"}
