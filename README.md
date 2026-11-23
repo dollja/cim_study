@@ -18,10 +18,12 @@ potential mismatch, aligned, or unresolved.
 | `src/verify_frozen_inputs.py` | Checks an input set against its recorded SHA-256 hashes |
 | `src/report_results.py` | Summarises a run and scores it against a reference register |
 | `src/review_agreement.py` | Agreement between two reviewers' label files |
+| `src/build_set_a.py` | Builds the Set A input sets from the selector's case package |
 | `config/RUN_CONFIG.json` | Model, decoding settings, prompt revision and budget ceiling |
 | `data/inputs/` | Frozen input sets (cases exactly as given to the model, with manifests) |
 | `data/reviews/` | Reviewer forms and the labels collected with them |
 | `data/provenance/` | Records of context verification and case selection for the first input set |
+| `data/context/` | Landmark lists confirmed after the first input set (map pair m2) |
 | `runs/<run>/<case>/` | Model outputs: one request, response and transport record per stage, and `prediction.json` |
 | `results/` | Run configuration, case order, call ledger, cost record and reviewer agreement |
 | `tests/` | Unit tests (constructed data only; no model calls) |
@@ -33,7 +35,7 @@ potential mismatch, aligned, or unresolved.
 | Set | Cases | Input set | Reviewer form | Status |
 |---|---|---|---|---|
 | B | 20 (10 Map Task, 10 Werewolf), each cut at the first response to a focal utterance | `data/inputs/CIM_INPUTS_20261113_V1` | `data/reviews/forms/reviewer_interface_setB.html` | Model run complete; one initial review |
-| A | 20 (10 Map Task, 10 Werewolf), balanced across the three labels by the selector, with 8 paired controls | `data/inputs/CIM_INPUTS_20261121_SETA_V1` (8 Map Task cases so far) | `data/reviews/forms/reviewer_interface.html` | Two independent reviews collected; adjudication and model run pending |
+| A | 20 (10 Map Task, 10 Werewolf), balanced across the three labels by the selector, with 8 paired controls | `data/inputs/CIM_INPUTS_20261121_SETA_V1` (20 cases) and `..._SETA_CONTROLS_V1` (8 controls) | `data/reviews/forms/reviewer_interface.html` | Two independent reviews collected; adjudication and model run pending |
 
 `data/README.md` describes the files in each set and where the source data come from.
 
@@ -71,8 +73,8 @@ python src/run_pilot_sync.py --status              # progress and cost
 python src/review_agreement.py data/reviews/labels/setA_reviewer_1.csv data/reviews/labels/setA_reviewer_2.csv
 ```
 
-Add `--input-set CIM_INPUTS_20261121_SETA_V1` to the runner and
-`--freeze data/inputs/CIM_INPUTS_20261121_SETA_V1` to the verifier to work on Set A.
+Add `--input-set CIM_INPUTS_20261121_SETA_V1` (or `CIM_INPUTS_20261121_SETA_CONTROLS_V1`) to the
+runner and `--freeze data/inputs/<set>` to the verifier to work on Set A or its controls.
 
 The API key is read from the `OPENAI_API_KEY` environment variable; on Windows,
 `scripts/set_api_key.ps1` stores it through a hidden prompt. A run can be interrupted and

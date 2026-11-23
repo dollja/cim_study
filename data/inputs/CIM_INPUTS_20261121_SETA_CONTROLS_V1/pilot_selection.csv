@@ -2,6 +2,7 @@ slot_id,dataset,sample_id,source_conversation,map_pair_or_game_group,cutoff_id,s
 APC01,MapTask/GMMT,APC01_q5nc2_l080,q5nc2,m9,q5nc2.ln.080,true,paired_control_not_reviewed
 APC02,MapTask/GMMT,APC02_q5ec2_l085,q5ec2,m9,q5ec2.ln.085,true,paired_control_not_reviewed
 APC03,MapTask/GMMT,APC03_q1nc7_l046,q1nc7,m12,q1nc7.ln.046,true,paired_control_not_reviewed
+APC04,MapTask/GMMT,APC04_q6ec4_l055,q6ec4,m2,q6ec4.ln.055,true,paired_control_not_reviewed
 APC05,Werewolf Among Us,APC05_t062,One Night Ultimate Werewolf 363 Even More Classic Werewolf__Game1,Game1,APC05.turn.062,true,paired_control_not_reviewed
 APC06,Werewolf Among Us,APC06_t041,ONE NIGHT ULTIMATE WEREWOLF 4  July 14th 2016__Game2,Game2,APC06.turn.041,true,paired_control_not_reviewed
 APC07,Werewolf Among Us,APC07_t086,One Night Ultimate Werewolf 362 More Classic Werewolf__Game1,Game1,APC07.turn.086,true,paired_control_not_reviewed

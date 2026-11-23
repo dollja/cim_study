@@ -1,26 +1,25 @@
 {
   "freeze_id": "CIM_INPUTS_20261121_SETA_V1",
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "record_type": "observer_input_freeze",
-  "verification_basis": "Landmark lists and role list reused unchanged from CIM_INPUTS_20261113_V1 (user attestation). Dialogue text taken from the case package; it was compared with the source corpora and matched.",
-  "accepted_case_count": 18,
+  "verification_basis": "Landmark lists and role list reused unchanged from CIM_INPUTS_20261113_V1; m2 landmark lists from data/context (user attestation). Dialogue text taken from the case package; it was compared with the source corpora and matched.",
+  "accepted_case_count": 20,
   "canonical_hash_function": "pilot.digest",
   "source_package": {
     "file": "consequential-mismatch-study-handoff.zip",
     "sha256": "1ea91003ff17c0e99ca5040491cc456a70c1ebd632638522f87f90577015f859"
   },
   "built_by": "src/build_set_a.py",
-  "not_built": {
-    "MT-03": "no verified landmark list for map pair m2",
-    "MT-07": "no verified landmark list for map pair m2"
-  },
+  "not_built": {},
   "hashes": {
-    "pilot_selection.csv": "0cb4ec469e054ea1e747be5e37a6a862a54478bd7ace3333c3fc74d12b5793ad",
+    "pilot_selection.csv": "f6335e1c407f72d569ceee5579af553811f266f5d8df212efa19b1952c3acbb8",
     "prospective/curator_cases/AMT01_q5nc2_l078.json": "8f909c1a82a4ea788e31c470610db7386696b67b0a2420d43c2becda64fe4481",
     "prospective/curator_cases/AMT02_q5ec2_l083.json": "f57a676b8d23e1e110dfb7c26c8db0d3cef77c9678ed036496297b50ae822e98",
+    "prospective/curator_cases/AMT03_q2nc4_l054.json": "10f5a51da2624149de3985fbe7d35ce9687fbf059eb9ca6f60ffda9761ab1c4b",
     "prospective/curator_cases/AMT04_q1ec7_l106.json": "9b0392a860a64cb27ac6c14e4381f313c7c5d39f8a6f45ed7c5cfda066529242",
     "prospective/curator_cases/AMT05_q1nc7_l045.json": "98423f2a837f6b09b19235964a455a30ab56082a40fb2729c5258b047f9fc18d",
     "prospective/curator_cases/AMT06_q1ec2_l062.json": "efb5df992286810db75ae538b34c350587e134678878feda7c29334c337db2f9",
+    "prospective/curator_cases/AMT07_q6ec4_l053.json": "2a76f731f0a0adfe0a11ce9cede9d4154d03cc4f752def100be6d7baee8ca3fe",
     "prospective/curator_cases/AMT08_q1ec1_l063.json": "89a816ea519f1d549e05f3771c4d344246ab30f561e107758a9edc6681386cef",
     "prospective/curator_cases/AMT09_q5ec3_l108.json": "808d2a10605af335927ff89d5987666f617b4d8b7af632ba889f35adca32b930",
     "prospective/curator_cases/AMT10_q1nc8_l055.json": "cc6f8668e897e277b1e8f16a8426bfd0cb6b34324b4272a7ed22f5ae1377b5d4",
@@ -36,9 +35,11 @@
     "prospective/curator_cases/AWW10_t056.json": "4be5ecf496cd8abbb783b7b0f457b040344b142a9c74966e3b4877bf2187e346",
     "prospective/observer_cases/AMT01_q5nc2_l078.json": "8fd9eaff32146efd1d98016274742a7532f930ba7ef3ee1ab5f88c8c11503036",
     "prospective/observer_cases/AMT02_q5ec2_l083.json": "364f03a8c3c5d41c076d500cabe2e7a70693897c81930248ad6b90f2844504fb",
+    "prospective/observer_cases/AMT03_q2nc4_l054.json": "32af27dfe34ae4be9e54ffdcce7150531af90edb5fc572ada999d138b6f3315e",
     "prospective/observer_cases/AMT04_q1ec7_l106.json": "3ff6898c07c219705add463ff07566153881c98384e19e014baf90867f8beac4",
     "prospective/observer_cases/AMT05_q1nc7_l045.json": "f167e2eae224eb567e5b4c28b80ce1d0a3bc2eae7a81f784dc67f8e34d974fca",
     "prospective/observer_cases/AMT06_q1ec2_l062.json": "fd8ee793bc0ce5b26c07813ed6f6bf4cb8e9645ef7da6cd3dc2e59c92aa04998",
+    "prospective/observer_cases/AMT07_q6ec4_l053.json": "8619251849d0c4d07e994feb1772b24bf078df463feed81f707458e155f21651",
     "prospective/observer_cases/AMT08_q1ec1_l063.json": "ff0c5296ba00b77ddf0cd0939797021098bf2203b2dc336752f2655d9527baab",
     "prospective/observer_cases/AMT09_q5ec3_l108.json": "9884992aecbd0f8f6fa79f3eef754027eab49e532195ab7804bfbf303bda26d7",
     "prospective/observer_cases/AMT10_q1nc8_l055.json": "6693bd60bd145b66901a942c59d7de88f3221b97febd41dae4e2866a6b241dae",
@@ -54,9 +55,11 @@
     "prospective/observer_cases/AWW10_t056.json": "f0f87e36b87753babceca48eded3b951c247c520504de043e4687874576bf4fb",
     "prospective/observer_inputs/AMT01_q5nc2_l078.json": "00831b6af3fafacf6a8d8e7076a211fb7d1dd6d049e3784564d091762d051c1d",
     "prospective/observer_inputs/AMT02_q5ec2_l083.json": "467bfda1426eaedfc5cb7d342ccc1272277bc48a80d9664f0d37c86cc35b84f0",
+    "prospective/observer_inputs/AMT03_q2nc4_l054.json": "913551389ecbd9379972bdc0c75d84d9c64df8d50d58e6222e4ccdac9b7feff4",
     "prospective/observer_inputs/AMT04_q1ec7_l106.json": "a58a980ea8a861544077b16065a6731c6e07f97f6cab17c8afb3bf2602ec1670",
     "prospective/observer_inputs/AMT05_q1nc7_l045.json": "7d08a9eb4493d09529f71fba3b5566387e0aba915b0b81d9100576c1887dbb02",
     "prospective/observer_inputs/AMT06_q1ec2_l062.json": "88a516f93792c8287b91d0b63268a82947cf2953db5361741f5516919832e29f",
+    "prospective/observer_inputs/AMT07_q6ec4_l053.json": "1b8895a1abbbc94f6290cebe4cdd964b7b481d84d723ffd015dd719c59a4706e",
     "prospective/observer_inputs/AMT08_q1ec1_l063.json": "81d3c4246972090b1eb84f9b4503551ba0c60883ff4afa7f083cb2c9d9629bbe",
     "prospective/observer_inputs/AMT09_q5ec3_l108.json": "d78e2ac82a9ea9d9c63ee975983178c442bde8130bbf1cd25cbae85b233e8aa9",
     "prospective/observer_inputs/AMT10_q1nc8_l055.json": "aba28eab629895389e81466379b09537fe6c32da881b826324aa90a470bf1601",
@@ -85,6 +88,11 @@
       "raw_sha256": "467bfda1426eaedfc5cb7d342ccc1272277bc48a80d9664f0d37c86cc35b84f0",
       "canonical_sha256": "ba54b30f20cba8b655d4da2772aca58acab748b3d04e03a9fd777f83e9ebe1c6"
     },
+    "AMT03_q2nc4_l054": {
+      "file": "prospective/observer_inputs/AMT03_q2nc4_l054.json",
+      "raw_sha256": "913551389ecbd9379972bdc0c75d84d9c64df8d50d58e6222e4ccdac9b7feff4",
+      "canonical_sha256": "96acc2f98f47e64aec81b22bb2177640e46a1a35c33b1287aa659608e6a8f7cc"
+    },
     "AMT04_q1ec7_l106": {
       "file": "prospective/observer_inputs/AMT04_q1ec7_l106.json",
       "raw_sha256": "a58a980ea8a861544077b16065a6731c6e07f97f6cab17c8afb3bf2602ec1670",
@@ -99,6 +107,11 @@
       "file": "prospective/observer_inputs/AMT06_q1ec2_l062.json",
       "raw_sha256": "88a516f93792c8287b91d0b63268a82947cf2953db5361741f5516919832e29f",
       "canonical_sha256": "7c8865b2885cc0cd02eef07c3311c0a714eefe39a51f7ea7d31fbb0206a5a3bc"
+    },
+    "AMT07_q6ec4_l053": {
+      "file": "prospective/observer_inputs/AMT07_q6ec4_l053.json",
+      "raw_sha256": "1b8895a1abbbc94f6290cebe4cdd964b7b481d84d723ffd015dd719c59a4706e",
+      "canonical_sha256": "c88aa9819908bc009c9dbe397401f13e36116f732f32fd644949394557a8c7f9"
     },
     "AMT08_q1ec1_l063": {
       "file": "prospective/observer_inputs/AMT08_q1ec1_l063.json",

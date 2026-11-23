@@ -19,10 +19,21 @@ crosswalks, and the screening and selection records for its 20 cases. Its manife
 2026-11-22 when review pages and case-building scripts were moved out of the repository; the
 manifest records this and the hash of the original. The observer inputs are unchanged.
 
-`CIM_INPUTS_20261121_SETA_V1` (Set A) holds the eight Map Task cases of Set A whose map pair
-already has a verified landmark list, the script that built them (`build_input_set.py`), and the
-selector's case file, screening log and selection summary under `source/`. The two cases on map
-pair m2 and the ten Werewolf cases are not yet built.
+`CIM_INPUTS_20261121_SETA_V1` (Set A) holds the 20 Set A cases and
+`CIM_INPUTS_20261121_SETA_CONTROLS_V1` the eight paired controls. Both are built by
+`src/build_set_a.py`; the selector's case file, screening log and selection summary are under
+`source/` in each set.
+
+Context for Set A follows Set B. Map Task cases reuse its verified landmark lists unchanged; the
+lists for map pair m2, which Set B does not use, are in `context/`. Werewolf cases use the Set B
+task description and standard role list; the instructions text is what a recorded game-audio
+speaker says in the prefix, and where there is none the text states only that and the role list.
+Participants are the players the selector listed.
+
+## Context (`context/`)
+
+`m2_landmark_lists.json` holds the landmark lists for the two m2 maps, drafted from the map images
+and the published landmark table and confirmed by the study author on 2026-11-23.
 
 ## Reviews (`reviews/`)
 

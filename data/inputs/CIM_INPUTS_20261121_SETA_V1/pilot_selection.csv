@@ -1,9 +1,11 @@
 slot_id,dataset,sample_id,source_conversation,map_pair_or_game_group,cutoff_id,selected,reference_status
 AMT01,MapTask/GMMT,AMT01_q5nc2_l078,q5nc2,m9,q5nc2.ln.078,true,two_reviews_collected_adjudication_pending
 AMT02,MapTask/GMMT,AMT02_q5ec2_l083,q5ec2,m9,q5ec2.ln.083,true,two_reviews_collected_adjudication_pending
+AMT03,MapTask/GMMT,AMT03_q2nc4_l054,q2nc4,m2,q2nc4.ln.054,true,two_reviews_collected_adjudication_pending
 AMT04,MapTask/GMMT,AMT04_q1ec7_l106,q1ec7,m12,q1ec7.ln.106,true,two_reviews_collected_adjudication_pending
 AMT05,MapTask/GMMT,AMT05_q1nc7_l045,q1nc7,m12,q1nc7.ln.045,true,two_reviews_collected_adjudication_pending
 AMT06,MapTask/GMMT,AMT06_q1ec2_l062,q1ec2,m9,q1ec2.ln.062,true,two_reviews_collected_adjudication_pending
+AMT07,MapTask/GMMT,AMT07_q6ec4_l053,q6ec4,m2,q6ec4.ln.053,true,two_reviews_collected_adjudication_pending
 AMT08,MapTask/GMMT,AMT08_q1ec1_l063,q1ec1,m12,q1ec1.ln.063,true,two_reviews_collected_adjudication_pending
 AMT09,MapTask/GMMT,AMT09_q5ec3_l108,q5ec3,m6,q5ec3.ln.108,true,two_reviews_collected_adjudication_pending
 AMT10,MapTask/GMMT,AMT10_q1nc8_l055,q1nc8,m9,q1nc8.ln.055,true,two_reviews_collected_adjudication_pending

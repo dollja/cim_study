@@ -1,0 +1,47 @@
+{
+  "record_type": "frozen_input_validation_not_model_results",
+  "freeze_id": "CIM_INPUTS_20261121_SETA_CONTROLS_V1",
+  "valid": true,
+  "checked_frozen_file_hashes": 28,
+  "case_count": 8,
+  "selected_count": 8,
+  "input_and_selection_ready_cases": 8,
+  "context_verification_basis": "Landmark lists and role list reused unchanged from CIM_INPUTS_20261113_V1; m2 landmark lists from data/context (user attestation). Dialogue text taken from the case package; it was compared with the source corpora and matched.",
+  "errors": [],
+  "cases": {
+    "APC01_q5nc2_l080": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "APC02_q5ec2_l085": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "APC03_q1nc7_l046": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "APC04_q6ec4_l055": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "APC05_t062": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "APC06_t041": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "APC07_t086": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "APC08_t046": {
+      "input_and_selection_ready": true,
+      "errors": []
+    }
+  },
+  "actual_model_calls": 0,
+  "limits": "Confirms recorded inputs, selection, verification declarations and file integrity. Does not authenticate human review, establish participant support, configure a model, or produce predictions."
+}

@@ -14,6 +14,7 @@ curator_cases and are never sent to the model.
 Context follows the first input set (CIM_INPUTS_20261113_V1):
   Map Task  the verified landmark lists of that set, reused unchanged. A case whose map pair has
             no verified list is left out and reported.
+            Lists confirmed later are read from data/context/.
   Werewolf  the same task description and the same standard role list. The instructions text is
             what a recorded game-audio speaker says in the prefix; where there is none, the text
             states only that and the role list.
@@ -53,6 +54,10 @@ def first_set_context():
                 roles = source['adapter']['roles']
             elif roles != source['adapter']['roles']:
                 raise ValueError('The first input set does not use one role list.')
+    for path in sorted((ROOT / 'data/context').glob('*.json')):  # landmark lists confirmed after the first set
+        for source in pilot.read(path)['context_sources']:
+            if source['adapter'].get('review_status') == 'verified':
+                inventories[source['source_id']] = source
     return inventories, tasks, roles
 
 
@@ -139,9 +144,9 @@ def build(package, name, source_file, id_field, inventories, tasks, roles):
         writer.writerows(rows)
     hashed = sorted(p for p in here.rglob('*') if p.is_file() and p.name != 'manifest.json')
     pilot.write_new(here / 'manifest.json', {
-        'freeze_id': name, 'date': '2026-11-22', 'record_type': 'observer_input_freeze',
-        'verification_basis': 'Landmark lists and role list reused unchanged from CIM_INPUTS_20261113_V1 '
-                              '(user attestation). Dialogue text taken from the case package; it was compared '
+        'freeze_id': name, 'date': '2026-11-23', 'record_type': 'observer_input_freeze',
+        'verification_basis': 'Landmark lists and role list reused unchanged from CIM_INPUTS_20261113_V1; '
+                              'm2 landmark lists from data/context (user attestation). Dialogue text taken from the case package; it was compared '
                               'with the source corpora and matched.',
         'accepted_case_count': len(rows), 'canonical_hash_function': 'pilot.digest',
         'source_package': {'file': 'consequential-mismatch-study-handoff.zip', 'sha256': PACKAGE_SHA256},

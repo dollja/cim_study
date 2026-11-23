@@ -1,0 +1,45 @@
+{
+  "all_accepted_case_ids": [
+    "APC01_q5nc2_l080",
+    "APC02_q5ec2_l085",
+    "APC03_q1nc7_l046",
+    "APC04_q6ec4_l055",
+    "APC05_t062",
+    "APC06_t041",
+    "APC07_t086",
+    "APC08_t046"
+  ],
+  "active_case_ids": [
+    "APC01_q5nc2_l080",
+    "APC02_q5ec2_l085",
+    "APC03_q1nc7_l046",
+    "APC04_q6ec4_l055",
+    "APC05_t062",
+    "APC06_t041",
+    "APC07_t086",
+    "APC08_t046"
+  ],
+  "not_scheduled_existing_current_prompt_prediction": {
+    "MT01_q1ec1_r049": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "MT02_q1ec3_r012": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "MT03_q1ec4_r019": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "MT04_q1ec5_r031": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "MT05_q1ec6_r053": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "MT06_q1ec7_r022": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "MT07_q1ec8_r011": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "MT08_q1nc2_r052": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "MT09_q1nc3_r054": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "MT10_q1nc4_r044": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "WW01_WW01_r028": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "WW02_WW02_r040": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "WW03_WW03_r078": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "WW04_WW04_r009": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "WW05_WW05_r039": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "WW06_WW06_r040": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "WW07_WW07_r099": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "WW08_WW08_r005": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "WW09_WW09_r059": "20261117T032351897500Z_strictS_gpt54_sync_v1",
+    "WW10_WW10_r067": "20261117T032351897500Z_strictS_gpt54_sync_v1"
+  },
+  "rule": "Sorted cases without a non-failure prediction under the current prompts. Fixed before any call of this condition; no model output informs selection."
+}

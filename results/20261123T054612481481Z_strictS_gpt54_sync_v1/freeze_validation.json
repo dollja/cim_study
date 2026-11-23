@@ -1,0 +1,95 @@
+{
+  "record_type": "frozen_input_validation_not_model_results",
+  "freeze_id": "CIM_INPUTS_20261121_SETA_V1",
+  "valid": true,
+  "checked_frozen_file_hashes": 64,
+  "case_count": 20,
+  "selected_count": 20,
+  "input_and_selection_ready_cases": 20,
+  "context_verification_basis": "Landmark lists and role list reused unchanged from CIM_INPUTS_20261113_V1; m2 landmark lists from data/context (user attestation). Dialogue text taken from the case package; it was compared with the source corpora and matched.",
+  "errors": [],
+  "cases": {
+    "AMT01_q5nc2_l078": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AMT02_q5ec2_l083": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AMT03_q2nc4_l054": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AMT04_q1ec7_l106": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AMT05_q1nc7_l045": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AMT06_q1ec2_l062": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AMT07_q6ec4_l053": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AMT08_q1ec1_l063": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AMT09_q5ec3_l108": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AMT10_q1nc8_l055": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AWW01_t060": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AWW02_t039": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AWW03_t047": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AWW04_t055": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AWW05_t084": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AWW06_t043": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AWW07_t044": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AWW08_t072": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AWW09_t042": {
+      "input_and_selection_ready": true,
+      "errors": []
+    },
+    "AWW10_t056": {
+      "input_and_selection_ready": true,
+      "errors": []
+    }
+  },
+  "actual_model_calls": 0,
+  "limits": "Confirms recorded inputs, selection, verification declarations and file integrity. Does not authenticate human review, establish participant support, configure a model, or produce predictions."
+}
