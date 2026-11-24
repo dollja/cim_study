@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"supported","paths":[{"id":"r1_path1","root_type":"SAYS","root":{"source_id":"AWW05.turn.082","quote":"No, I robbed her."},"scope_id":"e2","links":[{"relation":"COREF","source_id":"AWW05.turn.077","quote":"Katie"}]}]}],"updates":[],"unresolved_scope":false}

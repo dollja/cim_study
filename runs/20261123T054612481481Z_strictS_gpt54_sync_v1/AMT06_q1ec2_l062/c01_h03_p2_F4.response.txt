@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"undetermined","paths":[]},{"reading_id":"r2","judgment":"undetermined","paths":[]},{"reading_id":"r3","judgment":"contradicted","paths":[{"id":"path_r3_1","root_type":"SAYS","root":{"source_id":"q1ec2.ln.030","quote":"no"},"scope_id":"e1","links":[]}]}],"updates":[],"unresolved_scope":false}

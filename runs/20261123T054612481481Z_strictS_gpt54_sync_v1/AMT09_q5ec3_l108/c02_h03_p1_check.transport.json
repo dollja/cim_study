@@ -1,0 +1,35 @@
+{
+  "case_id": "AMT09_q5ec3_l108",
+  "step": "c02_h03_p1_check",
+  "attempt": 1,
+  "timestamp_utc": "2026-11-23T07:37:18.517771+00:00",
+  "reserved_usd": 0.180315,
+  "client_request_id": "9f71ac56-64cd-4f48-aebb-9d4c94c3ed5b",
+  "request_sha256": "79e4ca476c504209e1c682f09dd264aca6c5d35fc8b4b41020e11e205a731072",
+  "messages_sha256": "1c973813b7e9eb7c118644a3a784fc76386965d984ddd17850ba3d79da256f40",
+  "input_token_upper_bound": 22974,
+  "envelope": "runs\\20261123T054612481481Z_strictS_gpt54_sync_v1\\AMT09_q5ec3_l108\\c02_h03_p1_check.envelope.json",
+  "response_sha256": "d7cff1ffa57c53b91f94910be8cf470d97b408b74f04673550ff47274e44272d",
+  "provider_sha256": "22a86f5b84897bfbd1059178d587a67033a605cac6abeb038b0da59e74a1646c",
+  "actual_model": "gpt-5.4-2026-03-05",
+  "provider_request_id": "req_9b68a3eff2e349fbae58f2597311683d",
+  "usage": {
+    "input_tokens": 6759,
+    "input_tokens_details": {
+      "cached_tokens": 3840,
+      "cache_write_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_30m_tokens": 0,
+        "ttl_12h_tokens": 0
+      }
+    },
+    "output_tokens": 3121,
+    "output_tokens_details": {
+      "reasoning_tokens": 3020
+    },
+    "total_tokens": 9880
+  },
+  "finish_reason": "completed",
+  "refusal": [],
+  "latency_seconds": 41.279140800004825
+}

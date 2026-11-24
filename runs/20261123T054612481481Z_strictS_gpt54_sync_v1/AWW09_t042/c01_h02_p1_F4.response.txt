@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"supported","paths":[{"id":"path_r1_1","root_type":"SAYS","root":{"source_id":"AWW09.turn.036","quote":"Saw a villager."},"scope_id":"e2","links":[{"relation":"COREF","source_id":"AWW09.turn.034","quote":"I looked at Mitchell."}]}]},{"reading_id":"r2","judgment":"undetermined","paths":[]}],"updates":[],"unresolved_scope":false}

@@ -1,0 +1,1 @@
+{"readings":[{"id":"r1","paraphrase":"A claimed Seer night inspection was directed at Mitchell.","arguments":{"event_id":"e1","anchor_class":"participant","anchor_ids":{"Justin":null,"Mitchell":null},"relation":null,"target":"Mitchell","act":null}}],"incomplete":false}

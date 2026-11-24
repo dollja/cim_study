@@ -1,0 +1,432 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "AWW05_t084",
+  "observer_hash": "6dbbe852dcf3d25582349c616b9d6f6a025356456594f22b9e97599663dbc89c",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "26d70a69789169c2ce2bed980ff14ce66f26665d4d38d48a38353943a1bd9aac",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "AWW05.turn.052",
+          "quote": "Just to get things started, I swapped George and Katie."
+        },
+        {
+          "source_id": "AWW05.turn.055",
+          "quote": "He's probably lying."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "AWW05.turn.052",
+                "quote": "Just to get things started, I swapped George and Katie."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Brett": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path3",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Katie": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "holder",
+            "event_id": "e1a",
+            "scope_evidence": [
+              {
+                "source_id": "AWW05.turn.043",
+                "quote": "No, but she's lying because I was a troublemaker."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Brett": {
+              "X": [
+                "r2",
+                "r3"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r1a",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path_r1b",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r2",
+                "path_r3"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Katie": {
+              "X": [
+                "r3"
+              ],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r2_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r3_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "AWW05.turn.080",
+          "quote": "Yeah. Well, that's convenient because I was a robber."
+        },
+        {
+          "source_id": "AWW05.turn.082",
+          "quote": "No, I robbed her."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "holder",
+            "event_id": "e2a",
+            "scope_evidence": [
+              {
+                "source_id": "AWW05.turn.080",
+                "quote": "Yeah. Well, that's convenient because I was a robber."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "George": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Katie": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "target",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "AWW05.turn.082",
+                "quote": "No, I robbed her."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "George": {
+              "X": [
+                "r1"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "r1_path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Katie": {
+              "X": [],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "AWW05.turn.030",
+          "quote": "That's funny because I was the troublemaker."
+        },
+        {
+          "source_id": "AWW05.turn.043",
+          "quote": "No, but she's lying because I was a troublemaker."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h5",
+            "subtask": "holder",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "AWW05.turn.030",
+                "quote": "That's funny because I was the troublemaker."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Brett": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Kelsey": {
+              "X": [
+                "r2",
+                "r3"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r2_1",
+                "path_r3_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h6",
+            "subtask": "holder",
+            "event_id": "e3b",
+            "scope_evidence": [
+              {
+                "source_id": "AWW05.turn.043",
+                "quote": "No, but she's lying because I was a troublemaker."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Brett": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r3_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Kelsey": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": true,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-23T08:17:45.383187+00:00"
+}

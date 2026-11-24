@@ -1,0 +1,442 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "AWW01_t060",
+  "observer_hash": "ef90ce8105fb472f97ad987ae10d2aecf970546316df235445fbb04e51c30660",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "26d70a69789169c2ce2bed980ff14ce66f26665d4d38d48a38353943a1bd9aac",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "AWW01.turn.041",
+          "quote": "Oh my gosh, are you Troublemaker, again?"
+        },
+        {
+          "source_id": "AWW01.turn.042",
+          "quote": "Yeah, I switched George and Kelsey."
+        },
+        {
+          "source_id": "AWW01.turn.044",
+          "quote": "That's what I did."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "AWW01.turn.042",
+                "quote": "Yeah, I switched George and Kelsey."
+              },
+              {
+                "source_id": "AWW01.turn.044",
+                "quote": "That's what I did."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "George": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Kelsey": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "anchor",
+            "event_id": "e1a",
+            "scope_evidence": [
+              {
+                "source_id": "AWW01.turn.041",
+                "quote": "Oh my gosh, are you Troublemaker, again?"
+              },
+              {
+                "source_id": "AWW01.turn.042",
+                "quote": "Yeah, I switched George and Kelsey."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "George": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Kelsey": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "AWW01.turn.034",
+          "quote": "The Drunk has to."
+        },
+        {
+          "source_id": "AWW01.turn.036",
+          "quote": "The Drunk has to do it."
+        },
+        {
+          "source_id": "AWW01.turn.038",
+          "quote": "I just want to make sure, while I was Drunk."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "anchor",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "AWW01.turn.038",
+                "quote": "I just want to make sure, while I was Drunk."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Pete": {
+              "X": [
+                "x1",
+                "x2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Brett": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "outside",
+            "event_id": "e2a",
+            "scope_evidence": [
+              {
+                "source_id": "AWW01.turn.034",
+                "quote": "The Drunk has to."
+              },
+              {
+                "source_id": "AWW01.turn.036",
+                "quote": "The Drunk has to do it."
+              },
+              {
+                "source_id": "AWW01.turn.038",
+                "quote": "I just want to make sure, while I was Drunk."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Pete": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Brett": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "AWW01.turn.051",
+          "quote": "Somebody touched my card, though. I can tell."
+        },
+        {
+          "source_id": "AWW01.turn.057",
+          "quote": "It might have been me, though."
+        },
+        {
+          "source_id": "AWW01.turn.059",
+          "quote": "Yeah. That's probably it. You were probably fidgeting with it."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h5",
+            "subtask": "target",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "AWW01.turn.051",
+                "quote": "Somebody touched my card, though. I can tell."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Pete": {
+              "X": [
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [
+                "r1"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Katie": {
+              "X": [
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [
+                "r1"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h6",
+            "subtask": "outside",
+            "event_id": "e3a",
+            "scope_evidence": [
+              {
+                "source_id": "AWW01.turn.057",
+                "quote": "It might have been me, though."
+              },
+              {
+                "source_id": "AWW01.turn.059",
+                "quote": "Yeah. That's probably it. You were probably fidgeting with it."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Pete": {
+              "X": [
+                "x2",
+                "x3"
+              ],
+              "Q": [
+                "x1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_x3_old",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_x2_1",
+                "path_x3_new"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Katie": {
+              "X": [
+                "x2",
+                "x3"
+              ],
+              "Q": [
+                "x1"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path_x1_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_x2_1",
+                "path_x3_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-23T07:44:51.213913+00:00"
+}

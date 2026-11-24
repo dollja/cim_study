@@ -1,0 +1,644 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "AMT04_q1ec7_l106",
+  "observer_hash": "0a0159ec1ac6aefa54f1b3f305c164eab007d8e12ad94af616750f8ca9c65141",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "26d70a69789169c2ce2bed980ff14ce66f26665d4d38d48a38353943a1bd9aac",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "q1ec7.ln.029",
+          "quote": "so i'm going down below the picket fence"
+        },
+        {
+          "source_id": "q1ec7.ln.035",
+          "quote": "hang on where's the \"u\" shape just underneath the mill"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.ln.030",
+                "quote": "right we've come down from a caravan park"
+              },
+              {
+                "source_id": "q1ec7.ln.032",
+                "quote": "and we're doing a \"u\" shape"
+              },
+              {
+                "source_id": "q1ec7.ln.034",
+                "quote": "okay on the and then you're going to proceed north right"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [
+                "x3"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "x1_p1"
+              ],
+              "G": [
+                [
+                  "Route",
+                  "e1",
+                  "below",
+                  "m12_caravan_park"
+                ]
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e1",
+                  "below",
+                  "m12_caravan_park"
+                ],
+                [
+                  "Route",
+                  "e1",
+                  "below",
+                  "m12_mill"
+                ],
+                [
+                  "Route",
+                  "e1",
+                  "below",
+                  "m12_picket_fence"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "anchor",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.ln.041",
+                "quote": "the caravan park is directly a-- above"
+              },
+              {
+                "source_id": "q1ec7.ln.045",
+                "quote": "base of the \"u\""
+              }
+            ]
+          },
+          "status": "ALIGNED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1"
+              ],
+              "Q": [],
+              "excluded": [
+                "x2"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path_x2_2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_x1_1",
+                "path_x2_1"
+              ],
+              "G": [
+                [
+                  "Anchor",
+                  "e2",
+                  "m12_caravan_park"
+                ]
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [
+                "x1"
+              ],
+              "Q": [],
+              "excluded": [
+                "x2"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "p1"
+              ],
+              "G": [
+                [
+                  "Anchor",
+                  "e2",
+                  "m12_caravan_park"
+                ]
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": false
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "holder",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.ln.051",
+                "quote": "and you're going to come up and the old mill well my old mill is going to be on the right so your mill wheel and the picket fence is going to be on the right-hand"
+              },
+              {
+                "source_id": "q1ec7.ln.053",
+                "quote": "side"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1",
+                "x2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "q1ec7.ln.067",
+          "quote": "do i go below the forest then"
+        },
+        {
+          "source_id": "q1ec7.ln.079",
+          "quote": "oh so i go b-- so i go below the forest then"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "outside",
+            "event_id": "e4",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.ln.072",
+                "quote": "okay well you want to go round the outside of that you want to proceed to that east right"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r2_p1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "r2_p2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "r1_p1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "route",
+            "event_id": "e5",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.ln.072",
+                "quote": "okay well you want to go round the outside of that you want to proceed to that east right"
+              },
+              {
+                "source_id": "q1ec7.ln.076",
+                "quote": "turn up north"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path_r1_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path_r1_2",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path_r2_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path_r2_2",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path_r2_3",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e5",
+                  "below",
+                  "m12_forest"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "holder",
+            "event_id": "e6",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.ln.078",
+                "quote": "with the forest on your left-hand side"
+              },
+              {
+                "source_id": "q1ec7.ln.085",
+                "quote": "and then turn and keep it on your left-hand side and the abandoned cottage"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "p1",
+                "p2",
+                "p3",
+                "p4",
+                "p5",
+                "p6",
+                "p7",
+                "p8",
+                "p9",
+                "p10"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "q1ec7.ln.089",
+          "quote": "and then when you get to the abandoned cottage do a slight sort of \"c\" shape"
+        },
+        {
+          "source_id": "q1ec7.ln.097",
+          "quote": "past the m-- in between the monument and the cottage"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e7",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.ln.089",
+                "quote": "and then when you get to the abandoned cottage do a slight sort of \"c\" shape"
+              },
+              {
+                "source_id": "q1ec7.ln.092",
+                "quote": "the top of the abandoned cottage"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1",
+                "x3"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_x1_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path_x2_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "checkpoint",
+            "event_id": "e8",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec7.ln.097",
+                "quote": "past the m-- in between the monument and the cottage"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "x2_path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "x1_path1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e8",
+                  "m12_abandoned_cottage"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e8",
+                  "m12_monument"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e8",
+                  "m12_abandoned_cottage"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e8",
+                  "m12_monument"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-23T07:05:24.442827+00:00"
+}

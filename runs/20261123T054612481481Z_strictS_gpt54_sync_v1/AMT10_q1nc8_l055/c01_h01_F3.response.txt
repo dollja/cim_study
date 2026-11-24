@@ -1,0 +1,1 @@
+{"readings":[{"id":"x1","paraphrase":"the shared landmark \"stony desert\" on the two maps, used as the starting anchor","arguments":{"event_id":"e1","anchor_class":"m9_desert","anchor_ids":{"giver":"m9_giver_11","follower":"m9_follower_11"},"relation":null}}],"incomplete":false}

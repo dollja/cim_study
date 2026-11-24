@@ -1,0 +1,595 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "AMT05_q1nc7_l045",
+  "observer_hash": "d5ebd2735c620374a4459e94a0bf499c707fab7b02e9ecbc701d09c7db8122ff",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "26d70a69789169c2ce2bed980ff14ce66f26665d4d38d48a38353943a1bd9aac",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "q1nc7.ln.003",
+          "quote": "right ehm right you've got the start haven't you"
+        },
+        {
+          "source_id": "q1nc7.ln.005",
+          "quote": "above the caravan park"
+        },
+        {
+          "source_id": "q1nc7.ln.006",
+          "quote": "above the caravan park yeah"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "anchor",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc7.ln.003",
+                "quote": "you've got the start haven't you"
+              },
+              {
+                "source_id": "q1nc7.ln.005",
+                "quote": "above the caravan park"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m12_start"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m12_caravan_park"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path2"
+              ],
+              "G": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m12_caravan_park"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m12_start"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "checkpoint",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc7.ln.003",
+                "quote": "you've got the start haven't you"
+              },
+              {
+                "source_id": "q1nc7.ln.006",
+                "quote": "above the caravan park yeah"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e1",
+                  "m12_start"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e1",
+                  "m12_start"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "q1nc7.ln.007",
+          "quote": "have you got something between the caravan park and the old mill have you got something in the bottom left-hand corner"
+        },
+        {
+          "source_id": "q1nc7.ln.008",
+          "quote": "the bottom left-hand corner i've got i've got a picket fence"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "checkpoint",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc7.ln.007",
+                "quote": "have you got something in the bottom left-hand corner"
+              },
+              {
+                "source_id": "q1nc7.ln.008",
+                "quote": "i've got a picket fence"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_x2_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_x1_1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m12_picket_fence"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m12_picket_fence"
+                ]
+              ],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "anchor",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc7.ln.007",
+                "quote": "between the caravan park and the old mill"
+              },
+              {
+                "source_id": "q1nc7.ln.008",
+                "quote": "a picket fence"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Anchor",
+                  "e2",
+                  "m12_picket_fence"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e2",
+                  "m12_picket_fence"
+                ]
+              ],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "q1nc7.ln.021",
+          "quote": "can you go down from the caravan park go down draw a line underneath"
+        },
+        {
+          "source_id": "q1nc7.ln.024",
+          "quote": "round the left of the caravan park"
+        },
+        {
+          "source_id": "q1nc7.ln.037",
+          "quote": "round then when you get get to the end of the picket fence go"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc7.ln.021",
+                "quote": "go down from the caravan park go down draw a line underneath"
+              },
+              {
+                "source_id": "q1nc7.ln.023",
+                "quote": "the picket fence"
+              },
+              {
+                "source_id": "q1nc7.ln.037",
+                "quote": "when you get get to the end of the picket fence go"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x3"
+              ],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "p_x3_1",
+                "p_x3_2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "x2"
+              ],
+              "Q": [
+                "x1",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_x2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "checkpoint",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc7.ln.022",
+                "quote": "so i'm going"
+              },
+              {
+                "source_id": "q1nc7.ln.024",
+                "quote": "round the left of the caravan park"
+              },
+              {
+                "source_id": "q1nc7.ln.026",
+                "quote": "to the very bottom of the page"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "c3_r3"
+              ],
+              "Q": [
+                "c3_r1",
+                "c3_r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "c3_r3_p1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m12_caravan_park"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "c3_r1",
+                "c3_r2",
+                "c3_r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "c3_r1_p1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m12_caravan_park"
+                ],
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m12_picket_fence"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "anchor",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1nc7.ln.021",
+                "quote": "from the caravan park"
+              },
+              {
+                "source_id": "q1nc7.ln.023",
+                "quote": "the picket fence"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e3",
+                  "m12_caravan_park"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Anchor",
+                  "e3",
+                  "m12_caravan_park"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e3",
+                  "m12_picket_fence"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": true,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-23T06:59:43.962255+00:00"
+}

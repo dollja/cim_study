@@ -1,0 +1,1 @@
+{"readings":[{"id":"x1","paraphrase":"A Troublemaker swap is being described between the cards associated with Hailey and Jack.","arguments":{"event_id":"e2","anchor_class":"participant-card","anchor_ids":{"Hailey":"Hailey","Jack":"Jack"},"relation":"swap"}}],"incomplete":false}

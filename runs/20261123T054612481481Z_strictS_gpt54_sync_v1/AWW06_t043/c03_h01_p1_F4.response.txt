@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"c3_r1","judgment":"supported","paths":[{"id":"c3_r1_path1","root_type":"SAYS","root":{"source_id":"AWW06.turn.013","quote":"I woke up as the Insomniac."},"scope_id":"e5","links":[]}]},{"reading_id":"c3_r2","judgment":"undetermined","paths":[]}],"updates":[],"unresolved_scope":false}

@@ -4,6 +4,7 @@ import json
 import os
 import shutil
 import tempfile
+import threading
 import unittest
 import urllib.error
 import uuid
@@ -225,6 +226,76 @@ class SyncRunnerTests(unittest.TestCase):
         self.assertEqual([r['status'] for r in report['cases']], ['TRANSPORT_INCOMPLETE', 'UNRESOLVED'])
         self.assertEqual(report['predictions'], 1)
         self.assertFalse((out / 'run.lock').exists())
+
+    def test_several_cases_run_at_once_and_each_is_recorded_once(self):
+        out = Path('results/RUN')
+        out.mkdir(parents=True)
+        names = [f'C{i}' for i in range(6)]
+        (out / 'execution_order.json').write_text(json.dumps({'all_accepted_case_ids': names, 'active_case_ids': names}))
+        together = threading.Barrier(3, timeout=5)
+
+        def fake(case, run_dir, cfg, ledger, state):
+            together.wait()  # passes only if three cases are inside run_case at the same moment
+            for step in range(20):
+                sync.append(ledger, {'event': 'attempt_started', 'case_id': case.stem, 'step': str(step)})
+            run_dir.mkdir(parents=True)
+            (run_dir / 'prediction.json').write_text(json.dumps({'prefix_status': 'UNRESOLVED'}))
+            return {'prefix_status': 'UNRESOLVED'}
+
+        with patch.object(sync, 'verify', return_value={'valid': True}), patch.object(sync, 'run_case', side_effect=fake):
+            self.assertEqual(sync.execute('RUN', self.cfg, workers=3), 0)
+        events = sync.records(out / 'case_events.jsonl')
+        self.assertEqual(sorted(e['case_id'] for e in events), names)
+        self.assertEqual(len(sync.records(out / 'attempt_ledger.jsonl')), 120)  # every line intact
+        self.assertEqual(pilot.read(out / 'progress.json')['predictions'], 6)
+
+    def test_a_run_level_stop_in_one_worker_keeps_the_others_from_starting(self):
+        out = Path('results/RUN')
+        out.mkdir(parents=True)
+        names = [f'C{i}' for i in range(8)]
+        (out / 'execution_order.json').write_text(json.dumps({'all_accepted_case_ids': names, 'active_case_ids': names}))
+        started = []
+
+        def fake(case, run_dir, cfg, ledger, state):
+            started.append(case.stem)
+            raise sync.StopRun('mock: budget ceiling reached')
+
+        with patch.object(sync, 'verify', return_value={'valid': True}), patch.object(sync, 'run_case', side_effect=fake):
+            self.assertEqual(sync.execute('RUN', self.cfg, workers=2), 2)
+        self.assertLessEqual(len(started), 2)
+        self.assertFalse((out / 'run.lock').exists())
+
+    def test_workers_cannot_reserve_past_the_budget_ceiling_together(self):
+        # Each attempt reserves about 0.125; a ceiling of 0.3 leaves room for two, however many workers ask.
+        cfg = dict(self.cfg, total_authorized_ceiling_usd=0.3)
+        gate = threading.Barrier(4, timeout=5)
+        outcomes = []
+
+        def worker(index):
+            case = self.root / f'CASE{index}.json'
+            pilot.write_new(case, {'sample_id': f'CASE{index}', 'study_role': 'engineering_fixture',
+                                   'observer_input': fixture()[0]})
+            gate.wait()
+            try:
+                sync.run_case(case, self.root / 'runs' / 'SYNC' / f'CASE{index}', cfg, self.ledger,
+                              {'consecutive_failures': 0, 'completions': 0})
+                outcomes.append('ran')
+            except sync.StopRun:
+                outcomes.append('stopped')
+
+        def hang(request, timeout=None):
+            raise TimeoutError('mock: no answer')
+
+        with patch.object(sync.urllib.request, 'urlopen', side_effect=hang):
+            threads = [threading.Thread(target=worker, args=(i,)) for i in range(4)]
+            for thread in threads:
+                thread.start()
+            for thread in threads:
+                thread.join()
+        measured, reserved = sync.spend()
+        self.assertLessEqual(measured + reserved, 0.3)
+        self.assertEqual(self.count('attempt_started'), 2)
+        self.assertEqual(outcomes.count('stopped'), 4)
 
     def test_reply_cut_off_empty_at_output_limit_is_sent_again(self):
         cut = response('resp_A', 'incomplete')

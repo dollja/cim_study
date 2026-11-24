@@ -1,0 +1,361 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "AWW09_t042",
+  "observer_hash": "cefbeae78fb58104074117965790c0b8a0a92965260b2e1e6b8a4dd4dbc64dd9",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "26d70a69789169c2ce2bed980ff14ce66f26665d4d38d48a38353943a1bd9aac",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "AWW09.turn.034",
+          "quote": "I looked at Mitchell."
+        },
+        {
+          "source_id": "AWW09.turn.036",
+          "quote": "Saw a villager."
+        },
+        {
+          "source_id": "AWW09.turn.037",
+          "quote": "And I confirmed he's a seer because I was confident that I am truly-"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "target",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "AWW09.turn.033",
+                "quote": "Seer. Seer looked-"
+              },
+              {
+                "source_id": "AWW09.turn.034",
+                "quote": "I looked at Mitchell."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r1"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "holder",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "AWW09.turn.034",
+                "quote": "I looked at Mitchell."
+              },
+              {
+                "source_id": "AWW09.turn.036",
+                "quote": "Saw a villager."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r1_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "AWW09.turn.041",
+          "quote": "No. I switched with Mitch."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "target",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "AWW09.turn.041",
+                "quote": "No. I switched with Mitch."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Caitlynn": {
+              "X": [
+                "e3_r1",
+                "e3_r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "e3_r1_path1",
+                "e3_r2_path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "e3_r1",
+                "e3_r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "AWW09.turn.018",
+          "quote": "Did I get switched?"
+        },
+        {
+          "source_id": "AWW09.turn.019",
+          "quote": "Yeah."
+        },
+        {
+          "source_id": "AWW09.turn.022",
+          "quote": "Oh, I was a villager."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "target",
+            "event_id": "e4",
+            "scope_evidence": [
+              {
+                "source_id": "AWW09.turn.018",
+                "quote": "Did I get switched?"
+              },
+              {
+                "source_id": "AWW09.turn.019",
+                "quote": "Yeah."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Dan": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Justin": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path4",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1",
+                "path3"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h5",
+            "subtask": "holder",
+            "event_id": "e5",
+            "scope_evidence": [
+              {
+                "source_id": "AWW09.turn.016",
+                "quote": "Dan what were you?"
+              },
+              {
+                "source_id": "AWW09.turn.022",
+                "quote": "Oh, I was a villager."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Dan": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": true,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-23T08:32:39.200985+00:00"
+}

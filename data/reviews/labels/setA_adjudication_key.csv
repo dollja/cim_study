@@ -1,0 +1,13 @@
+case_id,review_x,review_y
+MT-01,setA_reviewer_1.csv,setA_reviewer_2.csv
+MT-02,setA_reviewer_2.csv,setA_reviewer_1.csv
+MT-03,setA_reviewer_2.csv,setA_reviewer_1.csv
+MT-05,setA_reviewer_2.csv,setA_reviewer_1.csv
+MT-06,setA_reviewer_1.csv,setA_reviewer_2.csv
+MT-09,setA_reviewer_1.csv,setA_reviewer_2.csv
+MT-10,setA_reviewer_2.csv,setA_reviewer_1.csv
+WW-02,setA_reviewer_2.csv,setA_reviewer_1.csv
+WW-03,setA_reviewer_2.csv,setA_reviewer_1.csv
+WW-05,setA_reviewer_2.csv,setA_reviewer_1.csv
+WW-09,setA_reviewer_1.csv,setA_reviewer_2.csv
+WW-10,setA_reviewer_1.csv,setA_reviewer_2.csv

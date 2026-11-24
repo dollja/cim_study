@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"supported","paths":[{"id":"path1","root_type":"SAYS","root":{"source_id":"AWW09.turn.034","quote":"I looked at Mitchell."},"scope_id":"e1","links":[{"relation":"COREF","source_id":"AWW09.turn.033","quote":"Seer. Seer looked-"}]}]}],"updates":[],"unresolved_scope":false}

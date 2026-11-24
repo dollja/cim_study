@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"undetermined","paths":[]},{"reading_id":"r2","judgment":"contradicted","paths":[{"id":"path_r2_1","root_type":"SAYS","root":{"source_id":"q1ec2.ln.054","quote":"don't have a slate mountain"},"scope_id":"e3","links":[]}]},{"reading_id":"r3","judgment":"undetermined","paths":[]}],"updates":[],"unresolved_scope":false}

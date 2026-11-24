@@ -1,0 +1,1 @@
+{"reading_reviews":[{"reading_id":"r1","judgment":"undetermined","citations":["Okay. I was the tanner.","I switched Justin with Paul.","Yeah.","Now I'm the werewolf, aren't I?"]},{"reading_id":"r2","judgment":"undetermined","citations":["Okay. I was the tanner.","Yeah.","Now I'm the werewolf, aren't I?"]}],"path_checks":[],"update_checks":[],"unresolved_scope":true}

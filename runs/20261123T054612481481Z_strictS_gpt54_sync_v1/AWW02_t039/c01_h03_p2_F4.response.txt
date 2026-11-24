@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"undetermined","paths":[]},{"reading_id":"r2","judgment":"supported","paths":[{"id":"path1","root_type":"SAYS","root":{"source_id":"AWW02.turn.038","quote":"Now I'm the werewolf, aren't I?"},"scope_id":"e3","links":[]}]},{"reading_id":"r3","judgment":"undetermined","paths":[]}],"updates":[],"unresolved_scope":false}

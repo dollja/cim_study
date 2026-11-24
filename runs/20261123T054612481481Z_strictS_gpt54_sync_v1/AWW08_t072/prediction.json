@@ -1,0 +1,395 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "AWW08_t072",
+  "observer_hash": "aad57b1de937e36b1c9b939171894c053c2cfff12676a9584677e133f04b41ed",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "26d70a69789169c2ce2bed980ff14ce66f26665d4d38d48a38353943a1bd9aac",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "AWW08.turn.048",
+          "quote": "Okay so I can offer, then, that I was the seer and I looked at Hailey's card and Hailey was the troublemaker."
+        },
+        {
+          "source_id": "AWW08.turn.069",
+          "quote": "I was moving some stuff around, so..."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "target",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "AWW08.turn.048",
+                "quote": "I looked at Hailey's card"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Brent": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1",
+                "path3"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Hailey": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "holder",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "AWW08.turn.048",
+                "quote": "Hailey was the troublemaker."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Brent": {
+              "X": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2",
+                "path3"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Hailey": {
+              "X": [
+                "r2",
+                "r3"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_r2_1",
+                "path_r3_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "AWW08.turn.049",
+          "quote": "And then I'm the robber because I took your card and I see- saw that it was the seer."
+        },
+        {
+          "source_id": "AWW08.turn.051",
+          "quote": "So I believe you."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "target",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "AWW08.turn.049",
+                "quote": "I took your card"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Sebastian": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Brent": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "holder",
+            "event_id": "e4",
+            "scope_evidence": [
+              {
+                "source_id": "AWW08.turn.049",
+                "quote": "it was the seer."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Sebastian": {
+              "X": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2",
+                "path3"
+              ],
+              "G": [
+                [
+                  "Holder",
+                  "e4",
+                  "Seer",
+                  "Brent",
+                  "before the reported robbery",
+                  "\"I took your card\" + \"it was the seer.\""
+                ],
+                [
+                  "Holder",
+                  "e4",
+                  "Seer",
+                  "Sebastian",
+                  "immediately after the reported robbery",
+                  "\"I took your card\" + \"it was the seer.\" + \"I was moving some stuff around, so...\""
+                ],
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Brent": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Holder",
+                  "e4",
+                  "Seer",
+                  "Brent",
+                  "before the reported robbery",
+                  "\"I took your card\" + \"it was the seer.\""
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e4",
+                  "Seer",
+                  "Sebastian",
+                  "immediately after the reported robbery",
+                  "\"I took your card\" + \"it was the seer.\" + \"I was moving some stuff around, so...\""
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "AWW08.turn.063",
+          "quote": "I was the werewolf."
+        },
+        {
+          "source_id": "AWW08.turn.067",
+          "quote": "But we don't know if you are anymore. "
+        },
+        {
+          "source_id": "AWW08.turn.069",
+          "quote": "I was moving some stuff around, so..."
+        },
+        {
+          "source_id": "AWW08.turn.071",
+          "quote": "I don't remember like who I switched around."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h5",
+            "subtask": "outside",
+            "event_id": "e5",
+            "scope_evidence": [
+              {
+                "source_id": "AWW08.turn.063",
+                "quote": "I was the werewolf."
+              },
+              {
+                "source_id": "AWW08.turn.067",
+                "quote": "But we don't know if you are anymore. "
+              },
+              {
+                "source_id": "AWW08.turn.069",
+                "quote": "I was moving some stuff around, so..."
+              },
+              {
+                "source_id": "AWW08.turn.071",
+                "quote": "I don't remember like who I switched around."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Hailey": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Erin": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-23T08:31:00.299552+00:00"
+}

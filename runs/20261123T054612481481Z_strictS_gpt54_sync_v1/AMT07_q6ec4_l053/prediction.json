@@ -1,0 +1,692 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "AMT07_q6ec4_l053",
+  "observer_hash": "c88aa9819908bc009c9dbe397401f13e36116f732f32fd644949394557a8c7f9",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "26d70a69789169c2ce2bed980ff14ce66f26665d4d38d48a38353943a1bd9aac",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "q6ec4.ln.014",
+          "quote": "yeah there's a wagon wheel sort of on the right have you got that"
+        },
+        {
+          "source_id": "q6ec4.ln.015",
+          "quote": "nope"
+        },
+        {
+          "source_id": "q6ec4.ln.016",
+          "quote": "oh well if you go along um to th-- like right under the diamond mine and then um you've got to go a little more than halfway along the page"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "checkpoint",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q6ec4.ln.014",
+                "quote": "yeah there's a wagon wheel sort of on the right have you got that"
+              },
+              {
+                "source_id": "m2_giver_inventory",
+                "quote": "m2_giver_03: wagon wheel; upper middle, right of diamond mine; correspondence m2_wagon_wheel"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path_r1_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e1",
+                  "m2_diamond_mine"
+                ],
+                [
+                  "Checkpoint",
+                  "e1",
+                  "m2_wagon_wheel"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e1",
+                  "m2_diamond_mine"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "route",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q6ec4.ln.016",
+                "quote": "oh well if you go along um to th-- like right under the diamond mine and then um you've got to go a little more than halfway along the page"
+              },
+              {
+                "source_id": "q6ec4.ln.018",
+                "quote": "yeah keep going right 'til you're just past halfway"
+              },
+              {
+                "source_id": "q6ec4.ln.020",
+                "quote": "um in fact even three quarters of the way and then you go right up to the top again"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x2"
+              ],
+              "Q": [
+                "x3"
+              ],
+              "excluded": [
+                "x1"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path_x2_1"
+              ],
+              "G": [
+                [
+                  "Route",
+                  "e1",
+                  "below",
+                  "m2_diamond_mine"
+                ]
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e1",
+                  "below",
+                  "m2_diamond_mine"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "outside",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q6ec4.ln.015",
+                "quote": "nope"
+              },
+              {
+                "source_id": "q6ec4.ln.026",
+                "quote": "um and then have you got a rift valley"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "q6ec4.ln.038",
+          "quote": "go down 'til you're just above the rocks"
+        },
+        {
+          "source_id": "q6ec4.ln.040",
+          "quote": "and then go down to the right-hand side of them"
+        },
+        {
+          "source_id": "q6ec4.ln.042",
+          "quote": "yeah oh sorry the left no"
+        },
+        {
+          "source_id": "q6ec4.ln.043",
+          "quote": "on the left"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "checkpoint",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q6ec4.ln.032",
+                "quote": "um below the rift valley have you got any rocks"
+              },
+              {
+                "source_id": "q6ec4.ln.038",
+                "quote": "go down 'til you're just above the rocks"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m2_rocks"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m2_rocks"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e2",
+                  "m2_rocks"
+                ]
+              ],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "route",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q6ec4.ln.040",
+                "quote": "and then go down to the right-hand side of them"
+              },
+              {
+                "source_id": "q6ec4.ln.041",
+                "quote": "go round them to the right"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [],
+              "excluded": [
+                "r1",
+                "r2"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "p_r1_correction",
+                "p_r2_contra"
+              ],
+              "G": [],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [],
+              "Q": [],
+              "excluded": [
+                "r1",
+                "r2"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "r1_path1",
+                "r2_path2"
+              ],
+              "G": [],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": false
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "route",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q6ec4.ln.042",
+                "quote": "yeah oh sorry the left no"
+              },
+              {
+                "source_id": "q6ec4.ln.043",
+                "quote": "on the left"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "x1_p_new"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "x1",
+                "x2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "x1_path_new",
+                "x2_path_new"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "q6ec4.ln.046",
+          "quote": "um to the left of the rocks there's a stone creek"
+        },
+        {
+          "source_id": "q6ec4.ln.047",
+          "quote": "no i don't have that"
+        },
+        {
+          "source_id": "q6ec4.ln.051",
+          "quote": "rapids"
+        },
+        {
+          "source_id": "q6ec4.ln.052",
+          "quote": "rapids oh they're probably the same thing um are they sort of on the left below the diamond mine"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "outside",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q6ec4.ln.046",
+                "quote": "um to the left of the rocks there's a stone creek"
+              },
+              {
+                "source_id": "q6ec4.ln.047",
+                "quote": "no i don't have that"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "e3_r1",
+                "e3_r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "e3_r1",
+                "e3_r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "checkpoint",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q6ec4.ln.048",
+                "quote": "haven't not got that right um have you got any white water"
+              },
+              {
+                "source_id": "q6ec4.ln.051",
+                "quote": "rapids"
+              },
+              {
+                "source_id": "q6ec4.ln.052",
+                "quote": "rapids oh they're probably the same thing um are they sort of on the left below the diamond mine"
+              },
+              {
+                "source_id": "m2_giver_inventory",
+                "quote": "m2_giver_08: white water; left of centre, below upper stone creek; correspondence m2_rapids"
+              },
+              {
+                "source_id": "m2_follower_inventory",
+                "quote": "m2_follower_07: rapids; left of centre, below diamond mine; correspondence m2_rapids"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m2_rapids"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m2_rapids"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "x2"
+              ],
+              "Q": [
+                "x1",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m2_rapids"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m2_rapids"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "target",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q6ec4.ln.052",
+                "quote": "are they sort of on the left below the diamond mine"
+              },
+              {
+                "source_id": "q6ec4.ln.053",
+                "quote": "yeah"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-23T07:35:33.258404+00:00"
+}

@@ -1,0 +1,1 @@
+{"readings":[{"id":"r1","paraphrase":"The person robbed was Katie.","arguments":{"event_id":"e2","anchor_class":"participant","anchor_ids":{"George":"Katie","Katie":"Katie"},"relation":null}}],"incomplete":false}

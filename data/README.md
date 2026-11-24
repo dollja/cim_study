@@ -41,7 +41,9 @@ and the published landmark table and confirmed by the study author on 2026-11-23
 |---|---|
 | `forms/reviewer_interface.html` | Reviewer form for Set A (self-contained; opens in a browser) |
 | `forms/reviewer_interface_setB.html` | The same form for Set B |
+| `forms/adjudication_setA.html` | Adjudication form for the 12 Set A cases on which the two reviews differ: the Set A form with the two earlier answers shown as Review X and Review Y. Built by `src/build_adjudication_form.py` |
 | `labels/setA_reviewer_1.csv`, `labels/setA_reviewer_2.csv` | Two independent reviews of Set A, as exported by the form |
+| `labels/setA_adjudication_key.csv` | Which review is shown as X and which as Y in the adjudication form (not for the adjudicator) |
 | `labels/setB_initial_review.csv` | The initial single review of Set B, made before the form existed and with an AI assistant's drafts in view |
 
 The form shows the task, the two people to compare, a task question and the dialogue up to the

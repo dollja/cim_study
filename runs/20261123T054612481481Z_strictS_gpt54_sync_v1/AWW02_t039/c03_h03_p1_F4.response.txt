@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"contradicted","paths":[{"id":"path_r1_1","root_type":"SAYS","root":{"source_id":"AWW02.turn.034","quote":"I was the tanner."},"scope_id":"e9","links":[]}]},{"reading_id":"r2","judgment":"undetermined","paths":[]}],"updates":[],"unresolved_scope":false}

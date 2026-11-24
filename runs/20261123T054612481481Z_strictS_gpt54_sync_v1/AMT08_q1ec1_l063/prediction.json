@@ -1,0 +1,762 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "AMT08_q1ec1_l063",
+  "observer_hash": "627e75a014749e04b27bb8293e50afab18553cb08500585ab7571ffe6d7ceb2b",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "26d70a69789169c2ce2bed980ff14ce66f26665d4d38d48a38353943a1bd9aac",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "q1ec1.ln.001",
+          "quote": "okay starting off we are above a caravan park"
+        },
+        {
+          "source_id": "q1ec1.ln.003",
+          "quote": "head north past an old mill on the right hand side"
+        },
+        {
+          "source_id": "q1ec1.ln.005",
+          "quote": "old mill on the right and you're going to pass on the left-hand side of the mill"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "anchor",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec1.ln.001",
+                "quote": "okay starting off we are above a caravan park"
+              },
+              {
+                "source_id": "m12_giver_inventory",
+                "quote": "START; lower left above caravan park; correspondence m12_start"
+              },
+              {
+                "source_id": "m12_follower_inventory",
+                "quote": "START; lower left above caravan park; correspondence m12_start"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m12_caravan_park"
+                ],
+                [
+                  "Anchor",
+                  "e1",
+                  "m12_start"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Anchor",
+                  "e1",
+                  "m12_caravan_park"
+                ],
+                [
+                  "Anchor",
+                  "e1",
+                  "m12_start"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "route",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec1.ln.003",
+                "quote": "we are going to go due south straight south and then we're going to g-- turn straight back round and head north past an old mill on the right hand side"
+              },
+              {
+                "source_id": "q1ec1.ln.004",
+                "quote": "due south and then back up again"
+              },
+              {
+                "source_id": "q1ec1.ln.005",
+                "quote": "yeah south and then straight back up again with an old mill on the right and you're going to pass on the left-hand side of the mill"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e2",
+                  "above",
+                  "m12_caravan_park"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e2",
+                  "above",
+                  "m12_caravan_park"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "checkpoint",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec1.ln.003",
+                "quote": "head north past an old mill on the right hand side"
+              },
+              {
+                "source_id": "q1ec1.ln.005",
+                "quote": "old mill on the right and you're going to pass on the left-hand side of the mill"
+              },
+              {
+                "source_id": "m12_giver_inventory",
+                "quote": "old mill; below/right of caravan park; correspondence m12_mill"
+              },
+              {
+                "source_id": "m12_follower_inventory",
+                "quote": "mill wheel; below/right of caravan park; correspondence m12_mill"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m12_mill"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e3",
+                  "m12_mill"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "q1ec1.ln.024",
+          "quote": "a curvature right sort of \"s\" bend"
+        },
+        {
+          "source_id": "q1ec1.ln.026",
+          "quote": "immediately below that bend there is an abandoned cottage"
+        },
+        {
+          "source_id": "q1ec1.ln.030",
+          "quote": "below it there's a fenced meadow but you're passing on the top of that okay"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "route",
+            "event_id": "e4",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec1.ln.021",
+                "quote": "and then we're going to turn to the west"
+              },
+              {
+                "source_id": "q1ec1.ln.024",
+                "quote": "a curvature right sort of \"s\" bend"
+              },
+              {
+                "source_id": "q1ec1.ln.028",
+                "quote": "we're going to continue in that sort of \"s\" shape a big wide \"s\""
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "r1_p1",
+                "r1_p2",
+                "r1_p3",
+                "r1_p4"
+              ],
+              "G": [
+                [
+                  "Route",
+                  "e4",
+                  "above",
+                  "m12_abandoned_cottage"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e4",
+                  "above",
+                  "m12_meadow_left"
+                ],
+                [
+                  "Route",
+                  "e4",
+                  "above",
+                  "m12_meadow_lower_right"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Route",
+                  "e4",
+                  "above",
+                  "m12_abandoned_cottage"
+                ],
+                [
+                  "Route",
+                  "e4",
+                  "above",
+                  "m12_meadow_lower_right"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h5",
+            "subtask": "checkpoint",
+            "event_id": "e5",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec1.ln.026",
+                "quote": "immediately below that bend there is an abandoned cottage"
+              },
+              {
+                "source_id": "q1ec1.ln.028",
+                "quote": "we're passing above the top of that"
+              },
+              {
+                "source_id": "m12_giver_inventory",
+                "quote": "abandoned cottage; middle; correspondence m12_abandoned_cottage"
+              },
+              {
+                "source_id": "m12_follower_inventory",
+                "quote": "abandoned cottage; middle; correspondence m12_abandoned_cottage"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e5",
+                  "m12_abandoned_cottage"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e5",
+                  "m12_abandoned_cottage"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h6",
+            "subtask": "checkpoint",
+            "event_id": "e6",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec1.ln.030",
+                "quote": "below it there's a fenced meadow but you're passing on the top of that okay"
+              },
+              {
+                "source_id": "m12_giver_inventory",
+                "quote": "fenced meadow; left below west lake; correspondence m12_meadow_left"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e6",
+                  "m12_meadow_left"
+                ],
+                [
+                  "Checkpoint",
+                  "e6",
+                  "m12_meadow_lower_right"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e6",
+                  "m12_meadow_lower_right"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "q1ec1.ln.058",
+          "quote": "turn round by a monument on the outside of the monument"
+        },
+        {
+          "source_id": "q1ec1.ln.059",
+          "quote": "outside of the monument"
+        },
+        {
+          "source_id": "q1ec1.ln.060",
+          "quote": "a very slight turning up again north sort of northwest"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h7",
+            "subtask": "outside",
+            "event_id": "e7",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec1.ln.058",
+                "quote": "turn round by a monument on the outside of the monument"
+              },
+              {
+                "source_id": "q1ec1.ln.059",
+                "quote": "outside of the monument"
+              },
+              {
+                "source_id": "m12_giver_inventory",
+                "quote": "monument; right middle; correspondence m12_monument"
+              },
+              {
+                "source_id": "m12_follower_inventory",
+                "quote": "monument; right middle; correspondence m12_monument"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x2"
+              ],
+              "Q": [
+                "x1",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "x2"
+              ],
+              "Q": [
+                "x1",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h8",
+            "subtask": "checkpoint",
+            "event_id": "e8",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec1.ln.058",
+                "quote": "turn round by a monument on the outside of the monument"
+              },
+              {
+                "source_id": "m12_giver_inventory",
+                "quote": "monument; right middle; correspondence m12_monument"
+              },
+              {
+                "source_id": "m12_follower_inventory",
+                "quote": "monument; right middle; correspondence m12_monument"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1",
+                "x2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "x1_path1",
+                "x2_path1"
+              ],
+              "G": [
+                [
+                  "Checkpoint",
+                  "e8",
+                  "m12_monument"
+                ]
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "follower": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Checkpoint",
+                  "e8",
+                  "m12_monument"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h9",
+            "subtask": "route",
+            "event_id": "e9",
+            "scope_evidence": [
+              {
+                "source_id": "q1ec1.ln.054",
+                "quote": "we're going to turn immediately to your right and straight down at an angle of forty-five"
+              },
+              {
+                "source_id": "q1ec1.ln.058",
+                "quote": "turn round by a monument on the outside of the monument"
+              },
+              {
+                "source_id": "q1ec1.ln.060",
+                "quote": "a very slight turning up again north sort of northwest"
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "giver": {
+              "X": [
+                "x1",
+                "x3"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "x1_p2",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "x3_p2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "x1_p1",
+                "x1_p3",
+                "x3_p1",
+                "x3_p3"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "follower": {
+              "X": [
+                "x3"
+              ],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-23T07:30:44.835588+00:00"
+}

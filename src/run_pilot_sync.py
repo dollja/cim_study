@@ -8,12 +8,14 @@ Prompts, model, decoding and frozen inputs are those of cim-current-pilot-0.5.
     python src/run_pilot_sync.py --prepare     fix the case list; no provider call
     python src/run_pilot_sync.py           run or resume
     python src/run_pilot_sync.py --status      print saved progress; no provider call
+    python src/run_pilot_sync.py --workers 4   run four cases at a time
 
 Add --input-set <folder name under data/inputs/> to any command to work on another
 frozen input set; each set has its own run, and the budget is shared.
 """
 from __future__ import annotations
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 import getpass
 import hashlib
@@ -23,6 +25,7 @@ import os
 from pathlib import Path
 import re
 import socket
+import threading
 import time
 import urllib.error
 import urllib.request
@@ -39,6 +42,7 @@ BASE_CONFIG = Path('config/RUN_CONFIG.json')
 PRIOR_SPEND = Path('results/prior_spend.json')
 ENDPOINT = 'https://api.openai.com/v1/responses'
 NETWORK_ERRORS = (OSError, TimeoutError, http.client.HTTPException)
+IO = threading.RLock()  # one writer or reader of the shared run records at a time
 PRICE_IN, PRICE_OUT = 2.5, 15.0  # USD per million tokens, as in the frozen configuration
 
 
@@ -84,9 +88,10 @@ def now():
 
 def records(path):
     path = Path(path)
-    if not path.exists():
-        return []
-    return [json.loads(line) for line in path.read_text(encoding='utf-8').splitlines() if line]
+    with IO:
+        if not path.exists():
+            return []
+        return [json.loads(line) for line in path.read_text(encoding='utf-8').splitlines() if line]
 
 
 def api_key():
@@ -132,7 +137,7 @@ def write_record(path, obj):
 
 
 def append(path, item):
-    with Path(path).open('a', encoding='utf-8') as stream:
+    with IO, Path(path).open('a', encoding='utf-8') as stream:
         stream.write(json.dumps(item, ensure_ascii=False) + chr(10))
         stream.flush()
         os.fsync(stream.fileno())
@@ -381,21 +386,24 @@ def run_case(case, run_dir, cfg, ledger, state):
         folder.mkdir(exist_ok=True)
         tries = 0
         while True:
-            earlier = [e for e in records(ledger) if e['event'] == 'attempt_started'
-                       and e['case_id'] == cid and e['step'] == step]
-            if tries >= cfg['sync_attempts_per_stage_per_launch'] or len(earlier) >= cfg['sync_attempts_per_stage_total']:
-                raise CaseStopped(f'{step}: no completion after {tries} attempts this launch; resumable.')
-            measured, unsettled = spend()
-            if measured + unsettled + reserve > cfg['total_authorized_ceiling_usd']:
-                raise StopRun(f'Budget ceiling reached (measured ${measured:.2f} + open reservations ${unsettled:.2f}).')
-            tries += 1
-            ordinal = len(earlier) + 1
-            ctx = {'case_id': cid, 'step': step, 'attempt': ordinal, 'timestamp_utc': now(),
-                   'reserved_usd': reserve, 'client_request_id': str(uuid.uuid4()),
-                   'request_sha256': sha(request_path.read_bytes()),
-                   'messages_sha256': pilot.digest(env['input']), 'input_token_upper_bound': bound,
-                   'envelope': str(run_dir / (step + '.envelope.json'))}
-            append(ledger, dict(ctx, event='attempt_started'))
+            if state.get('halt') is not None and state['halt'].is_set():
+                raise StopRun('Stopping was requested; saved records are complete.')
+            with IO:  # check the budget and reserve this attempt in one step
+                earlier = [e for e in records(ledger) if e['event'] == 'attempt_started'
+                           and e['case_id'] == cid and e['step'] == step]
+                if tries >= cfg['sync_attempts_per_stage_per_launch'] or len(earlier) >= cfg['sync_attempts_per_stage_total']:
+                    raise CaseStopped(f'{step}: no completion after {tries} attempts this launch; resumable.')
+                measured, unsettled = spend()
+                if measured + unsettled + reserve > cfg['total_authorized_ceiling_usd']:
+                    raise StopRun(f'Budget ceiling reached (measured ${measured:.2f} + open reservations ${unsettled:.2f}).')
+                tries += 1
+                ordinal = len(earlier) + 1
+                ctx = {'case_id': cid, 'step': step, 'attempt': ordinal, 'timestamp_utc': now(),
+                       'reserved_usd': reserve, 'client_request_id': str(uuid.uuid4()),
+                       'request_sha256': sha(request_path.read_bytes()),
+                       'messages_sha256': pilot.digest(env['input']), 'input_token_upper_bound': bound,
+                       'envelope': str(run_dir / (step + '.envelope.json'))}
+                append(ledger, dict(ctx, event='attempt_started'))
             started = time.monotonic()
             final, provider_request, failure, wait = attempt(
                 body, cfg, ctx['client_request_id'], folder, f'{step}.attempt{ordinal}')
@@ -412,13 +420,15 @@ def run_case(case, run_dir, cfg, ledger, state):
                 raw = json.dumps(final, ensure_ascii=False).encode('utf-8')
                 commit_completion(run_dir, step, ctx, raw, provider_request,
                                        time.monotonic() - started, ledger)
-                state['consecutive_failures'] = 0
-                state['completions'] += 1
+                with IO:
+                    state['consecutive_failures'] = 0
+                    state['completions'] += 1
                 print(f'  {cid} {step}: saved ({time.monotonic() - started:.0f}s)', flush=True)
                 break
             append(ledger, dict(ctx, event='attempt_failed', failure=failure, ended_utc=now(),
                                      latency_seconds=time.monotonic() - started))
-            state['consecutive_failures'] += 1
+            with IO:
+                state['consecutive_failures'] += 1
             if state['consecutive_failures'] >= cfg['sync_consecutive_failure_limit']:
                 raise StopRun(f'{state["consecutive_failures"]} calls in a row returned nothing; provider looks unavailable.')
             pause = wait if wait is not None else min(cfg['sync_backoff_seconds'] * 2 ** (tries - 1), cfg['sync_backoff_max_seconds'])
@@ -508,9 +518,10 @@ def progress(run_id):
               'failed_attempts': sum(r['failed_attempts'] for r in rows),
               'measured_usd_all_runs': round(measured, 2), 'open_reservations_usd_all_runs': round(unsettled, 2),
               'cases': rows}
-    temp = out / 'progress.tmp'
-    temp.write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
-    os.replace(temp, out / 'progress.json')
+    with IO:
+        temp = out / 'progress.tmp'
+        temp.write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
+        os.replace(temp, out / 'progress.json')
     return report
 
 
@@ -567,7 +578,12 @@ def alive(pid):
         return False
 
 
-def execute(run_id, cfg, max_cases=None):
+def execute(run_id, cfg, max_cases=None, workers=1):
+    """Run the scheduled cases that have no prediction yet, `workers` cases at a time.
+
+    Cases are independent, so running several together sends the same requests and gives the
+    same records as running them in turn. Calls within one case stay in sequence.
+    """
     out = Path('results') / run_id
     lock = out / 'run.lock'
     if lock.exists():
@@ -576,41 +592,60 @@ def execute(run_id, cfg, max_cases=None):
             raise ValueError(f'This run is already active in process {holder}.')
         lock.unlink()
     lock.write_text(json.dumps({'pid': os.getpid(), 'started_utc': now()}), encoding='utf-8')
-    state = {'consecutive_failures': 0, 'completions': 0}
+    state = {'consecutive_failures': 0, 'completions': 0, 'halt': threading.Event()}
     use_ipv4_only()
+
+    def one_case(cid):
+        if state['halt'].is_set():
+            return
+        case_dir = Path('runs') / run_id / cid
+        print(f'{cid}: running', flush=True)
+        event = {'case_id': cid, 'timestamp_utc': now()}
+        try:
+            result = run_case(FREEZE / 'prospective/observer_cases' / (cid + '.json'),
+                              case_dir, cfg, out / 'attempt_ledger.jsonl', state)
+            event['status'] = result.get('prefix_status', result.get('status', 'UNKNOWN_RESULT'))
+            print(f'{cid}: {event["status"]}', flush=True)
+        except CaseStopped as exc:
+            event.update(status='TRANSPORT_INCOMPLETE', detail=str(exc))
+            print(f'{cid}: paused - {exc}', flush=True)
+        except StopRun as exc:
+            first = not state['halt'].is_set()
+            state['halt'].set()
+            event.update(status='RUN_STOPPED', detail=str(exc))
+            if first:
+                print('Run stopped: ' + str(exc), flush=True)
+        except Exception as exc:  # one bad case must not end the run
+            event.update(status='LOCAL_ERROR', detail=type(exc).__name__ + ': ' + str(exc))
+            print(f'{cid}: local error - {event["detail"]}', flush=True)
+        append(out / 'case_events.jsonl', event)
+        progress(run_id)
+
     try:
         if not verify(FREEZE)['valid']:
             raise ValueError('Frozen inputs changed; execution stopped.')
         order = pilot.read(out / 'execution_order.json')
-        done = 0
-        for cid in order['active_case_ids']:
-            case_dir = Path('runs') / run_id / cid
-            if (case_dir / 'prediction.json').exists():
-                continue
-            if max_cases is not None and done >= max_cases:
-                break
-            done += 1
-            print(f'{cid}: running', flush=True)
-            event = {'case_id': cid, 'timestamp_utc': now()}
-            try:
-                result = run_case(FREEZE / 'prospective/observer_cases' / (cid + '.json'),
-                                  case_dir, cfg, out / 'attempt_ledger.jsonl', state)
-                event['status'] = result.get('prefix_status', result.get('status', 'UNKNOWN_RESULT'))
-                print(f'{cid}: {event["status"]}', flush=True)
-            except CaseStopped as exc:
-                event.update(status='TRANSPORT_INCOMPLETE', detail=str(exc))
-                print(f'{cid}: paused - {exc}', flush=True)
-            except StopRun as exc:
-                event.update(status='RUN_STOPPED', detail=str(exc))
-                append(out / 'case_events.jsonl', event)
-                progress(run_id)
-                print('Run stopped: ' + str(exc), flush=True)
-                return 2
-            except Exception as exc:  # one bad case must not end the run
-                event.update(status='LOCAL_ERROR', detail=type(exc).__name__ + ': ' + str(exc))
-                print(f'{cid}: local error - {event["detail"]}', flush=True)
-            append(out / 'case_events.jsonl', event)
+        pending = [c for c in order['active_case_ids'] if not (Path('runs') / run_id / c / 'prediction.json').exists()]
+        if max_cases is not None:
+            pending = pending[:max_cases]
+        if workers <= 1:
+            for cid in pending:
+                one_case(cid)
+        else:
+            with ThreadPoolExecutor(max_workers=workers) as pool:
+                futures = [pool.submit(one_case, cid) for cid in pending]
+                try:
+                    for future in futures:
+                        future.result()
+                except KeyboardInterrupt:
+                    state['halt'].set()
+                    print('Stopping: calls already sent are being saved; no new call will start.', flush=True)
+                    for future in futures:
+                        future.cancel()
+                    raise
+        if state['halt'].is_set():
             progress(run_id)
+            return 2
         report = progress(run_id)
         print(f'Finished pass: {report["predictions"]} predictions; {report["scheduled"]} cases scheduled.', flush=True)
         missing = [c for c in order['active_case_ids'] if not (Path('runs') / run_id / c / 'prediction.json').exists()]
@@ -627,6 +662,8 @@ def main():
     parser.add_argument('--input-set', help='Folder name under data/inputs/ (default: the first input set).')
     parser.add_argument('--retry-failures', action='store_true',
                         help='Set aside PROCESSING_FAILURE predictions and evaluate those cases again from the saved replies.')
+    parser.add_argument('--workers', type=int, default=1,
+                        help='Number of cases to run at the same time (default 1). Calls within a case stay in sequence.')
     parser.add_argument('--max-cases', type=int, help='Stop after this many cases in this launch (smoke test).')
     args = parser.parse_args()
     os.chdir(ROOT)
@@ -655,7 +692,9 @@ def main():
     previous = os.environ.get('OPENAI_API_KEY')
     os.environ['OPENAI_API_KEY'] = key
     try:
-        return execute(run_id, cfg, args.max_cases)
+        if not 1 <= args.workers <= 8:
+            raise ValueError('--workers must be between 1 and 8.')
+        return execute(run_id, cfg, args.max_cases, args.workers)
     finally:
         if previous is None:
             os.environ.pop('OPENAI_API_KEY', None)

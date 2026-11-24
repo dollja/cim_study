@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"supported","paths":[{"id":"path1","root_type":"SAYS","root":{"source_id":"AWW06.turn.033","quote":"I would know if I swapped her or not."},"scope_id":"e3","links":[]}]},{"reading_id":"r2","judgment":"undetermined","paths":[]}],"updates":[],"unresolved_scope":false}

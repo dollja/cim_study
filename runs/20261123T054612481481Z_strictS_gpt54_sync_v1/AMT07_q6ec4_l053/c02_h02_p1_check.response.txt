@@ -1,0 +1,1 @@
+{"reading_reviews":[{"reading_id":"r1","judgment":"contradicted"},{"reading_id":"r2","judgment":"contradicted"}],"path_checks":[{"path_id":"p_r1_initial","verdict":"supported"},{"path_id":"p_r1_correction","verdict":"supported"},{"path_id":"p_r2_contra","verdict":"supported"}],"update_checks":[{"update_id":"u1","verdict":"supported"}],"unresolved_scope":false}

@@ -1,0 +1,436 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "AWW06_t043",
+  "observer_hash": "1f8389ac57003669da70068811e891a25fe9b575af7bb5a91aba7ce896eb94c4",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "26d70a69789169c2ce2bed980ff14ce66f26665d4d38d48a38353943a1bd9aac",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "AWW06.turn.018",
+          "quote": "Mitch is the troublemaker."
+        },
+        {
+          "source_id": "AWW06.turn.021",
+          "quote": "I stole from him."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "c1_h1",
+            "subtask": "route",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "AWW06.turn.021",
+                "quote": "I stole from him."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Mike": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "r1_p1",
+                "r2_p1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "c1_h2",
+            "subtask": "holder",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "AWW06.turn.018",
+                "quote": "Mitch is the troublemaker."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Mike": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path_r2_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path_r1_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "AWW06.turn.033",
+          "quote": "I would know if I swapped her or not."
+        },
+        {
+          "source_id": "AWW06.turn.036",
+          "quote": "I woke up as the Insomniac."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "c2_h1",
+            "subtask": "target",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "AWW06.turn.033",
+                "quote": "I would know if I swapped her or not."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Caitlynn": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Target",
+                  "e3",
+                  "accuse",
+                  "Caitlynn"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Target",
+                  "e3",
+                  "accuse",
+                  "Caitlynn"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "c2_h2",
+            "subtask": "checkpoint",
+            "event_id": "e4",
+            "scope_evidence": [
+              {
+                "source_id": "AWW06.turn.036",
+                "quote": "I woke up as the Insomniac."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Caitlynn": {
+              "X": [
+                "c2_h2_r1"
+              ],
+              "Q": [
+                "c2_h2_r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "c2_h2_r1_path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "c2_h2_r1",
+                "c2_h2_r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "AWW06.turn.004",
+          "quote": "does that mean you're an Insomnia?"
+        },
+        {
+          "source_id": "AWW06.turn.032",
+          "quote": "she could wake up with something else and still say she's Insomniac."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "c3_h1",
+            "subtask": "anchor",
+            "event_id": "e5",
+            "scope_evidence": [
+              {
+                "source_id": "AWW06.turn.005",
+                "quote": "That is correct."
+              },
+              {
+                "source_id": "AWW06.turn.013",
+                "quote": "I woke up as the Insomniac."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Caitlynn": {
+              "X": [
+                "c3_r1"
+              ],
+              "Q": [
+                "c3_r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "c3_r1_path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mike": {
+              "X": [],
+              "Q": [
+                "c3_r1",
+                "c3_r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "c3_h2",
+            "subtask": "checkpoint",
+            "event_id": "e6",
+            "scope_evidence": [
+              {
+                "source_id": "AWW06.turn.032",
+                "quote": "she could wake up with something else and still say she's Insomniac."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Caitlynn": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mike": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r1_path2",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "r3_path1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "r3_path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "r1_path1",
+                "r2_path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-23T08:26:23.036663+00:00"
+}

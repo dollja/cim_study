@@ -1,0 +1,1 @@
+{"records":[{"reading_id":"r1","judgment":"supported","paths":[{"id":"path1","root_type":"SAYS","root":{"source_id":"AWW10.turn.030","quote":"If you were the seer, you saw me."},"scope_id":"e7","links":[]}]},{"reading_id":"r2","judgment":"undetermined","paths":[]},{"reading_id":"r3","judgment":"undetermined","paths":[]}],"updates":[],"unresolved_scope":false}

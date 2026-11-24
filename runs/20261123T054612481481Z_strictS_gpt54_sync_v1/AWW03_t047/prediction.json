@@ -1,0 +1,425 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "AWW03_t047",
+  "observer_hash": "b21f651d3a12da01557135f039fb8642090a0ff6336c3ee2181227032c4892bc",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "26d70a69789169c2ce2bed980ff14ce66f26665d4d38d48a38353943a1bd9aac",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "AWW03.turn.021",
+          "quote": "Mitch is the Werewolf."
+        },
+        {
+          "source_id": "AWW03.turn.027",
+          "quote": "Because Mitch and I were Werewolves together."
+        },
+        {
+          "source_id": "AWW03.turn.025",
+          "quote": "I was a Villager from the beginning."
+        },
+        {
+          "source_id": "AWW03.turn.028",
+          "quote": "We were not werewolves together."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "anchor",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "AWW03.turn.027",
+                "quote": "Because Mitch and I were Werewolves together."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [],
+              "Q": [],
+              "excluded": [
+                "r1",
+                "r2"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r1_path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [],
+              "excluded": [
+                "r1",
+                "r2"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r2_path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "r1_path1",
+                "r1_path2",
+                "r2_path1"
+              ],
+              "G": [],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "anchor",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "AWW03.turn.025",
+                "quote": "I was a Villager from the beginning."
+              },
+              {
+                "source_id": "AWW03.turn.028",
+                "quote": "We were not werewolves together."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [],
+              "Q": [],
+              "excluded": [
+                "x1",
+                "x2"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "p1_old",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "p1_new",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "p2_old",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "p2_new1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "p2_new2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Mitchell": {
+              "X": [
+                "x1",
+                "x2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "AWW03.turn.037",
+          "quote": "I was a Troublemaker so we know what happened."
+        },
+        {
+          "source_id": "AWW03.turn.044",
+          "quote": "So we were switched."
+        },
+        {
+          "source_id": "AWW03.turn.046",
+          "quote": "So were you a Werewolf and now I'm a Werewolf?"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "target",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "AWW03.turn.037",
+                "quote": "I was a Troublemaker so we know what happened."
+              },
+              {
+                "source_id": "AWW03.turn.044",
+                "quote": "So we were switched."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Paul": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Target",
+                  "e3",
+                  "accuse",
+                  "Justin"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path_x1_1",
+                "path_x2_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Target",
+                  "e3",
+                  "accuse",
+                  "Justin"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "AWW03.turn.046",
+          "quote": "So were you a Werewolf and now I'm a Werewolf?"
+        },
+        {
+          "source_id": "AWW03.turn.047",
+          "quote": "No, I was a Robber, and I can confirm that you were a Villager."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "holder",
+            "event_id": "e4",
+            "scope_evidence": [
+              {
+                "source_id": "AWW03.turn.047",
+                "quote": "I can confirm that you were a Villager."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e4",
+                  "Villager",
+                  "Mitchell",
+                  "initial",
+                  "the Robber-confirmation branch"
+                ]
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "p1",
+                "p2"
+              ],
+              "G": [
+                [
+                  "Holder",
+                  "e4",
+                  "Villager",
+                  "Mitchell",
+                  "initial",
+                  "the Robber-confirmation branch"
+                ],
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h5",
+            "subtask": "anchor",
+            "event_id": "e5",
+            "scope_evidence": [
+              {
+                "source_id": "AWW03.turn.025",
+                "quote": "I was a Villager from the beginning."
+              },
+              {
+                "source_id": "AWW03.turn.047",
+                "quote": "I can confirm that you were a Villager."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-23T08:05:54.409218+00:00"
+}

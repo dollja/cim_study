@@ -1,0 +1,585 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "AWW04_t055",
+  "observer_hash": "9b9fc92d4b9ee30ea72fda4453aec2d4debb811cf5cc81d054e48b31c07456ff",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "26d70a69789169c2ce2bed980ff14ce66f26665d4d38d48a38353943a1bd9aac",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "AWW04.turn.049",
+          "quote": "It was during the Troublemaker round."
+        },
+        {
+          "source_id": "AWW04.turn.054",
+          "quote": "No, I think it was you."
+        },
+        {
+          "source_id": "AWW04.turn.055",
+          "quote": "The Troublemaker can't switch their own card."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "holder",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "AWW04.turn.049",
+                "quote": "It was during the Troublemaker round."
+              },
+              {
+                "source_id": "AWW04.turn.054",
+                "quote": "No, I think it was you."
+              },
+              {
+                "source_id": "AWW04.turn.055",
+                "quote": "The Troublemaker can't switch their own card."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Jacob": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e1",
+                  "Troublemaker",
+                  "Hunter",
+                  "Troublemaker round",
+                  "if \"you\" in \"No, I think it was you.\" picks out the Troublemaker"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Hunter": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e1",
+                  "Troublemaker",
+                  "Hunter",
+                  "Troublemaker round",
+                  "if \"you\" in \"No, I think it was you.\" picks out the Troublemaker"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "target",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "AWW04.turn.038",
+                "quote": "But I'm pretty sure my card got swapped."
+              },
+              {
+                "source_id": "AWW04.turn.054",
+                "quote": "No, I think it was you."
+              },
+              {
+                "source_id": "AWW04.turn.055",
+                "quote": "The Troublemaker can't switch their own card."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Jacob": {
+              "X": [
+                "x1",
+                "x3"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                [
+                  "Target",
+                  "e1",
+                  "accuse",
+                  "Hunter"
+                ]
+              ],
+              "Q_outputs": [
+                [
+                  "Target",
+                  "e1",
+                  "accuse",
+                  "Hunter"
+                ]
+              ],
+              "blocking_alternatives": false
+            },
+            "Hunter": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Target",
+                  "e1",
+                  "accuse",
+                  "Hunter"
+                ]
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "AWW04.turn.036",
+          "quote": "I started as a werewolf."
+        },
+        {
+          "source_id": "AWW04.turn.038",
+          "quote": "But I'm pretty sure my card got swapped."
+        },
+        {
+          "source_id": "AWW04.turn.042",
+          "quote": "I think the Werewolf card is now right here."
+        },
+        {
+          "source_id": "AWW04.turn.043",
+          "quote": "Really? Interesting. Why do you say that?"
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "holder",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "AWW04.turn.036",
+                "quote": "I started as a werewolf."
+              },
+              {
+                "source_id": "AWW04.turn.040",
+                "quote": "So it is in my best interest to tell that to you guys."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Jacob": {
+              "X": [
+                "x1",
+                "x2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path3",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Sean": {
+              "X": [],
+              "Q": [
+                "x1",
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "holder",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "AWW04.turn.038",
+                "quote": "But I'm pretty sure my card got swapped."
+              },
+              {
+                "source_id": "AWW04.turn.042",
+                "quote": "I think the Werewolf card is now right here."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Jacob": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r2_path1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "r2_path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Sean": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h5",
+            "subtask": "checkpoint",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "AWW04.turn.043",
+                "quote": "Really? Interesting. Why do you say that?"
+              },
+              {
+                "source_id": "AWW04.turn.049",
+                "quote": "It was during the Troublemaker round."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Jacob": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path3",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Sean": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "AWW04.turn.022",
+          "quote": "Troublemaker. I heard a Troublemaker."
+        },
+        {
+          "source_id": "AWW04.turn.027",
+          "quote": "I heard movement from over here, and I don't believe it was over here."
+        },
+        {
+          "source_id": "AWW04.turn.049",
+          "quote": "It was during the Troublemaker round."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h6",
+            "subtask": "checkpoint",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "AWW04.turn.022",
+                "quote": "Troublemaker. I heard a Troublemaker."
+              },
+              {
+                "source_id": "AWW04.turn.049",
+                "quote": "It was during the Troublemaker round."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Zack": {
+              "X": [
+                "x1",
+                "x3"
+              ],
+              "Q": [
+                "x2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1",
+                "path3"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Jacob": {
+              "X": [
+                "x1"
+              ],
+              "Q": [
+                "x2",
+                "x3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "p_x2_1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "p_x3_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "p_x1_1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h7",
+            "subtask": "route",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "AWW04.turn.027",
+                "quote": "I heard movement from over here, and I don't believe it was over here."
+              },
+              {
+                "source_id": "AWW04.turn.044",
+                "quote": "I heard some slide-age."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Zack": {
+              "X": [
+                "r4"
+              ],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Jacob": {
+              "X": [
+                "r4"
+              ],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "path3",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-23T08:15:29.780393+00:00"
+}

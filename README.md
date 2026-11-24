@@ -69,6 +69,7 @@ python src/verify_frozen_inputs.py                 # confirm the Set B inputs ar
 python -m unittest discover -s tests -t .          # run the software tests
 python src/run_pilot_sync.py --prepare --all-cases # fix configuration and case order; no model calls
 python src/run_pilot_sync.py                       # run, or resume, the model stages
+python src/run_pilot_sync.py --workers 4           # the same, four cases at a time
 python src/run_pilot_sync.py --status              # progress and cost
 python src/review_agreement.py data/reviews/labels/setA_reviewer_1.csv data/reviews/labels/setA_reviewer_2.csv
 ```

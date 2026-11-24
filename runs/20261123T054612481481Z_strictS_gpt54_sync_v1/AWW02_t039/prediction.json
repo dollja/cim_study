@@ -1,0 +1,667 @@
+{
+  "software": "cim-current-pilot-0.5",
+  "case_id": "AWW02_t039",
+  "observer_hash": "5402cc440ce7b329007eb590cbaf1095abad9ae9d496dcb5d98203e2b0e9355a",
+  "evidence_tier": "S",
+  "model_id": "gpt-5.4-2026-03-05",
+  "response_origin": "external_model",
+  "case_role": "pilot",
+  "configuration_hash": "26d70a69789169c2ce2bed980ff14ce66f26665d4d38d48a38353943a1bd9aac",
+  "python_script_hash": "54a0ecfa99af8230b469480d95675d45fddc5e71eb97c45ab1dbd72580d3b70b",
+  "prefix_status": "UNRESOLVED",
+  "candidates": [
+    {
+      "candidate_id": "c1",
+      "focus_spans": [
+        {
+          "source_id": "AWW02.turn.034",
+          "quote": "Okay. I was the tanner."
+        },
+        {
+          "source_id": "AWW02.turn.036",
+          "quote": "I switched Justin with Paul."
+        },
+        {
+          "source_id": "AWW02.turn.038",
+          "quote": "Now I'm the werewolf, aren't I?"
+        },
+        {
+          "source_id": "AWW02.turn.039",
+          "quote": "No, you're a tanner. I was a tanner."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h1",
+            "subtask": "route",
+            "event_id": "e1",
+            "scope_evidence": [
+              {
+                "source_id": "AWW02.turn.036",
+                "quote": "I switched Justin with Paul."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Paul": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h2",
+            "subtask": "anchor",
+            "event_id": "e2",
+            "scope_evidence": [
+              {
+                "source_id": "AWW02.turn.034",
+                "quote": "Okay. I was the tanner."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r1",
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Paul": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h3",
+            "subtask": "holder",
+            "event_id": "e3",
+            "scope_evidence": [
+              {
+                "source_id": "AWW02.turn.038",
+                "quote": "Now I'm the werewolf, aren't I?"
+              },
+              {
+                "source_id": "AWW02.turn.039",
+                "quote": "No, you're a tanner. I was a tanner."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r1"
+              ],
+              "Q": [
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r2_path1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "r3_path1",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "r3_path2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "r1_path1",
+                "r1_path2",
+                "r1_path3"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                [
+                  "Holder",
+                  "e3",
+                  "Werewolf",
+                  "Paul",
+                  "current",
+                  "from the tentative possibility in \"Now I'm the werewolf, aren't I?\""
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Paul": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                [
+                  "Holder",
+                  "e3",
+                  "Werewolf",
+                  "Paul",
+                  "current",
+                  "from the tentative possibility in \"Now I'm the werewolf, aren't I?\""
+                ]
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c2",
+      "focus_spans": [
+        {
+          "source_id": "AWW02.turn.023",
+          "quote": "Because, I was the drunk."
+        },
+        {
+          "source_id": "AWW02.turn.026",
+          "quote": "I saw drunk. You neither of you are drunk."
+        },
+        {
+          "source_id": "AWW02.turn.027",
+          "quote": "That is true. Neither of us are the drunk."
+        },
+        {
+          "source_id": "AWW02.turn.028",
+          "quote": "I was just kidding."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h4",
+            "subtask": "holder",
+            "event_id": "e4",
+            "scope_evidence": [
+              {
+                "source_id": "AWW02.turn.023",
+                "quote": "Because, I was the drunk."
+              },
+              {
+                "source_id": "AWW02.turn.028",
+                "quote": "I was just kidding."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r2",
+                "r3"
+              ],
+              "excluded": [
+                "r1"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "p_r1_1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [
+                "r2"
+              ],
+              "Q": [],
+              "excluded": [
+                "r1",
+                "r3"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "r1_p1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "r2_p1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h5",
+            "subtask": "outside",
+            "event_id": "e5",
+            "scope_evidence": [
+              {
+                "source_id": "AWW02.turn.024",
+                "quote": "Not this again, because I saw a drunk."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "e5_r1",
+                "e5_r2"
+              ],
+              "Q": [],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "e5_r1_p1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "e5_r1_p2",
+                "e5_r2_p1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [],
+              "excluded": [
+                "e5_r1",
+                "e5_r2"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h6",
+            "subtask": "checkpoint",
+            "event_id": "e6",
+            "scope_evidence": [
+              {
+                "source_id": "AWW02.turn.026",
+                "quote": "I saw drunk. You neither of you are drunk."
+              },
+              {
+                "source_id": "AWW02.turn.027",
+                "quote": "That is true. Neither of us are the drunk."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [
+                "r3"
+              ],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [
+                {
+                  "path_id": "r2_path1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "r3_path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mitchell": {
+              "X": [],
+              "Q": [
+                "r2"
+              ],
+              "excluded": [
+                "r1",
+                "r3"
+              ],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    },
+    {
+      "candidate_id": "c3",
+      "focus_spans": [
+        {
+          "source_id": "AWW02.turn.005",
+          "quote": "I was the seer."
+        },
+        {
+          "source_id": "AWW02.turn.031",
+          "quote": "What am I? Did you switch me with someone?"
+        },
+        {
+          "source_id": "AWW02.turn.035",
+          "quote": "You robbed me."
+        }
+      ],
+      "status": "UNRESOLVED",
+      "hypotheses": [
+        {
+          "hypothesis": {
+            "id": "h7",
+            "subtask": "route",
+            "event_id": "e7",
+            "scope_evidence": [
+              {
+                "source_id": "AWW02.turn.035",
+                "quote": "You robbed me."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r3"
+              ],
+              "excluded": [
+                "r1",
+                "r2"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "r1_p2",
+                  "reason": "unsupported_or_invalid_path"
+                },
+                {
+                  "path_id": "r2_p2",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [
+                "r1_p1",
+                "r2_p1"
+              ],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mike": {
+              "X": [
+                "r2"
+              ],
+              "Q": [
+                "r1",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h8",
+            "subtask": "anchor",
+            "event_id": "e8",
+            "scope_evidence": [
+              {
+                "source_id": "AWW02.turn.005",
+                "quote": "I was the seer."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2",
+                "r3"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mike": {
+              "X": [
+                "r2",
+                "r3"
+              ],
+              "Q": [
+                "r1"
+              ],
+              "excluded": [],
+              "blocking_scope": true,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                null
+              ],
+              "Q_outputs": [
+                null
+              ],
+              "blocking_alternatives": true
+            }
+          },
+          "blocking_uncertainty": true
+        },
+        {
+          "hypothesis": {
+            "id": "h9",
+            "subtask": "target",
+            "event_id": "e9",
+            "scope_evidence": [
+              {
+                "source_id": "AWW02.turn.035",
+                "quote": "You robbed me."
+              }
+            ]
+          },
+          "status": "UNRESOLVED",
+          "participants": {
+            "Justin": {
+              "X": [],
+              "Q": [
+                "r1",
+                "r2"
+              ],
+              "excluded": [],
+              "blocking_scope": false,
+              "validation_findings": [
+                {
+                  "path_id": "path_r1_1",
+                  "reason": "unsupported_or_invalid_path"
+                }
+              ],
+              "active_paths": [],
+              "G": [],
+              "Q_outputs": [
+                [
+                  "Target",
+                  "e9",
+                  "accuse",
+                  "Justin"
+                ],
+                null
+              ],
+              "blocking_alternatives": true
+            },
+            "Mike": {
+              "X": [
+                "r1"
+              ],
+              "Q": [],
+              "excluded": [
+                "r2"
+              ],
+              "blocking_scope": false,
+              "validation_findings": [],
+              "active_paths": [
+                "path1",
+                "path2"
+              ],
+              "G": [
+                [
+                  "Target",
+                  "e9",
+                  "accuse",
+                  "Justin"
+                ]
+              ],
+              "Q_outputs": [],
+              "blocking_alternatives": false
+            }
+          },
+          "blocking_uncertainty": true
+        }
+      ]
+    }
+  ],
+  "discovery_overflow": false,
+  "is_measured_model_run": true,
+  "measurement_note": "External outputs supplied by operator; provider execution is not independently attested by this offline harness.",
+  "timestamp_utc": "2026-11-23T08:08:07.816106+00:00"
+}
